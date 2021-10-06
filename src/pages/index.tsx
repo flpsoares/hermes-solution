@@ -12,7 +12,6 @@ const TopWrapper = styled.div`
 `
 
 const BodyWrapper = styled.div`
-  padding: 0 25rem;
   background: var(--background-secondary);
 `
 

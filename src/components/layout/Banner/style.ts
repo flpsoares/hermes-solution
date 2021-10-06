@@ -5,16 +5,27 @@ export const Container = styled.div`
   height: calc(100vh - 13rem);
   background: var(--background-primary);
 
+  display: flex;
+  justify-content: center;
+
   position: relative;
 
   .carousel {
+    height: 65rem;
+    position: relative;
+
+    div:has(.dot.dot) {
+      border: 1px solid red;
+    }
+
     .rec-dot {
       background-color: transparent !important;
       opacity: 50% !important;
       border: 1px solid #fff;
       box-shadow: 0 0 1px 3px transparent !important;
-      position: absolute;
-      bottom: 80px;
+      /* margin-bottom: 6rem; */
+      position: relative;
+      bottom: 9rem;
     }
 
     .rec-dot_active {
@@ -28,9 +39,13 @@ export const FirstWrapper = styled.div`
   display: flex;
   flex-direction: column;
   position: relative;
+
+  padding-left: 25rem;
+
+  margin: 0 auto;
+
   height: 65rem;
   width: 100%;
-  padding-left: 25rem;
 
   div:nth-child(2) {
     margin-top: 10rem;
@@ -86,9 +101,9 @@ export const OurServicesButton = styled.button`
 `
 
 export const StatueImage = styled.img`
-  width: 527px;
-  height: 645px;
+  width: 52.7rem;
+  height: 61.5rem;
   position: absolute;
-  right: 8rem;
+  right: 5rem;
   top: 0;
 `

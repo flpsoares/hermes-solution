@@ -1,7 +1,8 @@
 import styled from 'styled-components'
+
 export const Container = styled.div`
   position: relative;
-  padding: 9rem 20rem;
+  padding: 9rem 0;
 
   overflow: hidden;
 

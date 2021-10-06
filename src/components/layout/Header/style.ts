@@ -3,12 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.div`
   background: var(--background-primary);
 
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
   height: 130px;
-  padding: 0 25rem;
 
   position: relative;
 
@@ -35,6 +30,12 @@ export const Container = styled.div`
       }
     }
   }
+`
+
+export const Wrapper = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 `
 
 export const Logo = styled.img`
