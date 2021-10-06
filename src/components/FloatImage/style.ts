@@ -7,6 +7,7 @@ interface ContainerProps {
   bottom?: string
   left?: string
   rotate?: string
+  zindex?: string
 }
 
 const vertical = keyframes`
@@ -49,6 +50,7 @@ export const Container = styled.div<ContainerProps>`
   right: ${(props) => props.right};
   bottom: ${(props) => props.bottom};
   left: ${(props) => props.left};
+  z-index: ${(props) => props.zindex};
 `
 
 export const Image = styled.img<FloatImageProps>`

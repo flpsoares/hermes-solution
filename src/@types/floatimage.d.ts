@@ -9,4 +9,5 @@ export interface FloatImageProps {
   right?: string
   bottom?: string
   left?: string
+  zindex?: string
 }
