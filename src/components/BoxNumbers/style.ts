@@ -22,8 +22,7 @@ export const Container = styled.div<ContainerProps>`
 
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+
   text-align: center;
 
   padding: 3rem;
@@ -37,7 +36,7 @@ export const Container = styled.div<ContainerProps>`
   }
   p {
     font-size: 1.6rem;
-    font-weight: 200;
+    font-weight: 100;
     line-height: 2.2rem;
   }
 `

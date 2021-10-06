@@ -1,12 +1,13 @@
+import { ReactNode } from 'react'
 import { Container } from './style'
 
 interface BoxProps {
   title: string
-  context: string
   borderleft?: string
   borderright?: string
   bordertop?: string
   borderbottom?: string
+  children: ReactNode
 }
 export const BoxNumbers = (props: BoxProps) => {
   return (
@@ -17,7 +18,7 @@ export const BoxNumbers = (props: BoxProps) => {
       bordertop={props.bordertop}
     >
       <h1>{props.title}</h1>
-      <p>{props.context}</p>
+      <p>{props.children}</p>
     </Container>
   )
 }

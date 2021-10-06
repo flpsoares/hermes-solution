@@ -1,6 +1,7 @@
 import { GlobalContainer } from '../../../styles/container'
 import { BoxNumbers } from '../../BoxNumbers'
 import { FloatImage } from '../../FloatImage'
+import { LinkButtons } from '../../LinkButtons'
 import { Number } from '../../Numbers'
 import { BoxWrapper, Container, Left, Right, Wrapper } from './style'
 
@@ -23,7 +24,7 @@ export const CompanyNumbers: React.FC = () => {
               solucionado de forma divina! Nossa meta, são as realizações de suas
               metas, venha conosco!
             </p>
-            <button>Conheça nossa empresa </button>
+            <LinkButtons link="#" children="Conheça nossa empresa" />
           </Left>
           <Right>
             <Wrapper>
@@ -53,21 +54,25 @@ export const CompanyNumbers: React.FC = () => {
           </Right>
         </section>
         <BoxWrapper>
-          <BoxNumbers
-            title="Missão"
-            context="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin"
-            borderleft="1px solid var(--primary)"
-          />
-          <BoxNumbers
-            title="Visão"
-            context="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin"
-            bordertop="2px solid var(--primary)"
-          />
-          <BoxNumbers
-            borderright="2px solid var(--primary)"
-            title="Valores"
-            context="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin"
-          />
+          <BoxNumbers title="Missão" borderleft="1px solid var(--primary)">
+            Temos o objetivo de desenvolver ideias no mundo Digital com a melhor
+            performance, entendendo as necessidades de nossos clientes e seguindo
+            para o melhor resultado.
+          </BoxNumbers>
+          <BoxNumbers title="Visão" bordertop="2px solid var(--primary)">
+            Temos como visão trabalhar com dedicação para alcançar um mundo mais
+            conectado, com o acesso digital para o maior número de pessoas possível.
+            Enquanto visamos a realização de nossos clientes para que possamos ser
+            reconhecidos por nosso serviço.
+          </BoxNumbers>
+          <BoxNumbers borderright="2px solid var(--primary)" title="Valores">
+            <p>- Ser íntegro</p>
+            <p>- Ter dedicação com o cliente</p>
+            <p>- Ser criativo sempre</p>
+            <p>- Não ter medo de ser julgado</p>
+            <p>- Conquistar o impossível</p>
+            <p>- Sempre pensar no próximo</p>
+          </BoxNumbers>
         </BoxWrapper>
       </GlobalContainer>
       <FloatImage
