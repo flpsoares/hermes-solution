@@ -10,6 +10,7 @@ export const FloatImage = (props: FloatImageProps) => {
       bottom={props.bottom}
       left={props.left}
       rotate={props.rotate}
+      zindex={props.zindex}
     >
       <Image
         src={props.src}

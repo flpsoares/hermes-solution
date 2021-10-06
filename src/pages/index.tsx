@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import { Banner } from '../components/layout/Banner'
+import { CompanyNumbers } from '../components/layout/CompanyNumbers'
 import { Header } from '../components/layout/Header'
 
 const Container = styled.div`
@@ -12,6 +13,7 @@ export default function Home() {
     <Container>
       <Header />
       <Banner />
+      <CompanyNumbers />
     </Container>
   )
 }
