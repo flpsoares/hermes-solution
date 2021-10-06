@@ -8,7 +8,6 @@ const Container = styled.div`
 `
 
 const TopWrapper = styled.div`
-  /* padding: 0 25rem; */
   background: var(--background-primary);
 `
 
@@ -20,15 +19,6 @@ const BodyWrapper = styled.div`
 export default function Home() {
   return (
     <Container>
-<<<<<<< HEAD
-      <TopWrapper>
-        <Header />
-        <Banner />
-      </TopWrapper>
-      <BodyWrapper>
-
-      </BodyWrapper>
-=======
       <TopWrapper>
         <Header />
         <Banner />
@@ -36,7 +26,6 @@ export default function Home() {
       <BodyWrapper>
         <CompanyNumbers />
       </BodyWrapper>
->>>>>>> 64f74ab9a971851a6c809837c14ae4fb6717572a
     </Container>
   )
 }
