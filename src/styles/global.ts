@@ -17,6 +17,10 @@ export default createGlobalStyle`
     color: var(--text);
   }
 
+  html {
+    font-size: 62.5%;
+  }
+
   body {
     -webkit-font-smoothing: antialiased;
     font-family: 'Montserrat', sans-serif;

@@ -24,7 +24,7 @@ export const Header: React.FC = () => {
         width="68px"
         height="55px"
         animation="horizontal"
-        rotate="195"
+        rotate="200"
         brightness="0.6"
         bottom="10px"
         left="600px"

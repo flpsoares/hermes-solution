@@ -8,8 +8,8 @@ export const Container = styled.div`
   justify-content: space-between;
 
   height: 130px;
+  padding: 0 25rem;
 
-  padding: 6px 250px;
   position: relative;
 
   ul {
