@@ -2,6 +2,7 @@ import styled from 'styled-components'
 import { Banner } from '../components/layout/Banner'
 import { CompanyNumbers } from '../components/layout/CompanyNumbers'
 import { Header } from '../components/layout/Header'
+import { ServicesPerformed } from '../components/layout/ServicesPerformed'
 
 const Container = styled.div`
   overflow: hidden;
@@ -24,6 +25,7 @@ export default function Home() {
       </TopWrapper>
       <BodyWrapper>
         <CompanyNumbers />
+        <ServicesPerformed />
       </BodyWrapper>
     </Container>
   )
