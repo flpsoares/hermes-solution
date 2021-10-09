@@ -2,6 +2,7 @@ import styled from 'styled-components'
 import { Banner } from '../components/layout/Banner'
 import { CompanyNumbers } from '../components/layout/CompanyNumbers'
 import { Header } from '../components/layout/Header'
+import { LetsTalk } from '../components/layout/LetsTalk'
 import { ServicesPerformed } from '../components/layout/ServicesPerformed'
 import { Team } from '../components/layout/Team'
 
@@ -28,6 +29,7 @@ export default function Home() {
         <CompanyNumbers />
         <ServicesPerformed />
         <Team />
+        <LetsTalk />
       </BodyWrapper>
     </Container>
   )

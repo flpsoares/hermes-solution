@@ -1,15 +1,9 @@
 import React from 'react'
-import {
-  Container,
-  FirstWrapper,
-  Info,
-  OurCasesButton,
-  OurServicesButton,
-  StatueImage
-} from './style'
+import { Container, FirstWrapper, Info, OurCasesButton, StatueImage } from './style'
 
 import Carousel from 'react-elastic-carousel'
 import { FloatImage } from '../../FloatImage'
+import { ButtonContactUs } from '../../ButtonContactUs'
 
 export const Banner: React.FC = () => {
   return (
@@ -27,7 +21,7 @@ export const Banner: React.FC = () => {
           </Info>
           <div>
             <OurCasesButton>Nossos Cases</OurCasesButton>
-            <OurServicesButton>Nossos Serviços</OurServicesButton>
+            <ButtonContactUs size="16rem" />
           </div>
           <StatueImage src="./assets/statue-1.png" alt="statue" />
           <FloatImage
@@ -60,7 +54,7 @@ export const Banner: React.FC = () => {
           </Info>
           <div>
             <OurCasesButton>Nossos Cases</OurCasesButton>
-            <OurServicesButton>Nossos Serviços</OurServicesButton>
+            <ButtonContactUs size="16rem" />
           </div>
           <StatueImage src="./assets/statue-1.png" alt="statue" />
           <FloatImage
@@ -93,7 +87,7 @@ export const Banner: React.FC = () => {
           </Info>
           <div>
             <OurCasesButton>Nossos Cases</OurCasesButton>
-            <OurServicesButton>Nossos Serviços</OurServicesButton>
+            <ButtonContactUs size="16rem" />
           </div>
           <StatueImage src="./assets/statue-1.png" alt="statue" />
           <FloatImage
