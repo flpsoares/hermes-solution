@@ -10,6 +10,11 @@ export const Container = styled.div`
   position: relative;
   z-index: 2;
 
+  @media (max-width: 800px) {
+    width: 75%;
+    height: 25.5rem;
+  }
+
   img {
     position: absolute;
     top: 0;

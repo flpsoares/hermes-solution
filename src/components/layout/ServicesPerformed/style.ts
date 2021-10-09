@@ -13,11 +13,19 @@ export const WrapperCases = styled.div`
   display: grid;
   grid-template-columns: 40% 60%;
   z-index: 5;
+
+  @media (max-width: 800px) {
+    grid-template-columns: 100%;
+  }
 `
 
 export const Left = styled.div`
   padding-right: 13rem;
   z-index: 2;
+
+  @media (max-width: 800px) {
+    padding: 0 0.7rem;
+  }
 
   h1 {
     font-size: 4.6rem;
@@ -41,6 +49,12 @@ export const Left = styled.div`
 export const Right = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 50%);
+  @media (max-width: 800px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 `
 
 export const Wrapper = styled.div`
