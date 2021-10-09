@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "name": "Filipe Soares",
+    "charge": "Developer",
+    "photo_url": "./assets/team/u22.png"
+  },
+  {
+    "id": "2",
+    "name": "Vito Borba",
+    "charge": "Developer",
+    "photo_url": "./assets/team/u22.png"
+  },
+  {
+    "id": "3",
+    "name": "Filipe Soares",
+    "charge": "Developer",
+    "photo_url": "./assets/team/u22.png"
+  },
+  {
+    "id": "4",
+    "name": "Vito Borba",
+    "charge": "Developer",
+    "photo_url": "./assets/team/u22.png"
+  },
+  {
+    "id": "5",
+    "name": "Filipe Soares",
+    "charge": "Developer",
+    "photo_url": "./assets/team/u22.png"
+  },
+  {
+    "id": "6",
+    "name": "Vito Borba",
+    "charge": "Developer",
+    "photo_url": "./assets/team/u22.png"
+  },
+  {
+    "id": "7",
+    "name": "Filipe Soares",
+    "charge": "Developer",
+    "photo_url": "./assets/team/u22.png"
+  },
+  {
+    "id": "8",
+    "name": "Vito Borba",
+    "charge": "Developer",
+    "photo_url": "./assets/team/u22.png"
+  }
+]
