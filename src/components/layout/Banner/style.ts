@@ -79,22 +79,6 @@ export const OurCasesButton = styled.button`
   }
 `
 
-export const OurServicesButton = styled.button`
-  border-radius: 0.4rem;
-  color: #000000;
-  padding: 1.1rem 2rem;
-  font-size: 1.8rem;
-  background: var(--primary);
-
-  box-shadow: 0 0 2px 0 #ffffff;
-
-  transition: filter 0.2s;
-
-  &:hover {
-    filter: brightness(0.9);
-  }
-`
-
 export const StatueImage = styled.img`
   width: 52.7rem;
   height: 61.5rem;

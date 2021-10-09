@@ -2,7 +2,9 @@ import styled from 'styled-components'
 import { Banner } from '../components/layout/Banner'
 
 import { CompanyNumbers } from '../components/layout/CompanyNumbers'
+import { Footer } from '../components/layout/Footer'
 import { Header } from '../components/layout/Header'
+import { LetsTalk } from '../components/layout/LetsTalk'
 import { ServicesPerformed } from '../components/layout/ServicesPerformed'
 import { Team } from '../components/layout/Team'
 
@@ -18,6 +20,10 @@ const BodyWrapper = styled.div`
   background: var(--background-secondary);
 `
 
+const BottomWrapper = styled.div`
+  background: var(--background-tertiary);
+`
+
 export default function Home() {
   return (
     <Container>
@@ -30,7 +36,11 @@ export default function Home() {
         <ServicesPerformed />
 
         <Team />
+        <LetsTalk />
       </BodyWrapper>
+      <BottomWrapper>
+        <Footer />
+      </BottomWrapper>
     </Container>
   )
 }
