@@ -14,16 +14,11 @@ export const Container = styled.div`
     height: 65rem;
     position: relative;
 
-    div:has(.dot.dot) {
-      border: 1px solid red;
-    }
-
     .rec-dot {
       background-color: transparent !important;
       opacity: 50% !important;
       border: 1px solid #fff;
       box-shadow: 0 0 1px 3px transparent !important;
-      /* margin-bottom: 6rem; */
       position: relative;
       bottom: 9rem;
     }

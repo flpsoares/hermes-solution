@@ -24,7 +24,7 @@ export const CompanyNumbers: React.FC = () => {
               solucionado de forma divina! Nossa meta, são as realizações de suas
               metas, venha conosco!
             </p>
-            <LinkButtons link="#" children="Conheça nossa empresa" />
+            <LinkButtons size="1" link="#" children="Conheça nossa empresa" />
           </Left>
           <Right>
             <Wrapper>
@@ -92,6 +92,15 @@ export const CompanyNumbers: React.FC = () => {
         left="6rem"
         brightness="1"
         rotate="30"
+        animation="vertical"
+      />
+      <FloatImage
+        src="./assets/yellow-load.png"
+        width="64px"
+        height="64px"
+        brightness="0.46"
+        right="12rem"
+        bottom="7rem"
         animation="vertical"
       />
     </Container>

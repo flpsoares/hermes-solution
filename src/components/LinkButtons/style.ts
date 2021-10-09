@@ -1,23 +1,28 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 
-export const Container = styled.button`
+interface ContainerProps {
+  size: string
+}
+
+export const Container = styled.button<ContainerProps>`
   display: flex;
   align-items: center;
 
   font-size: 1.9rem;
-  padding: 1rem;
+  padding: ${(props) =>
+    css`
+      ${props.size}rem 0
+    `};
   color: var(--primary);
   font-weight: 100;
   background: rgb(0, 0, 0);
-  margin-left: 0;
   border-left: 0px solid black;
 
-  transition: border 0.4s, margin-left 0.2s;
+  transition: border 0.4s, padding-left 0.4s;
 
   a {
     text-decoration: none;
     color: var(--primary);
-    margin-right: 1rem;
   }
 
   .icon {
@@ -25,8 +30,8 @@ export const Container = styled.button`
   }
 
   &:hover {
-    margin-left: 0.2rem;
     border-left: 3px solid var(--primary);
+    padding-left: 1rem;
   }
 
   @media (max-width: 800px) {
