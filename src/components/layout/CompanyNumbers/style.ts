@@ -19,7 +19,7 @@ export const Container = styled.div`
     padding: 9rem 10rem;
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 900px) {
     padding: 3rem 0.1rem;
   }
 `
@@ -52,8 +52,12 @@ export const Left = styled.div`
     }
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 900px) {
     text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 `
 
@@ -75,7 +79,9 @@ export const BoxWrapper = styled.div`
   grid-template-columns: repeat(3, 33.3%);
   margin-top: 8rem;
 
-  @media (max-width: 800px) {
+  z-index: 2;
+
+  @media (max-width: 900px) {
     gap: 2rem;
     padding: 0 1rem;
     grid-template-columns: 100%;
@@ -88,7 +94,7 @@ export const Wrapper = styled.div`
   margin-bottom: 7rem;
   position: relative;
 
-  @media (max-width: 800px) {
+  @media (max-width: 900px) {
     div:nth-child(1) {
       top: 0;
       left: 0;

@@ -12,8 +12,9 @@ export const Container = styled.div<ContainerProps>`
   border-bottom: ${(props) => props.borderbottom};
   border-right: ${(props) => props.borderright};
   border-left: ${(props) => props.borderleft};
+  z-index: 2;
 
-  @media (max-width: 800px) {
+  @media (max-width: 900px) {
     width: 100%;
   }
 

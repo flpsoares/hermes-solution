@@ -14,14 +14,27 @@ export const WrapperCases = styled.div`
   grid-template-columns: 40% 60%;
   z-index: 5;
 
-  @media (max-width: 800px) {
-    grid-template-columns: 100%;
+  @media (max-width: 900px) {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 `
 
 export const Left = styled.div`
   padding-right: 13rem;
   z-index: 2;
+
+  @media (max-width: 900px) {
+    padding-right: 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 
   h1 {
     font-size: 4.6rem;
@@ -45,7 +58,7 @@ export const Left = styled.div`
 export const Right = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 50%);
-  @media (max-width: 800px) {
+  @media (max-width: 900px) {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -62,11 +75,18 @@ export const Header = styled.div`
 
   display: flex;
   gap: 4rem;
+  z-index: 2;
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+    align-items: center;
+  }
 
   h1 {
     font-weight: 400;
     font-size: 4.6rem;
     width: 37rem;
+    z-index: 2;
   }
 
   p {
@@ -75,6 +95,7 @@ export const Header = styled.div`
     color: #d7d7d7;
     width: 40rem;
     margin: auto 0;
+    z-index: 2;
   }
 `
 
@@ -82,6 +103,12 @@ export const Line = styled.div`
   background: var(--primary);
   width: 3px;
   height: 11.5rem;
+  z-index: 2;
+
+  @media (max-width: 900px) {
+    width: 31.5rem;
+    height: 3px;
+  }
 `
 
 export const Grid = styled.div`
@@ -89,6 +116,21 @@ export const Grid = styled.div`
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   row-gap: 3rem;
+
+  @media (max-width: 1100px) {
+    grid-template-columns: repeat(2, 20rem);
+    justify-content: center;
+    column-gap: 12rem;
+    /* grid-template-rows: repeat(4, 1fr); */
+  }
+
+  @media (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+    /* grid-template-rows: repeat(8, 1fr); */
+    align-items: center;
+    justify-content: center;
+  }
 
   margin-top: 6rem;
 `
