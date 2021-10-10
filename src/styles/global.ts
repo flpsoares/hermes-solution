@@ -43,7 +43,4 @@ export default createGlobalStyle`
     border: 0;
   }
 
-  .zindex{
-    z-index: 5;
-  }
 `

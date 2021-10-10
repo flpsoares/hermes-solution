@@ -23,10 +23,6 @@ export const Left = styled.div`
   padding-right: 13rem;
   z-index: 2;
 
-  @media (max-width: 800px) {
-    padding: 0 0.7rem;
-  }
-
   h1 {
     font-size: 4.6rem;
     font-weight: 300;
