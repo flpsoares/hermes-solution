@@ -2,7 +2,7 @@ import React from 'react'
 import { FloatImageProps } from '../../@types/floatimage'
 import { Container, Image } from './style'
 
-export const FloatImage = (props: FloatImageProps) => {
+export const FloatImage: React.FC<FloatImageProps> = (props) => {
   return (
     <Container
       top={props.top}

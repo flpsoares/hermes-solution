@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useMemo } from 'react'
 import { Container, Info, Wrapper } from './style'
 
 import Carousel from 'react-elastic-carousel'
@@ -6,8 +6,39 @@ import Carousel from 'react-elastic-carousel'
 import team from '../../../team.json'
 import { TeamProfile } from '../../TeamProfile'
 import { FloatImage } from '../../FloatImage'
+import useWindowSize from '../../../hooks/useWindowSize'
 
 export const Team: React.FC = () => {
+  const { width } = useWindowSize()
+
+  const { carouselItems, carouselOuterSpacing, carouselPadding } = useMemo(() => {
+    if (width >= 1700) {
+      return { carouselItems: 3, carouselOuterSpacing: 80, carouselPadding: 20 }
+    }
+    if (width <= 1690 && width >= 1631) {
+      return { carouselItems: 3, carouselOuterSpacing: 100, carouselPadding: 60 }
+    }
+    if (width <= 1631 && width >= 1501) {
+      return { carouselItems: 3, carouselOuterSpacing: 40, carouselPadding: 70 }
+    }
+    if (width <= 1500 && width >= 1371) {
+      return { carouselItems: 3, carouselOuterSpacing: 80, carouselPadding: 140 }
+    }
+    if (width <= 1370 && width >= 1161) {
+      return { carouselItems: 2, carouselOuterSpacing: 0, carouselPadding: 10 }
+    }
+    if (width <= 1160 && width >= 901) {
+      return { carouselItems: 3, carouselOuterSpacing: 80, carouselPadding: 10 }
+    }
+    if (width <= 900 && width >= 511) {
+      return { carouselItems: 2, carouselOuterSpacing: 0, carouselPadding: -400 }
+    }
+    if (width <= 510) {
+      return { carouselItems: 1, carouselOuterSpacing: 0, carouselPadding: 10 }
+    }
+    return { carouselItems: 0, carouselOuterSpacing: 0, carouselPadding: 0 }
+  }, [width])
+
   return (
     <Container>
       <Wrapper>
@@ -18,11 +49,10 @@ export const Team: React.FC = () => {
         </Info>
         <Carousel
           isRTL={false}
-          enableSwipe={false}
-          outerSpacing={80}
-          itemPadding={[0, 20]}
+          outerSpacing={carouselOuterSpacing}
+          itemPadding={[0, carouselPadding]}
           showArrows={false}
-          itemsToShow={3}
+          itemsToShow={carouselItems}
         >
           {team.map((team) => {
             return (

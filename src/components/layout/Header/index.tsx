@@ -1,6 +1,6 @@
 import { GlobalContainer } from '../../../styles/container'
 import { FloatImage } from '../../FloatImage'
-import { Container, Logo, Wrapper } from './style'
+import { Container, Logo, ResponsiveImage, Wrapper } from './style'
 
 export const Header: React.FC = () => {
   return (
@@ -24,16 +24,18 @@ export const Header: React.FC = () => {
           </ul>
         </Wrapper>
       </GlobalContainer>
-      <FloatImage
-        src="./assets/triangle.png"
-        width="68px"
-        height="55px"
-        animation="horizontal"
-        rotate="200"
-        brightness="0.6"
-        bottom="0"
-        left="56rem"
-      />
+      <ResponsiveImage>
+        <FloatImage
+          src="./assets/triangle.png"
+          width="68px"
+          height="55px"
+          animation="horizontal"
+          rotate="200"
+          brightness="0.6"
+          bottom="0"
+          left="48rem"
+        />
+      </ResponsiveImage>
     </Container>
   )
 }
