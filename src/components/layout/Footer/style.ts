@@ -41,11 +41,10 @@ export const ErasedTitle = styled.h1`
 export const DefaultDiv = styled.div`
   display: flex;
   flex-direction: column;
-  /* border: 1px solid white; */
 `
 
 export const Wrapper = styled.div`
-  margin: 0 auto;
+  margin-left: auto;
   padding: 2rem 0;
 `
 
@@ -126,6 +125,7 @@ export const Email = styled(DefaultDiv)`
 export const Icons = styled(DefaultDiv)`
   flex-direction: row;
   gap: 4rem;
+  margin-left: auto;
 `
 
 export const BottomFooter = styled.div`
