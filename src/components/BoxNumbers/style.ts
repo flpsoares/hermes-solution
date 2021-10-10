@@ -25,7 +25,7 @@ export const Container = styled.div<ContainerProps>`
 
   text-align: center;
 
-  padding: 3rem;
+  padding: 2.5rem;
   border-radius: 1.4rem;
 
   h1 {
@@ -37,6 +37,6 @@ export const Container = styled.div<ContainerProps>`
   p {
     font-size: 1.6rem;
     font-weight: 100;
-    line-height: 2.2rem;
+    line-height: 2.3rem;
   }
 `

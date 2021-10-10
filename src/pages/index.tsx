@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import { Banner } from '../components/layout/Banner'
+
 import { CompanyNumbers } from '../components/layout/CompanyNumbers'
 import { CustomersServed } from '../components/layout/CustomersServed'
 import { Footer } from '../components/layout/Footer'

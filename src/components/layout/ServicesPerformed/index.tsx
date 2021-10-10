@@ -2,7 +2,18 @@ import React from 'react'
 import { GlobalContainer } from '../../../styles/container'
 import { FloatImage } from '../../FloatImage'
 import { ServiceBox } from '../../ServiceBox'
-import { Container, Grid, Header, Line, Wrapper } from './style'
+import { BoxCases } from '../../BoxCases'
+import { LinkButtons } from '../../LinkButtons'
+import {
+  Container,
+  Grid,
+  Header,
+  Line,
+  Wrapper,
+  WrapperCases,
+  Left,
+  Right
+} from './style'
 
 export const ServicesPerformed: React.FC = () => {
   return (
@@ -70,7 +81,44 @@ export const ServicesPerformed: React.FC = () => {
             />
           </Grid>
         </Wrapper>
+        <WrapperCases>
+          <Left>
+            <h1>
+              Alguns <b>cases</b> de sucesso que produzimos
+            </h1>
+            <p>
+              Nossos divinos trabalhos desenvolvidos pelos membros de nossa equipe
+              nos motivam a realizar projetos cada vez mais aprimorados.{' '}
+            </p>
+            <LinkButtons link="#" children="Veja todos os cases" size="1rem" />
+          </Left>
+          <Right>
+            <BoxCases title="Sistema gerencial" url="./assets/case1.png" />
+            <BoxCases title="E-commerce em Magento" url="./assets/case2.png" />
+            <BoxCases title="Website wordpress" url="./assets/case3.png" />
+            <BoxCases title="Aplicativo IOS e Android" url="./assets/case4.png" />
+          </Right>
+        </WrapperCases>
       </GlobalContainer>
+
+      <FloatImage
+        src="./assets/half-rectangle.png"
+        width="16rem"
+        height="16rem"
+        rotate="80"
+        top="142rem"
+        left="1rem"
+        inverter="scaleX(-1)"
+      />
+
+      <FloatImage
+        src="./assets/hexagon.png"
+        width="99rem"
+        height="69rem"
+        rotate="341"
+        top="80rem"
+        left="63rem"
+      />
       <FloatImage
         src="./assets/yellow-load.png"
         width="130px"

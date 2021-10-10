@@ -9,7 +9,7 @@ interface WrapperProps {
 export const Container = styled.div`
   position: relative;
 
-  z-index: 2;
+  z-index: 5;
 
   width: 256px;
   height: 222px;
@@ -31,6 +31,7 @@ export const Container = styled.div`
 export const Title = styled.h1`
   font-weight: 500;
   font-size: 2.2rem;
+  z-index: 5;
 `
 
 export const FirstWrapper = styled(motion.div)<WrapperProps>`
@@ -39,6 +40,7 @@ export const FirstWrapper = styled(motion.div)<WrapperProps>`
   justify-content: center;
   gap: 3rem;
   background: var(--background-secondary);
+  z-index: 5;
 `
 
 export const SecondWrapper = styled(motion.div)<WrapperProps>`
@@ -46,7 +48,7 @@ export const SecondWrapper = styled(motion.div)<WrapperProps>`
   flex-direction: column;
   gap: 1.1rem;
   background: var(--background-secondary);
-
+  z-index: 5;
   position: absolute;
 
   span {

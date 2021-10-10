@@ -18,6 +18,7 @@ export const FloatImage = (props: FloatImageProps) => {
         height={props.height}
         animation={props.animation}
         brightness={props.brightness}
+        inverter={props.inverter}
         alt="float image"
       />
     </Container>

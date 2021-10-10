@@ -8,6 +8,7 @@ interface ContainerProps {
   left?: string
   rotate?: string
   zindex?: string
+  inverter?: string
 }
 
 const vertical = keyframes`
@@ -56,6 +57,7 @@ export const Container = styled.div<ContainerProps>`
 export const Image = styled.img<FloatImageProps>`
   width: ${(props) => props.width};
   height: ${(props) => props.height};
+  transform: ${(props) => props.inverter};
 
   filter: brightness(${(props) => props.brightness});
 

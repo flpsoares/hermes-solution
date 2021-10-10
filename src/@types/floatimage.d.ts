@@ -10,4 +10,5 @@ export interface FloatImageProps {
   bottom?: string
   left?: string
   zindex?: string
+  inverter?: string
 }
