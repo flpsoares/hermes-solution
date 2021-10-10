@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { ContactButtons } from '../components/ButtonContact'
 import { Banner } from '../components/layout/Banner'
 
 import { CompanyNumbers } from '../components/layout/CompanyNumbers'
@@ -11,6 +12,7 @@ import { Team } from '../components/layout/Team'
 
 const Container = styled.div`
   overflow: hidden;
+  position: relative;
 `
 
 const TopWrapper = styled.div`
@@ -42,6 +44,7 @@ export default function Home() {
       <BottomWrapper>
         <Footer />
       </BottomWrapper>
+      <ContactButtons />
     </Container>
   )
 }

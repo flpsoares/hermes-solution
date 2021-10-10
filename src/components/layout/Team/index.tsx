@@ -44,6 +44,14 @@ export const Team: React.FC = () => {
         bottom="0"
         right="0"
       />
+      <FloatImage
+        src="./assets/broken-circle.png"
+        width="363px"
+        height="359px"
+        brightness="0.2"
+        left="-2rem"
+        bottom="-28rem"
+      />
     </Container>
   )
 }

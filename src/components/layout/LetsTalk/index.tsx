@@ -17,14 +17,14 @@ export const LetsTalk: React.FC = () => {
           <img src="./assets/statue-2.png" alt="statue" />
         </Wrapper>
       </GlobalContainer>
-      <FloatImage
+      {/* <FloatImage
         src="./assets/broken-circle.png"
         width="363px"
         height="359px"
         brightness="0.2"
         left="0"
         top="-14rem"
-      />
+      /> */}
       <FloatImage
         src="./assets/yellow-load.png"
         width="87px"
