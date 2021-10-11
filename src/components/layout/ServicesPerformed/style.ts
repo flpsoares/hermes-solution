@@ -80,6 +80,7 @@ export const Header = styled.div`
   @media (max-width: 900px) {
     flex-direction: column;
     align-items: center;
+    text-align: center;
   }
 
   h1 {
@@ -121,13 +122,11 @@ export const Grid = styled.div`
     grid-template-columns: repeat(2, 20rem);
     justify-content: center;
     column-gap: 12rem;
-    /* grid-template-rows: repeat(4, 1fr); */
   }
 
   @media (max-width: 600px) {
     display: flex;
     flex-direction: column;
-    /* grid-template-rows: repeat(8, 1fr); */
     align-items: center;
     justify-content: center;
   }
