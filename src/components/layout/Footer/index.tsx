@@ -22,7 +22,7 @@ import { AiOutlineInstagram } from 'react-icons/ai'
 export const Footer: React.FC = () => {
   return (
     <>
-      <Container>
+      <Container id="contact">
         <GlobalContainer>
           <Grid>
             <Info>

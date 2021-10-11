@@ -40,7 +40,7 @@ export const Team: React.FC = () => {
   }, [width])
 
   return (
-    <Container>
+    <Container id="hermes">
       <Wrapper>
         <Info>
           <span>

@@ -2,6 +2,8 @@ import { GlobalContainer } from '../../../styles/container'
 import { FloatImage } from '../../FloatImage'
 import { Container, Logo, ResponsiveImage, Wrapper } from './style'
 
+import { Link } from 'react-scroll'
+
 export const Header: React.FC = () => {
   return (
     <Container>
@@ -10,16 +12,24 @@ export const Header: React.FC = () => {
           <Logo src="./assets/logo.png" alt="logo" />
           <ul>
             <li>
-              <a href="#">Serviços</a>
+              <Link to="services-performed" smooth={true} offset={80} href="#">
+                Serviços
+              </Link>
             </li>
             <li>
-              <a href="#">Cases</a>
+              <Link to="cases" smooth={true} href="#">
+                Cases
+              </Link>
             </li>
             <li>
-              <a href="#">A Hermes</a>
+              <Link to="hermes" smooth={true} href="#">
+                A Hermes
+              </Link>
             </li>
             <li>
-              <a href="#">Contato</a>
+              <Link to="contact" smooth={true} href="#">
+                Contato
+              </Link>
             </li>
           </ul>
         </Wrapper>
