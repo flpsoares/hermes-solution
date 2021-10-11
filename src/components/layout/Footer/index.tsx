@@ -91,7 +91,7 @@ export const Footer: React.FC = () => {
             </Cases>
             <Hermes>
               <Wrapper>
-                <Title>Hermes</Title>
+                <Title>A Hermes</Title>
                 <ul>
                   <li>
                     <a href="#">Quem somos</a>

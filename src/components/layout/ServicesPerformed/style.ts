@@ -86,7 +86,7 @@ export const Header = styled.div`
   h1 {
     font-weight: 400;
     font-size: 4.6rem;
-    width: 37rem;
+    max-width: 37rem;
     z-index: 2;
   }
 
@@ -94,7 +94,7 @@ export const Header = styled.div`
     font-weight: 200;
     font-size: 1.8rem;
     color: #d7d7d7;
-    width: 40rem;
+    max-width: 40rem;
     margin: auto 0;
     z-index: 2;
   }
