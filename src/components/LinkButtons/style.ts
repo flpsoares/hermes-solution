@@ -15,7 +15,7 @@ export const Container = styled.button<ContainerProps>`
     `};
   color: var(--primary);
   font-weight: 100;
-  background: rgb(0, 0, 0);
+  background: transparent;
   border-left: 0px solid black;
 
   transition: border 0.4s, padding-left 0.4s;
