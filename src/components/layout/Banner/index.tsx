@@ -78,8 +78,8 @@ export const Banner: React.FC = () => {
         <FirstWrapper>
           <Info>
             <h1>
-              <strong>Criamos</strong> o que deseja <br /> da{' '}
-              <strong>maneira</strong> que precisa
+              <strong>Criamos</strong> o que deseja da <strong>maneira</strong> que
+              precisa
             </h1>
             <p>
               Descomplique! Que tal uma maneira eficiente de se inserir no digital?

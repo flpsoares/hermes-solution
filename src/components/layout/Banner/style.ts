@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   width: 100%;
-  height: calc(100vh - 13rem);
+
   background: var(--background-primary);
 
   display: flex;
@@ -37,6 +37,11 @@ export const FirstWrapper = styled.div`
 
   padding-left: 25rem;
 
+  @media (max-width: 1000px) {
+    padding-left: 0;
+    text-align: center;
+  }
+
   margin: 0 auto;
 
   height: 65rem;
@@ -46,20 +51,64 @@ export const FirstWrapper = styled.div`
     margin-top: 10rem;
     display: flex;
     gap: 3rem;
+    z-index: 4;
+
+    @media (max-width: 1000px) {
+      align-items: center;
+      justify-content: center;
+    }
   }
 `
 
 export const Info = styled.div`
   margin-top: 10rem;
 
+  z-index: 4;
+
   h1 {
     font-size: 6.2rem;
     font-weight: 500;
+    z-index: 4;
   }
 
   p {
     margin-top: 3.6rem;
     font-size: 2.2rem;
+    z-index: 4;
+  }
+
+  @media (max-width: 1000px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    h1 {
+      font-size: 4.6rem;
+      font-weight: 500;
+      z-index: 4;
+    }
+
+    p {
+      margin-top: 1.2rem;
+      font-size: 3rem;
+      z-index: 4;
+      width: 70%;
+    }
+  }
+
+  @media (max-width: 800px) {
+    h1 {
+      font-size: 3.8rem;
+      font-weight: 500;
+      z-index: 4;
+    }
+
+    p {
+      margin-top: 1.2rem;
+      font-size: 2.2rem;
+      z-index: 4;
+    }
   }
 `
 
@@ -85,4 +134,12 @@ export const StatueImage = styled.img`
   position: absolute;
   right: 5rem;
   top: 0;
+
+  @media (max-width: 1470px) {
+    opacity: 0.1;
+  }
+  @media (max-width: 1000px) {
+    width: 42.7rem;
+    height: 51.5rem;
+  }
 `
