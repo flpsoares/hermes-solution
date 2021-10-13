@@ -6,6 +6,10 @@ import { Number } from '../../Numbers'
 import { BoxWrapper, Container, Left, Right, Wrapper } from './style'
 
 export const CompanyNumbers: React.FC = () => {
+  const startDate = 2019
+  const currentDate = new Date()
+  const year = currentDate.getFullYear() - startDate
+
   return (
     <Container>
       <GlobalContainer>
@@ -34,7 +38,12 @@ export const CompanyNumbers: React.FC = () => {
                 top="0.4rem"
                 right="5.6rem"
               />
-              <Number number={9} title="Profissionais" bottom="4rem" right="3.5em" />
+              <Number
+                number={11}
+                title="Profissionais"
+                bottom="4rem"
+                right="3.5em"
+              />
             </Wrapper>
 
             <Wrapper>
@@ -45,7 +54,7 @@ export const CompanyNumbers: React.FC = () => {
                 right="-1rem"
               />
               <Number
-                number={11}
+                number={year}
                 title="Anos de experiência"
                 bottom="3em"
                 right="-3rem"
