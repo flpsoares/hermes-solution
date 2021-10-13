@@ -1,5 +1,4 @@
 import styled, { css, keyframes } from 'styled-components'
-import { FloatImageProps } from '../../@types/floatimage'
 
 interface ContainerProps {
   top?: string
@@ -9,6 +8,22 @@ interface ContainerProps {
   rotate?: string
   zindex?: string
   inverter?: string
+}
+
+interface FloatImageProps {
+  src: string
+  width: string
+  height: string
+  animation?: 'horizontal' | 'vertical' | undefined
+  rotate?: string
+  brightness?: string
+  top?: string
+  right?: string
+  bottom?: string
+  left?: string
+  zindex?: string
+  inverter?: string
+  responsive?: Record<number, Partial<Omit<FloatImageProps, 'responsive'>>>
 }
 
 const vertical = keyframes`
