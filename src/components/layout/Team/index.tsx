@@ -9,35 +9,35 @@ import { FloatImage } from '../../FloatImage'
 import useWindowSize from '../../../hooks/useWindowSize'
 
 export const Team: React.FC = () => {
-  const { width } = useWindowSize()
+  const { screenWidth } = useWindowSize()
 
   const { carouselItems, carouselOuterSpacing, carouselPadding } = useMemo(() => {
-    if (width >= 1700) {
+    if (screenWidth >= 1700) {
       return { carouselItems: 3, carouselOuterSpacing: 80, carouselPadding: 20 }
     }
-    if (width <= 1690 && width >= 1631) {
+    if (screenWidth <= 1690 && screenWidth >= 1631) {
       return { carouselItems: 3, carouselOuterSpacing: 100, carouselPadding: 60 }
     }
-    if (width <= 1631 && width >= 1501) {
+    if (screenWidth <= 1631 && screenWidth >= 1501) {
       return { carouselItems: 3, carouselOuterSpacing: 40, carouselPadding: 70 }
     }
-    if (width <= 1500 && width >= 1371) {
+    if (screenWidth <= 1500 && screenWidth >= 1371) {
       return { carouselItems: 3, carouselOuterSpacing: 80, carouselPadding: 140 }
     }
-    if (width <= 1370 && width >= 1161) {
+    if (screenWidth <= 1370 && screenWidth >= 1161) {
       return { carouselItems: 2, carouselOuterSpacing: 0, carouselPadding: 10 }
     }
-    if (width <= 1160 && width >= 901) {
+    if (screenWidth <= 1160 && screenWidth >= 901) {
       return { carouselItems: 3, carouselOuterSpacing: 80, carouselPadding: 10 }
     }
-    if (width <= 900 && width >= 511) {
+    if (screenWidth <= 900 && screenWidth >= 511) {
       return { carouselItems: 2, carouselOuterSpacing: 0, carouselPadding: -400 }
     }
-    if (width <= 510) {
+    if (screenWidth <= 510) {
       return { carouselItems: 1, carouselOuterSpacing: 0, carouselPadding: 10 }
     }
     return { carouselItems: 0, carouselOuterSpacing: 0, carouselPadding: 0 }
-  }, [width])
+  }, [screenWidth])
 
   return (
     <Container id="hermes">
@@ -81,6 +81,57 @@ export const Team: React.FC = () => {
         brightness="0.2"
         left="-2rem"
         bottom="-28rem"
+        responsive={{
+          1500: { width: '333px', height: '329px' },
+          1360: {
+            width: '283px',
+            height: '279px',
+            left: '44rem'
+          },
+          1235: { width: '283px', height: '279px', left: '34rem' },
+          1070: {
+            width: '283px',
+            height: '279px',
+            left: '34rem',
+            brightness: '0.1',
+            bottom: '-32rem'
+          },
+          883: {
+            width: '283px',
+            height: '279px',
+            left: '28rem',
+            brightness: '0.1',
+            bottom: '-32rem'
+          },
+          750: {
+            width: '283px',
+            height: '279px',
+            left: '20rem',
+            brightness: '0.1',
+            bottom: '-32rem'
+          },
+          565: {
+            width: '283px',
+            height: '279px',
+            left: '12rem',
+            brightness: '0.1',
+            bottom: '-32rem'
+          },
+          430: {
+            width: '283px',
+            height: '279px',
+            left: '5rem',
+            brightness: '0.1',
+            bottom: '-32rem'
+          },
+          340: {
+            width: '283px',
+            height: '279px',
+            left: '2rem',
+            brightness: '0.1',
+            bottom: '-32rem'
+          }
+        }}
       />
     </Container>
   )

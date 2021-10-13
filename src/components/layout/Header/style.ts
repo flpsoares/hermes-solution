@@ -36,6 +36,7 @@ export const Container = styled.div`
     a {
       text-decoration: none;
       color: #fff;
+      cursor: pointer;
 
       transition: color 0.2s;
 

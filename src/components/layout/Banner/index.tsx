@@ -40,6 +40,17 @@ export const Banner: React.FC = () => {
             left="8rem"
             top="34rem"
             animation="vertical"
+            responsive={{
+              700: { top: '26rem' },
+              560: { top: '26rem', left: '0' },
+              475: {
+                top: '32rem',
+                right: '-14rem',
+                brightness: '0.2',
+                width: '68px',
+                height: '68px'
+              }
+            }}
           />
         </FirstWrapper>
         <FirstWrapper>

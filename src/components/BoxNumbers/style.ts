@@ -35,7 +35,7 @@ export const Container = styled.div<ContainerProps>`
     margin-bottom: 1.6rem;
     color: var(--primary);
   }
-  p {
+  span {
     font-size: 1.6rem;
     font-weight: 100;
     line-height: 2.3rem;

@@ -114,14 +114,19 @@ export const Line = styled.div`
 
 export const Grid = styled.div`
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 25.6rem);
   grid-template-rows: repeat(2, 1fr);
+  justify-content: center;
   row-gap: 3rem;
+  column-gap: 2rem;
 
   @media (max-width: 1100px) {
-    grid-template-columns: repeat(2, 20rem);
-    justify-content: center;
-    column-gap: 12rem;
+    grid-template-columns: repeat(2, 25.6rem);
+    column-gap: 10rem;
+  }
+
+  @media (max-width: 700px) {
+    column-gap: 5rem;
   }
 
   @media (max-width: 600px) {

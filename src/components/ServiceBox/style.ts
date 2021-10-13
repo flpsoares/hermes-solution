@@ -26,6 +26,11 @@ export const Container = styled.div`
     height: 90px;
     object-fit: contain;
   }
+
+  @media (max-width: 600px) {
+    width: 306px;
+    height: 272px;
+  }
 `
 
 export const Title = styled.h1`
@@ -57,5 +62,10 @@ export const SecondWrapper = styled(motion.div)<WrapperProps>`
     line-height: 18px;
     width: 92%;
     height: 13rem;
+  }
+
+  @media (max-width: 600px) {
+    height: 90%;
+    justify-content: space-between;
   }
 `

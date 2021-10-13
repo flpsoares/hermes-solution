@@ -7,6 +7,8 @@ export const Container = styled.div`
 
 export const Wrapper = styled.div`
   display: flex;
+  justify-content: center;
+  gap: 5rem;
 
   margin-top: 9rem;
 
@@ -36,8 +38,7 @@ export const Info = styled.div`
   flex-direction: column;
   gap: 3rem;
 
-  width: 30%;
-  margin-left: 17rem;
+  width: 37rem;
 
   h2 {
     font-weight: 500;
@@ -63,6 +64,10 @@ export const Info = styled.div`
     @media (max-width: 1070px) {
       text-align: center;
       margin-bottom: 2rem;
+    }
+
+    @media (max-width: 360px) {
+      font-size: 32px;
     }
   }
 

@@ -1,24 +1,54 @@
-import React from 'react'
-import { FloatImageProps } from '../../@types/floatimage'
+import React, { useMemo } from 'react'
+import useWindowSize from '../../hooks/useWindowSize'
 import { Container, Image } from './style'
 
-export const FloatImage: React.FC<FloatImageProps> = (props) => {
+interface FloatImageProps {
+  src: string
+  width: string
+  height: string
+  animation?: 'horizontal' | 'vertical' | undefined
+  rotate?: string
+  brightness?: string
+  top?: string
+  right?: string
+  bottom?: string
+  left?: string
+  zindex?: string
+  inverter?: string
+  responsive?: Record<number, Partial<Omit<FloatImageProps, 'responsive'>>>
+}
+
+export const FloatImage: React.FC<FloatImageProps> = ({ ...props }) => {
+  const { screenWidth } = useWindowSize()
+
+  const responsiveProps = useMemo<Omit<FloatImageProps, 'responsive'>>(() => {
+    if (!props.responsive) return props
+
+    for (const size of Object.keys(props.responsive)) {
+      if (screenWidth <= Number(size)) {
+        return { ...props, ...props.responsive[size] }
+      }
+    }
+
+    return props
+  }, [screenWidth, props])
+
   return (
     <Container
-      top={props.top}
-      right={props.right}
-      bottom={props.bottom}
-      left={props.left}
-      rotate={props.rotate}
-      zindex={props.zindex}
+      top={responsiveProps.top}
+      right={responsiveProps.right}
+      bottom={responsiveProps.bottom}
+      left={responsiveProps.left}
+      rotate={responsiveProps.rotate}
+      zindex={responsiveProps.zindex}
     >
       <Image
-        src={props.src}
-        width={props.width}
-        height={props.height}
-        animation={props.animation}
-        brightness={props.brightness}
-        inverter={props.inverter}
+        src={responsiveProps.src}
+        width={responsiveProps.width}
+        height={responsiveProps.height}
+        animation={responsiveProps.animation}
+        brightness={responsiveProps.brightness}
+        inverter={responsiveProps.inverter}
         alt="float image"
       />
     </Container>

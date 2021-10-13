@@ -1,4 +1,4 @@
-import { ReactNode } from 'react'
+import React, { ReactNode } from 'react'
 import { Container } from './style'
 
 interface BoxProps {
@@ -7,18 +7,24 @@ interface BoxProps {
   borderright?: string
   bordertop?: string
   borderbottom?: string
-  children: ReactNode
 }
-export const BoxNumbers = (props: BoxProps) => {
+export const BoxNumbers: React.FC<BoxProps> = ({
+  title,
+  borderleft,
+  borderright,
+  bordertop,
+  borderbottom,
+  children
+}) => {
   return (
     <Container
-      borderbottom={props.borderbottom}
-      borderleft={props.borderleft}
-      borderright={props.borderright}
-      bordertop={props.bordertop}
+      borderbottom={borderbottom}
+      borderleft={borderleft}
+      borderright={borderright}
+      bordertop={bordertop}
     >
-      <h1>{props.title}</h1>
-      <p>{props.children}</p>
+      <h1>{title}</h1>
+      <span>{children}</span>
     </Container>
   )
 }

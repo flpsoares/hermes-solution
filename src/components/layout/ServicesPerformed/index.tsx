@@ -14,8 +14,11 @@ import {
   Left,
   Right
 } from './style'
+import useWindowSize from '../../../hooks/useWindowSize'
 
 export const ServicesPerformed: React.FC = () => {
+  const { screenWidth } = useWindowSize()
+
   return (
     <Container id="services-performed">
       <FloatImage
@@ -128,6 +131,11 @@ export const ServicesPerformed: React.FC = () => {
         left="5rem"
         top="20rem"
         animation="vertical"
+        responsive={{
+          1500: { width: '90px', height: '90px', top: '4rem' },
+          900: { width: '90px', height: '90px', top: '15rem' },
+          620: { width: '90px', height: '90px', top: '4rem' }
+        }}
       />
       <FloatImage
         src="./assets/half-rectangle.png"
@@ -135,6 +143,31 @@ export const ServicesPerformed: React.FC = () => {
         height="160px"
         right="21.5rem"
         top="22rem"
+        responsive={{
+          900: { top: '32rem', right: '10rem' },
+          735: { top: '32rem', right: '3rem' },
+          600: {
+            width: '121px',
+            height: '120px',
+            top: '36rem',
+            right: '13rem',
+            brightness: '0.2'
+          },
+          399: {
+            width: '121px',
+            height: '120px',
+            top: '40rem',
+            right: '13rem',
+            brightness: '0.2'
+          },
+          390: {
+            width: '121px',
+            height: '120px',
+            top: '46rem',
+            right: '13rem',
+            brightness: '0.2'
+          }
+        }}
       />
       <FloatImage
         src="./assets/triangle.png"
@@ -145,6 +178,14 @@ export const ServicesPerformed: React.FC = () => {
         right="15rem"
         top="60rem"
         animation="horizontal"
+        responsive={{
+          1500: { right: '5rem' },
+          845: { right: '39.5rem' },
+          790: { right: '37rem' },
+          735: { right: '33rem' },
+          700: { right: '53rem', top: '35rem' },
+          590: { right: '45rem', top: '39rem' }
+        }}
       />
     </Container>
   )
