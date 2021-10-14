@@ -21,7 +21,7 @@ export const Banner: React.FC = () => {
           </Info>
           <div>
             <OurCasesButton>Nossos Cases</OurCasesButton>
-            <ButtonContactUs size="16rem" />
+            <ButtonContactUs size="20%" />
           </div>
           <StatueImage src="./assets/statue-1.png" alt="statue" />
           <FloatImage
