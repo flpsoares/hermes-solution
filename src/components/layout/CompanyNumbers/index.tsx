@@ -102,6 +102,21 @@ export const CompanyNumbers: React.FC = () => {
         brightness="1"
         rotate="30"
         animation="vertical"
+        responsive={{
+          1500: {
+            left: '62rem'
+          },
+          1285: {
+            left: '52rem'
+          },
+          1200: {
+            left: '52rem',
+            top: '50rem'
+          },
+          900: {
+            left: '62rem'
+          }
+        }}
       />
       <FloatImage
         src="./assets/yellow-load.png"

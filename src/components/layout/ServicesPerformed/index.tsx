@@ -112,6 +112,21 @@ export const ServicesPerformed: React.FC = () => {
         top="142rem"
         left="1rem"
         inverter="scaleX(-1)"
+        responsive={{
+          1200: {
+            top: '195rem',
+            width: '14rem',
+            height: '14rem',
+            left: '16rem'
+          },
+          870: {
+            top: '195rem',
+            width: '14rem',
+            height: '14rem',
+            left: '10rem',
+            brightness: '0.2'
+          }
+        }}
       />
 
       <FloatImage
@@ -121,6 +136,15 @@ export const ServicesPerformed: React.FC = () => {
         rotate="341"
         top="80rem"
         left="63rem"
+        responsive={{
+          1100: {
+            left: '23rem'
+          },
+          600: {
+            left: '1rem',
+            brightness: '0.2'
+          }
+        }}
       />
       <FloatImage
         src="./assets/yellow-load.png"
