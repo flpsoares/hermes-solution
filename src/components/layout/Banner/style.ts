@@ -110,6 +110,20 @@ export const Info = styled.div`
       z-index: 4;
     }
   }
+
+  @media (max-width: 500px) {
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 500;
+      z-index: 4;
+    }
+
+    p {
+      margin-top: 1.2rem;
+      font-size: 1.5rem;
+      z-index: 4;
+    }
+  }
 `
 
 export const OurCasesButton = styled.button`
@@ -126,6 +140,10 @@ export const OurCasesButton = styled.button`
   &:hover {
     background: var(--primary);
   }
+
+  @media (max-width: 500px) {
+    font-size: 1.4rem;
+  }
 `
 
 export const StatueImage = styled.img`
@@ -141,5 +159,6 @@ export const StatueImage = styled.img`
   @media (max-width: 1000px) {
     width: 42.7rem;
     height: 51.5rem;
+    right: 0;
   }
 `

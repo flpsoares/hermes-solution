@@ -19,4 +19,8 @@ export const Container = styled.button<ContainerProps>`
   &:hover {
     filter: brightness(0.9);
   }
+
+  @media (max-width: 500px) {
+    font-size: 1.4rem;
+  }
 `
