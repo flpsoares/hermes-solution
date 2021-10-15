@@ -28,9 +28,9 @@ export const Footer: React.FC = () => {
             <Info>
               <img src="./assets/logo.png" alt="logo" />
               <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-                euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan
-                et viverra justo
+                A Hermes Solutions é uma empresa que foca em atingir o melhor
+                resultado possível para nossos clientes, oferecendo soluções divinas
+                em nossos projetos.
               </span>
             </Info>
             <Services>
@@ -38,31 +38,32 @@ export const Footer: React.FC = () => {
                 <Title>Serviços</Title>
                 <ul>
                   <li>
-                    <a href="#">Serviço xxxxxx</a>
+                    <a href="#">E-commerce</a>
                   </li>
                   <li>
-                    <a href="#">Serviço xxxxxx</a>
+                    <a href="#">CMS e CRM</a>
                   </li>
                   <li>
-                    <a href="#">Serviço xxxxxx</a>
+                    <a href="#">Sites</a>
                   </li>
                   <li>
-                    <a href="#">Serviço xxxxxx</a>
+                    <a href="#">App</a>
                   </li>
                   <li>
-                    <a href="#">Serviço xxxxxx</a>
+                    <a href="#">Social media</a>
+                  </li>
+
+                  <li>
+                    <a href="#">Audiovisual</a>
                   </li>
                   <li>
-                    <a href="#">Serviço xxxxxx</a>
+                    <a href="#">Tráfego Pago/SEO</a>
                   </li>
                   <li>
-                    <a href="#">Serviço xxxxxx</a>
+                    <a href="#">UX/UI Design e Design Thinking</a>
                   </li>
                   <li>
-                    <a href="#">Serviço xxxxxx</a>
-                  </li>
-                  <li>
-                    <a href="#">Serviço xxxxxx</a>
+                    <a href="#">Inteligência de dados</a>
                   </li>
                 </ul>
               </Wrapper>
@@ -72,19 +73,28 @@ export const Footer: React.FC = () => {
                 <Title>Cases</Title>
                 <ul>
                   <li>
-                    <a href="#">Serviço xxxxxx</a>
+                    <a href="#">Aiba</a>
                   </li>
                   <li>
-                    <a href="#">Serviço xxxxxx</a>
+                    <a href="#">Parcelao Delivery</a>
                   </li>
                   <li>
-                    <a href="#">Serviço xxxxxx</a>
+                    <a href="#">Parque Global</a>
                   </li>
                   <li>
-                    <a href="#">Serviço xxxxxx</a>
+                    <a href="#">Grupo atitude emocional</a>
                   </li>
                   <li>
-                    <a href="#">Serviço xxxxxx</a>
+                    <a href="#">FTD</a>
+                  </li>
+                  <li>
+                    <a href="#">Natura</a>
+                  </li>
+                  <li>
+                    <a href="#">Caixa econômica</a>
+                  </li>
+                  <li>
+                    <a href="#">Cielo</a>
                   </li>
                 </ul>
               </Wrapper>
@@ -98,12 +108,6 @@ export const Footer: React.FC = () => {
                   </li>
                   <li>
                     <a href="#">Clientes</a>
-                  </li>
-                  <li>
-                    <a href="#">Tragetória</a>
-                  </li>
-                  <li>
-                    <a href="#">Blog</a>
                   </li>
                   <li>
                     <a href="#">Contato</a>
@@ -129,16 +133,16 @@ export const Footer: React.FC = () => {
               <a href="#">
                 <AiOutlineInstagram size={20} />
               </a>
-              <a href="#">
+              {/* <a href="#">
                 <ImYoutube2 size={20} />
-              </a>
+              </a> */}
             </Icons>
           </Grid>
         </GlobalContainer>
       </Container>
       <BottomFooter>
-        <span>Copright - Todos direitos reservados</span>
-        <span>Desenvolvido por UX AGENCY</span>
+        <span>Copywriting - Todos os direitos reservados</span>
+        <span>Design por UX AGENCY</span>
       </BottomFooter>
     </>
   )

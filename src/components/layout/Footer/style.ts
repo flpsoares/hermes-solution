@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.div`
   border-top: 1px solid var(--primary);
   border-bottom: 1px solid #1d1d1d;
-  font-family: 'OpenSans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 `
 
 export const Grid = styled.div`
@@ -106,6 +106,8 @@ export const Info = styled(DefaultDiv)`
     text-align: left;
     line-height: 19px;
     font-weight: 200;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
 
     @media (max-width: 990px) {
       text-align: center;
@@ -118,13 +120,21 @@ export const Services = styled(DefaultDiv)`
 
   ul {
     display: grid;
-    grid-template-columns: repeat(2, 12rem);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(2, 23rem);
+    grid-template-rows: repeat(3, 1fr);
+    /* column-gap: 2rem; */
+
+    a {
+      font-size: 1.4rem;
+    }
   }
 
   @media (max-width: 990px) {
     h1 {
-      text-align: center;
+      text-align: left;
+    }
+    ul {
+      text-align: left;
     }
   }
 `
@@ -133,7 +143,7 @@ export const Cases = styled(DefaultDiv)`
   grid-area: cases;
   ul {
     display: grid;
-    grid-template-columns: repeat(1, 12rem);
+    grid-template-columns: repeat(1, 18rem);
     grid-template-rows: repeat(5, 1fr);
   }
 `
@@ -150,6 +160,7 @@ export const Hermes = styled(DefaultDiv)`
 
 export const Whatsapp = styled(DefaultDiv)`
   grid-area: whatsapp;
+  font-family: 'Montserrat', sans-serif;
 
   p {
     font-weight: 500;
@@ -163,6 +174,7 @@ export const Whatsapp = styled(DefaultDiv)`
 export const Email = styled(DefaultDiv)`
   grid-area: email;
   padding-left: 3rem;
+  font-family: 'Montserrat', sans-serif;
 
   p {
     font-weight: 500;
@@ -200,6 +212,7 @@ export const BottomFooter = styled.div`
   display: flex;
   justify-content: space-between;
   padding: 3rem 0;
+  font-size: 1.1rem;
 
   @media (max-width: 1220px) {
     padding: 3rem 2rem;
