@@ -19,26 +19,36 @@ export const Container = styled.div`
     position: absolute;
     top: 0;
     left: 0;
-    width: 110%;
-    height: 110%;
-    filter: blur(0.2rem);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 `
 export const Overlay = styled.div`
   filter: blur(0);
 
-  background: rgba(0, 0, 0, 0.6);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+
   width: 100%;
   height: 100%;
 
   display: flex;
-  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
   padding: 3.4rem;
   border-radius: 2rem;
-  span {
-    width: 68.5%;
+
+  h1 {
+    width: 100%;
     font-size: 2.2rem;
     font-weight: 500;
+    color: white;
+    margin-bottom: 0.5rem;
+  }
+  span {
+    width: 68.5%;
+    font-size: 1.4rem;
+    font-weight: 300;
     color: white;
   }
 `

@@ -96,10 +96,26 @@ export const ServicesPerformed: React.FC = () => {
             <LinkButtons link="#" children="Veja todos os cases" size="1rem" />
           </Left>
           <Right>
-            <BoxCases title="Sistema gerencial" url="./assets/case1.png" />
-            <BoxCases title="E-commerce em Magento" url="./assets/case2.png" />
-            <BoxCases title="Website wordpress" url="./assets/case3.png" />
-            <BoxCases title="Aplicativo IOS e Android" url="./assets/case4.png" />
+            <BoxCases
+              title="Cartões Caixa"
+              subtitle="Ux Designs"
+              url="./assets/case1.png"
+            />
+            <BoxCases
+              title="Parcelão Delivery"
+              subtitle="Criação de site"
+              url="./assets/case2.png"
+            />
+            <BoxCases
+              title="FTD Educação"
+              subtitle="Vinheta"
+              url="./assets/case3.png"
+            />
+            <BoxCases
+              title="Luis Piercer"
+              subtitle="Criação de site"
+              url="./assets/case4.png"
+            />
           </Right>
         </WrapperCases>
       </GlobalContainer>

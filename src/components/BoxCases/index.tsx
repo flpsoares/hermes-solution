@@ -2,6 +2,7 @@ import { Container, Overlay } from './style'
 
 interface BoxCasesProps {
   title: string
+  subtitle: string
   url: string
 }
 
@@ -10,7 +11,8 @@ export const BoxCases = (props: BoxCasesProps) => {
     <Container>
       <img src={props.url} alt={props.title} />
       <Overlay>
-        <span>{props.title}</span>
+        <h1>{props.title}</h1>
+        <span>{props.subtitle}</span>
       </Overlay>
     </Container>
   )
