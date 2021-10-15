@@ -5,6 +5,9 @@ interface ContainerProps {
 }
 
 export const Container = styled.button<ContainerProps>`
+  position: relative;
+  top: 2.2rem;
+
   display: flex;
   align-items: center;
 
@@ -21,6 +24,7 @@ export const Container = styled.button<ContainerProps>`
   transition: border 0.4s, padding-left 0.4s;
 
   a {
+    position: relative;
     text-decoration: none;
     color: var(--primary);
   }

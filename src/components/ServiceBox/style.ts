@@ -19,7 +19,7 @@ export const Container = styled.div`
   border-top-left-radius: 18px;
   border-bottom-right-radius: 18px;
 
-  padding: 2.5rem;
+  padding: 1.5rem;
 
   img {
     width: 100px;

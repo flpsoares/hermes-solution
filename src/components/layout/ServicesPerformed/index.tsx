@@ -43,29 +43,14 @@ export const ServicesPerformed: React.FC = () => {
           </Header>
           <Grid>
             <ServiceBox
-              title="Landing Page, E-commerce"
-              content="Canais de vendas digitais, com grande potencial de crescimento para o seu comércio. Útil para organização de estoque, controle de vendas e aumento na visibilidade de seu produto."
+              title="E-commerce"
+              content="É muito mais do que apenas a criação de uma loja virtual, é otimização, sua estrutura e funcionamento são totalmente digitais, fazendo com que os processos básicos de venda e atendimento ao cliente sejam completamente digitalizados em seu empreendedorismo."
               image="./assets/services-icons/icone-01.png"
             />
             <ServiceBox
-              title="Segurança De Dados"
-              content="Proporcionamos ferramentas para a proteção geral de sua empresa e seu produto digital, aonde quer que você vá."
-              image="./assets/services-icons/icone-02.png"
-            />
-            <ServiceBox
-              title="App Ios/ Android"
-              content="Criação de aplicativos IOS e Android para qualquer finalidade, podendo criar designs únicos e de alta performance."
-              image="./assets/services-icons/icone-03.png"
-            />
-            <ServiceBox
-              title="UX/UI Design e Design thinking"
-              content="Tenha um design exclusivo e preparado para o seu projeto, e aumente sua credibilidade e reputação. Tenha seu produto com a sua cara!"
-              image="./assets/services-icons/icone-04.png"
-            />
-            <ServiceBox
-              title="CMS"
-              content="Crie o seu site e tenha atualizações e manutenções diárias ou semanais de forma rápida e fácil!"
-              image="./assets/services-icons/icone-05.png"
+              title="Sites"
+              content="Canais de vendas digitais, com grande potencial de crescimento para o seu comércio. Útil para organização de estoque, controle de vendas e aumento na visibilidade de seu produto."
+              image="./assets/services-icons/icone-01.png"
             />
             <ServiceBox
               title="Social mídia"
@@ -73,14 +58,29 @@ export const ServicesPerformed: React.FC = () => {
               image="./assets/services-icons/icone-06.png"
             />
             <ServiceBox
+              title="Tráfego Pago"
+              content="Fazemos a sua estratégia para que esse modelo de investimento usado através de plataformas individuais seja a mais eficiente para o seu produto, fazendo com que os anúncios e propagandas atinjam o seu público alvo."
+              image="./assets/services-icons/icone-08.png"
+            />
+            <ServiceBox
+              title="CMS e CRM"
+              content="Crie o seu site tendo atualizações e manutenções diárias ou semanais de forma rápida e fácil! Otimize seu relacionamento com os clientes com automações nos processos de marketing."
+              image="./assets/services-icons/icone-05.png"
+            />
+            <ServiceBox
+              title="App Ios/ Android"
+              content="Criação de aplicativos IOS e Android para qualquer finalidade, podendo criar designs únicos e de alta performance."
+              image="./assets/services-icons/icone-03.png"
+            />
+            <ServiceBox
               title="Audiovisual"
               content="Te ajudamos a instigar seus clientes da melhor forma possível usando ótimas ferramentas para que o audiovisual de suas mídias tragam experiências diferenciadas."
               image="./assets/services-icons/icone-07.png"
             />
             <ServiceBox
-              title="Tráfego Pago"
-              content="Fazemos a sua estratégia para que esse modelo de investimento usado através de plataformas individuais seja a mais eficiente para o seu produto, fazendo com que os anúncios e propagandas atinjam o seu público alvo."
-              image="./assets/services-icons/icone-08.png"
+              title="UX/UI Design e Design thinking"
+              content="Tenha um design exclusivo e preparado para o seu projeto, e aumente sua credibilidade e reputação. Tenha seu produto com a sua cara!"
+              image="./assets/services-icons/icone-04.png"
             />
           </Grid>
         </Wrapper>
