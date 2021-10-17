@@ -69,15 +69,3 @@ export const Logo = styled.img`
   height: 115px;
   object-fit: contain;
 `
-
-export const ResponsiveImage = styled.div`
-  position: absolute;
-
-  @media (max-width: 1400px) {
-    left: -20rem;
-  }
-
-  @media (max-width: 930px) {
-    display: none;
-  }
-`

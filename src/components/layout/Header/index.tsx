@@ -1,6 +1,6 @@
 import { GlobalContainer } from '../../../styles/container'
 import { FloatImage } from '../../FloatImage'
-import { Container, Logo, ResponsiveImage, Wrapper } from './style'
+import { Container, Logo, Wrapper } from './style'
 
 import { Link } from 'react-scroll'
 

@@ -11,7 +11,7 @@ export const CompanyNumbers: React.FC = () => {
   const year = currentDate.getFullYear() - startDate
 
   return (
-    <Container>
+    <Container id="who-we-are">
       <GlobalContainer>
         <section>
           <Left>
@@ -33,7 +33,7 @@ export const CompanyNumbers: React.FC = () => {
           <Right>
             <Wrapper>
               <Number
-                number={87}
+                number={8}
                 title="Projetos realizados"
                 top="0.4rem"
                 right="5.6rem"
@@ -48,7 +48,7 @@ export const CompanyNumbers: React.FC = () => {
 
             <Wrapper>
               <Number
-                number={38}
+                number={11}
                 title="Clientes Atendidos"
                 top="1em"
                 right="-1rem"

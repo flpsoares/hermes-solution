@@ -21,7 +21,7 @@ export const Banner: React.FC = () => {
           </Info>
           <div>
             <OurCasesButton>Nossos Cases</OurCasesButton>
-            <ButtonContactUs size="20%" />
+            <ButtonContactUs size="16rem" />
           </div>
           <StatueImage src="./assets/statue-1.png" alt="statue" />
           <FloatImage
@@ -33,9 +33,6 @@ export const Banner: React.FC = () => {
             right="25rem"
             responsive={{
               1000: {
-                right: '20rem'
-              },
-              475: {
                 right: '10rem'
               }
             }}
@@ -52,7 +49,14 @@ export const Banner: React.FC = () => {
               700: { top: '26rem' },
               560: { top: '26rem', left: '0' },
               475: {
-                top: '32rem',
+                top: '25rem',
+                right: '-22rem',
+                brightness: '0.2',
+                width: '68px',
+                height: '68px'
+              },
+              395: {
+                top: '25rem',
                 right: '-14rem',
                 brightness: '0.2',
                 width: '68px',

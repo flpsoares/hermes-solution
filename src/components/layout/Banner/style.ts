@@ -85,43 +85,50 @@ export const Info = styled.div`
 
     h1 {
       font-size: 4.6rem;
-      font-weight: 500;
-      z-index: 4;
     }
 
     p {
       margin-top: 1.2rem;
       font-size: 3rem;
-      z-index: 4;
-      width: 70%;
+      width: 80%;
     }
   }
 
   @media (max-width: 800px) {
     h1 {
       font-size: 3.8rem;
-      font-weight: 500;
-      z-index: 4;
     }
 
     p {
-      margin-top: 1.2rem;
       font-size: 2.2rem;
-      z-index: 4;
     }
   }
 
   @media (max-width: 500px) {
     h1 {
-      font-size: 2.5rem;
-      font-weight: 500;
-      z-index: 4;
+      font-size: 3rem;
     }
 
     p {
-      margin-top: 1.2rem;
+      font-size: 2rem;
+    }
+  }
+  @media (max-width: 400px) {
+    h1 {
+      font-size: 2.7rem;
+    }
+
+    p {
+      font-size: 1.7rem;
+    }
+  }
+  @media (max-width: 345px) {
+    h1 {
+      font-size: 2.5rem;
+    }
+
+    p {
       font-size: 1.5rem;
-      z-index: 4;
     }
   }
 `
@@ -130,8 +137,10 @@ export const OurCasesButton = styled.button`
   border: 1px solid white;
   border-radius: 0.4rem;
   color: white;
-  padding: 1rem 2rem;
+  padding: 1rem 0rem;
   font-size: 1.8rem;
+
+  width: 16rem;
 
   box-shadow: 0 0 2px 0 #ffffff;
 
@@ -139,14 +148,6 @@ export const OurCasesButton = styled.button`
 
   &:hover {
     background: var(--primary);
-  }
-
-  @media (max-width: 500px) {
-    font-size: 1.4rem;
-  }
-  @media (max-width: 350px) {
-    font-size: 1.4em;
-    padding: 1.2rem 0.7rem;
   }
 `
 
@@ -165,4 +166,16 @@ export const StatueImage = styled.img`
     height: 51.5rem;
     right: 0;
   }
+  /* @media (max-width: 450px) {
+    width: 38.7rem;
+    height: 47.5rem;
+  }
+  @media (max-width: 400px) {
+    width: 34.7rem;
+    height: 43.5rem;
+  }
+  @media (max-width: 360px) {
+    width: 30.7rem;
+    height: 29.5rem;
+  } */
 `

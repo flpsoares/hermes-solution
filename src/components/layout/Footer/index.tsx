@@ -16,6 +16,8 @@ import {
   BottomFooter
 } from './style'
 
+import { Link } from 'react-scroll'
+
 import { ImLinkedin2, ImFacebook, ImYoutube2 } from 'react-icons/im'
 import { AiOutlineInstagram } from 'react-icons/ai'
 
@@ -104,13 +106,19 @@ export const Footer: React.FC = () => {
                 <Title>A Hermes</Title>
                 <ul>
                   <li>
-                    <a href="#">Quem somos</a>
+                    <Link to="who-we-are" smooth={true}>
+                      Quem somos
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">Clientes</a>
+                    <Link to="customers" smooth={true} offset={-80}>
+                      Clientes
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">Contato</a>
+                    <Link to="contact" smooth={true}>
+                      Contato
+                    </Link>
                   </li>
                 </ul>
               </Wrapper>
@@ -124,13 +132,25 @@ export const Footer: React.FC = () => {
               <p>contato@hermessolutions.agency</p>
             </Email>
             <Icons>
-              <a href="#">
+              <a
+                href="https://www.instagram.com/hermes_solutions/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <ImLinkedin2 size={20} />
               </a>
-              <a href="#">
+              <a
+                href="https://www.facebook.com/Ag%C3%AAncia-Digital-Hermes-Solutions-102458504867056/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <ImFacebook size={20} />
               </a>
-              <a href="#">
+              <a
+                href="https://www.linkedin.com/company/hermes-solutions/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <AiOutlineInstagram size={20} />
               </a>
               {/* <a href="#">

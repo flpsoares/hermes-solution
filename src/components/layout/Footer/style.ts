@@ -30,9 +30,10 @@ export const Grid = styled.div`
     justify-content: center;
   }
 
-  @media (max-width: 470px) {
+  @media (max-width: 590px) {
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 24rem 24rem 24rem 24rem 18rem 18rem 6rem;
+    grid-template-rows: 24rem 24rem 24rem 20rem 14rem 14rem 6rem;
+    row-gap: 6rem;
 
     grid-template-areas:
       'info'
@@ -124,6 +125,10 @@ export const Services = styled(DefaultDiv)`
     grid-template-rows: repeat(3, 1fr);
     /* column-gap: 2rem; */
 
+    li {
+      /* border: 1px solid red; */
+    }
+
     a {
       font-size: 1.4rem;
     }
@@ -131,10 +136,12 @@ export const Services = styled(DefaultDiv)`
 
   @media (max-width: 990px) {
     h1 {
-      text-align: left;
+      text-align: center;
     }
     ul {
-      text-align: left;
+      grid-template-columns: repeat(2, auto);
+      column-gap: 2rem;
+      /* text-align: left; */
     }
   }
 `
@@ -155,6 +162,10 @@ export const Hermes = styled(DefaultDiv)`
     display: grid;
     grid-template-columns: repeat(1, 12rem);
     grid-template-rows: repeat(5, 1fr);
+  }
+
+  a {
+    cursor: pointer;
   }
 `
 
@@ -184,7 +195,7 @@ export const Email = styled(DefaultDiv)`
     margin-top: 1rem;
   }
 
-  @media (max-width: 470px) {
+  @media (max-width: 590px) {
     padding-left: 0;
   }
 `
@@ -200,7 +211,7 @@ export const Icons = styled(DefaultDiv)`
     justify-content: flex-end;
   }
 
-  @media (max-width: 470px) {
+  @media (max-width: 590px) {
     margin-left: 0;
     justify-content: center;
   }

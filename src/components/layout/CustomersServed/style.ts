@@ -16,9 +16,10 @@ export const ErasedTitle = styled.h1`
 
 export const Grid = styled.div`
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 1fr;
   margin-top: 4rem;
+  align-items: center;
 
   @media (max-width: 1030px) {
     grid-template-columns: repeat(3, 127px);
@@ -30,11 +31,14 @@ export const Grid = styled.div`
 
   @media (max-width: 640px) {
     grid-template-columns: repeat(2, 127px);
-    grid-template-rows: repeat(4, 1fr);
   }
 `
 
 export const Image = styled.img`
-  width: 127px;
+  opacity: 0.5;
+
+  /* border: 1px solid red; */
+  /* width: 127px;
   height: 28px;
+  object-fit: cover; */
 `

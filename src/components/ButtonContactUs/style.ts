@@ -8,8 +8,7 @@ export const Container = styled.button<ContainerProps>`
   border-radius: 0.4rem;
   color: #000000;
   padding: 1.1rem 0;
-  /* width: ${(props) => props.size}; */
-  width: 15%;
+  width: ${(props) => props.size};
   font-size: 1.8rem;
   background: var(--primary);
 
@@ -21,7 +20,7 @@ export const Container = styled.button<ContainerProps>`
     filter: brightness(0.9);
   }
 
-  @media (max-width: 1350px) {
+  /* @media (max-width: 1350px) {
     font-size: 1.8rem;
     width: 20%;
   }
@@ -40,5 +39,5 @@ export const Container = styled.button<ContainerProps>`
   @media (max-width: 350px) {
     font-size: 1.6em;
     padding: 1.3rem 0;
-  }
+  } */
 `

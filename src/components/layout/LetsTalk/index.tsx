@@ -12,7 +12,7 @@ export const LetsTalk: React.FC = () => {
           <Info>
             <h2>Vamos conversar?</h2>
             <h1>Fale com a equipe Hermes</h1>
-            <ButtonContactUs size="20rem" />
+            <ButtonContactUs size="200px" />
           </Info>
           <img src="./assets/statue-2.png" alt="statue" />
         </Wrapper>
