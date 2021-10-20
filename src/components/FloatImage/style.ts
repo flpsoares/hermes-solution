@@ -8,6 +8,7 @@ interface ContainerProps {
   rotate?: string
   zindex?: string
   inverter?: string
+  display?: string
 }
 
 interface FloatImageProps {
@@ -61,6 +62,8 @@ export const Container = styled.div<ContainerProps>`
   transform: ${(props) => css`rotate(${props.rotate}deg)`};
 
   position: absolute;
+
+  display: ${(props) => props.display};
 
   top: ${(props) => props.top};
   right: ${(props) => props.right};

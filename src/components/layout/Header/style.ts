@@ -1,13 +1,25 @@
 import styled from 'styled-components'
 
-export const Container = styled.div`
-  background: var(--background-primary);
+export const Space = styled.div`
+  height: 130px;
+`
+
+export const Container = styled.header`
+  background: transparent;
 
   height: 130px;
+  width: 100%;
 
-  position: relative;
+  position: fixed;
+  top: 0;
+  z-index: 100;
 
   padding: 0 10rem;
+
+  &.sticky {
+    transition: background 0.2s height 2s;
+    background: var(--background-primary);
+  }
 
   ul {
     list-style: none;
@@ -68,4 +80,10 @@ export const Logo = styled.img`
   width: 115px;
   height: 115px;
   object-fit: contain;
+
+  @media (max-width: 830px) {
+    width: 100px;
+    height: 100px;
+    z-index: 100;
+  }
 `

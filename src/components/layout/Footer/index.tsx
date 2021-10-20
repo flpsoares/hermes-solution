@@ -106,12 +106,12 @@ export const Footer: React.FC = () => {
                 <Title>A Hermes</Title>
                 <ul>
                   <li>
-                    <Link to="who-we-are" smooth={true}>
+                    <Link to="who-we-are" smooth={true} offset={-80}>
                       Quem somos
                     </Link>
                   </li>
                   <li>
-                    <Link to="customers" smooth={true} offset={-80}>
+                    <Link to="customers" smooth={true} offset={-160}>
                       Clientes
                     </Link>
                   </li>

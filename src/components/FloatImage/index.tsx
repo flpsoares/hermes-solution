@@ -15,6 +15,7 @@ interface FloatImageProps {
   left?: string
   zindex?: string
   inverter?: string
+  display?: string
   responsive?: Record<number, Partial<Omit<FloatImageProps, 'responsive'>>>
 }
 
@@ -41,6 +42,7 @@ export const FloatImage: React.FC<FloatImageProps> = ({ ...props }) => {
       left={responsiveProps.left}
       rotate={responsiveProps.rotate}
       zindex={responsiveProps.zindex}
+      display={responsiveProps.display}
     >
       <Image
         src={responsiveProps.src}

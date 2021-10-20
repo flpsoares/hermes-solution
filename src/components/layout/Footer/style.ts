@@ -141,7 +141,14 @@ export const Services = styled(DefaultDiv)`
     ul {
       grid-template-columns: repeat(2, auto);
       column-gap: 2rem;
-      /* text-align: left; */
+    }
+  }
+
+  @media (max-width: 590px) {
+    ul {
+      grid-template-columns: 23rem;
+      grid-template-rows: repeat(6, 1fr);
+      margin-bottom: 8rem;
     }
   }
 `

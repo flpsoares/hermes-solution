@@ -1,55 +1,62 @@
 import { GlobalContainer } from '../../../styles/container'
 import { FloatImage } from '../../FloatImage'
-import { Container, Logo, Wrapper } from './style'
+import { Container, Logo, Wrapper, Space } from './style'
 
 import { Link } from 'react-scroll'
+import { useState } from 'react'
 
 export const Header: React.FC = () => {
+  // const [scrolled, setScrolled] = useState(false)
+
+  // if (typeof window !== 'undefined') {
+  //   window.addEventListener('scroll', () => {
+  //     if (window.scrollY > 100) {
+  //       setScrolled(true)
+  //     } else {
+  //       setScrolled(false)
+  //     }
+  //   })
+  // }
+
+  if (typeof window !== 'undefined') {
+    window.addEventListener('scroll', () => {
+      const header = document.getElementById('header')
+      header.classList.toggle('sticky', window.scrollY > 100)
+    })
+  }
+
   return (
-    <Container>
-      <GlobalContainer>
-        <Wrapper>
-          <Logo src="./assets/logo.png" alt="logo" />
-          <ul>
-            <li>
-              <Link to="services-performed" smooth={true} offset={80}>
-                Serviços
-              </Link>
-            </li>
-            <li>
-              <Link to="cases" smooth={true}>
-                Cases
-              </Link>
-            </li>
-            <li>
-              <Link to="hermes" smooth={true}>
-                A Hermes
-              </Link>
-            </li>
-            <li>
-              <Link to="contact" smooth={true}>
-                Contato
-              </Link>
-            </li>
-          </ul>
-        </Wrapper>
-      </GlobalContainer>
-      <FloatImage
-        src="./assets/triangle.png"
-        width="68px"
-        height="55px"
-        animation="horizontal"
-        rotate="200"
-        brightness="0.6"
-        bottom="0"
-        left="48rem"
-        responsive={{
-          1250: { left: '28rem' },
-          830: { left: '38rem', top: '-100rem' },
-          630: { left: '24rem', top: '-100rem' },
-          360: { left: '20rem', top: '-100rem' }
-        }}
-      />
-    </Container>
+    <>
+      <Space />
+      <Container id="header">
+        <GlobalContainer>
+          <Wrapper>
+            <Logo src="./assets/logo.png" alt="logo" />
+            <ul>
+              <li>
+                <Link to="services-performed" smooth={true} offset={-20}>
+                  Serviços
+                </Link>
+              </li>
+              <li>
+                <Link to="cases" smooth={true} offset={-80}>
+                  Cases
+                </Link>
+              </li>
+              <li>
+                <Link to="hermes" smooth={true} offset={-80}>
+                  A Hermes
+                </Link>
+              </li>
+              <li>
+                <Link to="contact" smooth={true}>
+                  Contato
+                </Link>
+              </li>
+            </ul>
+          </Wrapper>
+        </GlobalContainer>
+      </Container>
+    </>
   )
 }

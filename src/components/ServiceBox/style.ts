@@ -2,22 +2,30 @@ import styled from 'styled-components'
 
 import { motion } from 'framer-motion'
 
-interface WrapperProps {
-  lineheight?: string
+interface ContainerProps {
+  isHover: boolean
 }
 
-export const Container = styled.div`
+export const Container = styled.div<ContainerProps>`
   position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   z-index: 5;
 
-  width: 256px;
-  height: 222px;
+  width: 376px;
+  height: 187px;
   border: 1px solid var(--primary);
   background: var(--background-secondary);
 
-  border-top-left-radius: 18px;
-  border-bottom-right-radius: 18px;
+  transition: border-radius 1s;
+
+  border-radius: 18px;
+
+  border-top-right-radius: ${(props) => props.isHover && '0px'};
+  border-bottom-left-radius: ${(props) => props.isHover && '0px'};
 
   padding: 1.5rem;
 
@@ -39,16 +47,16 @@ export const Title = styled.h1`
   z-index: 5;
 `
 
-export const FirstWrapper = styled(motion.div)<WrapperProps>`
+export const FirstWrapper = styled(motion.div)`
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  align-items: center;
   gap: 3rem;
   background: var(--background-secondary);
   z-index: 5;
 `
 
-export const SecondWrapper = styled(motion.div)<WrapperProps>`
+export const SecondWrapper = styled(motion.div)`
   display: flex;
   flex-direction: column;
   gap: 1.1rem;
@@ -56,12 +64,14 @@ export const SecondWrapper = styled(motion.div)<WrapperProps>`
   z-index: 5;
   position: absolute;
 
+  padding: 0 2rem;
+
   span {
     font-weight: 200;
     font-size: 14px;
     line-height: 18px;
     width: 92%;
-    height: 13rem;
+    height: 9rem;
   }
 
   @media (max-width: 600px) {

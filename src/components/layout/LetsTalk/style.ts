@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   position: relative;
-  overflow-y: hidden;
+  overflow: hidden;
 `
 
 export const Wrapper = styled.div`

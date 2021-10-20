@@ -12,19 +12,26 @@ interface ServiceBoxProps {
 export const ServiceBox: React.FC<ServiceBoxProps> = ({ title, content, image }) => {
   const [firstWrapperIsVisible, setFirstWrapperIsVisible] = useState(true)
   const [secondWrapperIsVisible, setSecondWrapperIsVisible] = useState(false)
+  const [isHover, setIsHover] = useState(false)
 
   const makeFirstVisible = () => {
     setFirstWrapperIsVisible(true)
     setSecondWrapperIsVisible(false)
+    setIsHover(false)
   }
 
   const makeSecondVisible = () => {
     setSecondWrapperIsVisible(true)
     setFirstWrapperIsVisible(false)
+    setIsHover(true)
   }
 
   return (
-    <Container onMouseEnter={makeSecondVisible} onMouseLeave={makeFirstVisible}>
+    <Container
+      isHover={isHover}
+      onMouseEnter={makeSecondVisible}
+      onMouseLeave={makeFirstVisible}
+    >
       <AnimatePresence>
         {firstWrapperIsVisible ? (
           <FirstWrapper

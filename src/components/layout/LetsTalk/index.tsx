@@ -1,6 +1,6 @@
 import React from 'react'
 import { GlobalContainer } from '../../../styles/container'
-import { ButtonContactUs } from '../../ButtonContactUs'
+import { YellowButton } from '../../YellowButton'
 import { FloatImage } from '../../FloatImage'
 import { Container, Wrapper, Info } from './style'
 
@@ -12,7 +12,7 @@ export const LetsTalk: React.FC = () => {
           <Info>
             <h2>Vamos conversar?</h2>
             <h1>Fale com a equipe Hermes</h1>
-            <ButtonContactUs size="200px" />
+            <YellowButton children="Fale conosco" size="200px" />
           </Info>
           <img src="./assets/statue-2.png" alt="statue" />
         </Wrapper>

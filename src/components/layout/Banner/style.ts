@@ -30,7 +30,7 @@ export const Container = styled.div`
   }
 `
 
-export const FirstWrapper = styled.div`
+export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   position: relative;
@@ -57,6 +57,10 @@ export const FirstWrapper = styled.div`
       align-items: center;
       justify-content: center;
     }
+
+    @media (max-width: 340px) {
+      gap: 1.1rem;
+    }
   }
 `
 
@@ -64,12 +68,6 @@ export const Info = styled.div`
   margin-top: 10rem;
 
   z-index: 4;
-
-  h1 {
-    font-size: 6.2rem;
-    font-weight: 500;
-    z-index: 4;
-  }
 
   p {
     margin-top: 3.6rem;
@@ -133,6 +131,56 @@ export const Info = styled.div`
   }
 `
 
+export const Title = styled.h1`
+  font-size: 6.2rem;
+  font-weight: 500;
+  z-index: 4;
+`
+
+export const FirstTitle = styled(Title)``
+export const SecondTitle = styled(Title)`
+  font-size: 4.2rem;
+  margin-top: 6rem;
+  width: 65.9%;
+
+  @media (max-width: 1675px) {
+    margin-top: 4rem;
+  }
+
+  @media (max-width: 1278px) {
+    margin-top: 2rem;
+  }
+
+  @media (max-width: 1000px) {
+    margin-top: 0rem;
+    width: 50rem;
+    font-size: 4rem !important;
+  }
+
+  @media (max-width: 520px) {
+    width: 90%;
+    font-size: 3rem !important;
+  }
+`
+export const ThirdTitle = styled(Title)`
+  font-size: 4.2rem;
+  margin-top: 6rem;
+  width: 66.4%;
+
+  @media (max-width: 1540px) {
+    width: 64.5%;
+  }
+
+  @media (max-width: 1000px) {
+    width: 50rem;
+  }
+
+  @media (max-width: 520px) {
+    width: 90%;
+    font-size: 3rem;
+  }
+`
+
 export const OurCasesButton = styled.button`
   border: 1px solid white;
   border-radius: 0.4rem;
@@ -152,8 +200,8 @@ export const OurCasesButton = styled.button`
 `
 
 export const StatueImage = styled.img`
-  width: 52.7rem;
-  height: 61.5rem;
+  width: 47.7rem;
+  height: 56.5rem;
   position: absolute;
   right: 5rem;
   top: 0;
@@ -164,18 +212,7 @@ export const StatueImage = styled.img`
   @media (max-width: 1000px) {
     width: 42.7rem;
     height: 51.5rem;
-    right: 0;
+    left: 50%;
+    transform: translate(-50%);
   }
-  /* @media (max-width: 450px) {
-    width: 38.7rem;
-    height: 47.5rem;
-  }
-  @media (max-width: 400px) {
-    width: 34.7rem;
-    height: 43.5rem;
-  }
-  @media (max-width: 360px) {
-    width: 30.7rem;
-    height: 29.5rem;
-  } */
 `
