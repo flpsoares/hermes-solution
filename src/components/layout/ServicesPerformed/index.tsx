@@ -64,7 +64,6 @@ export const ServicesPerformed: React.FC = () => {
             />
             <ServiceBox
               title="Inteligência de dados"
-              content="Fazemos a sua estratégia para que esse modelo de investimento usado através de plataformas individuais seja a mais eficiente para o seu produto, fazendo com que os anúncios e propagandas atinjam o seu público alvo."
               image="./assets/services-icons/icone-08.png"
             />
             <ServiceBox

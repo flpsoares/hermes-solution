@@ -120,7 +120,18 @@ export const Grid = styled.div`
   row-gap: 3rem;
   column-gap: 2rem;
 
-  @media (max-width: 1100px) {
+  @media (max-width: 1220px) {
+    justify-content: center;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 4rem;
+    grid-template-rows: 1fr;
+  }
+
+  @media (max-width: 820px) {
+    grid-template-columns: auto;
+  }
+
+  /* @media (max-width: 1100px) {
     grid-template-columns: repeat(2, 25.6rem);
     column-gap: 10rem;
   }
@@ -134,7 +145,7 @@ export const Grid = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  }
+  } */
 
   margin-top: 6rem;
 `

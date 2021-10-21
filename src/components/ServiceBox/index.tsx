@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
-import { Container, FirstWrapper, SecondWrapper, Title } from './style'
+import { Container, FirstWrapper, SecondWrapper, Title, TwoButtons } from './style'
 import { AnimatePresence } from 'framer-motion'
 import { LinkButtons } from '../LinkButtons'
 
 interface ServiceBoxProps {
   title: string
-  content: string
+  content?: string
   image: string
 }
 
@@ -50,8 +50,21 @@ export const ServiceBox: React.FC<ServiceBoxProps> = ({ title, content, image })
             exit={{ opacity: 0 }}
             transition={{ duration: 1.5 }}
           >
-            <span>{content}</span>
-            <LinkButtons size="0" link="#" children="Saiba mais" />
+            {content ? (
+              <>
+                <span>{content}</span>
+                <LinkButtons size="0" link="#" children="Saiba mais" />
+              </>
+            ) : (
+              <TwoButtons>
+                <LinkButtons
+                  size="0.1rem"
+                  link="#"
+                  children="Saiba mais sobre segurança"
+                />
+                <LinkButtons size="0" link="#" children="Saiba mais sobre B.I" />
+              </TwoButtons>
+            )}
           </SecondWrapper>
         )}
       </AnimatePresence>

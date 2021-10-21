@@ -36,7 +36,8 @@ export const Container = styled.div<ContainerProps>`
   }
 
   @media (max-width: 600px) {
-    width: 306px;
+    /* width: 306px; */
+    width: 321px;
     height: 272px;
   }
 `
@@ -62,9 +63,9 @@ export const SecondWrapper = styled(motion.div)`
   gap: 1.1rem;
   background: var(--background-secondary);
   z-index: 5;
-  position: absolute;
+  position: relative;
 
-  padding: 0 2rem;
+  padding: 0 1rem;
 
   span {
     font-weight: 200;
@@ -77,5 +78,19 @@ export const SecondWrapper = styled(motion.div)`
   @media (max-width: 600px) {
     height: 90%;
     justify-content: space-between;
+    padding: 0;
+  }
+`
+
+export const TwoButtons = styled.div`
+  margin-top: -4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+  /* border: 1px solid red; */
+
+  @media (max-width: 600px) {
+    margin-top: 0;
   }
 `
