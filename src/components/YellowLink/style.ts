@@ -7,7 +7,6 @@ interface ContainerProps {
 
 export const Container = styled.button<ContainerProps>`
   border-radius: 0.4rem;
-  color: #000000;
   width: ${(props) => props.width};
   height: ${(props) => props.height};
   font-size: 1.8rem;
@@ -16,6 +15,19 @@ export const Container = styled.button<ContainerProps>`
   box-shadow: 0 0 2px 0 #ffffff;
 
   transition: filter 0.2s;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: #000000;
+  }
 
   &:hover {
     filter: brightness(0.9);

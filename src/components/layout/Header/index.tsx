@@ -31,7 +31,9 @@ export const Header: React.FC = () => {
       <Container id="header">
         <GlobalContainer>
           <Wrapper>
-            <Logo src="./assets/logo.png" alt="logo" />
+            <Link to="header" smooth={true}>
+              <Logo src="./assets/logo.png" alt="logo" />
+            </Link>
             <ul>
               <li>
                 <Link to="services-performed" smooth={true} offset={-20}>

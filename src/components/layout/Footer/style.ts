@@ -9,6 +9,12 @@ export const Container = styled.div`
 export const Grid = styled.div`
   margin-top: 8rem;
 
+  a {
+    &:hover {
+      color: var(--primary);
+    }
+  }
+
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 30rem 10rem;

@@ -1,12 +1,12 @@
 import React from 'react'
 import { Container } from './style'
 
-interface YellowButtonProps {
+interface TransparentButtonProps {
   width: string
   height: string
 }
 
-export const YellowButton: React.FC<YellowButtonProps> = ({
+export const TransparentButton: React.FC<TransparentButtonProps> = ({
   width,
   height,
   children

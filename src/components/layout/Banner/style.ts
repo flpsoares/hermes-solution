@@ -171,8 +171,13 @@ export const ThirdTitle = styled(Title)`
     width: 64.5%;
   }
 
+  @media (max-width: 1247px) {
+    margin-top: 2rem;
+  }
+
   @media (max-width: 1000px) {
     width: 50rem;
+    margin-top: 0;
   }
 
   @media (max-width: 520px) {

@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components'
+import styled from 'styled-components'
 
 interface ContainerProps {
   width: string
@@ -6,18 +6,20 @@ interface ContainerProps {
 }
 
 export const Container = styled.button<ContainerProps>`
+  border: 1px solid white;
   border-radius: 0.4rem;
-  color: #000000;
+  color: white;
+  padding: 1rem 0rem;
+  font-size: 1.8rem;
+
   width: ${(props) => props.width};
   height: ${(props) => props.height};
-  font-size: 1.8rem;
-  background: var(--primary);
 
   box-shadow: 0 0 2px 0 #ffffff;
 
-  transition: filter 0.2s;
+  transition: background 0.2s;
 
   &:hover {
-    filter: brightness(0.9);
+    background: var(--primary);
   }
 `

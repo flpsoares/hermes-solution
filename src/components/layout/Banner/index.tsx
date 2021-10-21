@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import {
   Container,
   Wrapper,
@@ -12,12 +12,32 @@ import {
 
 import Carousel from 'react-elastic-carousel'
 import { FloatImage } from '../../FloatImage'
-import { YellowButton } from '../../YellowButton'
+
+import { YellowLink } from '../../YellowLink'
+import { TransparentLink } from '../../TransparentLink'
 
 export const Banner: React.FC = () => {
+  const carouselRef = useRef(null)
+  const totalPages = 3
+  let resetTimeout
+
   return (
     <Container>
-      <Carousel className="carousel" showArrows={false} isRTL={false}>
+      <Carousel
+        ref={carouselRef}
+        enableAutoPlay={true}
+        onNextEnd={({ index }) => {
+          clearTimeout(resetTimeout)
+          if (index + 1 === totalPages) {
+            resetTimeout = setTimeout(() => {
+              carouselRef.current.goTo(0)
+            }, 2000)
+          }
+        }}
+        className="carousel"
+        showArrows={false}
+        isRTL={false}
+      >
         <Wrapper>
           <Info>
             <FirstTitle>
@@ -29,8 +49,21 @@ export const Banner: React.FC = () => {
             </p>
           </Info>
           <div>
-            <OurCasesButton>Nossos Serviços</OurCasesButton>
-            <YellowButton children="Nossos Cases" size="16rem" />
+            <TransparentLink
+              width="16rem"
+              height="4.7rem"
+              link="who-we-are"
+              smooth={true}
+              offset={-100}
+              children="Quem somos"
+            />
+            <YellowLink
+              link="contact"
+              smooth={true}
+              children="Contato"
+              width="16rem"
+              height="4.7rem"
+            />
           </div>
           <StatueImage src="./assets/banner-1.png" alt="statue" />
           <FloatImage
@@ -97,8 +130,23 @@ export const Banner: React.FC = () => {
             </SecondTitle>
           </Info>
           <div>
-            <OurCasesButton>Nossos Serviços</OurCasesButton>
-            <YellowButton children="Nossos Cases" size="16rem" />
+            <TransparentLink
+              link="services-performed"
+              width="16rem"
+              height="4.7rem"
+              smooth={true}
+              offset={-20}
+              children="Nossos serviços"
+            />
+
+            <YellowLink
+              link="cases"
+              width="16rem"
+              height="4.7"
+              smooth={true}
+              offset={-60}
+              children="Nossos Cases"
+            />
           </div>
           <StatueImage src="./assets/banner-2.png" alt="statue" />
           <FloatImage
@@ -150,7 +198,14 @@ export const Banner: React.FC = () => {
             </ThirdTitle>
           </Info>
           <div>
-            <YellowButton children="Conheça nossos profissionais" size="36rem" />
+            <YellowLink
+              link="hermes"
+              offset={-80}
+              smooth={true}
+              width="36rem"
+              height="4.7rem"
+              children="Conheça nossos profissionais"
+            />
           </div>
           <StatueImage src="./assets/banner-3.png" alt="statue" />
           <FloatImage

@@ -3,6 +3,8 @@ import { Container } from './style'
 import { MdKeyboardArrowRight } from 'react-icons/md'
 import { ReactNode } from 'react'
 
+import { Link } from 'react-scroll'
+
 interface LinkProps {
   link: string
   size: string
