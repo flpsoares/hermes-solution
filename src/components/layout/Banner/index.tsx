@@ -22,18 +22,19 @@ export const Banner: React.FC = () => {
   let resetTimeout
 
   return (
-    <Container>
+    <Container id="header">
       <Carousel
         ref={carouselRef}
         enableAutoPlay={true}
-        onNextEnd={({ index }) => {
-          clearTimeout(resetTimeout)
-          if (index + 1 === totalPages) {
-            resetTimeout = setTimeout(() => {
-              carouselRef.current.goTo(0)
-            }, 2000)
-          }
-        }}
+        autoPlaySpeed={5000}
+        // onNextEnd={({ index }) => {
+        //   clearTimeout(resetTimeout)
+        //   if (index + 1 === totalPages) {
+        //     resetTimeout = setTimeout(() => {
+        //       carouselRef.current.goTo(0)
+        //     }, 5000)
+        //   }
+        // }}
         className="carousel"
         showArrows={false}
         isRTL={false}
@@ -242,9 +243,10 @@ export const Banner: React.FC = () => {
             top="34rem"
             animation="vertical"
             responsive={{
-              620: { left: '2rem' },
-              520: { left: '2rem', top: '40rem' },
-              500: { left: '2rem', top: '30rem' },
+              720: { left: '2rem' },
+              580: { left: '2rem', top: '30rem' },
+              515: { left: '2rem', top: '35rem' },
+              500: { left: '2rem', top: '25rem' },
               430: { display: 'none' }
             }}
           />

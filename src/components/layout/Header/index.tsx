@@ -20,7 +20,7 @@ export const Header: React.FC = () => {
 
   if (typeof window !== 'undefined') {
     window.addEventListener('scroll', () => {
-      const header = document.getElementById('header')
+      const header = document.getElementById('scroll-header')
       header.classList.toggle('sticky', window.scrollY > 100)
     })
   }
@@ -28,10 +28,10 @@ export const Header: React.FC = () => {
   return (
     <>
       <Space />
-      <Container id="header">
+      <Container id="scroll-header">
         <GlobalContainer>
           <Wrapper>
-            <Link to="header" smooth={true}>
+            <Link to="header" smooth={true} offset={-200}>
               <Logo src="./assets/logo.png" alt="logo" />
             </Link>
             <ul>

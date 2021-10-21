@@ -156,23 +156,30 @@ export const ServicesPerformed: React.FC = () => {
             height: '45rem',
             brightness: '0.3'
           },
+          820: {
+            left: '10rem',
+            top: '251rem',
+            width: '75rem',
+            height: '45rem',
+            brightness: '0.3'
+          },
           750: {
             left: '0rem',
-            top: '151rem',
+            top: '251rem',
             width: '75rem',
             height: '45rem',
             brightness: '0.3'
           },
           600: {
             left: '-10rem',
-            top: '315rem',
+            top: '325rem',
             width: '75rem',
             height: '45rem',
             brightness: '0.3'
           },
           430: {
             left: '-25rem',
-            top: '315rem',
+            top: '325rem',
             width: '75rem',
             height: '45rem',
             brightness: '0.3'
