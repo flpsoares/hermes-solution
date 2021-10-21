@@ -108,8 +108,11 @@ export const Banner: React.FC = () => {
             animation="horizontal"
             rotate="200"
             brightness="0.6"
-            bottom="20rem"
+            top="1rem"
             right="70rem"
+            responsive={{
+              875: { display: 'none' }
+            }}
           />
           <FloatImage
             src="./assets/yellow-load.png"
@@ -118,6 +121,11 @@ export const Banner: React.FC = () => {
             brightness="0.4"
             top="0.6rem"
             right="25rem"
+            responsive={{
+              900: { right: '10rem' },
+              590: { right: '0rem' },
+              400: { right: '11rem' }
+            }}
           />
           <FloatImage
             src="./assets/yellow-load.png"
@@ -128,8 +136,9 @@ export const Banner: React.FC = () => {
             top="17.5rem"
             animation="vertical"
             responsive={{
-              780: { top: '35rem' },
-              503: { left: '10rem', top: '' }
+              850: { top: '29rem' },
+              522: { left: '0rem', top: '25rem', brightness: '0.2' },
+              400: { display: 'none' }
             }}
           />
         </Wrapper>
@@ -151,8 +160,11 @@ export const Banner: React.FC = () => {
             animation="horizontal"
             rotate="200"
             brightness="0.6"
-            bottom="20rem"
+            top="1rem"
             right="70rem"
+            responsive={{
+              884: { display: 'none' }
+            }}
           />
           <FloatImage
             src="./assets/yellow-load.png"
@@ -160,7 +172,11 @@ export const Banner: React.FC = () => {
             height="57px"
             brightness="0.4"
             top="0.6rem"
-            right="25rem"
+            right="5rem"
+            responsive={{
+              410: { right: '4rem' },
+              380: { right: '0rem' }
+            }}
           />
           <FloatImage
             src="./assets/yellow-load.png"
@@ -170,6 +186,12 @@ export const Banner: React.FC = () => {
             left="8rem"
             top="34rem"
             animation="vertical"
+            responsive={{
+              620: { left: '2rem' },
+              520: { left: '2rem', top: '40rem' },
+              500: { left: '2rem', top: '30rem' },
+              430: { display: 'none' }
+            }}
           />
         </Wrapper>
       </Carousel>

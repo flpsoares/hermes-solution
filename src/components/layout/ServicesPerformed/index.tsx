@@ -130,23 +130,13 @@ export const ServicesPerformed: React.FC = () => {
         width="16rem"
         height="16rem"
         rotate="80"
-        top="142rem"
+        top="158rem"
         left="1rem"
         inverter="scaleX(-1)"
         responsive={{
-          1200: {
-            top: '195rem',
-            width: '14rem',
-            height: '14rem',
-            left: '16rem'
-          },
-          870: {
-            top: '195rem',
-            width: '14rem',
-            height: '14rem',
-            left: '10rem',
-            brightness: '0.2'
-          }
+          1100: { top: '204rem', width: '13rem', height: '13rem' },
+          1064: { top: '204rem', width: '13rem', height: '13rem', left: '20rem' },
+          900: { top: '204rem', width: '13rem', height: '13rem', left: '0rem' }
         }}
       />
 
@@ -155,15 +145,45 @@ export const ServicesPerformed: React.FC = () => {
         width="99rem"
         height="69rem"
         rotate="341"
-        top="80rem"
+        top="92rem"
         left="63rem"
         responsive={{
-          1100: {
-            left: '23rem'
+          1300: { left: '43rem' },
+          1100: { left: '40rem', top: '135rem' },
+          900: {
+            left: '10rem',
+            top: '151rem',
+            width: '75rem',
+            height: '45rem',
+            brightness: '0.3'
+          },
+          750: {
+            left: '0rem',
+            top: '151rem',
+            width: '75rem',
+            height: '45rem',
+            brightness: '0.3'
           },
           600: {
-            left: '1rem',
-            brightness: '0.2'
+            left: '-10rem',
+            top: '315rem',
+            width: '75rem',
+            height: '45rem',
+            brightness: '0.3'
+          },
+          430: {
+            left: '-25rem',
+            top: '315rem',
+            width: '75rem',
+            height: '45rem',
+            brightness: '0.3'
+          },
+          389: {
+            left: '-23rem',
+            top: '327rem',
+            width: '75rem',
+            height: '45rem',
+            brightness: '0.3'
           }
         }}
       />

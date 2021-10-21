@@ -58,7 +58,7 @@ export const Left = styled.div`
 export const Right = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 50%);
-  @media (max-width: 900px) {
+  @media (max-width: 700px) {
     display: flex;
     flex-direction: column;
     justify-content: center;

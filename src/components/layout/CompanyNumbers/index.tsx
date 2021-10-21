@@ -92,6 +92,16 @@ export const CompanyNumbers: React.FC = () => {
         right="16rem"
         zindex="1"
         brightness="0.1"
+        responsive={{
+          700: { right: '7rem' },
+          500: { right: '0', width: '458px', height: '451px', brightness: '0.2' },
+          380: {
+            right: '-4rem',
+            width: '408px',
+            height: '401px',
+            brightness: '0.2'
+          }
+        }}
       />
       <FloatImage
         src="./assets/triangle.png"
