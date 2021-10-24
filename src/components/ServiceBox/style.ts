@@ -36,7 +36,6 @@ export const Container = styled.div<ContainerProps>`
   }
 
   @media (max-width: 600px) {
-    /* width: 306px; */
     width: 321px;
     height: 272px;
   }
@@ -88,9 +87,8 @@ export const TwoButtons = styled.div`
   flex-direction: column;
   justify-content: center;
   gap: 3rem;
-  /* border: 1px solid red; */
 
   @media (max-width: 600px) {
-    margin-top: 0;
+    margin-top: 3rem;
   }
 `

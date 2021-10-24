@@ -27,14 +27,14 @@ export const Banner: React.FC = () => {
         ref={carouselRef}
         enableAutoPlay={true}
         autoPlaySpeed={5000}
-        // onNextEnd={({ index }) => {
-        //   clearTimeout(resetTimeout)
-        //   if (index + 1 === totalPages) {
-        //     resetTimeout = setTimeout(() => {
-        //       carouselRef.current.goTo(0)
-        //     }, 5000)
-        //   }
-        // }}
+        onNextEnd={({ index }) => {
+          clearTimeout(resetTimeout)
+          if (index + 1 === totalPages) {
+            resetTimeout = setTimeout(() => {
+              carouselRef.current.goTo(0)
+            }, 5000)
+          }
+        }}
         className="carousel"
         showArrows={false}
         isRTL={false}
