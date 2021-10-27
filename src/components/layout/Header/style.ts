@@ -1,13 +1,15 @@
 import styled from 'styled-components'
 
-export const Space = styled.div`
+interface SpaceProps {
+  background: string
+}
+
+export const Space = styled.div<SpaceProps>`
   height: 130px;
-  background: var(--background-primary);
+  background: ${(props) => props.background};
 `
 
 export const Container = styled.header`
-  background: var(--background-primary);
-
   height: 130px;
   width: 100%;
 

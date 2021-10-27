@@ -19,10 +19,10 @@ const Container = styled.div`
   position: relative;
 `
 
-export const Home: React.FC = () => {
+const Home: React.FC = () => {
   return (
     <Container>
-      <Header />
+      <Header background="var(--background-primary)" />
       <Banner />
       <CompanyNumbers />
       <ServicesPerformed />

@@ -5,7 +5,11 @@ import { Container, Logo, Wrapper, Space } from './style'
 import { Link } from 'react-scroll'
 import { useState } from 'react'
 
-export const Header: React.FC = () => {
+interface HeaderProps {
+  background: string
+}
+
+export const Header: React.FC<HeaderProps> = ({ background }) => {
   // const [scrolled, setScrolled] = useState(false)
 
   // if (typeof window !== 'undefined') {
@@ -27,7 +31,7 @@ export const Header: React.FC = () => {
 
   return (
     <>
-      <Space />
+      <Space background={background} />
       <Container id="scroll-header">
         <GlobalContainer>
           <Wrapper>
@@ -36,7 +40,12 @@ export const Header: React.FC = () => {
             </Link>
             <ul>
               <li>
-                <Link to="services-performed" smooth={true} offset={-20}>
+                <Link
+                  href="/services-performed"
+                  to="services-performed"
+                  smooth={true}
+                  offset={-20}
+                >
                   Serviços
                 </Link>
               </li>

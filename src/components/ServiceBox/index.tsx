@@ -7,9 +7,17 @@ interface ServiceBoxProps {
   title: string
   content?: string
   image: string
+  link: string
+  secondLink?: string
 }
 
-export const ServiceBox: React.FC<ServiceBoxProps> = ({ title, content, image }) => {
+export const ServiceBox: React.FC<ServiceBoxProps> = ({
+  title,
+  content,
+  image,
+  link,
+  secondLink
+}) => {
   const [firstWrapperIsVisible, setFirstWrapperIsVisible] = useState(true)
   const [secondWrapperIsVisible, setSecondWrapperIsVisible] = useState(false)
   const [isHover, setIsHover] = useState(false)
@@ -53,16 +61,20 @@ export const ServiceBox: React.FC<ServiceBoxProps> = ({ title, content, image })
             {content ? (
               <>
                 <span>{content}</span>
-                <LinkButtons size="0" link="#" children="Saiba mais" />
+                <LinkButtons size="0" link={link} children="Saiba mais" />
               </>
             ) : (
               <TwoButtons>
                 <LinkButtons
                   size="0.1rem"
-                  link="#"
+                  link={link}
                   children="Saiba mais sobre segurança"
                 />
-                <LinkButtons size="0" link="#" children="Saiba mais sobre B.I" />
+                <LinkButtons
+                  size="0"
+                  link={secondLink}
+                  children="Saiba mais sobre B.I"
+                />
               </TwoButtons>
             )}
           </SecondWrapper>

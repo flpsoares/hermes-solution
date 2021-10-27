@@ -46,45 +46,54 @@ export const ServicesPerformed: React.FC = () => {
               title="E-commerce"
               content="É muito mais do que apenas a criação de uma loja virtual, é otimização, sua estrutura e funcionamento são totalmente digitais, fazendo com que os processos básicos de venda e atendimento ao cliente sejam completamente digitalizados em seu empreendedorismo."
               image="./assets/services-icons/icone-09.png"
+              link="#"
             />
             <ServiceBox
               title="Sites"
               content="Canais de vendas digitais, com grande potencial de crescimento para o seu comércio. Útil para organização de estoque, controle de vendas e aumento na visibilidade de seu produto."
               image="./assets/services-icons/icone-01.png"
+              link="/websites"
             />
             <ServiceBox
               title="Social mídia"
               content="Cuidamos de suas redes sociais com profissionais treinados para que seu produto tenha cada vez mais visibilidade no mercado digital."
               image="./assets/services-icons/icone-06.png"
+              link="#"
             />
             <ServiceBox
               title="Tráfego Pago"
               content="Fazemos a sua estratégia para que esse modelo de investimento usado através de plataformas individuais seja a mais eficiente para o seu produto, fazendo com que os anúncios e propagandas atinjam o seu público alvo."
               image="./assets/services-icons/icone-08.png"
+              link="#"
             />
             <ServiceBox
               title="Inteligência de dados"
               image="./assets/services-icons/icone-08.png"
+              link="#"
             />
             <ServiceBox
               title="CMS e CRM"
               content="Crie o seu site tendo atualizações e manutenções diárias ou semanais de forma rápida e fácil! Otimize seu relacionamento com os clientes com automações nos processos de marketing."
               image="./assets/services-icons/icone-05.png"
+              link="#"
             />
             <ServiceBox
               title="App Ios/ Android"
               content="Criação de aplicativos IOS e Android para qualquer finalidade, podendo criar designs únicos e de alta performance."
               image="./assets/services-icons/icone-03.png"
+              link="#"
             />
             <ServiceBox
               title="Audiovisual"
               content="Te ajudamos a instigar seus clientes da melhor forma possível usando ótimas ferramentas para que o audiovisual de suas mídias tragam experiências diferenciadas."
               image="./assets/services-icons/icone-07.png"
+              link="#"
             />
             <ServiceBox
               title="UX/UI Design e Design thinking"
               content="Tenha um design exclusivo e preparado para o seu projeto, e aumente sua credibilidade e reputação. Tenha seu produto com a sua cara!"
               image="./assets/services-icons/icone-04.png"
+              link="#"
             />
           </Grid>
         </Wrapper>
