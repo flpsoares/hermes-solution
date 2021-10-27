@@ -13,6 +13,8 @@ export const Container = styled.button<ContainerProps>`
   font-size: 1.8rem;
   background: var(--primary);
 
+  z-index: 20;
+
   box-shadow: 0 0 2px 0 #ffffff;
 
   transition: filter 0.2s;

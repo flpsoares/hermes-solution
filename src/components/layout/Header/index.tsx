@@ -1,9 +1,7 @@
 import { GlobalContainer } from '../../../styles/container'
-import { FloatImage } from '../../FloatImage'
 import { Container, Logo, Wrapper, Space } from './style'
 
 import { Link } from 'react-scroll'
-import { useState } from 'react'
 
 interface HeaderProps {
   background: string
@@ -25,7 +23,7 @@ export const Header: React.FC<HeaderProps> = ({ background }) => {
   if (typeof window !== 'undefined') {
     window.addEventListener('scroll', () => {
       const header = document.getElementById('scroll-header')
-      header.classList.toggle('sticky', window.scrollY > 100)
+      header.classList.toggle('sticky', window.scrollY > 10)
     })
   }
 

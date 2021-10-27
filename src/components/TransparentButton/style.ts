@@ -12,6 +12,8 @@ export const Container = styled.button<ContainerProps>`
   padding: 1rem 0rem;
   font-size: 1.8rem;
 
+  z-index: 20;
+
   width: ${(props) => props.width};
   height: ${(props) => props.height};
 

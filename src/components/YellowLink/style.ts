@@ -20,6 +20,8 @@ export const Container = styled.button<ContainerProps>`
   justify-content: center;
   align-items: center;
 
+  z-index: 20;
+
   a {
     display: flex;
     justify-content: center;
