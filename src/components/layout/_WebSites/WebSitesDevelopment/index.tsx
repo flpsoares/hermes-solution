@@ -1,4 +1,5 @@
 import { GlobalContainer } from '../../../../styles/container'
+import { FloatImage } from '../../../FloatImage'
 import { TransparentLink } from '../../../TransparentLink'
 import { YellowLink } from '../../../YellowLink'
 import { Container, Wrapper, Title, Info, ButtonsArea } from './style'

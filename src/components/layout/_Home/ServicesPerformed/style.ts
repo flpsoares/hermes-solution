@@ -8,11 +8,11 @@ export const Container = styled.div`
 `
 
 export const WrapperCases = styled.div`
-  justify-content: center;
-  padding: 9rem 0;
-  align-items: center;
   display: grid;
+  justify-content: center;
+  align-items: center;
   grid-template-columns: 40% 60%;
+  padding: 9rem 0;
   z-index: 5;
 
   @media (max-width: 900px) {

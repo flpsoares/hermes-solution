@@ -32,7 +32,7 @@ export const Header: React.FC<HeaderProps> = ({ background }) => {
   return (
     <>
       <Space background={background} />
-      <Container id="scroll-header">
+      <Container background={background} id="scroll-header">
         <GlobalContainer>
           <Wrapper>
             <Link to="header" smooth={true} offset={-200}>

@@ -8,7 +8,11 @@ import { TeamProfile } from '../../TeamProfile'
 import { FloatImage } from '../../FloatImage'
 import useWindowSize from '../../../hooks/useWindowSize'
 
-export const Team: React.FC = () => {
+interface TeamProps {
+  isHome: boolean
+}
+
+export const Team: React.FC<TeamProps> = ({ isHome }) => {
   const { screenWidth } = useWindowSize()
 
   const { carouselItems, carouselOuterSpacing, carouselPadding } = useMemo(() => {
@@ -73,6 +77,7 @@ export const Team: React.FC = () => {
         brightness="0.3"
         bottom="0"
         right="0"
+        display={isHome ? '' : 'none'}
       />
       <FloatImage
         src="./assets/broken-circle.png"
@@ -82,6 +87,7 @@ export const Team: React.FC = () => {
         left="-2rem"
         bottom="-28rem"
         zindex="1"
+        display={isHome ? '' : 'none'}
         responsive={{
           1500: { width: '333px', height: '329px' },
           1360: {

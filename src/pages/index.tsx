@@ -27,7 +27,7 @@ const Home: React.FC = () => {
       <CompanyNumbers />
       <ServicesPerformed />
       <CustomersServed />
-      <Team />
+      <Team isHome={true} />
       <LetsTalk />
       <Footer />
       <ContactButtons />
