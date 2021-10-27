@@ -4,6 +4,8 @@ export const Container = styled.div`
   position: relative;
   padding: 9rem 0;
 
+  background: var(--background-secondary);
+
   overflow: hidden;
 
   section {

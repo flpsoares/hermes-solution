@@ -161,8 +161,10 @@ export const Footer: React.FC = () => {
         </GlobalContainer>
       </Container>
       <BottomFooter>
-        <span>Copywriting - Todos os direitos reservados</span>
-        <span>Design por UX AGENCY</span>
+        <div>
+          <span>Copywriting - Todos os direitos reservados</span>
+          <span>Design por UX AGENCY</span>
+        </div>
       </BottomFooter>
     </>
   )

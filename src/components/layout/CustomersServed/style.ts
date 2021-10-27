@@ -2,6 +2,8 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   margin: 3rem 0;
+
+  background: var(--background-secondary);
 `
 
 export const ErasedTitle = styled.h1`

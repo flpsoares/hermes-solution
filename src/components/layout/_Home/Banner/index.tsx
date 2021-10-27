@@ -11,10 +11,10 @@ import {
 } from './style'
 
 import Carousel from 'react-elastic-carousel'
-import { FloatImage } from '../../FloatImage'
+import { FloatImage } from '../../../FloatImage'
 
-import { YellowLink } from '../../YellowLink'
-import { TransparentLink } from '../../TransparentLink'
+import { YellowLink } from '../../../YellowLink'
+import { TransparentLink } from '../../../TransparentLink'
 
 export const Banner: React.FC = () => {
   const carouselRef = useRef(null)

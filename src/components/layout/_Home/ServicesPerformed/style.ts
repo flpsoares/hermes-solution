@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
+  background: var(--background-secondary);
   position: relative;
   width: 100%;
   z-index: 5;

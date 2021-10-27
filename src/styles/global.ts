@@ -21,10 +21,6 @@ export default createGlobalStyle`
     font-size: 62.5%; /* 10px */
   }
 
-  html {
-    font-size: 62.5%;
-  }
-
   body {
     -webkit-font-smoothing: antialiased;
     font-family: 'Montserrat', sans-serif;

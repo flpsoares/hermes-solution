@@ -2,10 +2,11 @@ import styled from 'styled-components'
 
 export const Space = styled.div`
   height: 130px;
+  background: var(--background-primary);
 `
 
 export const Container = styled.header`
-  background: transparent;
+  background: var(--background-primary);
 
   height: 130px;
   width: 100%;
@@ -80,6 +81,8 @@ export const Logo = styled.img`
   width: 115px;
   height: 115px;
   object-fit: contain;
+
+  cursor: pointer;
 
   @media (max-width: 830px) {
     width: 100px;

@@ -81,6 +81,7 @@ export const Team: React.FC = () => {
         brightness="0.2"
         left="-2rem"
         bottom="-28rem"
+        zindex="1"
         responsive={{
           1500: { width: '333px', height: '329px' },
           1360: {

@@ -1,9 +1,9 @@
 import React from 'react'
-import { GlobalContainer } from '../../../styles/container'
-import { FloatImage } from '../../FloatImage'
-import { ServiceBox } from '../../ServiceBox'
-import { BoxCases } from '../../BoxCases'
-import { LinkButtons } from '../../LinkButtons'
+import { GlobalContainer } from '../../../../styles/container'
+import { FloatImage } from '../../../FloatImage'
+import { ServiceBox } from '../../../ServiceBox'
+import { BoxCases } from '../../../BoxCases'
+import { LinkButtons } from '../../../LinkButtons'
 import {
   Container,
   Grid,
@@ -14,7 +14,7 @@ import {
   Left,
   Right
 } from './style'
-import useWindowSize from '../../../hooks/useWindowSize'
+import useWindowSize from '../../../../hooks/useWindowSize'
 
 export const ServicesPerformed: React.FC = () => {
   const { screenWidth } = useWindowSize()

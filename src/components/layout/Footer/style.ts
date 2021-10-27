@@ -4,6 +4,7 @@ export const Container = styled.div`
   border-top: 1px solid var(--primary);
   border-bottom: 1px solid #1d1d1d;
   font-family: 'Open Sans', sans-serif;
+  background: var(--background-tertiary);
 `
 
 export const Grid = styled.div`
@@ -231,20 +232,28 @@ export const Icons = styled(DefaultDiv)`
 `
 
 export const BottomFooter = styled.div`
-  max-width: 120rem;
+  width: 100%;
   margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
   padding: 3rem 0;
   font-size: 1.1rem;
+  background: var(--background-tertiary);
 
-  @media (max-width: 1220px) {
-    padding: 3rem 2rem;
-  }
+  display: flex;
+  justify-content: center;
 
-  @media (max-width: 410px) {
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
+  div {
+    width: 120rem;
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: 1220px) {
+      padding: 0 2rem;
+    }
+
+    @media (max-width: 410px) {
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+    }
   }
 `

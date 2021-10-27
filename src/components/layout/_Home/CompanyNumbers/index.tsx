@@ -1,8 +1,8 @@
-import { GlobalContainer } from '../../../styles/container'
-import { BoxNumbers } from '../../BoxNumbers'
-import { FloatImage } from '../../FloatImage'
-import { LinkButtons } from '../../LinkButtons'
-import { Number } from '../../Numbers'
+import { GlobalContainer } from '../../../../styles/container'
+import { BoxNumbers } from '../../../BoxNumbers'
+import { FloatImage } from '../../../FloatImage'
+import { LinkButtons } from '../../../LinkButtons'
+import { Number } from '../../../Numbers'
 import { BoxWrapper, Container, Left, Right, Wrapper } from './style'
 
 export const CompanyNumbers: React.FC = () => {

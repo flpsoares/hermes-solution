@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
+  background: var(--background-secondary);
   position: relative;
   overflow: hidden;
 `
@@ -46,6 +47,7 @@ export const Info = styled.div`
     font-size: 26px;
     color: #ffffff;
     line-height: 56px;
+    z-index: 2;
 
     @media (max-width: 1070px) {
       text-align: center;
@@ -60,6 +62,7 @@ export const Info = styled.div`
     font-style: normal;
     line-height: 56px;
     margin-bottom: 4rem;
+    z-index: 2;
 
     @media (max-width: 1070px) {
       text-align: center;

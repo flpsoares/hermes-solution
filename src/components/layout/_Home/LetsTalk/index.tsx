@@ -1,7 +1,7 @@
 import React from 'react'
-import { GlobalContainer } from '../../../styles/container'
-import { YellowButton } from '../../YellowButton'
-import { FloatImage } from '../../FloatImage'
+import { GlobalContainer } from '../../../../styles/container'
+import { YellowButton } from '../../../YellowButton'
+import { FloatImage } from '../../../FloatImage'
 import { Container, Wrapper, Info } from './style'
 
 export const LetsTalk: React.FC = () => {

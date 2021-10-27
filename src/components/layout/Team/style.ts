@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   position: relative;
+  background: var(--background-secondary);
 
   .rec-dot {
     background-color: transparent !important;
