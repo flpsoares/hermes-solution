@@ -4,6 +4,7 @@ import { FloatImage } from '../components/FloatImage'
 import { CustomersServed } from '../components/layout/CustomersServed'
 import { Footer } from '../components/layout/Footer'
 import { Header } from '../components/layout/Header'
+import { ServicesProduced } from '../components/layout/ServicesProduced'
 import { Team } from '../components/layout/Team'
 import { StepByStep } from '../components/layout/_WebSites/StepByStep'
 import { WebSitesDevelopment } from '../components/layout/_WebSites/WebSitesDevelopment'
@@ -64,6 +65,7 @@ const WebSites: React.FC = () => {
       <StepByStep />
       <CustomersServed />
       <Team isHome={false} />
+      <ServicesProduced />
       <Footer />
     </Container>
   )
