@@ -1,12 +1,24 @@
 import styled from 'styled-components'
 
-export const Container = styled.div`
+interface ContainerProps {
+  top?: string
+  right?: string
+  bottom?: string
+  left?: string
+}
+
+export const Container = styled.div<ContainerProps>`
   display: flex;
   flex-direction: column;
   gap: 1rem;
 
   position: absolute;
-  top div {
+  top: ${(props) => props.top};
+  right: ${(props) => props.right};
+  bottom: ${(props) => props.bottom};
+  left: ${(props) => props.left};
+
+  div {
     background: var(--primary);
     height: 0.3rem;
     width: 5rem;
@@ -14,6 +26,6 @@ export const Container = styled.div`
   }
   p {
     font-size: 1.6rem;
-    width: 22rem;
+    width: 21rem;
   }
 `

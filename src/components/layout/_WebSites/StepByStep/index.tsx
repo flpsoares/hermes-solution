@@ -18,22 +18,30 @@ export const StepByStep: React.FC = () => {
             <StepsArea>
               <Step
                 stepNumber="1"
+                left="-5rem;"
+                top="-12rem"
                 content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
               />
               <Step
                 stepNumber="2"
+                left="25rem;"
                 content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
               />
               <Step
                 stepNumber="3"
+                left="55rem;"
+                top="-12rem"
                 content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
               />
               <Step
                 stepNumber="4"
+                left="82rem;"
                 content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
               />
               <Step
                 stepNumber="5"
+                left="105rem;"
+                top="-12rem"
                 content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
               />
             </StepsArea>
