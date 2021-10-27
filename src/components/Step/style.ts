@@ -5,8 +5,7 @@ export const Container = styled.div`
   flex-direction: column;
   gap: 1rem;
 
-  position: absolute;
-  top div {
+  div {
     background: var(--primary);
     height: 0.3rem;
     width: 5rem;
