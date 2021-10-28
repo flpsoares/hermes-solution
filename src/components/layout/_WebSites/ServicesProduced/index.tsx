@@ -55,82 +55,133 @@ export const ServicesProduced = () => {
           1540: {
             left: '-10rem'
           },
-          1330: {
-            top: '282rem',
-            left: '-15rem'
+          1326: {
+            top: '320rem',
+            left: '-10rem',
+            width: '80rem',
+            height: '50rem'
           },
           1240: {
-            top: '285rem',
-            left: '-15rem'
+            top: '320rem',
+            left: '-10rem',
+            width: '80rem',
+            height: '50rem'
           },
           1220: {
-            top: '285rem',
-            left: '-20rem'
+            top: '320rem',
+            left: '-10rem',
+            width: '80rem',
+            height: '50rem'
           },
           1161: {
-            top: '285rem',
-            left: '-26rem'
+            top: '320rem',
+            left: '-15rem',
+            width: '80rem',
+            height: '50rem'
           },
           1100: {
-            top: '295rem',
-            left: '-26rem',
+            top: '320rem',
+            left: '-15rem',
             width: '80rem',
             height: '50rem'
           },
           1095: {
-            top: '296rem',
-            left: '-26rem',
+            top: '335rem',
+            left: '-14rem',
             width: '80rem',
             height: '50rem'
           },
           1076: {
-            top: '315rem',
-            left: '-26rem',
-            width: '70rem',
-            height: '40rem'
+            top: '335rem',
+            left: '-14rem',
+            width: '80rem',
+            height: '50rem'
           },
           1020: {
-            top: '325rem',
-            left: '-26rem',
-            width: '70rem',
-            height: '40rem'
+            top: '335rem',
+            left: '-20rem',
+            width: '80rem',
+            height: '50rem'
           },
           950: {
-            top: '329rem',
-            left: '-26rem',
-            width: '70rem',
-            height: '40rem'
+            top: '335rem',
+            left: '-20rem',
+            width: '80rem',
+            height: '50rem'
           },
           942: {
-            top: '339rem',
-            left: '-26rem',
-            width: '70rem',
-            height: '40rem'
-          },
-          700: {
-            top: '445rem',
-            left: '-25rem',
-            width: '80rem',
-            height: '50rem',
+            top: '335rem',
+            left: '-2rem',
+            width: '85rem',
+            height: '55rem',
             brightness: '0.1'
           },
-          630: {
-            top: '445rem',
-            left: '-25rem',
+          894: {
+            top: '335rem',
+            left: '2rem',
+            width: '75rem',
+            height: '45rem',
+            brightness: '0.1'
+          },
+          816: {
+            top: '335rem',
+            left: '2rem',
             width: '70rem',
             height: '40rem',
             brightness: '0.1'
           },
-          500: {
-            top: '460rem',
-            left: '-25rem',
+          768: {
+            top: '335rem',
+            left: '2rem',
+            width: '65rem',
+            height: '35rem',
+            brightness: '0.1'
+          },
+          730: {
+            top: '350rem',
+            left: '2rem',
+            width: '65rem',
+            height: '35rem',
+            brightness: '0.1'
+          },
+          704: {
+            top: '350rem',
+            left: '2rem',
             width: '60rem',
             height: '30rem',
             brightness: '0.1'
           },
+          700: {
+            top: '490rem',
+            left: '2rem',
+            width: '60rem',
+            height: '30rem',
+            brightness: '0.1'
+          },
+          650: {
+            top: '490rem',
+            left: '-6rem',
+            width: '50rem',
+            height: '20rem',
+            brightness: '0.1'
+          },
+          630: {
+            top: '490rem',
+            left: '-6rem',
+            width: '50rem',
+            height: '20rem',
+            brightness: '0.1'
+          },
+          500: {
+            top: '490rem',
+            left: '-16rem',
+            width: '50rem',
+            height: '20rem',
+            brightness: '0.1'
+          },
           400: {
-            top: '460rem',
-            left: '-25rem',
+            top: '490rem',
+            left: '-16rem',
             width: '50rem',
             height: '20rem',
             brightness: '0.1'
@@ -147,21 +198,25 @@ export const ServicesProduced = () => {
         right="30rem"
         responsive={{
           1160: {
-            top: '260rem'
+            top: '300rem'
           },
           1030: {
-            top: '280rem'
+            top: '300rem'
           },
           900: {
-            top: '280rem',
+            top: '300rem',
+            right: '10rem'
+          },
+          700: {
+            top: '340rem',
             right: '10rem'
           },
           376: {
-            top: '285rem',
+            top: '340rem',
             right: '10rem'
           },
           374: {
-            top: '285rem',
+            top: '340rem',
             right: '10rem'
           }
         }}

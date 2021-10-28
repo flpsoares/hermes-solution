@@ -2,6 +2,10 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   padding: 15rem 0 15rem 20rem;
+
+  @media (max-width: 1326px) {
+    padding: 15rem 2rem;
+  }
 `
 
 export const Title = styled.div`
@@ -29,17 +33,58 @@ export const Title = styled.div`
     line-height: 2.8rem;
     padding-right: 6rem;
   }
+
+  @media (max-width: 1326px) {
+    padding-right: 10rem;
+  }
+  @media (max-width: 700px) {
+    padding-right: 0rem;
+    flex-direction: column;
+    text-align: center;
+    div {
+      height: 4px;
+      width: 10rem;
+      background-color: var(--primary);
+      margin: 5rem 0;
+    }
+    p {
+      font-size: 1.7rem;
+      font-weight: 200;
+      line-height: 2.8rem;
+      padding-right: 0rem;
+    }
+  }
 `
 export const Content = styled.div`
   display: grid;
   grid-template-columns: 30% 80%;
+
+  @media (max-width: 1326px) {
+    grid-template-columns: 100%;
+  }
 `
 
 export const Infos = styled.div`
   display: flex;
   flex-direction: column;
+  justify-content: center;
 
   margin-top: 4rem;
+
+  @media (max-width: 1326px) {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    margin-bottom: 5rem;
+  }
+  @media (max-width: 1095px) {
+    grid-template-columns: repeat(2, 50%);
+  }
+  @media (max-width: 700px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 `
 
 export const WhyInfos = styled.div`
@@ -59,16 +104,27 @@ export const WhyInfos = styled.div`
       font-weight: 600;
     }
   }
+  @media (max-width: 420px) {
+    p {
+      font-size: 1.4rem;
+    }
+  }
 `
 
-export const Photo = styled.div``
+export const Photo = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`
 
 export const PhotoContainer = styled.div`
   background-image: url('./assets/websites/frame.png');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  height: 105%;
+  height: 100%;
+  width: 100%;
 
   display: flex;
   align-items: center;
@@ -79,5 +135,13 @@ export const PhotoContainer = styled.div`
   img {
     width: 75%;
     height: 90%;
+  }
+
+  @media (max-width: 1326px) {
+    padding: 10%;
+    img {
+      width: 100%;
+      height: 100%;
+    }
   }
 `
