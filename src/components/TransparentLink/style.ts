@@ -18,6 +18,8 @@ export const Container = styled.button<ContainerProps>`
 
   transition: background 0.2s;
 
+  z-index: 20;
+
   a {
     display: flex;
     justify-content: center;

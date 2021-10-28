@@ -16,8 +16,8 @@ const Container = styled.div`
 `
 
 const Top = styled.div`
-  position: relative;
   overflow-y: hidden;
+  position: relative;
 `
 
 const WebSites: React.FC = () => {
@@ -31,7 +31,10 @@ const WebSites: React.FC = () => {
           brightness="0.4"
           top="-38rem"
           left="-24rem"
-          zindex="20"
+          responsive={{
+            1560: { brightness: '0.2' },
+            830: { brightness: '0.1' }
+          }}
         />
         <FloatImage
           src="/assets/blocks.png"
@@ -40,7 +43,10 @@ const WebSites: React.FC = () => {
           brightness="0.4"
           top="4rem"
           left="-24rem"
-          zindex="20"
+          responsive={{
+            1560: { brightness: '0.2' },
+            830: { brightness: '0.1' }
+          }}
         />
         <FloatImage
           src="/assets/blocks.png"
@@ -49,7 +55,10 @@ const WebSites: React.FC = () => {
           brightness="0.4"
           top="46rem"
           left="-24rem"
-          zindex="20"
+          responsive={{
+            1560: { brightness: '0.2' },
+            830: { brightness: '0.1' }
+          }}
         />
         <Header background="var(--background-secondary)" />
         <WebSitesDevelopment />

@@ -55,6 +55,25 @@ export const StepByStep: React.FC = () => {
         right="16rem"
         top="-29rem"
         brightness="0.4"
+        responsive={{
+          1270: { right: '4rem' },
+          1140: {
+            width: '22.6rem',
+            height: '22.1rem',
+            right: '1rem',
+            top: '-19rem'
+          },
+          830: {
+            width: '22.6rem',
+            height: '22.1rem',
+            brightness: '0.2',
+            right: '0',
+            top: '-23rem'
+          },
+          470: {
+            display: 'none'
+          }
+        }}
       />
       <FloatImage
         src="./assets/right-point.png"
