@@ -19,6 +19,7 @@ export default createGlobalStyle`
 
   html{
     font-size: 62.5%; /* 10px */
+    scroll-padding-top: 60px;
   }
 
   body {
