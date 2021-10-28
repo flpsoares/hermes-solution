@@ -4,10 +4,11 @@ import { FloatImage } from '../components/FloatImage'
 import { CustomersServed } from '../components/layout/CustomersServed'
 import { Footer } from '../components/layout/Footer'
 import { Header } from '../components/layout/Header'
-import { ServicesProduced } from '../components/layout/ServicesProduced'
+import { ServicesProduced } from '../components/layout/_WebSites/ServicesProduced'
 import { Team } from '../components/layout/Team'
 import { StepByStep } from '../components/layout/_WebSites/StepByStep'
 import { WebSitesDevelopment } from '../components/layout/_WebSites/WebSitesDevelopment'
+import { WhyBuilding } from '../components/layout/_WebSites/WhyBuilding'
 
 const Container = styled.div`
   background: var(--background-secondary);
@@ -54,9 +55,10 @@ const WebSites: React.FC = () => {
         <WebSitesDevelopment />
       </Top>
       <StepByStep />
+      <WhyBuilding />
+      <ServicesProduced />
       <CustomersServed />
       <Team isHome={false} />
-      <ServicesProduced />
       <Footer />
     </Container>
   )

@@ -3,12 +3,14 @@ import styled, { css } from 'styled-components'
 interface ContainerProps {
   width: string
   height: string
+  margintop?: string
 }
 
 export const Container = styled.button<ContainerProps>`
   border-radius: 0.4rem;
   width: ${(props) => props.width};
   height: ${(props) => props.height};
+  margin-top: ${(props) => props.margintop};
   font-size: 1.8rem;
   background: var(--primary);
 

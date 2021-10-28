@@ -68,7 +68,7 @@ export const ServicesPerformed: React.FC = () => {
             />
             <ServiceBox
               title="Inteligência de dados"
-              image="./assets/services-icons/icone-08.png"
+              image="./assets/services-icons/icone-06.png"
               link="#"
             />
             <ServiceBox

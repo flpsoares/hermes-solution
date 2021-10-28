@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 
-export const Container = styled.div``
+export const Container = styled.div`
+  width: 100%;
+`
 
 export const Wrapper = styled.div`
   display: grid;
@@ -22,7 +24,7 @@ export const Photos = styled.div`
   padding-right: 13rem;
   z-index: 2;
 
-  @media (max-width: 900px) {
+  @media (max-width: 1100px) {
     padding-right: 0rem;
     display: flex;
     flex-direction: column;
