@@ -22,7 +22,7 @@ export const Banner: React.FC = () => {
   let resetTimeout
 
   return (
-    <Container id="header">
+    <Container>
       <Carousel
         ref={carouselRef}
         enableAutoPlay={true}
