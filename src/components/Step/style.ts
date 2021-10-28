@@ -5,6 +5,7 @@ interface ContainerProps {
   right?: string
   bottom?: string
   left?: string
+  isAbsolute: boolean
 }
 
 export const Container = styled.div<ContainerProps>`
@@ -12,7 +13,7 @@ export const Container = styled.div<ContainerProps>`
   flex-direction: column;
   gap: 1rem;
 
-  position: absolute;
+  position: ${(props) => (props.isAbsolute ? 'absolute' : 'initial')};
   top: ${(props) => props.top};
   right: ${(props) => props.right};
   bottom: ${(props) => props.bottom};

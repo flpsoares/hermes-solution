@@ -18,30 +18,65 @@ export const StepByStep: React.FC = () => {
             <StepsArea>
               <Step
                 stepNumber="1"
+                isAbsolute={true}
                 left="-5rem;"
                 top="-12rem"
+                responsive={{
+                  1315: { left: '5rem' },
+                  1145: { left: '2rem' },
+                  1100: { isAbsolute: false }
+                }}
                 content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
               />
               <Step
                 stepNumber="2"
+                isAbsolute={true}
                 left="25rem;"
+                responsive={{
+                  1315: { left: '30rem' },
+                  1200: { left: '28rem' },
+                  1145: { left: '24rem' },
+                  1100: { isAbsolute: false }
+                }}
                 content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
               />
               <Step
                 stepNumber="3"
+                isAbsolute={true}
                 left="55rem;"
                 top="-12rem"
+                responsive={{
+                  1200: { left: '50rem' },
+                  1145: { left: '46rem' },
+                  1100: { isAbsolute: false }
+                }}
                 content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
               />
               <Step
                 stepNumber="4"
+                isAbsolute={true}
                 left="82rem;"
+                responsive={{
+                  1315: { left: '78rem' },
+                  1200: { left: '72rem' },
+                  1145: { left: '68rem' },
+
+                  1100: { isAbsolute: false }
+                }}
                 content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
               />
               <Step
                 stepNumber="5"
+                isAbsolute={true}
                 left="105rem;"
                 top="-12rem"
+                responsive={{
+                  1315: { left: '100rem' },
+                  1200: { left: '94rem' },
+                  1145: { left: '90rem' },
+
+                  1100: { isAbsolute: false }
+                }}
                 content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
               />
             </StepsArea>
@@ -81,6 +116,7 @@ export const StepByStep: React.FC = () => {
         height="87.1rem"
         left="0"
         top="0"
+        responsive={{ 730: { display: 'none' } }}
       />
       <FloatImage
         src="./assets/right-point.png"
@@ -88,6 +124,7 @@ export const StepByStep: React.FC = () => {
         height="87.1rem"
         left="32rem"
         top="0"
+        responsive={{ 730: { display: 'none' } }}
       />
       <FloatImage
         src="./assets/triangle.png"
