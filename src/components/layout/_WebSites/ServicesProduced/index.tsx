@@ -74,7 +74,7 @@ export const ServicesProduced = () => {
             height: '50rem'
           },
           1161: {
-            top: '320rem',
+            top: '310rem',
             left: '-15rem',
             width: '80rem',
             height: '50rem'
@@ -86,19 +86,19 @@ export const ServicesProduced = () => {
             height: '50rem'
           },
           1095: {
-            top: '335rem',
+            top: '325rem',
             left: '-14rem',
             width: '80rem',
             height: '50rem'
           },
           1076: {
-            top: '335rem',
+            top: '315rem',
             left: '-14rem',
             width: '80rem',
             height: '50rem'
           },
           1020: {
-            top: '335rem',
+            top: '320rem',
             left: '-20rem',
             width: '80rem',
             height: '50rem'
@@ -110,7 +110,7 @@ export const ServicesProduced = () => {
             height: '50rem'
           },
           942: {
-            top: '335rem',
+            top: '310rem',
             left: '-2rem',
             width: '85rem',
             height: '55rem',
@@ -144,7 +144,7 @@ export const ServicesProduced = () => {
             height: '35rem',
             brightness: '0.1'
           },
-          704: {
+          708: {
             top: '350rem',
             left: '2rem',
             width: '60rem',
@@ -152,7 +152,7 @@ export const ServicesProduced = () => {
             brightness: '0.1'
           },
           700: {
-            top: '490rem',
+            top: '475rem',
             left: '2rem',
             width: '60rem',
             height: '30rem',
@@ -181,7 +181,7 @@ export const ServicesProduced = () => {
           },
           400: {
             top: '490rem',
-            left: '-16rem',
+            left: '-26rem',
             width: '50rem',
             height: '20rem',
             brightness: '0.1'
@@ -211,12 +211,20 @@ export const ServicesProduced = () => {
             top: '340rem',
             right: '10rem'
           },
-          376: {
-            top: '340rem',
+          470: {
+            top: '390rem',
+            right: '10rem'
+          },
+          412: {
+            top: '400rem',
+            right: '10rem'
+          },
+          402: {
+            top: '410rem',
             right: '10rem'
           },
           374: {
-            top: '340rem',
+            top: '420rem',
             right: '10rem'
           }
         }}

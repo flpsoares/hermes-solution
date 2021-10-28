@@ -78,6 +78,8 @@ export const Infos = styled.div`
   }
   @media (max-width: 1095px) {
     grid-template-columns: repeat(2, 50%);
+    align-items: center;
+    justify-content: center;
   }
   @media (max-width: 700px) {
     display: flex;

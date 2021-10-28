@@ -53,7 +53,7 @@ export const WhyBuilding = () => {
               Lorem <b>ipsum dolor sit</b> amet, consectetur
             </p>
           </WhyInfos>
-          <YellowLink width="263px" height="52px" link="" margintop="5rem">
+          <YellowLink width="263px" height="52px" link="" margintop="0rem">
             Simule um orçamento
           </YellowLink>
         </Infos>
