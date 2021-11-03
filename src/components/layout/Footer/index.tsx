@@ -133,7 +133,7 @@ export const Footer: React.FC = () => {
             </Email>
             <Icons>
               <a
-                href="https://www.instagram.com/hermes_solutions/"
+                href="https://www.linkedin.com/company/hermes-solutions/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -147,7 +147,7 @@ export const Footer: React.FC = () => {
                 <ImFacebook size={20} />
               </a>
               <a
-                href="https://www.linkedin.com/company/hermes-solutions/"
+                href="https://www.instagram.com/hermes_solutions/"
                 target="_blank"
                 rel="noreferrer"
               >

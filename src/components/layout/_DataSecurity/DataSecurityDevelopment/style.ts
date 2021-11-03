@@ -2,8 +2,8 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   margin-top: 4rem;
-  margin-bottom: 11.5rem;
-  position: relative;
+  margin-bottom: 13rem;
+  overflow-x: hidden;
 `
 
 export const Wrapper = styled.div`
@@ -12,7 +12,7 @@ export const Wrapper = styled.div`
   gap: 4rem;
   z-index: 11;
 
-  @media (max-width: 830px) {
+  @media (max-width: 950px) {
     text-align: center;
     align-items: center;
   }
@@ -22,10 +22,18 @@ export const Title = styled.div`
   display: flex;
   flex-direction: column;
   font-size: 2.8rem;
-  width: 36rem;
+  width: 37.5rem;
   z-index: 11;
-`
 
+  @media (max-width: 390px) {
+    p {
+      font-size: 2.6rem;
+    }
+    h1 {
+      font-size: 4.4rem;
+    }
+  }
+`
 export const Info = styled.p`
   font-size: 16px;
   line-height: 23px;
@@ -47,7 +55,6 @@ export const SubInfo = styled.p`
   @media (max-width: 830px) {
   }
 `
-
 export const ButtonsArea = styled.div`
   display: flex;
   gap: 2rem;

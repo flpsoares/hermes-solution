@@ -46,7 +46,7 @@ export const ServicesPerformed: React.FC = () => {
               title="E-commerce"
               content="É muito mais do que apenas a criação de uma loja virtual, é otimização, sua estrutura e funcionamento são totalmente digitais, fazendo com que os processos básicos de venda e atendimento ao cliente sejam completamente digitalizados em seu empreendedorismo."
               image="./assets/services-icons/icone-09.png"
-              link="#"
+              link="/e-commerce"
             />
             <ServiceBox
               title="Sites"
@@ -69,7 +69,7 @@ export const ServicesPerformed: React.FC = () => {
             <ServiceBox
               title="Inteligência de dados"
               image="./assets/services-icons/icone-06.png"
-              link="#"
+              link="/data-security"
             />
             <ServiceBox
               title="CMS e CRM"

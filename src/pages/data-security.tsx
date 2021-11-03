@@ -1,13 +1,12 @@
-import React from 'react'
 import styled from 'styled-components'
 import { FloatImage } from '../components/FloatImage'
 import { CustomersServed } from '../components/layout/CustomersServed'
 import { Footer } from '../components/layout/Footer'
 import { Header } from '../components/layout/Header'
-import { ServicesProduced } from '../components/layout/ServicesProduced'
-import { Team } from '../components/layout/Team'
 import { StepByStep } from '../components/layout/StepByStep'
-import { WebSitesDevelopment } from '../components/layout/_WebSites/WebSitesDevelopment'
+import { Team } from '../components/layout/Team'
+import { DataSecurityDevelopment } from '../components/layout/_DataSecurity/DataSecurityDevelopment'
+import { ServicesProduced } from '../components/layout/ServicesProduced'
 import { WhyBuilding } from '../components/layout/WhyBuilding'
 
 const Container = styled.div`
@@ -16,10 +15,11 @@ const Container = styled.div`
 `
 
 const Top = styled.div`
+  overflow-y: hidden;
   position: relative;
 `
 
-const WebSites: React.FC = () => {
+const DataSecurity: React.FC = () => {
   return (
     <Container>
       <Top>
@@ -60,10 +60,10 @@ const WebSites: React.FC = () => {
           }}
         />
         <Header background="var(--background-secondary)" />
-        <WebSitesDevelopment />
+        <DataSecurityDevelopment />
       </Top>
       <StepByStep
-        title="Passo a Passo"
+        title="Como fazemos"
         stepOne="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
         stepTwo="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
         stepThree="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
@@ -79,4 +79,4 @@ const WebSites: React.FC = () => {
   )
 }
 
-export default WebSites
+export default DataSecurity

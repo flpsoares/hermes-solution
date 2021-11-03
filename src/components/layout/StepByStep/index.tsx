@@ -1,17 +1,33 @@
 import React from 'react'
-import { GlobalContainer } from '../../../../styles/container'
-import { FloatImage } from '../../../FloatImage'
-import { Step } from '../../../Step'
+import { GlobalContainer } from '../../../styles/container'
+import { FloatImage } from '../../FloatImage'
+import { Step } from '../../Step'
 import { Container, Title, Wrapper, Content, StepsImage, StepsArea } from './style'
 
-export const StepByStep: React.FC = () => {
+interface StepByStepProps {
+  title: string
+  stepOne: string
+  stepTwo: string
+  stepThree: string
+  stepFour: string
+  stepFive: string
+}
+
+export const StepByStep: React.FC<StepByStepProps> = ({
+  title,
+  stepOne,
+  stepTwo,
+  stepThree,
+  stepFour,
+  stepFive
+}) => {
   return (
     <Container>
       <GlobalContainer>
         <Wrapper>
           <Title>
             <p>Entenda</p>
-            <h1>Passo a Passo</h1>
+            <h1>{title}</h1>
           </Title>
           <Content>
             <StepsImage src="./assets/steps.png" />
@@ -26,7 +42,7 @@ export const StepByStep: React.FC = () => {
                   1145: { left: '2rem' },
                   1100: { isAbsolute: false }
                 }}
-                content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
+                content={stepOne}
               />
               <Step
                 stepNumber="2"
@@ -38,7 +54,7 @@ export const StepByStep: React.FC = () => {
                   1145: { left: '24rem' },
                   1100: { isAbsolute: false }
                 }}
-                content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
+                content={stepTwo}
               />
               <Step
                 stepNumber="3"
@@ -50,7 +66,7 @@ export const StepByStep: React.FC = () => {
                   1145: { left: '46rem' },
                   1100: { isAbsolute: false }
                 }}
-                content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
+                content={stepThree}
               />
               <Step
                 stepNumber="4"
@@ -63,7 +79,7 @@ export const StepByStep: React.FC = () => {
 
                   1100: { isAbsolute: false }
                 }}
-                content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
+                content={stepFour}
               />
               <Step
                 stepNumber="5"
@@ -77,39 +93,12 @@ export const StepByStep: React.FC = () => {
 
                   1100: { isAbsolute: false }
                 }}
-                content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
+                content={stepFive}
               />
             </StepsArea>
           </Content>
         </Wrapper>
       </GlobalContainer>
-      <FloatImage
-        src="./assets/broken-circle.png"
-        width="34.6rem"
-        height="34.1rem"
-        right="16rem"
-        top="-29rem"
-        brightness="0.4"
-        responsive={{
-          1270: { right: '4rem' },
-          1140: {
-            width: '22.6rem',
-            height: '22.1rem',
-            right: '1rem',
-            top: '-19rem'
-          },
-          830: {
-            width: '22.6rem',
-            height: '22.1rem',
-            brightness: '0.2',
-            right: '0',
-            top: '-23rem'
-          },
-          470: {
-            display: 'none'
-          }
-        }}
-      />
       <FloatImage
         src="./assets/right-point.png"
         width="70rem"

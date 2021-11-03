@@ -1,13 +1,12 @@
-import React from 'react'
 import styled from 'styled-components'
 import { FloatImage } from '../components/FloatImage'
 import { CustomersServed } from '../components/layout/CustomersServed'
 import { Footer } from '../components/layout/Footer'
 import { Header } from '../components/layout/Header'
-import { ServicesProduced } from '../components/layout/ServicesProduced'
-import { Team } from '../components/layout/Team'
 import { StepByStep } from '../components/layout/StepByStep'
-import { WebSitesDevelopment } from '../components/layout/_WebSites/WebSitesDevelopment'
+import { Team } from '../components/layout/Team'
+import { EcommerceDevelopment } from '../components/layout/_Ecommerce/EcommerceDevelopment'
+import { ServicesProduced } from '../components/layout/ServicesProduced'
 import { WhyBuilding } from '../components/layout/WhyBuilding'
 
 const Container = styled.div`
@@ -19,7 +18,7 @@ const Top = styled.div`
   position: relative;
 `
 
-const WebSites: React.FC = () => {
+const Ecommerce: React.FC = () => {
   return (
     <Container>
       <Top>
@@ -60,7 +59,7 @@ const WebSites: React.FC = () => {
           }}
         />
         <Header background="var(--background-secondary)" />
-        <WebSitesDevelopment />
+        <EcommerceDevelopment />
       </Top>
       <StepByStep
         title="Passo a Passo"
@@ -79,4 +78,4 @@ const WebSites: React.FC = () => {
   )
 }
 
-export default WebSites
+export default Ecommerce

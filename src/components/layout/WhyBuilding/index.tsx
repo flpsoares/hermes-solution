@@ -1,5 +1,5 @@
-import { FloatImage } from '../../../FloatImage'
-import { YellowLink } from '../../../YellowLink'
+import { FloatImage } from '../../FloatImage'
+import { YellowLink } from '../../YellowLink'
 import {
   Container,
   Title,

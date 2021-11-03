@@ -1,9 +1,9 @@
 import { Container, Photos, Info, Wrapper } from './style'
 
-import { BoxCases } from '../../../BoxCases'
-import { LinkButtons } from '../../../LinkButtons'
-import { GlobalContainer } from '../../../../styles/container'
-import { FloatImage } from '../../../FloatImage'
+import { BoxCases } from '../../BoxCases'
+import { LinkButtons } from '../../LinkButtons'
+import { GlobalContainer } from '../../../styles/container'
+import { FloatImage } from '../../FloatImage'
 
 export const ServicesProduced = () => {
   return (
