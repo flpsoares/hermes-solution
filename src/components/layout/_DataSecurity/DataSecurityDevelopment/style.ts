@@ -26,11 +26,8 @@ export const Title = styled.div`
   z-index: 11;
 
   @media (max-width: 390px) {
-    p {
-      font-size: 2.6rem;
-    }
     h1 {
-      font-size: 4.4rem;
+      font-size: 4rem;
     }
   }
 `
