@@ -6,6 +6,7 @@ import { Container, Title, Wrapper, Content, StepsImage, StepsArea } from './sty
 
 interface StepByStepProps {
   title: string
+  subTitle: string
   stepOne: string
   stepTwo: string
   stepThree: string
@@ -15,6 +16,7 @@ interface StepByStepProps {
 
 export const StepByStep: React.FC<StepByStepProps> = ({
   title,
+  subTitle,
   stepOne,
   stepTwo,
   stepThree,
@@ -26,8 +28,8 @@ export const StepByStep: React.FC<StepByStepProps> = ({
       <GlobalContainer>
         <Wrapper>
           <Title>
-            <p>Entenda</p>
-            <h1>{title}</h1>
+            <p>{title}</p>
+            <h1>{subTitle}</h1>
           </Title>
           <Content>
             <StepsImage src="./assets/steps.png" />

@@ -4,6 +4,7 @@ export const Container = styled.div`
   margin: 3rem 0;
 
   background: var(--background-secondary);
+  position: relative;
 `
 
 export const ErasedTitle = styled.h1`

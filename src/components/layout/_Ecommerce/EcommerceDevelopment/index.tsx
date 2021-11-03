@@ -57,6 +57,14 @@ export const EcommerceDevelopment: React.FC = () => {
         bottom="-19rem"
         brightness="0.1"
       />
+      <FloatImage
+        src="./assets/yellow-load.png"
+        width="7.5rem"
+        height="7.5rem"
+        right="22rem"
+        bottom="-32rem"
+        brightness="0.5"
+      />
     </Container>
   )
 }

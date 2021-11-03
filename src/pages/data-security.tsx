@@ -62,7 +62,8 @@ const DataSecurity: React.FC = () => {
         <DataSecurityDevelopment />
       </Top>
       <StepByStep
-        title="Como fazemos"
+        title="Entenda"
+        subTitle="Como fazemos"
         stepOne="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
         stepTwo="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
         stepThree="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"

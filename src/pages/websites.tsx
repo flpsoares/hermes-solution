@@ -63,7 +63,8 @@ const WebSites: React.FC = () => {
         <WebSitesDevelopment />
       </Top>
       <StepByStep
-        title="Passo a Passo"
+        title="Entenda o"
+        subTitle="Passo a passo"
         stepOne="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
         stepTwo="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
         stepThree="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"

@@ -50,11 +50,11 @@ export const DataSecurityDevelopment: React.FC = () => {
       />
       <FloatImage
         src="./assets/yellow-load.png"
-        width="10.6rem"
-        height="10.6rem"
-        left="58rem"
-        bottom="-19rem"
-        brightness="0.1"
+        width="7.5rem"
+        height="7.5rem"
+        right="22rem"
+        bottom="-32rem"
+        brightness="0.5"
       />
     </Container>
   )
