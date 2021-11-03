@@ -1,10 +1,11 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  padding: 15rem 10rem;
-  @media (max-width: 1326px) {
-    padding: 15rem 2rem;
-  }
+  width: 100vw;
+`
+
+export const Main = styled.div`
+  padding: 15rem 0rem;
 `
 
 export const Title = styled.div`
@@ -80,7 +81,7 @@ export const WhyInfos = styled.div`
 
   flex-direction: column;
 
-  padding: 4rem;
+  margin: 3rem 1rem;
 
   img {
     width: 6rem;

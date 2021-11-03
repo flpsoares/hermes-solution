@@ -53,13 +53,13 @@ export const WhyBuildingEcommerce = () => {
               Lorem <b>ipsum dolor sit</b> amet, consectetur
             </p>
           </WhyInfos>
-          <YellowLink width="263px" height="52px" link="" margintop="0rem">
+          <YellowLink width="263px" height="52px" margintop="2rem" link="">
             Simule um orçamento
           </YellowLink>
         </Infos>
         <Photo>
           <PhotoContainer>
-            {/* <img src="./assets/websites/website-1.png" alt="Breno Correia" /> */}
+            <img src="./assets/ecommerce/banner-2.png" alt="Breno Correia" />
           </PhotoContainer>
         </Photo>
       </Content>

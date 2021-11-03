@@ -35,7 +35,7 @@ export const Title = styled.div`
   }
 
   @media (max-width: 1326px) {
-    padding-right: 10rem;
+    padding-right: 0rem;
   }
   @media (max-width: 700px) {
     padding-right: 0rem;
@@ -121,29 +121,37 @@ export const Photo = styled.div`
 `
 
 export const PhotoContainer = styled.div`
-  background-image: url('./assets/ecommerce/banner-2.png');
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 100%;
   width: 100%;
-
   display: flex;
   align-items: center;
   justify-content: center;
-
-  padding-top: 6rem;
+  padding-right: 17rem;
 
   img {
-    width: 75%;
-    height: 90%;
+    width: 70rem;
   }
 
   @media (max-width: 1326px) {
-    padding: 10%;
+    padding-right: 0rem;
+  }
+  @media (max-width: 800px) {
     img {
-      width: 100%;
-      height: 100%;
+      width: 60rem;
+    }
+  }
+  @media (max-width: 640px) {
+    img {
+      width: 50rem;
+    }
+  }
+  @media (max-width: 530px) {
+    img {
+      width: 40rem;
+    }
+  }
+  @media (max-width: 430px) {
+    img {
+      width: 30rem;
     }
   }
 `
