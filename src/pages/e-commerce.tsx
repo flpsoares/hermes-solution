@@ -6,8 +6,8 @@ import { Header } from '../components/layout/Header'
 import { StepByStep } from '../components/layout/StepByStep'
 import { Team } from '../components/layout/Team'
 import { EcommerceDevelopment } from '../components/layout/_Ecommerce/EcommerceDevelopment'
-import { ServicesProduced } from '../components/layout/ServicesProduced'
-import { WhyBuilding } from '../components/layout/WhyBuilding'
+import { WhyBuildingEcommerce } from '../components/layout/_Ecommerce/WhyBuildingEcommerce'
+import { ServicesEcommerce } from '../components/layout/_Ecommerce/ServicesEcommerce'
 
 const Container = styled.div`
   background: var(--background-secondary);
@@ -70,8 +70,8 @@ const Ecommerce: React.FC = () => {
         stepFour="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
         stepFive="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
       />
-      <WhyBuilding />
-      <ServicesProduced />
+      <WhyBuildingEcommerce />
+      <ServicesEcommerce />
       <CustomersServed />
       <Team isHome={false} />
       <Footer />

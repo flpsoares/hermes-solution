@@ -7,7 +7,7 @@ import { StepByStep } from '../components/layout/StepByStep'
 import { Team } from '../components/layout/Team'
 import { DataSecurityDevelopment } from '../components/layout/_DataSecurity/DataSecurityDevelopment'
 import { ServicesProduced } from '../components/layout/ServicesProduced'
-import { WhyBuilding } from '../components/layout/WhyBuilding'
+import { WhyBuildingDataSecurity } from '../components/layout/_DataSecurity/WhyBuildingDataSecurity'
 
 const Container = styled.div`
   background: var(--background-secondary);
@@ -70,7 +70,7 @@ const DataSecurity: React.FC = () => {
         stepFour="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
         stepFive="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
       />
-      <WhyBuilding />
+      <WhyBuildingDataSecurity />
       <ServicesProduced />
       <CustomersServed />
       <Team isHome={false} />
