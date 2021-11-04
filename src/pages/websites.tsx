@@ -8,7 +8,7 @@ import { ServicesProduced } from '../components/layout/ServicesProduced'
 import { Team } from '../components/layout/Team'
 import { StepByStep } from '../components/layout/StepByStep'
 import { WebSitesDevelopment } from '../components/layout/_WebSites/WebSitesDevelopment'
-import { WhyBuilding } from '../components/layout/WhyBuilding'
+import { WhyBuildingWebSites } from '../components/layout/_WebSites/WhyBuildingWebsites'
 
 const Container = styled.div`
   background: var(--background-secondary);
@@ -71,7 +71,7 @@ const WebSites: React.FC = () => {
         stepFour="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
         stepFive="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
       />
-      <WhyBuilding />
+      <WhyBuildingWebSites />
       <ServicesProduced />
       <CustomersServed />
       <Team isHome={false} />

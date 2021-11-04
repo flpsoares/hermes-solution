@@ -106,6 +106,7 @@ export const WhyInfos = styled.div`
       font-weight: 600;
     }
   }
+
   @media (max-width: 420px) {
     p {
       font-size: 1.4rem;
@@ -145,5 +146,49 @@ export const PhotoContainer = styled.div`
       width: 100%;
       height: 100%;
     }
+  }
+`
+
+export const Frame = styled.div`
+  background-image: url('./assets/websites/frame.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 93.6rem;
+  height: 66.3rem;
+
+  border: 1px solid red;
+
+  @media (max-width: 1326px) {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 1240px) {
+    height: 46.3rem;
+
+    background-position: center;
+  }
+
+  @media (max-width: 900px) {
+    width: 100%;
+  }
+`
+
+export const WebSiteImage = styled.img`
+  width: 90%;
+  height: 83%;
+
+  @media (max-width: 1240px) {
+    height: 90%;
+    width: 60rem;
+  }
+
+  @media (max-width: 750px) {
+    width: 90%;
+    height: 80%;
   }
 `

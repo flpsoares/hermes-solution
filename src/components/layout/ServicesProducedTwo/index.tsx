@@ -1,20 +1,37 @@
 import { Container, Photos, Info, Wrapper } from './style'
 
-import { BoxCases } from '../../../BoxCases'
-import { LinkButtons } from '../../../LinkButtons'
-import { GlobalContainer } from '../../../../styles/container'
-import { FloatImage } from '../../../FloatImage'
+import { BoxCases } from '../../BoxCases'
+import { LinkButtons } from '../../LinkButtons'
+import { GlobalContainer } from '../../../styles/container'
+import { FloatImage } from '../../FloatImage'
 
-export const ServicesDataSecurity = () => {
+interface ServicesProducedTwoProps {
+  imageOne: string
+  imageOneTitle: string
+  imageOneSubTitle: string
+  imageTwo: string
+  imageTwoTitle: string
+  imageTwoSubTitle: string
+  imageThree: string
+  imageThreeTitle: string
+  imageThreeSubTitle: string
+  imageFour: string
+  imageFourTitle: string
+  imageFourSubTitle: string
+  title: string
+  subTitle: string
+}
+
+export const ServicesProducedTwo = (props: ServicesProducedTwoProps) => {
   return (
     <Container>
       <GlobalContainer>
         <Wrapper>
           <Info>
             <BoxCases
-              title="Cartões Caixa"
-              subtitle="Ux Designs"
-              url="./assets/case1.png"
+              title={props.imageOneTitle}
+              subtitle={props.imageOneSubTitle}
+              url={props.imageOne}
             />
             <BoxCases
               title="Parcelão Delivery"

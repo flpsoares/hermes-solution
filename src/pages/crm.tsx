@@ -1,14 +1,13 @@
+import React from 'react'
 import styled from 'styled-components'
 import { FloatImage } from '../components/FloatImage'
 import { CustomersServed } from '../components/layout/CustomersServed'
 import { Footer } from '../components/layout/Footer'
 import { Header } from '../components/layout/Header'
-import { StepByStep } from '../components/layout/StepByStep'
+import { ServicesProduced } from '../components/layout/ServicesProduced'
 import { Team } from '../components/layout/Team'
-import { DataSecurityDevelopment } from '../components/layout/_DataSecurity/DataSecurityDevelopment'
-
-import { WhyBuildingDataSecurity } from '../components/layout/_DataSecurity/WhyBuildingDataSecurity'
-import { ServicesProducedTwo } from '../components/layout/ServicesProducedTwo'
+import { StepByStep } from '../components/layout/StepByStep'
+import { CRMDevelopment } from '../components/layout/_CRM/CRMDevelopment'
 
 const Container = styled.div`
   background: var(--background-secondary);
@@ -19,7 +18,7 @@ const Top = styled.div`
   position: relative;
 `
 
-const DataSecurity: React.FC = () => {
+const CRM: React.FC = () => {
   return (
     <Container>
       <Top>
@@ -60,19 +59,19 @@ const DataSecurity: React.FC = () => {
           }}
         />
         <Header background="var(--background-secondary)" />
-        <DataSecurityDevelopment />
+        <CRMDevelopment />
       </Top>
       <StepByStep
-        title="Entenda"
-        subTitle="Como fazemos"
+        title="Entenda o"
+        subTitle="Passo a passo"
         stepOne="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
         stepTwo="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
         stepThree="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
         stepFour="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
         stepFive="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
       />
-      <WhyBuildingDataSecurity />
-      <ServicesProducedTwo />
+      {/* <WhyBuildingWebSites /> */}
+      <ServicesProduced />
       <CustomersServed />
       <Team isHome={false} />
       <Footer />
@@ -80,4 +79,4 @@ const DataSecurity: React.FC = () => {
   )
 }
 
-export default DataSecurity
+export default CRM

@@ -1,5 +1,5 @@
-import { FloatImage } from '../../FloatImage'
-import { YellowLink } from '../../YellowLink'
+import { GlobalContainer } from '../../../../styles/container'
+import { YellowLink } from '../../../YellowLink'
 import {
   Container,
   Title,
@@ -7,10 +7,12 @@ import {
   Infos,
   Photo,
   WhyInfos,
-  PhotoContainer
+  PhotoContainer,
+  Frame,
+  WebSiteImage
 } from './style'
 
-export const WhyBuilding = () => {
+export const WhyBuildingWebSites = () => {
   return (
     <Container>
       <Title>
@@ -57,6 +59,9 @@ export const WhyBuilding = () => {
             Simule um orçamento
           </YellowLink>
         </Infos>
+        {/* <Frame>
+          <WebSiteImage src="./assets/websites/website-1.png" alt="Breno Correia" />
+        </Frame> */}
         <Photo>
           <PhotoContainer>
             <img src="./assets/websites/website-1.png" alt="Breno Correia" />
