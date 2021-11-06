@@ -7,7 +7,7 @@ import { StepByStep } from '../components/layout/StepByStep'
 import { Team } from '../components/layout/Team'
 import { DataSecurityDevelopment } from '../components/layout/_DataSecurity/DataSecurityDevelopment'
 
-import { WhyBuildingDataSecurity } from '../components/layout/_DataSecurity/WhyBuildingDataSecurity'
+import { SameWhyBuilding } from '../components/layout/SameWhyBuilding'
 import { ServicesProducedTwo } from '../components/layout/ServicesProducedTwo'
 
 const Container = styled.div`
@@ -71,7 +71,26 @@ const DataSecurity: React.FC = () => {
         stepFour="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
         stepFive="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
       />
-      <WhyBuildingDataSecurity />
+      <SameWhyBuilding
+        title="Por que você deve investir em segurança de dados?"
+        subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
+        ImageOne="./assets/data-security/icon-1.png"
+        TitleImageOne="Lorem ipsum dolor sit amet, consectetur"
+        ImageTwo="./assets/data-security/icon-1.png"
+        TitleImageTwo="Lorem ipsum dolor sit amet, consectetur"
+        ImageThree="./assets/data-security/icon-1.png"
+        TitleImageThree="Lorem ipsum dolor sit amet, consectetur"
+        ImageFour="./assets/data-security/icon-1.png"
+        TitleImageFour="Lorem ipsum dolor sit amet, consectetur"
+        ImageFive="./assets/data-security/icon-1.png"
+        TitleImageFive="Lorem ipsum dolor sit amet, consectetur"
+        ImageSix="./assets/data-security/icon-1.png"
+        TitleImageSix="Lorem ipsum dolor sit amet, consectetur"
+        ImageSeven="./assets/data-security/icon-1.png"
+        TitleImageSeven="Lorem ipsum dolor sit amet, consectetur"
+        ImageEight="./assets/data-security/icon-1.png"
+        TitleImageEight="Lorem ipsum dolor sit amet, consectetur"
+      />
       <ServicesProducedTwo
         imageOne="./assets/case1.png"
         imageOneTitle="Cartões Caixa"

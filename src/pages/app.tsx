@@ -5,6 +5,7 @@ import { CustomersServed } from '../components/layout/CustomersServed'
 import { Footer } from '../components/layout/Footer'
 import { Header } from '../components/layout/Header'
 import { ServicesProducedTwo } from '../components/layout/ServicesProducedTwo'
+import { SameWhyBuilding } from '../components/layout/SameWhyBuilding'
 import { Team } from '../components/layout/Team'
 import { StepByStep } from '../components/layout/StepByStep'
 import { AppDevelopment } from '../components/layout/_App/AppDevelopment'
@@ -69,6 +70,26 @@ const CRM: React.FC = () => {
         stepThree="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
         stepFour="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
         stepFive="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
+      />
+      <SameWhyBuilding
+        title="Por que você deve investir em segurança de dados?"
+        subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
+        ImageOne="./assets/app/icon.png"
+        TitleImageOne="Lorem ipsum dolor sit amet, consectetur"
+        ImageTwo="./assets/app/icon.png"
+        TitleImageTwo="Lorem ipsum dolor sit amet, consectetur"
+        ImageThree="./assets/app/icon.png"
+        TitleImageThree="Lorem ipsum dolor sit amet, consectetur"
+        ImageFour="./assets/app/icon.png"
+        TitleImageFour="Lorem ipsum dolor sit amet, consectetur"
+        ImageFive="./assets/app/icon.png"
+        TitleImageFive="Lorem ipsum dolor sit amet, consectetur"
+        ImageSix="./assets/app/icon.png"
+        TitleImageSix="Lorem ipsum dolor sit amet, consectetur"
+        ImageSeven="./assets/app/icon.png"
+        TitleImageSeven="Lorem ipsum dolor sit amet, consectetur"
+        ImageEight="./assets/app/icon.png"
+        TitleImageEight="Lorem ipsum dolor sit amet, consectetur"
       />
       <ServicesProducedTwo
         imageOne="./assets/case1.png"

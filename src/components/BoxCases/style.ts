@@ -1,21 +1,34 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  width: 85%;
-  height: 25.5rem;
+  width: 94%;
+  height: 25.7rem;
   border-radius: 3rem;
-  margin: 2.5rem 0;
+  margin: 1rem auto;
   overflow: hidden;
 
   position: relative;
   z-index: 2;
 
   @media (max-width: 900px) {
-    width: 95%;
+    width: 90%;
     height: 25.5rem;
+    margin: 1.5rem auto;
   }
 
   @media (max-width: 700px) {
+    width: 60%;
+    height: 25.5rem;
+  }
+  @media (max-width: 600px) {
+    width: 70%;
+    height: 25.5rem;
+  }
+  @media (max-width: 500px) {
+    width: 80%;
+    height: 25.5rem;
+  }
+  @media (max-width: 400px) {
     width: 100%;
     height: 25.5rem;
   }
