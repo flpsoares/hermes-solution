@@ -4,7 +4,7 @@ import { FloatImage } from '../components/FloatImage'
 import { CustomersServed } from '../components/layout/CustomersServed'
 import { Footer } from '../components/layout/Footer'
 import { Header } from '../components/layout/Header'
-import { ServicesProduced } from '../components/layout/ServicesProduced'
+import { ServicesProducedTwo } from '../components/layout/ServicesProducedTwo'
 import { Team } from '../components/layout/Team'
 import { StepByStep } from '../components/layout/StepByStep'
 import { AppDevelopment } from '../components/layout/_App/AppDevelopment'
@@ -70,7 +70,22 @@ const CRM: React.FC = () => {
         stepFour="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
         stepFive="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
       />
-      <ServicesProduced />
+      <ServicesProducedTwo
+        imageOne="./assets/case1.png"
+        imageOneTitle="Cartões Caixa"
+        imageOneSubTitle="Ux Design"
+        imageTwo="./assets/case1.png"
+        imageTwoTitle="Cartões Caixa"
+        imageTwoSubTitle="Ux Design"
+        imageThree="./assets/case1.png"
+        imageThreeTitle="Cartões Caixa"
+        imageThreeSubTitle="Ux Design"
+        imageFour="./assets/case1.png"
+        imageFourTitle="Cartões Caixa"
+        imageFourSubTitle="Ux Design"
+        title="Alguns cases de sucesso que produzimos"
+        subTitle="Nossos divinWos trabalhos desenvolvidos pelos membros de nossa equipe nos motivam a realizar projetos cada vez mais aprimorados."
+      />
       <CustomersServed />
       <Team isHome={false} />
       <Footer />

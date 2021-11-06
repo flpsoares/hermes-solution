@@ -72,7 +72,22 @@ const DataSecurity: React.FC = () => {
         stepFive="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
       />
       <WhyBuildingDataSecurity />
-      <ServicesProducedTwo />
+      <ServicesProducedTwo
+        imageOne="./assets/case1.png"
+        imageOneTitle="Cartões Caixa"
+        imageOneSubTitle="Ux Design"
+        imageTwo="./assets/case1.png"
+        imageTwoTitle="Cartões Caixa"
+        imageTwoSubTitle="Ux Design"
+        imageThree="./assets/case1.png"
+        imageThreeTitle="Cartões Caixa"
+        imageThreeSubTitle="Ux Design"
+        imageFour="./assets/case1.png"
+        imageFourTitle="Cartões Caixa"
+        imageFourSubTitle="Ux Design"
+        title="Alguns cases de sucesso que produzimos"
+        subTitle="Nossos divinWos trabalhos desenvolvidos pelos membros de nossa equipe nos motivam a realizar projetos cada vez mais aprimorados."
+      />
       <CustomersServed />
       <Team isHome={false} />
       <Footer />
