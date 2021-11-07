@@ -76,7 +76,6 @@ export const ErasedTitle = styled.h1`
 export const DefaultDiv = styled.div`
   display: flex;
   flex-direction: column;
-  /* border: 1px solid white; */
 
   @media (max-width: 990px) {
     justify-content: center;
@@ -130,11 +129,6 @@ export const Services = styled(DefaultDiv)`
     display: grid;
     grid-template-columns: repeat(2, 23rem);
     grid-template-rows: repeat(3, 1fr);
-    /* column-gap: 2rem; */
-
-    li {
-      /* border: 1px solid red; */
-    }
 
     a {
       font-size: 1.4rem;

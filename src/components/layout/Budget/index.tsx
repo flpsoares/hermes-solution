@@ -1,7 +1,6 @@
 /* eslint-disable array-callback-return */
 import React, { useEffect, useState } from 'react'
 import { GlobalContainer } from '../../../styles/container'
-import { FloatImage } from '../../FloatImage'
 import {
   Container,
   Title,
@@ -12,6 +11,7 @@ import {
   Grid,
   Quiz,
   Option,
+  YesOrNo,
   Other,
   OtherInput,
   SubmitButtons,
@@ -29,6 +29,7 @@ import DatePicker from '@amir04lm26/react-modern-calendar-date-picker'
 
 import questions from '../../../questions.json'
 import { useBudget } from '../../../contexts/BudgetContext'
+import { FloatImage } from '../../FloatImage'
 
 interface selectedDayProps {
   day: string
@@ -255,9 +256,7 @@ export const Budget: React.FC = () => {
                 if (step === q.id && !q.hasOption) {
                   if (!calendarIsActive) {
                     return (
-                      <div
-                        style={{ display: 'flex', gap: '2rem', marginTop: '2rem' }}
-                      >
+                      <YesOrNo>
                         <Option
                           onClick={() =>
                             step !== 6 ? next('Sim') : setCalendarIsActive(true)
@@ -266,7 +265,7 @@ export const Budget: React.FC = () => {
                           Sim
                         </Option>
                         <Option onClick={() => next('Não')}>Não</Option>
-                      </div>
+                      </YesOrNo>
                     )
                   } else {
                     return (
@@ -347,7 +346,6 @@ export const Budget: React.FC = () => {
             <ProgressBar>
               <Progress progress={progress} step={step} />
             </ProgressBar>
-            {values}
           </Quiz>
         ) : (
           <FinalMessage>
@@ -362,6 +360,11 @@ export const Budget: React.FC = () => {
         top="1.5rem"
         left="-35rem"
         brightness="0.2"
+        responsive={{
+          1530: { left: '-55rem' },
+          1150: { left: '-75rem' },
+          730: { display: 'none' }
+        }}
       />
       <FloatImage
         src="./assets/broken-circle.png"
@@ -370,6 +373,11 @@ export const Budget: React.FC = () => {
         top="0rem"
         right="0"
         brightness="0.2"
+        responsive={{
+          1440: { width: '26.3rem', height: '25.9rem' },
+          1220: { width: '16.3rem', height: '15.9rem' },
+          960: { width: '16.3rem', height: '15.9rem', brightness: '0.1' }
+        }}
       />
     </Container>
   )
