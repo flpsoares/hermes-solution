@@ -9,6 +9,7 @@ import { Team } from '../components/layout/Team'
 import { StepByStep } from '../components/layout/StepByStep'
 import { WebSitesDevelopment } from '../components/layout/_WebSites/WebSitesDevelopment'
 import { WhyBuildingWebSites } from '../components/layout/_WebSites/WhyBuildingWebsites'
+import { Budget } from '../components/layout/Budget'
 
 const Container = styled.div`
   background: var(--background-secondary);
@@ -75,6 +76,7 @@ const WebSites: React.FC = () => {
       <ServicesProduced />
       <CustomersServed />
       <Team isHome={false} />
+      <Budget />
       <Footer />
     </Container>
   )

@@ -8,6 +8,7 @@ import { Team } from '../components/layout/Team'
 import { EcommerceDevelopment } from '../components/layout/_Ecommerce/EcommerceDevelopment'
 import { WhyBuildingEcommerce } from '../components/layout/_Ecommerce/WhyBuildingEcommerce'
 import { ServicesEcommerce } from '../components/layout/_Ecommerce/ServicesEcommerce'
+import { Budget } from '../components/layout/Budget'
 
 const Container = styled.div`
   background: var(--background-secondary);
@@ -74,6 +75,7 @@ const Ecommerce: React.FC = () => {
       <ServicesEcommerce />
       <CustomersServed />
       <Team isHome={false} />
+      <Budget />
       <Footer />
     </Container>
   )

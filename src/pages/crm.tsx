@@ -8,6 +8,7 @@ import { ServicesProduced } from '../components/layout/ServicesProduced'
 import { Team } from '../components/layout/Team'
 import { StepByStep } from '../components/layout/StepByStep'
 import { CRMDevelopment } from '../components/layout/_CRM/CRMDevelopment'
+import { Budget } from '../components/layout/Budget'
 
 const Container = styled.div`
   background: var(--background-secondary);
@@ -74,6 +75,7 @@ const CRM: React.FC = () => {
       <ServicesProduced />
       <CustomersServed />
       <Team isHome={false} />
+      <Budget />
       <Footer />
     </Container>
   )

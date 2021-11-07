@@ -1,0 +1,40 @@
+[
+  {
+    "id": 1,
+    "question": "Qual é o produto/serviço a ser desenvolvido?",
+    "hasOption": true,
+    "hasOther": true,
+    "options": ["E-commerce", "Sites", "Social mídia", "Tráfego Pago", "SEO", "Inteligência de dados", "CMS/CRM", "App", "Audiovisual", "UX/UI Design e Design Thinking"]
+  },
+  {
+    "id": 2,
+    "question": "Qual é a sua área de atuação?",
+    "hasOption": true,
+    "hasOther": true,
+    "options": ["Tecnologia", "Moda", "Comercial", "Gastronomia", "Marketing", "Publicidade", "Saúde"]
+  },
+  {
+    "id": 3,
+    "question": "Você já possui uma marca?",
+    "hasOption": false,
+    "hasOther": false
+  },
+  {
+    "id": 4,
+    "question": "Você já tem um site?",
+    "hasOption": false,
+    "hasOther": false
+  },
+  {
+    "id": 5,
+    "question": "Possui um canal de vendas para algum produto/serviço?",
+    "hasOption": false,
+    "hasOther": false
+  },
+  {
+    "id": 6,
+    "question": "Tem prazo para o projeto?",
+    "hasOption": false,
+    "hasOther": false
+  }
+]

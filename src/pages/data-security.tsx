@@ -9,6 +9,7 @@ import { DataSecurityDevelopment } from '../components/layout/_DataSecurity/Data
 
 import { WhyBuildingDataSecurity } from '../components/layout/_DataSecurity/WhyBuildingDataSecurity'
 import { ServicesProducedTwo } from '../components/layout/ServicesProducedTwo'
+import { Budget } from '../components/layout/Budget'
 
 const Container = styled.div`
   background: var(--background-secondary);
@@ -72,9 +73,10 @@ const DataSecurity: React.FC = () => {
         stepFive="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
       />
       <WhyBuildingDataSecurity />
-      <ServicesProducedTwo />
+      {/* <ServicesProducedTwo /> */}
       <CustomersServed />
       <Team isHome={false} />
+      <Budget />
       <Footer />
     </Container>
   )
