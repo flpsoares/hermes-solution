@@ -191,7 +191,6 @@ export const Other = styled.div`
     display: flex;
     justify-content: center;
     gap: 1rem;
-    border: 1px solid red;
 
     @media (max-width: 330px) {
       gap: 0.5rem;
