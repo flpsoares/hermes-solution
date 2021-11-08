@@ -6,10 +6,10 @@ import { Header } from '../components/layout/Header'
 import { StepByStep } from '../components/layout/StepByStep'
 import { Team } from '../components/layout/Team'
 import { EcommerceDevelopment } from '../components/layout/_Ecommerce/EcommerceDevelopment'
-import { WhyBuildingEcommerce } from '../components/layout/_Ecommerce/WhyBuildingEcommerce'
 import { ServicesEcommerce } from '../components/layout/_Ecommerce/ServicesEcommerce'
 import { Budget } from '../components/layout/Budget'
 import { ServicesProducedTwo } from '../components/layout/ServicesProducedTwo'
+import { SameWhyBuildingTwo } from '../components/SameWhyBuildingTwo'
 
 const Container = styled.div`
   background: var(--background-secondary);
@@ -72,7 +72,23 @@ const Ecommerce: React.FC = () => {
         stepFour="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
         stepFive="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
       />
-      <WhyBuildingEcommerce />
+      <SameWhyBuildingTwo
+        title="Por que devemos construir seu E-commerce?"
+        subTitle=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+          bibendum laoreet. Proin gravida dolor sit amet lacus"
+        imageOne="./assets/ecommerce/icon-1.png"
+        titleImageOne="Lorem ipsum dolor sit amet, consectetur"
+        imageTwo="./assets/ecommerce/icon-1.png"
+        titleImageTwo="Lorem ipsum dolor sit amet, consectetur"
+        imageThree="./assets/ecommerce/icon-1.png"
+        titleImageThree="Lorem ipsum dolor sit amet, consectetur"
+        imageFour="./assets/ecommerce/icon-1.png"
+        titleImageFour="Lorem ipsum dolor sit amet, consectetur"
+        imageFive="./assets/ecommerce/icon-1.png"
+        titleImageFive="Lorem ipsum dolor sit amet, consectetur"
+        photoContainer="./assets/ecommerce/banner-2.png"
+      />
+
       <ServicesProducedTwo
         imageOne="./assets/case1.png"
         imageOneTitle="Cartões Caixa"
