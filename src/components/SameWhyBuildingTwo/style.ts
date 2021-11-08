@@ -1,63 +1,68 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  padding: 15rem 0 15rem 20rem;
-
-  @media (max-width: 1326px) {
-    padding: 15rem 2rem;
-  }
+  position: relative;
 `
 
+export const ContainerTwo = styled.div``
+
 export const Title = styled.div`
-  display: flex;
+  display: grid;
+  grid-template-columns: 30% 15% 55%;
   align-items: center;
 
-  padding-right: 25rem;
   margin-bottom: 3rem;
 
   h1 {
     font-size: 4.2rem;
     font-weight: 500;
+    line-height: 4.3rem;
   }
 
   div {
+    margin: 0 auto;
     height: 10rem;
-    width: 4px;
+    width: 3px;
     background-color: var(--primary);
-    margin: 0 5rem;
   }
 
   p {
     font-size: 1.7rem;
     font-weight: 200;
     line-height: 2.8rem;
-    padding-right: 5rem;
+    margin-right: 15rem;
   }
 
-  @media (max-width: 1326px) {
-    padding-right: 0rem;
-  }
-  @media (max-width: 700px) {
-    padding-right: 0rem;
-    flex-direction: column;
-    text-align: center;
-    div {
-      height: 4px;
-      width: 10rem;
-      background-color: var(--primary);
-      margin: 5rem 0;
-    }
+  @media (max-width: 1200px) {
+    display: grid;
+    grid-template-columns: 45% 10% 45%;
+    align-items: center;
     p {
+      width: 100%;
+
       font-size: 1.7rem;
       font-weight: 200;
       line-height: 2.8rem;
-      padding-right: 0rem;
+      margin-right: 0rem;
+    }
+  }
+  @media (max-width: 700px) {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    div {
+      margin: 0 auto;
+      height: 3px;
+      width: 10rem;
+      background-color: var(--primary);
+      margin: 2rem 0;
     }
   }
 `
 export const Content = styled.div`
   display: grid;
-  grid-template-columns: 30% 80%;
+  grid-template-columns: 40% 70%;
 
   @media (max-width: 1326px) {
     grid-template-columns: 100%;
@@ -125,7 +130,6 @@ export const PhotoContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-right: 17rem;
 
   img {
     width: 70rem;

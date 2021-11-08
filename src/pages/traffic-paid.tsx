@@ -12,7 +12,7 @@ const Top = styled.div`
   position: relative;
 `
 
-const PaidTraffic: React.FC = () => {
+const TrafficPaid: React.FC = () => {
   return (
     <Container>
       <Top>
@@ -59,4 +59,4 @@ const PaidTraffic: React.FC = () => {
   )
 }
 
-export default PaidTraffic
+export default TrafficPaid
