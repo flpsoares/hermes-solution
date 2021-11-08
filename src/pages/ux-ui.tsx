@@ -5,7 +5,6 @@ import { Header } from '../components/layout/Header'
 
 import { StepByStep } from '../components/layout/StepByStep'
 
-import { CRMDevelopment } from '../components/layout/_CRM/CRMDevelopment'
 import { FloatImage } from '../components/FloatImage'
 import GoodExperience from '../components/layout/_Uxui/GoodExperience'
 import { SameWhyBuildingTwo } from '../components/SameWhyBuildingTwo'
@@ -13,6 +12,7 @@ import { ServicesProducedTwo } from '../components/layout/ServicesProducedTwo'
 import { Team } from '../components/layout/Team'
 import { CustomersServed } from '../components/layout/CustomersServed'
 import { Budget } from '../components/layout/Budget'
+import { UxuiDevelopment } from '../components/layout/_Uxui/UxuiDevelopment'
 
 const Container = styled.div`
   background: var(--background-secondary);
@@ -64,7 +64,7 @@ const Uxui = () => {
           }}
         />
         <Header background="var(--background-secondary)" />
-        <CRMDevelopment />
+        <UxuiDevelopment />
       </Top>
       <StepByStep
         title="Entenda o"
