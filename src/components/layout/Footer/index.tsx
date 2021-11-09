@@ -40,32 +40,32 @@ export const Footer: React.FC = () => {
                 <Title>Serviços</Title>
                 <ul>
                   <li>
-                    <a href="#">E-commerce</a>
+                    <a href="/e-commerce">E-commerce</a>
                   </li>
                   <li>
-                    <a href="#">CMS e CRM</a>
+                    <a href="/crm">CMS e CRM</a>
                   </li>
                   <li>
-                    <a href="#">Sites</a>
+                    <a href="/websites">Sites</a>
                   </li>
                   <li>
-                    <a href="#">App</a>
+                    <a href="/app">App</a>
                   </li>
                   <li>
-                    <a href="#">Social media</a>
+                    <a href="/social-media">Social media</a>
                   </li>
 
                   <li>
-                    <a href="#">Audiovisual</a>
+                    <a href="/audio-visual">Audiovisual</a>
                   </li>
                   <li>
-                    <a href="#">Tráfego Pago/SEO</a>
+                    <a href="/traffic-paid">Tráfego Pago/SEO</a>
                   </li>
                   <li>
-                    <a href="#">UX/UI Design e Design Thinking</a>
+                    <a href="/ux-ui">UX/UI Design e Design Thinking</a>
                   </li>
                   <li>
-                    <a href="#">Inteligência de dados</a>
+                    <a href="/data-security">Inteligência de dados</a>
                   </li>
                 </ul>
               </Wrapper>

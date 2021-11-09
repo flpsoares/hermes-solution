@@ -5,7 +5,7 @@ export const Container = styled.div`
 `
 
 export const Main = styled.div`
-  padding: 15rem 0rem;
+  padding-top: 15rem;
 `
 
 export const Title = styled.div`
