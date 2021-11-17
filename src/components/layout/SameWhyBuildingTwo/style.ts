@@ -8,13 +8,14 @@ export const Wrapper = styled.div``
 
 export const Title = styled.div`
   display: grid;
-  grid-template-columns: 30% 15% 55%;
+  grid-template-columns: 40% 15% 45%;
   align-items: center;
 
-  margin-bottom: 3rem;
+  margin-top: 8rem;
+  margin-bottom: 5rem;
 
   h1 {
-    font-size: 4.2rem;
+    font-size: 4rem;
     font-weight: 500;
     line-height: 4.3rem;
   }
@@ -30,7 +31,7 @@ export const Title = styled.div`
     font-size: 1.7rem;
     font-weight: 200;
     line-height: 2.8rem;
-    margin-right: 15rem;
+    margin-right: 10rem;
   }
 
   @media (max-width: 1200px) {
@@ -46,6 +47,7 @@ export const Title = styled.div`
       margin-right: 0rem;
     }
   }
+
   @media (max-width: 700px) {
     display: flex;
     flex-direction: column;
@@ -60,6 +62,7 @@ export const Title = styled.div`
     }
   }
 `
+
 export const Content = styled.div`
   display: grid;
   grid-template-columns: 40% 70%;
@@ -106,7 +109,7 @@ export const WhyInfos = styled.div`
   }
 
   p {
-    font-size: 2rem;
+    font-size: 1.6rem;
     b {
       font-weight: 600;
     }

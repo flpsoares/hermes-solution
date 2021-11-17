@@ -14,18 +14,18 @@ import {
 
 interface SameWhyBuildingTwoProps {
   title: string
-  subTitle: string
-  imageOne: string
-  titleImageOne: string
-  imageTwo: string
-  titleImageTwo: string
-  imageThree: string
-  titleImageThree: string
-  imageFour: string
-  titleImageFour: string
-  imageFive: string
-  titleImageFive: string
-  photoContainer: string
+  subTitle?: string
+  imageOne?: string
+  titleImageOne?: string
+  imageTwo?: string
+  titleImageTwo?: string
+  imageThree?: string
+  titleImageThree?: string
+  imageFour?: string
+  titleImageFour?: string
+  imageFive?: string
+  titleImageFive?: string
+  photoContainer?: string
 }
 
 export const SameWhyBuildingTwo: React.FC<SameWhyBuildingTwoProps> = (props) => {
@@ -60,7 +60,7 @@ export const SameWhyBuildingTwo: React.FC<SameWhyBuildingTwoProps> = (props) => 
                 <img src={props.imageFive} alt="" />
                 <p>{props.titleImageFive}</p>
               </WhyInfos>
-              <YellowLink width="263px" height="52px" margintop="2rem" link="">
+              <YellowLink width="263px" height="52px" margintop="2rem" link="budget">
                 Simule um orçamento
               </YellowLink>
             </Infos>

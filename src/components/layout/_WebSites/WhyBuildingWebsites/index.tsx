@@ -64,7 +64,7 @@ export const WhyBuildingWebSites = () => {
               contato e links para criar um feedback do seu produto
             </p>
           </WhyInfos>
-          <YellowLink width="263px" height="52px" link="" margintop="0rem">
+          <YellowLink width="263px" height="52px" link="budget" margintop="3rem">
             Simule um orçamento
           </YellowLink>
         </Infos>

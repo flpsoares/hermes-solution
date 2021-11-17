@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   width: 100%;
+  position: relative;
 `
 
 export const Wrapper = styled.div`
@@ -53,14 +54,12 @@ export const Photos = styled.div`
 `
 
 export const Info = styled.div`
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 50%);
   padding-right: 2rem;
 
   @media (max-width: 700px) {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    grid-template-columns: 100%;
   }
 `

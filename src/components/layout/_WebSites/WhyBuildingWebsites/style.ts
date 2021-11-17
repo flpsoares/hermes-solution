@@ -12,7 +12,6 @@ export const Title = styled.div`
   display: flex;
   align-items: center;
 
-  padding-right: 40rem;
   margin-bottom: 3rem;
 
   h1 {
@@ -57,7 +56,7 @@ export const Title = styled.div`
 `
 export const Content = styled.div`
   display: grid;
-  grid-template-columns: 30% 80%;
+  grid-template-columns: 35% 65%;
 
   @media (max-width: 1326px) {
     grid-template-columns: 100%;
@@ -93,7 +92,7 @@ export const WhyInfos = styled.div`
   display: flex;
   align-items: center;
 
-  margin: 2.5rem 0;
+  margin: 2.5rem 0.3rem;
 
   img {
     width: 6rem;
@@ -106,6 +105,11 @@ export const WhyInfos = styled.div`
       font-weight: 600;
     }
   }
+  @media (max-width: 1420px) {
+    p {
+      font-size: 1.5rem;
+    }
+  }
 
   @media (max-width: 420px) {
     p {
@@ -116,9 +120,13 @@ export const WhyInfos = styled.div`
 
 export const Photo = styled.div`
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding-left: 2rem;
+
+  @media (max-width: 1325px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 `
 
 export const PhotoContainer = styled.div`
@@ -126,25 +134,23 @@ export const PhotoContainer = styled.div`
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  height: 100%;
-  width: 100%;
-
+  width: 115rem;
+  height: 80rem;
   display: flex;
   align-items: center;
   justify-content: center;
 
-  padding-top: 6rem;
-
-  img {
-    width: 75%;
-    height: 90%;
+  @media (max-width: 1325px) {
+    width: 100%;
+    height: 86rem;
   }
 
-  @media (max-width: 1326px) {
-    padding: 10%;
-    img {
-      width: 100%;
-      height: 100%;
+  img {
+    width: 105rem;
+    height: 60rem;
+    @media (max-width: 1325px) {
+      width: 90%;
+      height: auto;
     }
   }
 `

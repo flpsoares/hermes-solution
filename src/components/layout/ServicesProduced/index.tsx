@@ -40,151 +40,60 @@ export const ServicesProduced = () => {
               Nossos divinos trabalhos desenvolvidos pelos membros de nossa equipe
               nos motivam a realizar projetos cada vez mais aprimorados.{' '}
             </p>
-            <LinkButtons link="#" children="Simule um orçamento" size="1rem" />
+            <LinkButtons link="#budget" children="Simule um orçamento" size="1rem" />
           </Photos>
         </Wrapper>
       </GlobalContainer>
       <FloatImage
         src="./assets/hexagon.png"
-        width="90rem"
-        height="60rem"
-        rotate="375"
-        top="277rem"
-        left="0rem"
+        width="92.5rem"
+        height="58rem"
+        rotate="380"
+        top="1.7rem"
+        left="-3rem"
         responsive={{
-          1540: {
-            left: '-10rem'
+          1464: {
+            top: '3rem',
+            width: '88.5rem',
+            height: '54rem'
           },
-          1326: {
-            top: '320rem',
-            left: '-10rem',
-            width: '80rem',
-            height: '50rem'
+          1384: {
+            top: '6rem',
+            width: '82.5rem',
+            height: '48rem'
           },
-          1240: {
-            top: '320rem',
-            left: '-10rem',
-            width: '80rem',
-            height: '50rem'
+          1272: {
+            top: '10rem',
+            width: '72.5rem',
+            height: '38rem'
           },
-          1220: {
-            top: '320rem',
-            left: '-10rem',
-            width: '80rem',
-            height: '50rem'
+          1152: {
+            top: '10rem',
+            width: '62.5rem',
+            height: '38rem'
           },
-          1161: {
-            top: '310rem',
-            left: '-15rem',
-            width: '80rem',
-            height: '50rem'
+          984: {
+            top: '15rem',
+            width: '57.5rem',
+            height: '38rem'
           },
-          1100: {
-            top: '320rem',
-            left: '-15rem',
-            width: '80rem',
-            height: '50rem'
+          900: {
+            top: '6rem',
+            width: '82.5rem',
+            height: '48rem'
           },
-          1095: {
-            top: '325rem',
-            left: '-14rem',
-            width: '80rem',
-            height: '50rem'
+          770: {
+            top: '9rem',
+            width: '79.5rem',
+            height: '45rem'
           },
-          1076: {
-            top: '315rem',
-            left: '-14rem',
-            width: '80rem',
-            height: '50rem'
-          },
-          1020: {
-            top: '320rem',
-            left: '-20rem',
-            width: '80rem',
-            height: '50rem'
-          },
-          950: {
-            top: '335rem',
-            left: '-20rem',
-            width: '80rem',
-            height: '50rem'
-          },
-          942: {
-            top: '310rem',
-            left: '-2rem',
-            width: '85rem',
-            height: '55rem',
-            brightness: '0.1'
-          },
-          894: {
-            top: '335rem',
-            left: '2rem',
-            width: '75rem',
-            height: '45rem',
-            brightness: '0.1'
-          },
-          816: {
-            top: '335rem',
-            left: '2rem',
-            width: '70rem',
-            height: '40rem',
-            brightness: '0.1'
-          },
-          768: {
-            top: '335rem',
-            left: '2rem',
-            width: '65rem',
-            height: '35rem',
-            brightness: '0.1'
-          },
-          730: {
-            top: '350rem',
-            left: '2rem',
-            width: '65rem',
-            height: '35rem',
-            brightness: '0.1'
-          },
-          708: {
-            top: '350rem',
-            left: '2rem',
-            width: '60rem',
-            height: '30rem',
-            brightness: '0.1'
+          740: {
+            top: '12rem',
+            width: '75.5rem',
+            height: '41rem'
           },
           700: {
-            top: '475rem',
-            left: '2rem',
-            width: '60rem',
-            height: '30rem',
-            brightness: '0.1'
-          },
-          650: {
-            top: '490rem',
-            left: '-6rem',
-            width: '50rem',
-            height: '20rem',
-            brightness: '0.1'
-          },
-          630: {
-            top: '490rem',
-            left: '-6rem',
-            width: '50rem',
-            height: '20rem',
-            brightness: '0.1'
-          },
-          500: {
-            top: '490rem',
-            left: '-16rem',
-            width: '50rem',
-            height: '20rem',
-            brightness: '0.1'
-          },
-          400: {
-            top: '490rem',
-            left: '-26rem',
-            width: '50rem',
-            height: '20rem',
-            brightness: '0.1'
+            display: 'none'
           }
         }}
       />
@@ -194,38 +103,11 @@ export const ServicesProduced = () => {
         height="77px"
         animation="vertical"
         rotate="32"
-        top="270rem"
-        right="30rem"
+        top="-4rem"
+        right="31rem"
         responsive={{
-          1160: {
-            top: '300rem'
-          },
-          1030: {
-            top: '300rem'
-          },
-          900: {
-            top: '300rem',
-            right: '10rem'
-          },
-          700: {
-            top: '340rem',
-            right: '10rem'
-          },
-          470: {
-            top: '390rem',
-            right: '10rem'
-          },
-          412: {
-            top: '400rem',
-            right: '10rem'
-          },
-          402: {
-            top: '410rem',
-            right: '10rem'
-          },
-          374: {
-            top: '420rem',
-            right: '10rem'
+          420: {
+            right: '20rem'
           }
         }}
       />

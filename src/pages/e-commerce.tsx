@@ -72,37 +72,17 @@ const Ecommerce: React.FC = () => {
         stepFive="Entrega do projeto: o projeto entra em processo de finalização sempre de acordo com o direcionamento do cliente até que o mesmo fique satisfeito."
       />
       <SameWhyBuildingTwo
-        title="Por que devemos construir seu E-commerce?"
-        subTitle=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
-          bibendum laoreet. Proin gravida dolor sit amet lacus"
+        title="Como podemos fazer do seu comércio, um comércio de sucesso"
+        subTitle=" Com boas estratégias de marketing, seja orgânico ou pago, estudo de seu público e organização, suas conversões com certeza vão aumentar, venha conosco para seu crescimento"
         imageOne="./assets/ecommerce/icon-1.png"
-        titleImageOne="Lorem ipsum dolor sit amet, consectetur"
+        titleImageOne="O crescimento de comércios digitais, e com isso, o crescimento da concorrência também é grande, e por isso é de grande importância ter ótimos profissionais para te ajudar na criação e estratégia de seu comércio."
         imageTwo="./assets/ecommerce/icon-1.png"
-        titleImageTwo="Lorem ipsum dolor sit amet, consectetur"
+        titleImageTwo="Ter uma boa estratégia também não garante conversão, um site bem estruturado e bem escrito é fundamental para uma venda de produtos, com os nossos profissionais, toda a estrutura virá de boa qualidade, com o seu acompanhamento."
         imageThree="./assets/ecommerce/icon-1.png"
-        titleImageThree="Lorem ipsum dolor sit amet, consectetur"
+        titleImageThree="A organização que um E-commerce pode trazer a sua empresa é de muita importância, com controle de estoque, saída e entrada de produtos, entre outros, vai facilitar seu desenvolvimento no trabalho. "
         imageFour="./assets/ecommerce/icon-1.png"
-        titleImageFour="Lorem ipsum dolor sit amet, consectetur"
-        imageFive="./assets/ecommerce/icon-1.png"
-        titleImageFive="Lorem ipsum dolor sit amet, consectetur"
+        titleImageFour="O Brasil é o terceiro país que mais faz compras pela internet. O País lidera ainda o ranking de comércio eletrônico na América Latina, com participação nas compras de 59,1%."
         photoContainer="./assets/ecommerce/banner-2.png"
-      />
-
-      <ServicesProducedTwo
-        imageOne="./assets/case1.png"
-        imageOneTitle="Cartões Caixa"
-        imageOneSubTitle="Ux Design"
-        imageTwo="./assets/case1.png"
-        imageTwoTitle="Cartões Caixa"
-        imageTwoSubTitle="Ux Design"
-        imageThree="./assets/case1.png"
-        imageThreeTitle="Cartões Caixa"
-        imageThreeSubTitle="Ux Design"
-        imageFour="./assets/case1.png"
-        imageFourTitle="Cartões Caixa"
-        imageFourSubTitle="Ux Design"
-        title="Alguns cases de sucesso que produzimos"
-        subTitle="Nossos divinWos trabalhos desenvolvidos pelos membros de nossa equipe nos motivam a realizar projetos cada vez mais aprimorados."
       />
       <CustomersServed />
       <Team isHome={false} />
