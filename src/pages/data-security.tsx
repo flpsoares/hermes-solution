@@ -3,7 +3,7 @@ import { FloatImage } from '../components/FloatImage'
 import { CustomersServed } from '../components/layout/CustomersServed'
 import { Footer } from '../components/layout/Footer'
 import { Header } from '../components/layout/Header'
-import { StepByStep } from '../components/layout/StepByStep'
+import { StepByStep4 } from '../components/layout/StepByStep4'
 import { Team } from '../components/layout/Team'
 import { DataSecurityDevelopment } from '../components/layout/_DataSecurity/DataSecurityDevelopment'
 
@@ -63,14 +63,13 @@ const DataSecurity: React.FC = () => {
         <Header background="var(--background-secondary)" />
         <DataSecurityDevelopment />
       </Top>
-      <StepByStep
+      <StepByStep4
         title="Entenda"
         subTitle="Como fazemos"
-        stepOne="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
-        stepTwo="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
-        stepThree="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
-        stepFour="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
-        stepFive="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
+        stepOne="Verificação: Reconhecimento e análise do sistema para coleta de informações."
+        stepTwo="Análise de informações e risco: Reconhecimento de tentativas de invasão e pequeno relatório sobre possíveis tentativas futuras."
+        stepThree="Tentativas: Realização de testes no sistema."
+        stepFour="Análise final: Reconhecimentos gerais do funcionamento do sistema de segurança."
       />
       <SameWhyBuilding
         title="Por que você deve investir em segurança de dados?"

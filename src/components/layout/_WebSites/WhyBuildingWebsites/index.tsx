@@ -16,11 +16,12 @@ export const WhyBuildingWebSites = () => {
   return (
     <Container>
       <Title>
-        <h1>Por que devemos construir seu Website?</h1>
+        <h1>Porque devemos construir sua Vitrine</h1>
         <div></div>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
-          bibendum laoreet. Proin gravida dolor sit amet lacus
+          Transformamos o seu produto digital em um obra de arte divina! Vamos
+          transformar todo o seu trabalho em conversão de forma moderna e criativa,
+          para assim, chamar o seu público alvo a conhecer o seu comércio.
         </p>
       </Title>
       <Content>
@@ -28,31 +29,39 @@ export const WhyBuildingWebSites = () => {
           <WhyInfos>
             <img src="./assets/services-icons/icone-07.png" alt="" />
             <p>
-              Lorem <b>ipsum dolor sit</b> amet, consectetur
+              87% da população brasileira entrou em contato com o mundo digital pela
+              primeira vez através do WebSite, tornando-se um dos maiores recursos
+              digitais.
             </p>
           </WhyInfos>
           <WhyInfos>
             <img src="./assets/services-icons/icone-07.png" alt="" />
             <p>
-              Lorem <b>ipsum dolor sit</b> amet, consectetur
+              Seu projeto orientado para conversão, iremos apresentar o seu produto
+              de forma eficiente e única, para surpreender você e seus futuros
+              clientes.
             </p>
           </WhyInfos>
           <WhyInfos>
             <img src="./assets/services-icons/icone-07.png" alt="" />
             <p>
-              Lorem <b>ipsum dolor sit</b> amet, consectetur
+              A melhor forma de criar afinidade com o público, recursos fáceis de
+              usar e atualizar, para melhor experiência a todos.
             </p>
           </WhyInfos>
           <WhyInfos>
             <img src="./assets/services-icons/icone-07.png" alt="" />
             <p>
-              Lorem <b>ipsum dolor sit</b> amet, consectetur
+              Vamos juntos, usando as ferramentas certas, enaltecer o seu produto
+              fazendo com que o seu público alvo, sinta ainda mais necessidade de ter
+              o seu serviço.
             </p>
           </WhyInfos>
           <WhyInfos>
             <img src="./assets/services-icons/icone-07.png" alt="" />
             <p>
-              Lorem <b>ipsum dolor sit</b> amet, consectetur
+              Facilita a comunicação com o seu cliente, deixando suas formas de
+              contato e links para criar um feedback do seu produto
             </p>
           </WhyInfos>
           <YellowLink width="263px" height="52px" link="" margintop="0rem">

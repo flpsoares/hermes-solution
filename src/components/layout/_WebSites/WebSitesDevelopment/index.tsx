@@ -4,7 +4,14 @@ import { TransparentLink } from '../../../TransparentLink'
 import { YellowLink } from '../../../YellowLink'
 import { Container, Wrapper, Title, Info, SubInfo, ButtonsArea } from './style'
 
+import Carousel from 'react-elastic-carousel'
+import { useRef } from 'react'
+
 export const WebSitesDevelopment: React.FC = () => {
+  const carouselRef = useRef(null)
+  const totalPages = 3
+  let resetTimeout
+
   return (
     <Container>
       <GlobalContainer>
@@ -13,19 +20,40 @@ export const WebSitesDevelopment: React.FC = () => {
             <p>Desenvolvimento de</p>
             <h1>Websites</h1>
           </Title>
-          <Info>
-            Orientada para conversão, a Landing Page, é uma página básica de
-            apresentação, com o intuito de demonstrar o seu trabalho e chamar a
-            atenção dos usuários destacando seus diferenciais e enaltecendo os
-            aspectos mais importantes da sua marca.
-          </Info>
-          <SubInfo>
-            Muito relevante para aqueles que querem ter um e-commerce em redes
-            sociais, são ótimos para criar afinidade com o público e facilitar a
-            comunicação com a marca. 72% da população brasileira tiveram contato com
-            o mundo digital em 2020 através de landing pages, tornando assim, um
-            recurso popular entre os e-commerces.
-          </SubInfo>
+          <Carousel
+            ref={carouselRef}
+            enableAutoPlay={true}
+            autoPlaySpeed={10000}
+            onNextEnd={({ index }) => {
+              clearTimeout(resetTimeout)
+              if (index + 1 === totalPages) {
+                resetTimeout = setTimeout(() => {
+                  carouselRef.current.goTo(0)
+                }, 10000)
+              }
+            }}
+            className="carousel"
+            showArrows={false}
+            isRTL={false}
+          >
+            <Info>
+              <b>Landing Page</b> - Orientada para conversão, a Landing Page, é uma
+              página básica de apresentação, com o intuito de demonstrar o seu
+              trabalho e chamar a atenção dos usuários destacando seus diferenciais e
+              enaltecendo os aspectos mais importantes da sua marca
+            </Info>
+            <Info>
+              <b>Blog</b> - Os blogs têm como função atualizar diariamente o público
+              ou clientes com informações e conteúdos, através dessa comunicação a
+              empresa mantém mais contato de uma forma mais pessoal e cativante,
+              criando uma relação estável
+            </Info>
+            <Info>
+              <b>Sites</b> - Tenha sua página para qualquer finalidade, tenha o
+              melhor desenvolvimentos para a divulgação de suas ideias e projetos,
+              tenha seus views ou conversões mostrando seu diferencial a todos.
+            </Info>
+          </Carousel>
           <ButtonsArea>
             <TransparentLink link="#" width="18.9rem" height="5.3rem">
               Conheça o serviço

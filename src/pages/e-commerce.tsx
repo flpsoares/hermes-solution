@@ -3,13 +3,12 @@ import { FloatImage } from '../components/FloatImage'
 import { CustomersServed } from '../components/layout/CustomersServed'
 import { Footer } from '../components/layout/Footer'
 import { Header } from '../components/layout/Header'
-import { StepByStep } from '../components/layout/StepByStep'
+import { StepByStep5 } from '../components/layout/StepByStep5'
 import { Team } from '../components/layout/Team'
 import { EcommerceDevelopment } from '../components/layout/_Ecommerce/EcommerceDevelopment'
-import { ServicesEcommerce } from '../components/layout/_Ecommerce/ServicesEcommerce'
 import { Budget } from '../components/layout/Budget'
 import { ServicesProducedTwo } from '../components/layout/ServicesProducedTwo'
-import { SameWhyBuildingTwo } from '../components/SameWhyBuildingTwo'
+import { SameWhyBuildingTwo } from '../components/layout/SameWhyBuildingTwo'
 
 const Container = styled.div`
   background: var(--background-secondary);
@@ -63,14 +62,14 @@ const Ecommerce: React.FC = () => {
         <Header background="var(--background-secondary)" />
         <EcommerceDevelopment />
       </Top>
-      <StepByStep
+      <StepByStep5
         title="Entenda o"
         subTitle="Passo a Passo"
-        stepOne="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
-        stepTwo="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
-        stepThree="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
-        stepFour="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
-        stepFive="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
+        stepOne="Elaboração de briefing: A equipe entrevista o cliente para compreender e conseguir entender as demandas do projeto"
+        stepTwo="Criação da arquitetura gráfica: o arquiteto gráfico realiza o desenvolvimento do protótipo de uma arquitetura dentro dos padrões pré-acordados com o cliente"
+        stepThree="Criação gráfico artístico: A arte gráfica é criada pelo designer a partir do cliente que dá seus direcionamentos ao projeto."
+        stepFour="Desenvolvimento tecnológico: Seu projeto é realizado tecnologicamente por uma equipe de desenvolvedores."
+        stepFive="Entrega do projeto: o projeto entra em processo de finalização sempre de acordo com o direcionamento do cliente até que o mesmo fique satisfeito."
       />
       <SameWhyBuildingTwo
         title="Por que devemos construir seu E-commerce?"

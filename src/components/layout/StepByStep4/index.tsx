@@ -4,24 +4,22 @@ import { FloatImage } from '../../FloatImage'
 import { Step } from '../../Step'
 import { Container, Title, Wrapper, Content, StepsImage, StepsArea } from './style'
 
-interface StepByStepProps {
+interface StepByStep4Props {
   title: string
   subTitle: string
   stepOne: string
   stepTwo: string
   stepThree: string
   stepFour: string
-  stepFive: string
 }
 
-export const StepByStep: React.FC<StepByStepProps> = ({
+export const StepByStep4: React.FC<StepByStep4Props> = ({
   title,
   subTitle,
   stepOne,
   stepTwo,
   stepThree,
-  stepFour,
-  stepFive
+  stepFour
 }) => {
   return (
     <Container>
@@ -32,16 +30,15 @@ export const StepByStep: React.FC<StepByStepProps> = ({
             <h1>{subTitle}</h1>
           </Title>
           <Content>
-            <StepsImage src="./assets/steps.png" />
+            <StepsImage src="./assets/steps4.png" />
             <StepsArea>
               <Step
                 stepNumber="1"
                 isAbsolute={true}
-                left="-5rem;"
+                left="5rem;"
                 top="-12rem"
                 responsive={{
-                  1315: { left: '5rem' },
-                  1145: { left: '2rem' },
+                  1200: { left: '7rem' },
                   1100: { isAbsolute: false }
                 }}
                 content={stepOne}
@@ -49,11 +46,8 @@ export const StepByStep: React.FC<StepByStepProps> = ({
               <Step
                 stepNumber="2"
                 isAbsolute={true}
-                left="25rem;"
+                left="35rem;"
                 responsive={{
-                  1315: { left: '30rem' },
-                  1200: { left: '28rem' },
-                  1145: { left: '24rem' },
                   1100: { isAbsolute: false }
                 }}
                 content={stepTwo}
@@ -61,11 +55,10 @@ export const StepByStep: React.FC<StepByStepProps> = ({
               <Step
                 stepNumber="3"
                 isAbsolute={true}
-                left="55rem;"
+                left="70rem"
                 top="-12rem"
                 responsive={{
-                  1200: { left: '50rem' },
-                  1145: { left: '46rem' },
+                  1200: { left: '63rem' },
                   1100: { isAbsolute: false }
                 }}
                 content={stepThree}
@@ -73,29 +66,12 @@ export const StepByStep: React.FC<StepByStepProps> = ({
               <Step
                 stepNumber="4"
                 isAbsolute={true}
-                left="82rem;"
+                left="97rem;"
                 responsive={{
-                  1315: { left: '78rem' },
-                  1200: { left: '72rem' },
-                  1145: { left: '68rem' },
-
+                  1200: { left: '87rem' },
                   1100: { isAbsolute: false }
                 }}
                 content={stepFour}
-              />
-              <Step
-                stepNumber="5"
-                isAbsolute={true}
-                left="105rem;"
-                top="-12rem"
-                responsive={{
-                  1315: { left: '100rem' },
-                  1200: { left: '94rem' },
-                  1145: { left: '90rem' },
-
-                  1100: { isAbsolute: false }
-                }}
-                content={stepFive}
               />
             </StepsArea>
           </Content>

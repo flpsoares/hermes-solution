@@ -6,7 +6,7 @@ import { Footer } from '../components/layout/Footer'
 import { Header } from '../components/layout/Header'
 import { SameWhyBuilding } from '../components/layout/SameWhyBuilding'
 import { Team } from '../components/layout/Team'
-import { StepByStep } from '../components/layout/StepByStep'
+import { StepByStep4 } from '../components/layout/StepByStep4'
 import { CRMDevelopment } from '../components/layout/_CRM/CRMDevelopment'
 import { Budget } from '../components/layout/Budget'
 import { ServicesProducedTwo } from '../components/layout/ServicesProducedTwo'
@@ -63,14 +63,13 @@ const CRM: React.FC = () => {
         <Header background="var(--background-secondary)" />
         <CRMDevelopment />
       </Top>
-      <StepByStep
+      <StepByStep4
         title="Entenda o"
         subTitle="Passo a passo"
-        stepOne="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
-        stepTwo="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
-        stepThree="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
-        stepFour="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
-        stepFive="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
+        stepOne="Identificação de desafios: procuramos com você, o que pode estar dificultando sua comunicação com os clientes"
+        stepTwo="Localize a jornada de seu consumidor: Ache como os clientes mais entram em contato com você e veja o melhor processo de venda até agora."
+        stepThree="Reveja resultados: Veja o que deu certo e o que pode melhorar conosco, para melhoria de resultado"
+        stepFour="Definição de nova CRM: Ao definir, ficar ligado em novos eventos e lançamentos, acompanhamos tudo para melhor resultado e correção técnicas"
       />
       <SameWhyBuilding
         title="Por que você deve investir em segurança de dados?"

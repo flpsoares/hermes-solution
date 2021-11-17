@@ -7,7 +7,7 @@ import { Header } from '../components/layout/Header'
 import { ServicesProducedTwo } from '../components/layout/ServicesProducedTwo'
 import { SameWhyBuilding } from '../components/layout/SameWhyBuilding'
 import { Team } from '../components/layout/Team'
-import { StepByStep } from '../components/layout/StepByStep'
+import { StepByStep5 } from '../components/layout/StepByStep5'
 import { AppDevelopment } from '../components/layout/_App/AppDevelopment'
 import { Budget } from '../components/layout/Budget'
 
@@ -63,15 +63,6 @@ const CRM: React.FC = () => {
         <Header background="var(--background-secondary)" />
         <AppDevelopment />
       </Top>
-      <StepByStep
-        title="Entenda o"
-        subTitle="Passo a passo"
-        stepOne="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
-        stepTwo="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
-        stepThree="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
-        stepFour="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
-        stepFive="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
-      />
       <SameWhyBuilding
         title="Por que você deve investir em segurança de dados?"
         subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"

@@ -14,19 +14,12 @@ export const EcommerceDevelopment: React.FC = () => {
             <h1>E-commerce</h1>
           </Title>
           <Info>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac dolor
-            eros. Fusce sit amet ex vel tortor tincidunt venenatis. Praesent
-            facilisis aliquam erat a condimentum. Pellentesque habitant morbi
-            tristique senectus et netus et malesuada fames ac turpis egestas. In
-            volutpat
+            Refere-se aos negócios que estruturam a compra e venda digital, por meios
+            de ferramentas onlines. É muito mais do que apenas a criação de um site,
+            é empreendedorismo, sua estrutura e funcionamento são totalmente
+            digitais, fazendo com que os processos básicos de atendimento, venda e
+            atendimento ao cliente sejam completamente digitalizados
           </Info>
-          <SubInfo>
-            hasellus nisl velit, commodo non ex quis, eleifend auctor ipsum. In
-            aliquam augue tortor, vitae placerat mauris cursus ut. Sed augue nulla,
-            tincidunt in tincidunt congue, blandit et semDonec placerat leo non nisi
-            laoreet, sit amet vestibulum lorem efficitur. Maecenas consectetur odio
-            vitae sodales efficitur.
-          </SubInfo>
           <ButtonsArea>
             <TransparentLink link="#" width="18.9rem" height="5.3rem">
               Conheça o serviço

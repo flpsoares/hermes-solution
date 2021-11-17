@@ -4,7 +4,7 @@ export const Container = styled.div`
   position: relative;
 `
 
-export const ContainerTwo = styled.div``
+export const Wrapper = styled.div``
 
 export const Title = styled.div`
   display: grid;

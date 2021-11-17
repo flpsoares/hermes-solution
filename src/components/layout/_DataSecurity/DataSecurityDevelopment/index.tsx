@@ -13,19 +13,11 @@ export const DataSecurityDevelopment: React.FC = () => {
             <h1>Segurança de dados</h1>
           </Title>
           <Info>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac dolor
-            eros. Fusce sit amet ex vel tortor tincidunt venenatis. Praesent
-            facilisis aliquam erat a condimentum. Pellentesque habitant morbi
-            tristique senectus et netus et malesuada fames ac turpis egestas. In
-            volutpat
+            Seus clientes e seu projeto merecem a melhor segurança possível, passe
+            credibilidade e seja seguro quanto as suas e as informações que seus
+            clientes deixam no site. Preserve informações, nunca sabemos quem está do
+            outro lado da tela.
           </Info>
-          <SubInfo>
-            hasellus nisl velit, commodo non ex quis, eleifend auctor ipsum. In
-            aliquam augue tortor, vitae placerat mauris cursus ut. Sed augue nulla,
-            tincidunt in tincidunt congue, blandit et semDonec placerat leo non nisi
-            laoreet, sit amet vestibulum lorem efficitur. Maecenas consectetur odio
-            vitae sodales efficitur.
-          </SubInfo>
           <ButtonsArea>
             <TransparentLink link="#" width="18.9rem" height="5.3rem">
               Conheça o serviço

@@ -12,6 +12,22 @@ export const Wrapper = styled.div`
   gap: 4rem;
   z-index: 11;
 
+  .carousel {
+    max-width: 60rem;
+
+    .rec-dot {
+      background-color: transparent !important;
+      opacity: 50% !important;
+      border: 1px solid #fff;
+      box-shadow: 0 0 1px 3px transparent !important;
+    }
+
+    .rec-dot_active {
+      border: 1px solid var(--primary) !important;
+      background: var(--primary) !important;
+    }
+  }
+
   @media (max-width: 830px) {
     text-align: center;
     align-items: center;

@@ -1,6 +1,5 @@
-import { GlobalContainer } from '../../styles/container'
-import { FloatImage } from '../FloatImage'
-import { YellowLink } from '../YellowLink'
+import { GlobalContainer } from '../../../styles/container'
+import { YellowLink } from '../../YellowLink'
 
 import {
   Container,
@@ -10,7 +9,7 @@ import {
   Photo,
   WhyInfos,
   PhotoContainer,
-  ContainerTwo
+  Wrapper
 } from './style'
 
 interface SameWhyBuildingTwoProps {
@@ -33,7 +32,7 @@ export const SameWhyBuildingTwo: React.FC<SameWhyBuildingTwoProps> = (props) => 
   return (
     <Container>
       <GlobalContainer>
-        <ContainerTwo>
+        <Wrapper>
           <Title>
             <h1>{props.title}</h1>
             <div></div>
@@ -71,7 +70,7 @@ export const SameWhyBuildingTwo: React.FC<SameWhyBuildingTwoProps> = (props) => 
               </PhotoContainer>
             </Photo>
           </Content>
-        </ContainerTwo>
+        </Wrapper>
       </GlobalContainer>
     </Container>
   )

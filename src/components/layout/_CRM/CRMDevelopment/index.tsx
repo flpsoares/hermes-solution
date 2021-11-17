@@ -13,10 +13,10 @@ export const CRMDevelopment: React.FC = () => {
             <h1>CRM</h1>
           </Title>
           <Info>
-            A criação de um Content Management System ou Sistema de gestão de
-            conteúdo. O CMS é uma ferramenta utilizada para gerenciar conteúdos de
-            uma plataforma sem a necessidade do auxílio de um desenvolvedor,
-            facilitando as modificações diárias de seus conteúdos.
+            Otimize sua relação com os clientes, de modo fácil e simples. O CMS e o
+            CRM são ferramentas utilizadas para gerenciar conteúdos de uma plataforma
+            sem a necessidade do auxílio de um desenvolvedor, facilitando as
+            modificações diárias de seus conteúdos.
           </Info>
           <ButtonsArea>
             <TransparentLink link="#" width="18.9rem" height="5.3rem">
@@ -29,7 +29,7 @@ export const CRMDevelopment: React.FC = () => {
         </Wrapper>
       </GlobalContainer>
       <FloatImage
-        src="https://uxagency.com.br/wp-content/uploads/2021/11/CRM-01-1.png"
+        src="./assets/crm/banner.png"
         width="77.2rem"
         height="49.5rem"
         right="6rem"

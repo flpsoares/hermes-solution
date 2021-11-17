@@ -3,11 +3,11 @@ import styled from 'styled-components'
 import { Footer } from '../components/layout/Footer'
 import { Header } from '../components/layout/Header'
 
-import { StepByStep } from '../components/layout/StepByStep'
+import { StepByStep3 } from '../components/layout/StepByStep3'
 
 import { FloatImage } from '../components/FloatImage'
 import GoodExperience from '../components/layout/_Uxui/GoodExperience'
-import { SameWhyBuildingTwo } from '../components/SameWhyBuildingTwo'
+import { SameWhyBuildingTwo } from '../components/layout/SameWhyBuildingTwo'
 import { ServicesProducedTwo } from '../components/layout/ServicesProducedTwo'
 import { Team } from '../components/layout/Team'
 import { CustomersServed } from '../components/layout/CustomersServed'
@@ -66,14 +66,12 @@ const Uxui = () => {
         <Header background="var(--background-secondary)" />
         <UxuiDevelopment />
       </Top>
-      <StepByStep
+      <StepByStep3
         title="Entenda o"
         subTitle="Passo a passo"
-        stepOne="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
-        stepTwo="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
-        stepThree="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
-        stepFour="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
-        stepFive="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
+        stepOne="Briefing de ideias: Organização de ideias e referências para a identidade visual."
+        stepTwo="Criação gráfico artístico: A arte gráfica é criada pelo designer a partir do cliente que dá seus direcionamentos ao projeto."
+        stepThree="Entrega do projeto: o projeto entra em processo de finalização sempre de acordo com o direcionamento do cliente até que o mesmo fique satisfeito."
       />
       <GoodExperience />
       <SameWhyBuildingTwo
