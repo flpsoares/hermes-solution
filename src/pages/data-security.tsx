@@ -10,10 +10,12 @@ import { DataSecurityDevelopment } from '../components/layout/_DataSecurity/Data
 import { SameWhyBuilding } from '../components/layout/SameWhyBuilding'
 import { ServicesProducedTwo } from '../components/layout/ServicesProducedTwo'
 import { Budget } from '../components/layout/Budget'
+import { ContactButtons } from '../components/ButtonContact'
 
 const Container = styled.div`
   background: var(--background-secondary);
   overflow: hidden;
+  position: relative;
 `
 
 const Top = styled.div`
@@ -111,6 +113,7 @@ const DataSecurity: React.FC = () => {
       <Team isHome={false} />
       <Budget />
       <Footer />
+      <ContactButtons />
     </Container>
   )
 }

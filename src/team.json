@@ -1,50 +1,62 @@
 [
   {
     "id": "1",
-    "name": "Filipe Soares",
-    "charge": "Developer",
-    "photo_url": "./assets/team/u22.png"
+    "name": "Victor Pegoraro",
+    "charge": "CTO",
+    "photo_url": "./assets/team/pegoraro.jpg"
   },
   {
     "id": "2",
-    "name": "Vito Borba",
-    "charge": "Developer",
-    "photo_url": "./assets/team/u22.png"
+    "name": "César Brasiliense",
+    "charge": "CEO",
+    "photo_url": "./assets/team/cesar.jpg"
   },
   {
     "id": "3",
-    "name": "Filipe Soares",
-    "charge": "Developer",
-    "photo_url": "./assets/team/u22.png"
+    "name": "Ana Levy",
+    "charge": "COO",
+    "photo_url": "./assets/team/ana.jpg"
   },
   {
     "id": "4",
-    "name": "Vito Borba",
-    "charge": "Developer",
-    "photo_url": "./assets/team/u22.png"
+    "name": "Jonathan Vieira",
+    "charge": "CFO",
+    "photo_url": "./assets/team/jonathan.jpg"
   },
   {
     "id": "5",
-    "name": "Filipe Soares",
-    "charge": "Developer",
-    "photo_url": "./assets/team/u22.png"
+    "name": "Marcos Casagrande",
+    "charge": "Comercial",
+    "photo_url": "./assets/team/marcos.jpg"
   },
   {
     "id": "6",
-    "name": "Vito Borba",
-    "charge": "Developer",
-    "photo_url": "./assets/team/u22.png"
+    "name": "Luis Stein",
+    "charge": "Redator",
+    "photo_url": "./assets/team/luis.jpg"
   },
   {
     "id": "7",
-    "name": "Filipe Soares",
-    "charge": "Developer",
-    "photo_url": "./assets/team/u22.png"
+    "name": "Leonardo Oliveira",
+    "charge": "Gerente de contas",
+    "photo_url": "./assets/team/leonardo.jpg"
   },
   {
     "id": "8",
-    "name": "Vito Borba",
-    "charge": "Developer",
-    "photo_url": "./assets/team/u22.png"
+    "name": "Jenner Lopes",
+    "charge": "Designer gráfico",
+    "photo_url": "./assets/team/jenner.jpg"
+  },
+  {
+    "id": "9",
+    "name": "João Vitor",
+    "charge": "Designer gráfico",
+    "photo_url": "./assets/team/joao.jpg"
+  },
+  {
+    "id": "10",
+    "name": "Thompson Vitor",
+    "charge": "Analista de tráfego",
+    "photo_url": "./assets/team/thompson.jpg"
   }
 ]

@@ -9,10 +9,12 @@ import { EcommerceDevelopment } from '../components/layout/_Ecommerce/EcommerceD
 import { Budget } from '../components/layout/Budget'
 import { ServicesProducedTwo } from '../components/layout/ServicesProducedTwo'
 import { SameWhyBuildingTwo } from '../components/layout/SameWhyBuildingTwo'
+import { ContactButtons } from '../components/ButtonContact'
 
 const Container = styled.div`
   background: var(--background-secondary);
   overflow: hidden;
+  position: relative;
 `
 
 const Top = styled.div`
@@ -88,6 +90,7 @@ const Ecommerce: React.FC = () => {
       <Team isHome={false} />
       <Budget />
       <Footer />
+      <ContactButtons />
     </Container>
   )
 }

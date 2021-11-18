@@ -10,10 +10,12 @@ import { StepByStep5 } from '../components/layout/StepByStep5'
 import { WebSitesDevelopment } from '../components/layout/_WebSites/WebSitesDevelopment'
 import { WhyBuildingWebSites } from '../components/layout/_WebSites/WhyBuildingWebsites'
 import { Budget } from '../components/layout/Budget'
+import { ContactButtons } from '../components/ButtonContact'
 
 const Container = styled.div`
   background: var(--background-secondary);
   overflow: hidden;
+  position: relative;
 `
 
 const Top = styled.div`
@@ -78,6 +80,7 @@ const WebSites: React.FC = () => {
       <Team isHome={false} />
       <Budget />
       <Footer />
+      <ContactButtons />
     </Container>
   )
 }

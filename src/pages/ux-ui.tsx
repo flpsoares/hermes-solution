@@ -13,10 +13,12 @@ import { Team } from '../components/layout/Team'
 import { CustomersServed } from '../components/layout/CustomersServed'
 import { Budget } from '../components/layout/Budget'
 import { UxuiDevelopment } from '../components/layout/_Uxui/UxuiDevelopment'
+import { ContactButtons } from '../components/ButtonContact'
 
 const Container = styled.div`
   background: var(--background-secondary);
   overflow: hidden;
+  position: relative;
 `
 
 const Top = styled.div`
@@ -110,6 +112,7 @@ const Uxui = () => {
       <Team isHome={false} />
       <Budget />
       <Footer />
+      <ContactButtons />
     </Container>
   )
 }

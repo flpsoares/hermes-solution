@@ -27,6 +27,17 @@ export const Email = styled(Link)`
   background: var(--primary);
 `
 
+export const Instagram = styled(Link)`
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+`
+
 export const Whatsapp = styled(Link)`
   background: #4dcb5b;
 `

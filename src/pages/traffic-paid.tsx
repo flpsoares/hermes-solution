@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { ContactButtons } from '../components/ButtonContact'
 import { FloatImage } from '../components/FloatImage'
 import { Budget } from '../components/layout/Budget'
 import { CustomersServed } from '../components/layout/CustomersServed'
@@ -13,6 +14,7 @@ import { TrafficPaidDevelopment } from '../components/layout/_TrafficPaid/Traffi
 const Container = styled.div`
   background: var(--background-secondary);
   overflow: hidden;
+  position: relative;
 `
 
 const Top = styled.div`
@@ -111,6 +113,7 @@ const TrafficPaid: React.FC = () => {
       <Team isHome={false} />
       <Budget />
       <Footer />
+      <ContactButtons />
     </Container>
   )
 }

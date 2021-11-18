@@ -10,10 +10,12 @@ import { Team } from '../components/layout/Team'
 import { StepByStep5 } from '../components/layout/StepByStep5'
 import { AppDevelopment } from '../components/layout/_App/AppDevelopment'
 import { Budget } from '../components/layout/Budget'
+import { ContactButtons } from '../components/ButtonContact'
 
 const Container = styled.div`
   background: var(--background-secondary);
   overflow: hidden;
+  position: relative;
 `
 
 const Top = styled.div`
@@ -103,6 +105,7 @@ const CRM: React.FC = () => {
       <Team isHome={false} />
       <Budget />
       <Footer />
+      <ContactButtons />
     </Container>
   )
 }
