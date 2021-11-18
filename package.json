@@ -1,11 +1,12 @@
 {
-  "name": "project-name",
+  "name": "hermes-solutions",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "build": "next build && next export",
+    "start": "next start",
+    "start:prod": "NODE_ENV=production next start -p 5000"
   },
   "dependencies": {
     "@amir04lm26/react-modern-calendar-date-picker": "^1.0.1",
