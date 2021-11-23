@@ -28,7 +28,13 @@ export const CompanyNumbers: React.FC = () => {
               solucionado de forma divina! Nossa meta, são as realizações de suas
               metas, venha conosco!
             </p>
-            <LinkButtons size="1" link="#" children="Conheça nossa empresa" />
+            <LinkButtons
+              size="1"
+              link="hermes"
+              offset={-80}
+              smooth
+              children="Conheça nossa empresa"
+            />
           </Left>
           <Right>
             <Wrapper>

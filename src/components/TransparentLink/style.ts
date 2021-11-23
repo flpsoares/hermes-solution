@@ -16,7 +16,7 @@ export const Container = styled.button<ContainerProps>`
 
   box-shadow: 0 0 2px 0 #ffffff;
 
-  transition: background 0.2s;
+  transition: background 0.2s, color 0.2s;
 
   z-index: 20;
 
@@ -30,5 +30,9 @@ export const Container = styled.button<ContainerProps>`
 
   &:hover {
     background: var(--primary);
+
+    a {
+      color: black;
+    }
   }
 `

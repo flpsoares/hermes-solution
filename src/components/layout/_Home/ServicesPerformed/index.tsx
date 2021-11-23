@@ -14,11 +14,8 @@ import {
   Left,
   Right
 } from './style'
-import useWindowSize from '../../../../hooks/useWindowSize'
 
 export const ServicesPerformed: React.FC = () => {
-  const { screenWidth } = useWindowSize()
-
   return (
     <Container id="services-performed">
       <FloatImage
@@ -116,7 +113,7 @@ export const ServicesPerformed: React.FC = () => {
             />
             <BoxCases
               title="Parcelão Delivery"
-              subtitle="Criação de site"
+              subtitle="Pentest"
               url="./assets/case2.png"
             />
             <BoxCases

@@ -1,6 +1,6 @@
 import React from 'react'
 import { GlobalContainer } from '../../../../styles/container'
-import { YellowButton } from '../../../YellowButton'
+import { YellowLink } from '../../../YellowLink'
 import { FloatImage } from '../../../FloatImage'
 import { Container, Wrapper, Info } from './style'
 
@@ -12,7 +12,13 @@ export const LetsTalk: React.FC = () => {
           <Info>
             <h2>Vamos conversar?</h2>
             <h1>Fale com a equipe Hermes</h1>
-            <YellowButton children="Fale conosco" width="20rem" height="4.7rem" />
+            <YellowLink
+              children="Fale conosco"
+              link="contact"
+              smooth
+              width="20rem"
+              height="4.7rem"
+            />
           </Info>
           <img src="./assets/statue-2.png" alt="statue" />
         </Wrapper>

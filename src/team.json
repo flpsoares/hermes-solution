@@ -25,27 +25,27 @@
   },
   {
     "id": "5",
+    "name": "Jenner Lopes",
+    "charge": "Diretor de arte",
+    "photo_url": "./assets/team/jenner.jpg"
+  },
+  {
+    "id": "6",
     "name": "Marcos Casagrande",
     "charge": "Comercial",
     "photo_url": "./assets/team/marcos.jpg"
   },
   {
-    "id": "6",
+    "id": "7",
     "name": "Luis Stein",
     "charge": "Redator",
     "photo_url": "./assets/team/luis.jpg"
   },
   {
-    "id": "7",
+    "id": "8",
     "name": "Leonardo Oliveira",
     "charge": "Gerente de contas",
     "photo_url": "./assets/team/leonardo.jpg"
-  },
-  {
-    "id": "8",
-    "name": "Jenner Lopes",
-    "charge": "Designer gráfico",
-    "photo_url": "./assets/team/jenner.jpg"
   },
   {
     "id": "9",

@@ -20,10 +20,22 @@ export const AppDevelopment: React.FC = () => {
             da marca, fazendo com que o cliente sempre saiba onde te encontrar.
           </Info>
           <ButtonsArea>
-            <TransparentLink link="#" width="18.9rem" height="5.3rem">
+            <TransparentLink
+              link="why-building"
+              smooth
+              width="18.9rem"
+              height="5.3rem"
+            >
               Conheça o serviço
             </TransparentLink>
-            <YellowLink link="#" width="18.9rem" height="5.3rem">
+            <YellowLink
+              link="budget"
+              fontsize="1.7rem"
+              offset={-140}
+              smooth
+              width="18.9rem"
+              height="5.3rem"
+            >
               Simule o orçamento
             </YellowLink>
           </ButtonsArea>

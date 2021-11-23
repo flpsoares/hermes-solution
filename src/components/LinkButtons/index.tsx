@@ -8,13 +8,21 @@ import { Link } from 'react-scroll'
 interface LinkProps {
   link: string
   size: string
+  smooth?: boolean
+  offset?: number
   children: ReactNode
 }
 
-export const LinkButtons = ({ link, size, children }: LinkProps) => {
+export const LinkButtons = ({ link, size, children, smooth, offset }: LinkProps) => {
   return (
     <Container size={size}>
-      <a href={link}>{children}</a>
+      {smooth ? (
+        <Link to={link} smooth={smooth || false} offset={offset || undefined}>
+          {children}
+        </Link>
+      ) : (
+        <a href={link}>{children}</a>
+      )}
       <MdKeyboardArrowRight className="icon" size={30} />
     </Container>
   )

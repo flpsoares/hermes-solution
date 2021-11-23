@@ -20,7 +20,6 @@ export const Wrapper = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 1px solid red;
   }
 `
 export const Photos = styled.div`

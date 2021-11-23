@@ -6,10 +6,11 @@ import { Link } from 'react-scroll'
 interface YellowLinkProps {
   width: string
   height: string
-  margintop?: string
   link: string
+  margintop?: string
   smooth?: boolean
   offset?: number
+  fontsize?: string
 }
 
 export const YellowLink: React.FC<YellowLinkProps> = ({
@@ -19,10 +20,16 @@ export const YellowLink: React.FC<YellowLinkProps> = ({
   link,
   smooth,
   offset,
+  fontsize,
   children
 }) => {
   return (
-    <Container width={width} height={height} margintop={margintop}>
+    <Container
+      width={width}
+      fontsize={fontsize}
+      height={height}
+      margintop={margintop}
+    >
       <Link to={link} smooth={smooth || false} offset={offset || undefined}>
         {children}
       </Link>

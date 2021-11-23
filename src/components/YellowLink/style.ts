@@ -1,8 +1,9 @@
-import styled, { css } from 'styled-components'
+import styled from 'styled-components'
 
 interface ContainerProps {
   width: string
   height: string
+  fontsize: string
   margintop?: string
 }
 
@@ -11,7 +12,7 @@ export const Container = styled.button<ContainerProps>`
   width: ${(props) => props.width};
   height: ${(props) => props.height};
   margin-top: ${(props) => props.margintop};
-  font-size: 1.8rem;
+  font-size: ${(props) => (props.fontsize ? props.fontsize : '1.8rem')};
   background: var(--primary);
 
   box-shadow: 0 0 2px 0 #ffffff;
@@ -34,6 +35,6 @@ export const Container = styled.button<ContainerProps>`
   }
 
   &:hover {
-    filter: brightness(0.9);
+    filter: brightness(0.8);
   }
 `

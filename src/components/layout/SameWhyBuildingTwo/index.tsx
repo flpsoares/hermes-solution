@@ -30,7 +30,7 @@ interface SameWhyBuildingTwoProps {
 
 export const SameWhyBuildingTwo: React.FC<SameWhyBuildingTwoProps> = (props) => {
   return (
-    <Container>
+    <Container id="why-building">
       <GlobalContainer>
         <Wrapper>
           <Title>

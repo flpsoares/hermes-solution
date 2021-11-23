@@ -25,7 +25,7 @@ interface SameWhyBuildingProps {
 
 export const SameWhyBuilding = (props: SameWhyBuildingProps) => {
   return (
-    <Container>
+    <Container id="why-building">
       <GlobalContainer>
         <Main>
           <Title>
