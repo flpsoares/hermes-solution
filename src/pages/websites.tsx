@@ -68,11 +68,11 @@ const WebSites: React.FC = () => {
       <StepByStep5
         title="Entenda o"
         subTitle="Passo a passo"
-        stepOne="Elaboração do briefing: A equipe entrevista cliente para compreender e conseguir atender às demandas do projeto"
-        stepTwo="Criação da arquitetura gráfica: O arquiteto gráfico realiza o desenvolvimento do protótipo de uma arquitetura gráfica dentro dos padrões pré-acordados com o cliente"
-        stepThree="Criação do gráfico artístico: A arte gráfica é criada pelo design a partir do cliente que dá seus direcionamentos ao projeto"
-        stepFour="Desenvolvimento tecnológico: O seu projeto é realizado tecnologicamente por uma equipe de desenvolvedores"
-        stepFive="Entrega do projeto: O projeto entra em processo de finalização sempre de acordo com o direcionamento do cliente até que o mesmo fique satisfeito."
+        stepOne="A equipe entrevista cliente para compreender e conseguir atender às demandas do projeto"
+        stepTwo="O arquiteto gráfico realiza o desenvolvimento do protótipo de uma arquitetura gráfica dentro dos padrões pré-acordados com o cliente"
+        stepThree="A arte gráfica é criada pelo design a partir do cliente que dá seus direcionamentos ao projeto"
+        stepFour="O seu projeto é realizado tecnologicamente por uma equipe de desenvolvedores"
+        stepFive="O projeto entra em processo de finalização sempre de acordo com o direcionamento do cliente até que o mesmo fique satisfeito."
       />
       <WhyBuildingWebSites />
 

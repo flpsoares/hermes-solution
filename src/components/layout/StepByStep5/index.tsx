@@ -35,7 +35,7 @@ export const StepByStep5: React.FC<StepByStep5Props> = ({
             <StepsImage src="./assets/steps5.png" />
             <StepsArea>
               <Step
-                stepNumber="1"
+                stepTitle="Elaboração de briefing"
                 isAbsolute={true}
                 left="-5rem;"
                 top="-12rem"
@@ -47,7 +47,7 @@ export const StepByStep5: React.FC<StepByStep5Props> = ({
                 content={stepOne}
               />
               <Step
-                stepNumber="2"
+                stepTitle="Criação da arquitetura gráfica"
                 isAbsolute={true}
                 left="25rem;"
                 responsive={{
@@ -59,7 +59,7 @@ export const StepByStep5: React.FC<StepByStep5Props> = ({
                 content={stepTwo}
               />
               <Step
-                stepNumber="3"
+                stepTitle="Criação gráfico artístico"
                 isAbsolute={true}
                 left="55rem;"
                 top="-12rem"
@@ -71,7 +71,7 @@ export const StepByStep5: React.FC<StepByStep5Props> = ({
                 content={stepThree}
               />
               <Step
-                stepNumber="4"
+                stepTitle="Desenvolvimento tecnológico"
                 isAbsolute={true}
                 left="82rem;"
                 responsive={{
@@ -84,7 +84,7 @@ export const StepByStep5: React.FC<StepByStep5Props> = ({
                 content={stepFour}
               />
               <Step
-                stepNumber="5"
+                stepTitle="Entrega do projeto"
                 isAbsolute={true}
                 left="105rem;"
                 top="-12rem"

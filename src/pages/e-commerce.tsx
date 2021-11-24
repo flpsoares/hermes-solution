@@ -67,11 +67,11 @@ const Ecommerce: React.FC = () => {
       <StepByStep5
         title="Entenda o"
         subTitle="Passo a Passo"
-        stepOne="Elaboração de briefing: A equipe entrevista o cliente para compreender e conseguir entender as demandas do projeto"
-        stepTwo="Criação da arquitetura gráfica: o arquiteto gráfico realiza o desenvolvimento do protótipo de uma arquitetura dentro dos padrões pré-acordados com o cliente"
-        stepThree="Criação gráfico artístico: A arte gráfica é criada pelo designer a partir do cliente que dá seus direcionamentos ao projeto."
-        stepFour="Desenvolvimento tecnológico: Seu projeto é realizado tecnologicamente por uma equipe de desenvolvedores."
-        stepFive="Entrega do projeto: o projeto entra em processo de finalização sempre de acordo com o direcionamento do cliente até que o mesmo fique satisfeito."
+        stepOne="A equipe entrevista o cliente para compreender e conseguir entender as demandas do projeto"
+        stepTwo="O arquiteto gráfico realiza o desenvolvimento do protótipo de uma arquitetura dentro dos padrões pré-acordados com o cliente"
+        stepThree="A arte gráfica é criada pelo designer a partir do cliente que dá seus direcionamentos ao projeto."
+        stepFour="Seu projeto é realizado tecnologicamente por uma equipe de desenvolvedores."
+        stepFive="O projeto entra em processo de finalização sempre de acordo com o direcionamento do cliente até que o mesmo fique satisfeito."
       />
       <SameWhyBuildingTwo
         title="Como podemos fazer do seu comércio, um comércio de sucesso"
