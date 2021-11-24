@@ -66,12 +66,16 @@ const CRM: React.FC = () => {
         <CRMDevelopment />
       </Top>
       <StepByStep4
-        title="Entenda o"
+        title="Entenda nosso"
         subTitle="Passo a passo"
-        stepOne="Identificação de desafios: procuramos com você, o que pode estar dificultando sua comunicação com os clientes"
-        stepTwo="Localize a jornada de seu consumidor: Ache como os clientes mais entram em contato com você e veja o melhor processo de venda até agora."
-        stepThree="Reveja resultados: Veja o que deu certo e o que pode melhorar conosco, para melhoria de resultado"
-        stepFour="Definição de nova CRM: Ao definir, ficar ligado em novos eventos e lançamentos, acompanhamos tudo para melhor resultado e correção técnicas"
+        stepOneTitle="Identificação de desafios"
+        stepOne="Procuramos com você, o que pode estar dificultando sua comunicação com os clientes"
+        stepTwoTitle="Localize a jornada de seu consumidor"
+        stepTwo="Ache como os clientes mais entram em contato com você e veja o melhor processo de venda até agora."
+        stepThreeTitle="Reveja resultados"
+        stepThree="Veja o que deu certo e o que pode melhorar conosco, para melhoria de resultado"
+        stepFourTitle="Definição de nova CRM"
+        stepFour="Ao definir, ficar ligado em novos eventos e lançamentos, acompanhamos tudo para melhor resultado e correção técnicas"
       />
       <SameWhyBuilding
         title="Como podemos te ajudar a usar essas ferramentas"

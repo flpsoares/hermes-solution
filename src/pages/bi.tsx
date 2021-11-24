@@ -4,11 +4,9 @@ import { FloatImage } from '../components/FloatImage'
 import { CustomersServed } from '../components/layout/CustomersServed'
 import { Footer } from '../components/layout/Footer'
 import { Header } from '../components/layout/Header'
-import { ServicesProduced } from '../components/layout/ServicesProduced'
 import { Team } from '../components/layout/Team'
-import { StepByStep5 } from '../components/layout/StepByStep5'
-import { WebSitesDevelopment } from '../components/layout/_WebSites/WebSitesDevelopment'
-import { WhyBuildingWebSites } from '../components/layout/_WebSites/WhyBuildingWebsites'
+import { StepByStep4 } from '../components/layout/StepByStep4'
+import { BIDevelopment } from '../components/layout/_BI/BIDevelopment'
 import { Budget } from '../components/layout/Budget'
 import { ContactButtons } from '../components/ButtonContact'
 
@@ -22,7 +20,7 @@ const Top = styled.div`
   position: relative;
 `
 
-const WebSites: React.FC = () => {
+const BI: React.FC = () => {
   return (
     <Container>
       <Top>
@@ -63,24 +61,20 @@ const WebSites: React.FC = () => {
           }}
         />
         <Header background="var(--background-secondary)" />
-        <WebSitesDevelopment />
+        <BIDevelopment />
       </Top>
-      <StepByStep5
-        title="Entenda o"
-        subTitle="Passo a passo"
-        stepOneTitle="Elaboração de briefing"
-        stepOne="A equipe entrevista cliente para compreender e conseguir atender às demandas do projeto"
-        stepTwoTitle="Criação da arquitetura gráfica"
-        stepTwo="O arquiteto gráfico realiza o desenvolvimento do protótipo de uma arquitetura gráfica dentro dos padrões pré-acordados com o cliente"
-        stepThreeTitle="Criação gráfico artístico"
-        stepThree="A arte gráfica é criada pelo design a partir do cliente que dá seus direcionamentos ao projeto"
-        stepFourTitle="Desenvolvimento tecnológico"
-        stepFour="O seu projeto é realizado tecnologicamente por uma equipe de desenvolvedores"
-        stepFiveTitle="Entrega do projeto"
-        stepFive="O projeto entra em processo de finalização sempre de acordo com o direcionamento do cliente até que o mesmo fique satisfeito."
+      <StepByStep4
+        title="Passo a passo para nossa"
+        subTitle="Criação de B.I"
+        stepOneTitle="Identificação de desafios"
+        stepOne="Procuramos com você, o que pode estar dificultando sua comunicação com os clientes"
+        stepTwoTitle="Localize a jornada de seu consumidor"
+        stepTwo="Ache como os clientes mais entram em contato com você e veja o melhor processo de venda até agora."
+        stepThreeTitle="Reveja resultados"
+        stepThree="Veja o que deu certo e o que pode melhorar conosco, para melhoria de resultado"
+        stepFourTitle="Definição de nova BI"
+        stepFour="Ao identificar as novas estratégias para o cuidado da empresa, verificaremos com vocês o funcionamento semanal ou mensal do mesmo."
       />
-      <WhyBuildingWebSites />
-
       <CustomersServed />
       <Team isHome={false} />
       <Budget />
@@ -90,4 +84,4 @@ const WebSites: React.FC = () => {
   )
 }
 
-export default WebSites
+export default BI

@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   margin-top: 4rem;
-  margin-bottom: 13rem;
+  margin-bottom: 25rem;
   overflow-x: hidden;
 `
 
@@ -11,6 +11,8 @@ export const Wrapper = styled.div`
   flex-direction: column;
   gap: 4rem;
   z-index: 11;
+
+  margin-top: 4rem;
 
   @media (max-width: 950px) {
     text-align: center;
@@ -35,18 +37,15 @@ export const Info = styled.p`
   font-size: 16px;
   line-height: 23px;
   font-weight: 500;
-  max-width: 60rem;
+  max-width: 42rem;
   z-index: 11;
-
-  @media (max-width: 830px) {
-  }
 `
 
 export const SubInfo = styled.p`
   font-weight: 200;
   font-size: 14px;
   line-height: 23px;
-  max-width: 60rem;
+  max-width: 45rem;
   z-index: 11;
 `
 

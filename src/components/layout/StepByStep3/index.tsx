@@ -7,16 +7,22 @@ import { Container, Title, Wrapper, Content, StepsImage, StepsArea } from './sty
 interface StepByStep3Props {
   title: string
   subTitle: string
+  stepOneTitle: string
   stepOne: string
+  stepTwoTitle: string
   stepTwo: string
+  stepThreeTitle: string
   stepThree: string
 }
 
 export const StepByStep3: React.FC<StepByStep3Props> = ({
   title,
   subTitle,
+  stepOneTitle,
   stepOne,
+  stepTwoTitle,
   stepTwo,
+  stepThreeTitle,
   stepThree
 }) => {
   return (
@@ -31,7 +37,7 @@ export const StepByStep3: React.FC<StepByStep3Props> = ({
             <StepsImage src="./assets/steps3.png" />
             <StepsArea>
               <Step
-                stepNumber="1"
+                stepTitle={stepOneTitle}
                 isAbsolute={true}
                 left="7rem"
                 top="-12rem"
@@ -41,7 +47,7 @@ export const StepByStep3: React.FC<StepByStep3Props> = ({
                 content={stepOne}
               />
               <Step
-                stepNumber="2"
+                stepTitle={stepTwoTitle}
                 isAbsolute={true}
                 left="50rem;"
                 responsive={{
@@ -51,7 +57,7 @@ export const StepByStep3: React.FC<StepByStep3Props> = ({
                 content={stepTwo}
               />
               <Step
-                stepNumber="3"
+                stepTitle={stepThreeTitle}
                 isAbsolute={true}
                 left="90rem;"
                 top="-12rem"

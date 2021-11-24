@@ -7,18 +7,26 @@ import { Container, Title, Wrapper, Content, StepsImage, StepsArea } from './sty
 interface StepByStep4Props {
   title: string
   subTitle: string
+  stepOneTitle: string
   stepOne: string
+  stepTwoTitle: string
   stepTwo: string
+  stepThreeTitle: string
   stepThree: string
+  stepFourTitle: string
   stepFour: string
 }
 
 export const StepByStep4: React.FC<StepByStep4Props> = ({
   title,
   subTitle,
+  stepOneTitle,
   stepOne,
+  stepTwoTitle,
   stepTwo,
+  stepThreeTitle,
   stepThree,
+  stepFourTitle,
   stepFour
 }) => {
   return (
@@ -33,7 +41,7 @@ export const StepByStep4: React.FC<StepByStep4Props> = ({
             <StepsImage src="./assets/steps4.png" />
             <StepsArea>
               <Step
-                stepTitle="Identificação de desafios"
+                stepTitle={stepOneTitle}
                 isAbsolute={true}
                 left="5rem;"
                 top="-12rem"
@@ -44,7 +52,7 @@ export const StepByStep4: React.FC<StepByStep4Props> = ({
                 content={stepOne}
               />
               <Step
-                stepTitle="Localize a jornada de seu consumidor"
+                stepTitle={stepTwoTitle}
                 isAbsolute={true}
                 left="35rem;"
                 responsive={{
@@ -53,7 +61,7 @@ export const StepByStep4: React.FC<StepByStep4Props> = ({
                 content={stepTwo}
               />
               <Step
-                stepTitle="Reveja resultados"
+                stepTitle={stepThreeTitle}
                 isAbsolute={true}
                 left="70rem"
                 top="-12rem"
@@ -64,7 +72,7 @@ export const StepByStep4: React.FC<StepByStep4Props> = ({
                 content={stepThree}
               />
               <Step
-                stepTitle="Definição de nova CRM"
+                stepTitle={stepFourTitle}
                 isAbsolute={true}
                 left="97rem;"
                 responsive={{

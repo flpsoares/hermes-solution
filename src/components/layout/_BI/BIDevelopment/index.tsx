@@ -2,28 +2,30 @@ import { GlobalContainer } from '../../../../styles/container'
 import { FloatImage } from '../../../FloatImage'
 import { TransparentLink } from '../../../TransparentLink'
 import { YellowLink } from '../../../YellowLink'
-import { Container, Wrapper, Title, Info, ButtonsArea } from './style'
+import { Container, Wrapper, Title, Info, ButtonsArea, SubInfo } from './style'
 
-export const EcommerceDevelopment: React.FC = () => {
+export const BIDevelopment: React.FC = () => {
   return (
     <Container>
       <GlobalContainer>
         <Wrapper>
           <Title>
-            <p>Desenvolvimento de</p>
-            <h1>E-commerce</h1>
+            <p>Entenda mais sobre</p>
+            <h1>Business Intelligence</h1>
           </Title>
-          <Info>
-            Refere-se aos negócios que estruturam a compra e venda digital, por meios
-            de ferramentas onlines. É muito mais do que apenas a criação de um site,
-            é empreendedorismo, sua estrutura e funcionamento são totalmente
-            digitais, fazendo com que os processos básicos de atendimento, venda e
-            atendimento ao cliente sejam completamente digitalizados
-          </Info>
+          <Info>Informação é a alma do negócio</Info>
+          <SubInfo>
+            O estudo do mercado em que se atua é fundamental para qualquer tomada de
+            decisão, o cuidado com números, estratégias e objetivos é o que faz uma
+            empresa crescer e o quanto ela ainda pode crescer. O crescimento digital
+            fez com que todos tenham inúmeros concorrentes, e com isso, o cuidado com
+            a criação de estratégias virou uma chave importante para todas as
+            empresas, planejar cada passo, tendo em mente o que está acontecendo no
+            mercado, é o que o BI nos proporciona.
+          </SubInfo>
           <ButtonsArea>
             <TransparentLink
               link="why-building"
-              offset={-140}
               smooth
               width="18.9rem"
               height="5.3rem"
@@ -44,24 +46,16 @@ export const EcommerceDevelopment: React.FC = () => {
         </Wrapper>
       </GlobalContainer>
       <FloatImage
-        src="./assets/ecommerce/banner.png"
-        width="62.6rem"
-        height="58.6rem"
-        right="6rem"
-        top="17rem"
+        src="./assets/bi/banner.svg"
+        width="80.2rem"
+        height="45.5rem"
+        right="2rem"
+        top="20rem"
         responsive={{
-          1380: { width: '42.6rem', height: '38.6rem', top: '22rem' },
-          1110: { width: '26.6rem', height: '22.6rem', top: '27rem' },
+          1355: { width: '60.2rem', height: '35.5rem', top: '22rem' },
+          1150: { width: '40.2rem', height: '25.5rem', top: '27rem' },
           950: { display: 'none' }
         }}
-      />
-      <FloatImage
-        src="./assets/yellow-load.png"
-        width="10.6rem"
-        height="10.6rem"
-        left="58rem"
-        bottom="-19rem"
-        brightness="0.1"
       />
       <FloatImage
         src="./assets/yellow-load.png"

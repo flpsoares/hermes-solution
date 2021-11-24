@@ -7,20 +7,30 @@ import { Container, Title, Wrapper, Content, StepsImage, StepsArea } from './sty
 interface StepByStep5Props {
   title: string
   subTitle: string
+  stepOneTitle: string
   stepOne: string
+  stepTwoTitle: string
   stepTwo: string
+  stepThreeTitle: string
   stepThree: string
+  stepFourTitle: string
   stepFour: string
+  stepFiveTitle: string
   stepFive: string
 }
 
 export const StepByStep5: React.FC<StepByStep5Props> = ({
   title,
   subTitle,
+  stepOneTitle,
   stepOne,
+  stepTwoTitle,
   stepTwo,
+  stepThreeTitle,
   stepThree,
+  stepFourTitle,
   stepFour,
+  stepFiveTitle,
   stepFive
 }) => {
   return (
@@ -35,7 +45,7 @@ export const StepByStep5: React.FC<StepByStep5Props> = ({
             <StepsImage src="./assets/steps5.png" />
             <StepsArea>
               <Step
-                stepTitle="Elaboração de briefing"
+                stepTitle={stepOneTitle}
                 isAbsolute={true}
                 left="-5rem;"
                 top="-12rem"
@@ -47,7 +57,7 @@ export const StepByStep5: React.FC<StepByStep5Props> = ({
                 content={stepOne}
               />
               <Step
-                stepTitle="Criação da arquitetura gráfica"
+                stepTitle={stepTwoTitle}
                 isAbsolute={true}
                 left="25rem;"
                 responsive={{
@@ -59,7 +69,7 @@ export const StepByStep5: React.FC<StepByStep5Props> = ({
                 content={stepTwo}
               />
               <Step
-                stepTitle="Criação gráfico artístico"
+                stepTitle={stepThreeTitle}
                 isAbsolute={true}
                 left="55rem;"
                 top="-12rem"
@@ -71,7 +81,7 @@ export const StepByStep5: React.FC<StepByStep5Props> = ({
                 content={stepThree}
               />
               <Step
-                stepTitle="Desenvolvimento tecnológico"
+                stepTitle={stepFourTitle}
                 isAbsolute={true}
                 left="82rem;"
                 responsive={{
@@ -84,7 +94,7 @@ export const StepByStep5: React.FC<StepByStep5Props> = ({
                 content={stepFour}
               />
               <Step
-                stepTitle="Entrega do projeto"
+                stepTitle={stepFiveTitle}
                 isAbsolute={true}
                 left="105rem;"
                 top="-12rem"

@@ -67,11 +67,16 @@ const TrafficPaid: React.FC = () => {
       <StepByStep5
         title="Entenda o"
         subTitle="Passo a passo"
-        stepOne="Identificação de desafios: Encontre suas dificuldades em sua busca de novos clientes ou o aumento de suas views"
-        stepTwo="Identificação de seu público alvo: Quem você deseja alcançar e porque? Veja qual é o melhor público para o seu produto"
-        stepThree="Localize a jornada de seu consumidor: Onde está o seu público alvo e como chamar sua atenção, monte sua estratégia"
-        stepFour="Reveja resultados: Reveja bons e ruins resultados para que as mudanças sejam certeiras"
-        stepFive="Definição de nova estratégia de marketing: Colocar em prática seus estudos e análises de clientes"
+        stepOneTitle="Identificação de desafios"
+        stepOne="Encontre suas dificuldades em sua busca de novos clientes ou o aumento de suas views"
+        stepTwoTitle="Identificação de seu público alvo"
+        stepTwo="Quem você deseja alcançar e porque? Veja qual é o melhor público para o seu produto"
+        stepThreeTitle="Localize a jornada de seu consumidor"
+        stepThree="Onde está o seu público alvo e como chamar sua atenção, monte sua estratégia"
+        stepFourTitle="Reveja resultados"
+        stepFour="Reveja bons e ruins resultados para que as mudanças sejam certeiras"
+        stepFiveTitle="Definição de nova estratégia de marketing"
+        stepFive="Colocar em prática seus estudos e análises de clientes"
       />
       <SameWhyBuilding
         title="Por que você deve investir em segurança de dados?"

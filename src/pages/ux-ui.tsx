@@ -71,9 +71,12 @@ const Uxui = () => {
       <StepByStep3
         title="Entenda o"
         subTitle="Passo a passo"
-        stepOne="Briefing de ideias: Organização de ideias e referências para a identidade visual."
-        stepTwo="Criação gráfico artístico: A arte gráfica é criada pelo designer a partir do cliente que dá seus direcionamentos ao projeto."
-        stepThree="Entrega do projeto: o projeto entra em processo de finalização sempre de acordo com o direcionamento do cliente até que o mesmo fique satisfeito."
+        stepOneTitle="Briefing de ideias"
+        stepOne="Organização de ideias e referências para a identidade visual."
+        stepTwoTitle="Criação gráfico artístico"
+        stepTwo="A arte gráfica é criada pelo designer a partir do cliente que dá seus direcionamentos ao projeto."
+        stepThreeTitle="Entrega do projeto"
+        stepThree="O projeto entra em processo de finalização sempre de acordo com o direcionamento do cliente até que o mesmo fique satisfeito."
       />
       <GoodExperience />
       <SameWhyBuildingTwo
