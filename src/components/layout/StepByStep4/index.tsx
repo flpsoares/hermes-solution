@@ -33,7 +33,7 @@ export const StepByStep4: React.FC<StepByStep4Props> = ({
             <StepsImage src="./assets/steps4.png" />
             <StepsArea>
               <Step
-                stepNumber="1"
+                stepTitle="Identificação de desafios"
                 isAbsolute={true}
                 left="5rem;"
                 top="-12rem"
@@ -44,7 +44,7 @@ export const StepByStep4: React.FC<StepByStep4Props> = ({
                 content={stepOne}
               />
               <Step
-                stepNumber="2"
+                stepTitle="Localize a jornada de seu consumidor"
                 isAbsolute={true}
                 left="35rem;"
                 responsive={{
@@ -53,7 +53,7 @@ export const StepByStep4: React.FC<StepByStep4Props> = ({
                 content={stepTwo}
               />
               <Step
-                stepNumber="3"
+                stepTitle="Reveja resultados"
                 isAbsolute={true}
                 left="70rem"
                 top="-12rem"
@@ -64,7 +64,7 @@ export const StepByStep4: React.FC<StepByStep4Props> = ({
                 content={stepThree}
               />
               <Step
-                stepNumber="4"
+                stepTitle="Definição de nova CRM"
                 isAbsolute={true}
                 left="97rem;"
                 responsive={{

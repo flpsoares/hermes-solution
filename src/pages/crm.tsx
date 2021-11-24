@@ -74,24 +74,14 @@ const CRM: React.FC = () => {
         stepFour="Definição de nova CRM: Ao definir, ficar ligado em novos eventos e lançamentos, acompanhamos tudo para melhor resultado e correção técnicas"
       />
       <SameWhyBuilding
-        title="Por que você deve investir em segurança de dados?"
-        subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
+        title="Como podemos te ajudar a usar essas ferramentas"
+        subtitle="Temos sistemas incríveis de criação de sites e estratégias de marketing orgânico para ajudar o seu produto a atingir o ápice de vendas e conversão, estamos mais que preparados para te acompanhar nessa nova jornada."
         ImageOne="./assets/crm/icon.png"
-        TitleImageOne="Lorem ipsum dolor sit amet, consectetur"
+        TitleImageOne="Apenas com o valor do site, você tem a opção de criar a sua estratégia para chamar a atenção de seu público alvo sem precisar pagar por anúncios."
         ImageTwo="./assets/crm/icon.png"
-        TitleImageTwo="Lorem ipsum dolor sit amet, consectetur"
+        TitleImageTwo="Com o nosso produto, você pode editar e atualizar o seu site quanto quiser, e com um custo baixíssimo, facilitando assim, sua interação com os clientes."
         ImageThree="./assets/crm/icon.png"
         TitleImageThree="Lorem ipsum dolor sit amet, consectetur"
-        ImageFour="./assets/crm/icon.png"
-        TitleImageFour="Lorem ipsum dolor sit amet, consectetur"
-        ImageFive="./assets/crm/icon.png"
-        TitleImageFive="Lorem ipsum dolor sit amet, consectetur"
-        ImageSix="./assets/crm/icon.png"
-        TitleImageSix="Lorem ipsum dolor sit amet, consectetur"
-        ImageSeven="./assets/crm/icon.png"
-        TitleImageSeven="Lorem ipsum dolor sit amet, consectetur"
-        ImageEight="./assets/crm/icon.png"
-        TitleImageEight="Lorem ipsum dolor sit amet, consectetur"
       />
       <ServicesProducedTwo
         imageOne="./assets/case1.png"

@@ -19,6 +19,10 @@ export const Container = styled.div<ContainerProps>`
   bottom: ${(props) => props.bottom};
   left: ${(props) => props.left};
 
+  h1 {
+    width: 80%;
+  }
+
   div {
     background: var(--primary);
     height: 0.3rem;

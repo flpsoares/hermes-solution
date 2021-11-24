@@ -5,25 +5,25 @@ import { Container, Title, Content, Infos, WhyInfos, Main } from './style'
 interface SameWhyBuildingProps {
   title: string
   subtitle: string
-  ImageOne: string
-  TitleImageOne: string
-  ImageTwo: string
-  TitleImageTwo: string
-  ImageThree: string
-  TitleImageThree: string
-  ImageFour: string
-  TitleImageFour: string
-  ImageFive: string
-  TitleImageFive: string
-  ImageSix: string
-  TitleImageSix: string
-  ImageSeven: string
-  TitleImageSeven: string
-  ImageEight: string
-  TitleImageEight: string
+  ImageOne?: string
+  TitleImageOne?: string
+  ImageTwo?: string
+  TitleImageTwo?: string
+  ImageThree?: string
+  TitleImageThree?: string
+  ImageFour?: string
+  TitleImageFour?: string
+  ImageFive?: string
+  TitleImageFive?: string
+  ImageSix?: string
+  TitleImageSix?: string
+  ImageSeven?: string
+  TitleImageSeven?: string
+  ImageEight?: string
+  TitleImageEight?: string
 }
 
-export const SameWhyBuilding = (props: SameWhyBuildingProps) => {
+export const SameWhyBuilding = (props?: SameWhyBuildingProps) => {
   return (
     <Container id="why-building">
       <GlobalContainer>

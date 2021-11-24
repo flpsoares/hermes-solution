@@ -75,7 +75,7 @@ const WebSites: React.FC = () => {
         stepFive="Entrega do projeto: O projeto entra em processo de finalização sempre de acordo com o direcionamento do cliente até que o mesmo fique satisfeito."
       />
       <WhyBuildingWebSites />
-      <ServicesProduced />
+
       <CustomersServed />
       <Team isHome={false} />
       <Budget />

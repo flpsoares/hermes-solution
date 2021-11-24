@@ -9,9 +9,9 @@ export const Main = styled.div`
 `
 
 export const Title = styled.div`
-  display: flex;
+  display: grid;
+  grid-template-columns: 40% 10% 60%;
   align-items: center;
-  justify-content: center;
 
   margin-bottom: 3rem;
 
@@ -28,19 +28,26 @@ export const Title = styled.div`
   }
 
   p {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-weight: 200;
-    line-height: 2.8rem;
+    line-height: 2rem;
     padding-right: 15rem;
   }
 
   @media (max-width: 1326px) {
-    padding-right: 10rem;
+    padding-right: 5rem;
+    h1 {
+      font-size: 3.2rem;
+      font-weight: 500;
+    }
   }
-  @media (max-width: 700px) {
+
+  @media (max-width: 900px) {
     padding-right: 0rem;
+    display: flex;
     flex-direction: column;
     text-align: center;
+    padding: 0 1rem;
     div {
       height: 4px;
       width: 10rem;

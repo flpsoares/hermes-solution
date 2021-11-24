@@ -3,7 +3,7 @@ import useWindowSize from '../../hooks/useWindowSize'
 import { Container } from './style'
 
 interface StepProps {
-  stepNumber: string
+  stepTitle: string
   content: string
   isAbsolute: boolean
   top?: string
@@ -36,7 +36,7 @@ export const Step: React.FC<StepProps> = ({ ...props }) => {
       bottom={responsiveProps.bottom}
       left={responsiveProps.left}
     >
-      <h1>Passo {responsiveProps.stepNumber}</h1>
+      <h1>{responsiveProps.stepTitle}</h1>
       <div></div>
       <p>{responsiveProps.content}</p>
     </Container>

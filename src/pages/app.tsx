@@ -22,7 +22,7 @@ const Top = styled.div`
   position: relative;
 `
 
-const CRM: React.FC = () => {
+const App: React.FC = () => {
   return (
     <Container>
       <Top>
@@ -66,8 +66,8 @@ const CRM: React.FC = () => {
         <AppDevelopment />
       </Top>
       <SameWhyBuilding
-        title="Por que você deve investir em segurança de dados?"
-        subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
+        title="Por que possuir um App? "
+        subtitle="Muitos entendem os benefícios de aplicativos como a facilidade de achar uma empresa e de solicitar os serviços, mas, vai muito além disso. O aplicativo também reduz consideravelmente o uso de dados dos clientes, também ajuda as empresas a manter o nível de segurança e resolver seus problemas. Portanto os benefícios de obter um aplicativo são inúmeros, para o cliente ele vai se sentir mais confortável do que procurar em um navegador, terá acesso rápido de sempre saber onde te encontrar, terá mais segurança e seu consumo de dados serão reduzidos. "
         ImageOne="./assets/app/icon.png"
         TitleImageOne="Lorem ipsum dolor sit amet, consectetur"
         ImageTwo="./assets/app/icon.png"
@@ -110,4 +110,4 @@ const CRM: React.FC = () => {
   )
 }
 
-export default CRM
+export default App

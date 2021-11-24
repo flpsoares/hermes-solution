@@ -130,28 +130,26 @@ export const Photo = styled.div`
 `
 
 export const PhotoContainer = styled.div`
+  border: 1px solid green;
+  width: 100%;
+  height: 85%;
   background-image: url('./assets/websites/frame.png');
-  background-position: center;
-  background-size: contain;
   background-repeat: no-repeat;
-  width: 115rem;
-  height: 80rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  @media (max-width: 1325px) {
-    width: 100%;
-    height: 86rem;
-  }
+  background-size: cover;
+  padding: 15rem 0rem 2rem 2rem;
 
   img {
-    width: 105rem;
-    height: 60rem;
-    @media (max-width: 1325px) {
-      width: 90%;
-      height: auto;
-    }
+    width: 100%;
+    height: 100%;
+  }
+
+  @media (max-width: 1326px) {
+    grid-template-columns: 100%;
+    padding: 20rem 4rem 5rem 4rem;
+  }
+  @media (max-width: 700px) {
+    grid-template-columns: 100%;
+    padding: 10rem 4rem 5rem 4rem;
   }
 `
 
