@@ -67,6 +67,7 @@ export const ServicesPerformed: React.FC = () => {
               title="Inteligência de dados"
               image="./assets/services-icons/icone-06.png"
               link="/data-security"
+              secondLink="/bi"
             />
             <ServiceBox
               title="CMS e CRM"
@@ -84,7 +85,7 @@ export const ServicesPerformed: React.FC = () => {
               title="Audiovisual"
               content="Te ajudamos a instigar seus clientes da melhor forma possível usando ótimas ferramentas para que o audiovisual de suas mídias tragam experiências diferenciadas."
               image="./assets/services-icons/icone-07.png"
-              link="/audio-visual"
+              link="/audiovisual"
             />
             <ServiceBox
               title="UX/UI Design e Design thinking"

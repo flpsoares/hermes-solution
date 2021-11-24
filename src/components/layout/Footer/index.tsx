@@ -54,9 +54,8 @@ export const Footer: React.FC = () => {
                   <li>
                     <a href="/social-media">Social media</a>
                   </li>
-
                   <li>
-                    <a href="/audio-visual">Audiovisual</a>
+                    <a href="/audiovisual">Audiovisual</a>
                   </li>
                   <li>
                     <a href="/traffic-paid">Tráfego Pago/SEO</a>
@@ -66,6 +65,9 @@ export const Footer: React.FC = () => {
                   </li>
                   <li>
                     <a href="/data-security">Inteligência de dados</a>
+                  </li>
+                  <li>
+                    <a href="/bi">Business Intelligence</a>
                   </li>
                 </ul>
               </Wrapper>
