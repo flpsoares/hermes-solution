@@ -143,7 +143,7 @@ export const Banner: React.FC = () => {
             <YellowLink
               link="cases"
               width="16rem"
-              height="4.7"
+              height="4.7rem"
               smooth={true}
               offset={-60}
               children="Nossos Cases"
