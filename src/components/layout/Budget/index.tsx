@@ -376,7 +376,8 @@ export const Budget: React.FC = () => {
         responsive={{
           1440: { width: '26.3rem', height: '25.9rem' },
           1220: { width: '16.3rem', height: '15.9rem' },
-          960: { width: '16.3rem', height: '15.9rem', brightness: '0.1' }
+          960: { width: '16.3rem', height: '15.9rem', brightness: '0.1' },
+          600: { display: 'none' }
         }}
       />
     </Container>

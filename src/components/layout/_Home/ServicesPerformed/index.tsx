@@ -104,7 +104,6 @@ export const ServicesPerformed: React.FC = () => {
               Nossos divinos trabalhos desenvolvidos pelos membros de nossa equipe
               nos motivam a realizar projetos cada vez mais aprimorados.{' '}
             </p>
-            <LinkButtons link="#" children="Veja todos os cases" size="1rem" />
           </Left>
           <Right>
             <BoxCases

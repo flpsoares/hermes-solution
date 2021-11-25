@@ -77,28 +77,58 @@ export const Footer: React.FC = () => {
                 <Title>Cases</Title>
                 <ul>
                   <li>
-                    <a href="#">Aiba</a>
+                    <a
+                      target="_blank"
+                      href="http://demo.parcelao.com/"
+                      rel="noreferrer"
+                    >
+                      Parcelao Delivery
+                    </a>
                   </li>
                   <li>
-                    <a href="#">Parcelao Delivery</a>
+                    <a
+                      target="_blank"
+                      href="https://www.behance.net/gallery/88963827/FTD-VINHETA-CURSO-EDUCAR-HOJE"
+                      rel="noreferrer"
+                    >
+                      FTD
+                    </a>
                   </li>
                   <li>
-                    <a href="#">Parque Global</a>
+                    <a
+                      target="_blank"
+                      href="https://www.behance.net/gallery/118916477/Vinheta-MBA-Grupo-atitude-Emocional"
+                      rel="noreferrer"
+                    >
+                      Grupo atitude emocional
+                    </a>
                   </li>
                   <li>
-                    <a href="#">Grupo atitude emocional</a>
+                    <a
+                      target="_blank"
+                      href="https://r0z6je.axshare.com"
+                      rel="noreferrer"
+                    >
+                      Natura
+                    </a>
                   </li>
                   <li>
-                    <a href="#">FTD</a>
+                    <a
+                      target="_blank"
+                      href="https://lsc4bg.axshare.com"
+                      rel="noreferrer"
+                    >
+                      Caixa econômica
+                    </a>
                   </li>
                   <li>
-                    <a href="#">Natura</a>
-                  </li>
-                  <li>
-                    <a href="#">Caixa econômica</a>
-                  </li>
-                  <li>
-                    <a href="#">Cielo</a>
+                    <a
+                      target="_blank"
+                      href="https://6x8bnu.axshare.com/"
+                      rel="noreferrer"
+                    >
+                      Cielo
+                    </a>
                   </li>
                 </ul>
               </Wrapper>
@@ -165,7 +195,6 @@ export const Footer: React.FC = () => {
       <BottomFooter>
         <div>
           <span>Copywriting - Todos os direitos reservados</span>
-          <span>Design por UX AGENCY</span>
         </div>
       </BottomFooter>
     </>
