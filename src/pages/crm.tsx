@@ -86,22 +86,8 @@ const CRM: React.FC = () => {
         TitleImageTwo="Com o nosso produto, você pode editar e atualizar o seu site quanto quiser, e com um custo baixíssimo, facilitando assim, sua interação com os clientes."
         ImageThree="./assets/crm/icon.png"
         TitleImageThree="Lorem ipsum dolor sit amet, consectetur"
-      />
-      <ServicesProducedTwo
-        imageOne="./assets/case1.png"
-        imageOneTitle="Cartões Caixa"
-        imageOneSubTitle="Ux Design"
-        imageTwo="./assets/case1.png"
-        imageTwoTitle="Cartões Caixa"
-        imageTwoSubTitle="Ux Design"
-        imageThree="./assets/case1.png"
-        imageThreeTitle="Cartões Caixa"
-        imageThreeSubTitle="Ux Design"
-        imageFour="./assets/case1.png"
-        imageFourTitle="Cartões Caixa"
-        imageFourSubTitle="Ux Design"
-        title="Alguns cases de sucesso que produzimos"
-        subTitle="Nossos divinWos trabalhos desenvolvidos pelos membros de nossa equipe nos motivam a realizar projetos cada vez mais aprimorados."
+        ImageFour="./assets/crm/icon.png"
+        TitleImageFour="Lorem ipsum dolor sit amet, consectetur"
       />
       <CustomersServed />
       <Team isHome={false} />

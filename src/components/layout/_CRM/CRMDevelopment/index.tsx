@@ -10,7 +10,7 @@ export const CRMDevelopment: React.FC = () => {
       <GlobalContainer>
         <Wrapper>
           <Title>
-            <h1>CRM</h1>
+            <h1>CRM e CMS</h1>
           </Title>
           <Info>
             Otimize sua relação com os clientes, de modo fácil e simples. O CMS e o
