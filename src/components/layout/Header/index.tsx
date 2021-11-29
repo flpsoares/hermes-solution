@@ -28,7 +28,7 @@ export const Header: React.FC<HeaderProps> = ({ background }) => {
             {router.pathname === '/' ? (
               <>
                 <Link to="header" smooth={true}>
-                  <Logo src="./assets/logo.png" alt="logo" />
+                  <Logo src="./assets/logo-horizontal.png" alt="logo" />
                 </Link>
                 <ul>
                   <li>
@@ -61,7 +61,7 @@ export const Header: React.FC<HeaderProps> = ({ background }) => {
             ) : (
               <>
                 <a href="/#header">
-                  <Logo src="./assets/logo.png" alt="logo" />
+                  <Logo src="./assets/logo-horizontal.png" alt="logo" />
                 </a>
                 <ul>
                   <li>

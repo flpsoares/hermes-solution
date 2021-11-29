@@ -41,8 +41,8 @@ export const Budget: React.FC = () => {
   const {
     step,
     progress,
-    increase,
     values,
+    increase,
     decrease,
     setCustomerName,
     setCustomerEmail,
@@ -211,20 +211,23 @@ export const Budget: React.FC = () => {
 
         {!isSubmited ? (
           <Quiz onSubmit={handleSubmit}>
-            {questions.map((q) => {
+            {questions.map((q, index) => {
               if (step === q.id) {
-                return <Question>{q.question}</Question>
+                return <Question key={`question1${index}`}>{q.question}</Question>
               }
             })}
             {step < 7 ? (
-              questions.map((q) => {
+              questions.map((q, index) => {
                 if (step === q.id && q.hasOption) {
                   return (
-                    <>
+                    <div key={`option1${index}`}>
                       {!otherIsActive ? (
                         <Grid>
                           {q.options.map((option, index) => (
-                            <Option onClick={() => next(option)} key={index}>
+                            <Option
+                              onClick={() => next(option)}
+                              key={`option2${index}`}
+                            >
                               {option}
                             </Option>
                           ))}
@@ -250,7 +253,7 @@ export const Budget: React.FC = () => {
                           </div>
                         </Other>
                       )}
-                    </>
+                    </div>
                   )
                 }
                 if (step === q.id && !q.hasOption) {
@@ -343,6 +346,9 @@ export const Budget: React.FC = () => {
                 ''
               )}
             </SubmitButtons>
+            {values.map((v, index) => {
+              return <p key={`v${index}`}>{v}</p>
+            })}
             <ProgressBar>
               <Progress progress={progress} step={step} />
             </ProgressBar>

@@ -3,7 +3,6 @@ import styled from 'styled-components'
 export const Container = styled.div`
   border-top: 1px solid var(--primary);
   border-bottom: 1px solid #1d1d1d;
-  font-family: 'Open Sans', sans-serif;
   background: var(--background-tertiary);
 `
 

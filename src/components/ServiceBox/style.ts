@@ -49,11 +49,19 @@ export const Title = styled.h1`
 
 export const FirstWrapper = styled(motion.div)`
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
   align-items: center;
   gap: 3rem;
   background: var(--background-secondary);
   z-index: 5;
+
+  width: 100%;
+
+  img {
+    margin-left: 6rem;
+  }
 `
 
 export const SecondWrapper = styled(motion.div)`

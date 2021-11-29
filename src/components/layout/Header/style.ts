@@ -28,13 +28,12 @@ export const Container = styled.header<Props>`
     list-style: none;
     display: flex;
     gap: 8rem;
-    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 14px;
 
     margin-right: 11rem;
 
-    @media (max-width: 1100px) {
+    @media (max-width: 1130px) {
       margin-right: 0;
     }
 
@@ -63,7 +62,7 @@ export const Container = styled.header<Props>`
     }
   }
 
-  @media (max-width: 830px) {
+  @media (max-width: 1130px) {
     margin-bottom: 2rem;
   }
 `
@@ -73,21 +72,21 @@ export const Wrapper = styled.div`
   align-items: center;
   justify-content: space-between;
 
-  @media (max-width: 830px) {
+  @media (max-width: 1130px) {
     flex-direction: column;
     margin-bottom: 20rem;
   }
 `
 
 export const Logo = styled.img`
-  width: 115px;
-  height: 115px;
+  width: 300px;
+  height: 130px;
   object-fit: contain;
 
   cursor: pointer;
 
-  @media (max-width: 830px) {
-    width: 100px;
+  @media (max-width: 1130px) {
+    width: 240px;
     height: 100px;
     z-index: 100;
   }
