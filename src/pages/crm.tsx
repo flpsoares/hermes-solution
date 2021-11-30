@@ -28,6 +28,7 @@ const CRM: React.FC = () => {
     <PageSEO
       isServicePage={true}
       title="CRM e CMS"
+      path="crm"
       description={`Otimize sua relação com os clientes, de modo fácil e simples. O CMS e o
       CRM são ferramentas utilizadas para gerenciar conteúdos de uma plataforma
       sem a necessidade do auxílio de um desenvolvedor, facilitando as

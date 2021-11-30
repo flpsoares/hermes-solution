@@ -27,6 +27,7 @@ const Ecommerce: React.FC = () => {
     <PageSEO
       isServicePage={true}
       title="E-commerce"
+      path="e-commerce"
       description={`Refere-se aos negócios que estruturam a compra e venda digital, por meios
       de ferramentas onlines. É muito mais do que apenas a criação de um site,
       é empreendedorismo, sua estrutura e funcionamento são totalmente

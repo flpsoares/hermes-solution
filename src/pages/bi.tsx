@@ -26,6 +26,7 @@ const BI: React.FC = () => {
     <PageSEO
       isServicePage={true}
       title="Business Intelligence"
+      path="bi"
       description={`O estudo do mercado em que se atua é fundamental para qualquer tomada de
       decisão, o cuidado com números, estratégias e objetivos é o que faz uma
       empresa crescer e o quanto ela ainda pode crescer. O crescimento digital

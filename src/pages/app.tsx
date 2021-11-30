@@ -27,6 +27,7 @@ const App: React.FC = () => {
     <PageSEO
       isServicePage={true}
       title="App"
+      path="app"
       description={`Criação de aplicativos IOS e Android para qualquer finalidade, podendo
       criar designes únicos e de alta performance. Além de criar um laço mais
       firme com o seu cliente, também valoriza sua empresa e ajuda na evolução

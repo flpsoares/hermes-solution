@@ -25,6 +25,7 @@ const Audiovisual: React.FC = () => {
     <PageSEO
       isServicePage={true}
       title="Audiovisual"
+      path="audiovisual"
       description={`O processo de criação audiovisual é muito importante para a divulgação de
       produtos, faremos juntos, a identidade visual de seu comércio online.`}
     >

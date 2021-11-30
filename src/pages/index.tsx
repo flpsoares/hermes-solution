@@ -25,6 +25,7 @@ const Home: React.FC = () => {
     <PageSEO
       isServicePage={false}
       title="Hermes Solutions"
+      path=""
       description={`A Hermes Solutions é uma empresa que foca em atingir o melhor resultado possível para 
         nossos clientes, oferecendo soluções divinas em nossos projetos.`}
     >

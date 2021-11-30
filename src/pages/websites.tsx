@@ -28,6 +28,7 @@ const WebSites: React.FC = () => {
     <PageSEO
       isServicePage={true}
       title="Websites"
+      path="websites"
       description={`Tenha sua página para qualquer finalidade, tenha o
       melhor desenvolvimentos para a divulgação de suas ideias e projetos,
       tenha seus views ou conversões mostrando seu diferencial a todos.`}

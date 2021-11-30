@@ -27,6 +27,7 @@ const TrafficPaid: React.FC = () => {
     <PageSEO
       isServicePage={true}
       title="Tráfego Pago"
+      path="traffic-paid"
       description={`O tráfego pago é responsável por todos os anúncios e propagandas que
       existem nas mídias digitais, e com eles vem os Adsenses (ADS), entre as
       principais plataformas o Google Adsense e o Facebook Adsense, com eles é

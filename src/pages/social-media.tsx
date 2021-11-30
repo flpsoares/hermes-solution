@@ -26,6 +26,7 @@ const SocialMedia: React.FC = () => {
     <PageSEO
       isServicePage={true}
       title="Social Media"
+      path="social-media"
       description={`As redes sociais são muito importantes para que o seu produto tenha a
       visibilidade devida, conosco, iremos conversar sobre a identidade visual
       perfeita e como iremos divulgar cada publicação com o copy certo e

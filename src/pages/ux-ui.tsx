@@ -31,6 +31,7 @@ const Uxui = () => {
     <PageSEO
       isServicePage={true}
       title="UX e UI"
+      path="ux-ui"
       description={`Tenha um design exclusivo para o seu projeto, e aumenta sua credibilidade
       e reputação. Trabalho focado no melhor atendimento ao cliente para que
       seja entendido qual a cara e o que deseja passar para os clientes, para
