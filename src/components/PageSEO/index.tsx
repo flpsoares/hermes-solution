@@ -25,6 +25,7 @@ export const PageSEO: React.FC<PageSEOProps> = ({
         <meta name="description" content={description} />
         <meta
           property="og:image"
+          itemProp="image"
           content="https://hermes-solution.vercel.app/assets/logo.png"
         />
         <meta
@@ -32,46 +33,10 @@ export const PageSEO: React.FC<PageSEOProps> = ({
           content="https://hermes-solution.vercel.app/assets/logo.png"
         />
         <meta property="og:image:type" content="image/png" />
-        <meta
-          name="twitter:image"
-          content="https://hermes-solution.vercel.app/assets/logo.png"
-        />
-        <meta
-          name="twitter:image:src"
-          content="https://hermes-solution.vercel.app/assets/logo.png"
-        />
-        <meta
-          name="instagram:image"
-          content="https://hermes-solution.vercel.app/assets/logo.png"
-        />
-        <meta
-          name="instagram:image:src"
-          content="https://hermes-solution.vercel.app/assets/logo.png"
-        />
-        <meta
-          name="facebook:image"
-          content="https://hermes-solution.vercel.app/assets/logo.png"
-        />
-        <meta
-          name="facebook:image:src"
-          content="https://hermes-solution.vercel.app/assets/logo.png"
-        />
-        <meta
-          name="whatsapp:image"
-          content="https://hermes-solution.vercel.app/assets/logo.png"
-        />
-        <meta
-          name="whatsapp:image:src"
-          content="https://hermes-solution.vercel.app/assets/logo.png"
-        />
-        <meta
-          name="linkedin:image"
-          content="https://hermes-solution.vercel.app/assets/logo.png"
-        />
-        <meta
-          name="linkedin:image:src"
-          content="https://hermes-solution.vercel.app/assets/logo.png"
-        />
+        <meta property="og:site_name" content="Hermes Solutions"></meta>
+        <meta property="og:type" content="website" />
+        <meta property="og:image:width" content="300" />
+        <meta property="og:image:height" content="300" />
         <meta property="og:description" content={description} />
       </Head>
       {children}
