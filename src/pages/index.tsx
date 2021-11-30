@@ -12,6 +12,7 @@ import { LetsTalk } from '../components/layout/_Home/LetsTalk'
 import { ServicesPerformed } from '../components/layout/_Home/ServicesPerformed'
 
 import { Team } from '../components/layout/Team'
+import { PageSEO } from '../components/PageSEO'
 
 const Container = styled.div`
   background: var(--background-secondary);
@@ -21,17 +22,24 @@ const Container = styled.div`
 
 const Home: React.FC = () => {
   return (
-    <Container>
-      <Header background="var(--background-primary)" />
-      <Banner />
-      <CompanyNumbers />
-      <ServicesPerformed />
-      <CustomersServed isHome={true} />
-      <Team isHome={true} />
-      <LetsTalk />
-      <Footer />
-      <ContactButtons />
-    </Container>
+    <PageSEO
+      isServicePage={false}
+      title="Hermes Solutions"
+      description={`A Hermes Solutions é uma empresa que foca em atingir o melhor resultado possível para 
+        nossos clientes, oferecendo soluções divinas em nossos projetos.`}
+    >
+      <Container>
+        <Header background="var(--background-primary)" />
+        <Banner />
+        <CompanyNumbers />
+        <ServicesPerformed />
+        <CustomersServed isHome={true} />
+        <Team isHome={true} />
+        <LetsTalk />
+        <Footer />
+        <ContactButtons />
+      </Container>
+    </PageSEO>
   )
 }
 

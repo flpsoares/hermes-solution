@@ -138,17 +138,27 @@ export const Footer: React.FC = () => {
                 <Title>A Hermes</Title>
                 <ul>
                   <li>
-                    <Link to="who-we-are" smooth={true} offset={-80}>
+                    <Link
+                      href="who-we-are"
+                      to="who-we-are"
+                      smooth={true}
+                      offset={-80}
+                    >
                       Quem somos
                     </Link>
                   </li>
                   <li>
-                    <Link to="customers" smooth={true} offset={-160}>
+                    <Link
+                      href="customers"
+                      to="customers"
+                      smooth={true}
+                      offset={-160}
+                    >
                       Clientes
                     </Link>
                   </li>
                   <li>
-                    <Link to="contact" smooth={true}>
+                    <Link href="contact" to="contact" smooth={true}>
                       Contato
                     </Link>
                   </li>
@@ -165,6 +175,7 @@ export const Footer: React.FC = () => {
             </Email>
             <Icons>
               <a
+                aria-label="Linkedin"
                 href="https://www.linkedin.com/company/hermes-solutions/"
                 target="_blank"
                 rel="noreferrer"
@@ -172,6 +183,7 @@ export const Footer: React.FC = () => {
                 <ImLinkedin2 size={20} />
               </a>
               <a
+                aria-label="Facebook"
                 href="https://www.facebook.com/Ag%C3%AAncia-Digital-Hermes-Solutions-102458504867056/"
                 target="_blank"
                 rel="noreferrer"
@@ -179,6 +191,7 @@ export const Footer: React.FC = () => {
                 <ImFacebook size={20} />
               </a>
               <a
+                aria-label="Instagram"
                 href="https://www.instagram.com/hermes_solutions/"
                 target="_blank"
                 rel="noreferrer"

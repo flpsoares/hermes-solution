@@ -20,13 +20,14 @@ export const Info = styled.div`
   p:nth-child(1) {
     font-size: 2rem;
     font-weight: 500;
+    color: white;
   }
 
   p:nth-child(2) {
     font-size: 1.6rem;
     font-weight: 400;
     font-style: normal;
-    color: #e1bc5d;
+    color: var(--primary);
     margin-top: 0.6rem;
   }
 `

@@ -60,7 +60,14 @@ export const SameWhyBuildingTwo: React.FC<SameWhyBuildingTwoProps> = (props) => 
                 <img src={props.imageFive} alt="" />
                 <p>{props.titleImageFive}</p>
               </WhyInfos>
-              <YellowLink width="263px" height="52px" margintop="2rem" link="budget">
+              <YellowLink
+                width="263px"
+                height="52px"
+                margintop="2rem"
+                link="budget"
+                smooth
+                offset={-120}
+              >
                 Simule um orçamento
               </YellowLink>
             </Infos>

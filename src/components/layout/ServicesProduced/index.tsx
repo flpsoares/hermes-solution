@@ -40,7 +40,13 @@ export const ServicesProduced = () => {
               Nossos divinos trabalhos desenvolvidos pelos membros de nossa equipe
               nos motivam a realizar projetos cada vez mais aprimorados.{' '}
             </p>
-            <LinkButtons link="#budget" children="Simule um orçamento" size="1rem" />
+            <LinkButtons
+              link="budget"
+              smooth
+              offset={-120}
+              children="Simule um orçamento"
+              size="1rem"
+            />
           </Photos>
         </Wrapper>
       </GlobalContainer>

@@ -38,7 +38,7 @@ export const StepByStep4: React.FC<StepByStep4Props> = ({
             <h1>{subTitle}</h1>
           </Title>
           <Content>
-            <StepsImage src="./assets/steps4.png" />
+            <StepsImage src="./assets/steps4.png" alt="4 passos" />
             <StepsArea>
               <Step
                 stepTitle={stepOneTitle}

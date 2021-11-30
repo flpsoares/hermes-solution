@@ -69,7 +69,8 @@ export const Title = styled.h1`
 
 export const ErasedTitle = styled.h1`
   font-size: 1.8rem;
-  color: rgba(255, 255, 255, 0.4);
+  /* color: rgba(255, 255, 255, 0.4); */
+  color: white;
 `
 
 export const DefaultDiv = styled.div`

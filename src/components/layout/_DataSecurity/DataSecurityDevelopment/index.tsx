@@ -2,7 +2,7 @@ import { GlobalContainer } from '../../../../styles/container'
 import { FloatImage } from '../../../FloatImage'
 import { TransparentLink } from '../../../TransparentLink'
 import { YellowLink } from '../../../YellowLink'
-import { Container, Wrapper, Title, Info, SubInfo, ButtonsArea } from './style'
+import { Container, Wrapper, Title, Info, ButtonsArea } from './style'
 
 export const DataSecurityDevelopment: React.FC = () => {
   return (

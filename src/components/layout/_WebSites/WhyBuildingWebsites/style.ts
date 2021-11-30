@@ -130,7 +130,6 @@ export const Photo = styled.div`
 `
 
 export const PhotoContainer = styled.div`
-  border: 1px solid green;
   width: 100%;
   height: 85%;
   background-image: url('./assets/websites/frame.png');

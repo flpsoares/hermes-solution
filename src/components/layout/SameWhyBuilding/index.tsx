@@ -68,7 +68,14 @@ export const SameWhyBuilding = (props?: SameWhyBuildingProps) => {
                 <p>{props.TitleImageEight}</p>
               </WhyInfos>
             </Infos>
-            <YellowLink width="263px" height="52px" link="" margintop="0rem">
+            <YellowLink
+              width="263px"
+              height="52px"
+              link="budget"
+              smooth
+              offset={-140}
+              margintop="0rem"
+            >
               Simule um orçamento
             </YellowLink>
           </Content>

@@ -60,7 +60,13 @@ export const ServicesProducedTwo = (props: ServicesProducedTwoProps) => {
           <Photos>
             <h1>{props.title}</h1>
             <p>{props.subTitle}</p>
-            <LinkButtons link="#" children="Simule um orçamento" size="1rem" />
+            <LinkButtons
+              link="budget"
+              smooth
+              offset={-120}
+              children="Simule um orçamento"
+              size="1rem"
+            />
           </Photos>
         </Wrapper>
       </GlobalContainer>

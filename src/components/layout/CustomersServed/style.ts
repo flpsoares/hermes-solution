@@ -9,7 +9,8 @@ export const Container = styled.div`
 
 export const ErasedTitle = styled.h1`
   font-size: 2.2rem;
-  color: rgba(255, 255, 255, 0.4);
+  /* color: rgba(255, 255, 255, 0.4); */
+  color: white;
   font-weight: 400;
 
   @media (max-width: 1030px) {

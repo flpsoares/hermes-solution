@@ -35,20 +35,13 @@ export default class MyDocument extends Document {
 
   render() {
     return (
-      <Html>
+      <Html lang="pt-br">
         <Head>
+          <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link rel="icon" href="/assets/favicon.png" />
           <link
-            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
-            rel="stylesheet"
-          ></link>
-          <link
             href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
-            rel="stylesheet"
-          ></link>
-          <link
-            href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
             rel="stylesheet"
           ></link>
         </Head>

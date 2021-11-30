@@ -11,6 +11,7 @@ import { SameWhyBuilding } from '../components/layout/SameWhyBuilding'
 import { ServicesProducedTwo } from '../components/layout/ServicesProducedTwo'
 import { Budget } from '../components/layout/Budget'
 import { ContactButtons } from '../components/ButtonContact'
+import { PageSEO } from '../components/PageSEO'
 
 const Container = styled.div`
   background: var(--background-secondary);
@@ -24,106 +25,115 @@ const Top = styled.div`
 
 const DataSecurity: React.FC = () => {
   return (
-    <Container>
-      <Top>
-        <FloatImage
-          src="/assets/blocks.png"
-          width="42rem"
-          height="42rem"
-          brightness="0.4"
-          top="-38rem"
-          left="-24rem"
-          responsive={{
-            1560: { brightness: '0.2' },
-            830: { brightness: '0.1' }
-          }}
+    <PageSEO
+      isServicePage={true}
+      title="Segurança de dados"
+      description={`Seus clientes e seu projeto merecem a melhor segurança possível, passe
+      credibilidade e seja seguro quanto as suas e as informações que seus
+      clientes deixam no site. Preserve informações, nunca sabemos quem está do
+      outro lado da tela.`}
+    >
+      <Container>
+        <Top>
+          <FloatImage
+            src="/assets/blocks.png"
+            width="42rem"
+            height="42rem"
+            brightness="0.4"
+            top="-38rem"
+            left="-24rem"
+            responsive={{
+              1560: { brightness: '0.2' },
+              830: { brightness: '0.1' }
+            }}
+          />
+          <FloatImage
+            src="/assets/blocks.png"
+            width="42rem"
+            height="42rem"
+            brightness="0.4"
+            top="4rem"
+            left="-24rem"
+            responsive={{
+              1560: { brightness: '0.2' },
+              830: { brightness: '0.1' }
+            }}
+          />
+          <FloatImage
+            src="/assets/blocks.png"
+            width="42rem"
+            height="42rem"
+            brightness="0.4"
+            top="46rem"
+            left="-24rem"
+            responsive={{
+              1560: { brightness: '0.2' },
+              830: { brightness: '0.1' }
+            }}
+          />
+          <Header background="var(--background-secondary)" />
+          <DataSecurityDevelopment />
+        </Top>
+        <StepByStep5
+          title="Entenda"
+          subTitle="Como fazemos"
+          stepOneTitle="Verificação"
+          stepOne="Reconhecimento e análise do sistema para coleta de informações."
+          stepTwoTitle="Análise de informações e risco"
+          stepTwo="Reconhecimento de tentativas de invasão e pequeno relatório sobre possíveis tentativas futuras."
+          stepThreeTitle="Tentativas"
+          stepThree="Realização de testes no sistema."
+          stepFourTitle="Análise final"
+          stepFour="Reconhecimentos gerais do funcionamento do sistema de segurança."
+          stepFiveTitle="Relatórios"
+          stepFive="Informações detalhadas sobre a análise para o cliente."
         />
-        <FloatImage
-          src="/assets/blocks.png"
-          width="42rem"
-          height="42rem"
-          brightness="0.4"
-          top="4rem"
-          left="-24rem"
-          responsive={{
-            1560: { brightness: '0.2' },
-            830: { brightness: '0.1' }
-          }}
+        <SameWhyBuilding
+          title="Por que você deve investir em segurança de dados?"
+          subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
+          ImageOne="./assets/data-security/icon-1.png"
+          TitleImageOne="Lorem ipsum dolor sit amet, consectetur"
+          ImageTwo="./assets/data-security/icon-1.png"
+          TitleImageTwo="Lorem ipsum dolor sit amet, consectetur"
+          ImageThree="./assets/data-security/icon-1.png"
+          TitleImageThree="Lorem ipsum dolor sit amet, consectetur"
+          ImageFour="./assets/data-security/icon-1.png"
+          TitleImageFour="Lorem ipsum dolor sit amet, consectetur"
+          ImageFive="./assets/data-security/icon-1.png"
+          TitleImageFive="Lorem ipsum dolor sit amet, consectetur"
+          ImageSix="./assets/data-security/icon-1.png"
+          TitleImageSix="Lorem ipsum dolor sit amet, consectetur"
+          ImageSeven="./assets/data-security/icon-1.png"
+          TitleImageSeven="Lorem ipsum dolor sit amet, consectetur"
+          ImageEight="./assets/data-security/icon-1.png"
+          TitleImageEight="Lorem ipsum dolor sit amet, consectetur"
         />
-        <FloatImage
-          src="/assets/blocks.png"
-          width="42rem"
-          height="42rem"
-          brightness="0.4"
-          top="46rem"
-          left="-24rem"
-          responsive={{
-            1560: { brightness: '0.2' },
-            830: { brightness: '0.1' }
-          }}
+        <ServicesProducedTwo
+          imageOne="./assets/case1.png"
+          imageOneTitle="Cartões Caixa"
+          imageOneSubTitle="Ux Design"
+          displayOne="none"
+          displayTwo="none"
+          displayThree="none"
+          imageTwo="./assets/case1.png"
+          imageTwoTitle="Cartões Caixa"
+          imageTwoSubTitle="Ux Design"
+          imageThree="./assets/case1.png"
+          imageThreeTitle="Cartões Caixa"
+          imageThreeSubTitle="Ux Design"
+          imageFour="./assets/case1.png"
+          imageFourTitle="Cartões Caixa"
+          imageFourSubTitle="Ux Design"
+          title="Alguns cases de sucesso que produzimos"
+          subTitle="Nossos divinWos trabalhos desenvolvidos pelos membros de nossa equipe nos motivam a realizar projetos cada vez mais aprimorados."
         />
-        <Header background="var(--background-secondary)" />
-        <DataSecurityDevelopment />
-      </Top>
-      <StepByStep5
-        title="Entenda"
-        subTitle="Como fazemos"
-        stepOneTitle="Verificação"
-        stepOne="Reconhecimento e análise do sistema para coleta de informações."
-        stepTwoTitle="Análise de informações e risco"
-        stepTwo="Reconhecimento de tentativas de invasão e pequeno relatório sobre possíveis tentativas futuras."
-        stepThreeTitle="Tentativas"
-        stepThree="Realização de testes no sistema."
-        stepFourTitle="Análise final"
-        stepFour="Reconhecimentos gerais do funcionamento do sistema de segurança."
-        stepFiveTitle="Relatórios"
-        stepFive="Informações detalhadas sobre a análise para o cliente."
-      />
-      <SameWhyBuilding
-        title="Por que você deve investir em segurança de dados?"
-        subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
-        ImageOne="./assets/data-security/icon-1.png"
-        TitleImageOne="Lorem ipsum dolor sit amet, consectetur"
-        ImageTwo="./assets/data-security/icon-1.png"
-        TitleImageTwo="Lorem ipsum dolor sit amet, consectetur"
-        ImageThree="./assets/data-security/icon-1.png"
-        TitleImageThree="Lorem ipsum dolor sit amet, consectetur"
-        ImageFour="./assets/data-security/icon-1.png"
-        TitleImageFour="Lorem ipsum dolor sit amet, consectetur"
-        ImageFive="./assets/data-security/icon-1.png"
-        TitleImageFive="Lorem ipsum dolor sit amet, consectetur"
-        ImageSix="./assets/data-security/icon-1.png"
-        TitleImageSix="Lorem ipsum dolor sit amet, consectetur"
-        ImageSeven="./assets/data-security/icon-1.png"
-        TitleImageSeven="Lorem ipsum dolor sit amet, consectetur"
-        ImageEight="./assets/data-security/icon-1.png"
-        TitleImageEight="Lorem ipsum dolor sit amet, consectetur"
-      />
-      <ServicesProducedTwo
-        imageOne="./assets/case1.png"
-        imageOneTitle="Cartões Caixa"
-        imageOneSubTitle="Ux Design"
-        displayOne="none"
-        displayTwo="none"
-        displayThree="none"
-        imageTwo="./assets/case1.png"
-        imageTwoTitle="Cartões Caixa"
-        imageTwoSubTitle="Ux Design"
-        imageThree="./assets/case1.png"
-        imageThreeTitle="Cartões Caixa"
-        imageThreeSubTitle="Ux Design"
-        imageFour="./assets/case1.png"
-        imageFourTitle="Cartões Caixa"
-        imageFourSubTitle="Ux Design"
-        title="Alguns cases de sucesso que produzimos"
-        subTitle="Nossos divinWos trabalhos desenvolvidos pelos membros de nossa equipe nos motivam a realizar projetos cada vez mais aprimorados."
-      />
-      <CustomersServed />
-      <Team isHome={false} />
-      <Budget />
-      <Footer />
-      <ContactButtons />
-    </Container>
+        <CustomersServed />
+        <Team isHome={false} />
+        <Budget />
+        <Footer />
+        <ContactButtons />
+      </Container>
+    </PageSEO>
   )
 }
 

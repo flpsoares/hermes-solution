@@ -11,7 +11,7 @@ export const UxuiDevelopment: React.FC = () => {
         <Wrapper>
           <Title>
             <h1>
-              UX/ UI Design <br />e Design Thinking
+              UX / UI Design <br />e Design Thinking
             </h1>
           </Title>
           <Info>
