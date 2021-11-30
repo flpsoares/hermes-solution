@@ -1,6 +1,11 @@
 import styled from 'styled-components'
 
-export const Container = styled.div`
+interface BoxCasesProps {
+  display: string
+}
+
+export const Container = styled.div<BoxCasesProps>`
+  display: ${(props) => props.display};
   width: 94%;
   height: 25.7rem;
   border-radius: 3rem;

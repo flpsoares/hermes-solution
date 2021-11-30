@@ -23,7 +23,23 @@ export const Content = styled.div`
       text-align: center;
       font-size: 4.2rem;
       font-weight: 500;
-      padding: 0 20rem;
+      padding: 0 10rem;
+    }
+  }
+  @media (max-width: 750px) {
+    h1 {
+      text-align: center;
+      font-size: 3.8rem;
+      font-weight: 500;
+      padding: 0 2rem;
+    }
+  }
+  @media (max-width: 430px) {
+    h1 {
+      text-align: center;
+      font-size: 3rem;
+      font-weight: 500;
+      padding: 0 2rem;
     }
   }
 
@@ -51,6 +67,19 @@ export const Percent = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 25%);
   flex-direction: column;
+
+  @media (max-width: 955px) {
+    grid-template-columns: repeat(2, 50%);
+    div {
+      margin-bottom: 2rem;
+    }
+  }
+  @media (max-width: 560px) {
+    grid-template-columns: 100%;
+    div {
+      margin-bottom: 2rem;
+    }
+  }
 
   margin-bottom: 7rem;
 `

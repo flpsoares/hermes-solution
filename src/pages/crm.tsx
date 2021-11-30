@@ -79,15 +79,23 @@ const CRM: React.FC = () => {
       />
       <SameWhyBuilding
         title="Como podemos te ajudar a usar essas ferramentas"
-        subtitle="Temos sistemas incríveis de criação de sites e estratégias de marketing orgânico para ajudar o seu produto a atingir o ápice de vendas e conversão, estamos mais que preparados para te acompanhar nessa nova jornada."
+        subtitle="Lorem ipsum dolor sit amet, consectetur"
         ImageOne="./assets/crm/icon.png"
-        TitleImageOne="Apenas com o valor do site, você tem a opção de criar a sua estratégia para chamar a atenção de seu público alvo sem precisar pagar por anúncios."
+        TitleImageOne="Lorem ipsum dolor sit amet, consectetur"
         ImageTwo="./assets/crm/icon.png"
-        TitleImageTwo="Com o nosso produto, você pode editar e atualizar o seu site quanto quiser, e com um custo baixíssimo, facilitando assim, sua interação com os clientes."
+        TitleImageTwo="Lorem ipsum dolor sit amet, consectetur"
         ImageThree="./assets/crm/icon.png"
         TitleImageThree="Lorem ipsum dolor sit amet, consectetur"
         ImageFour="./assets/crm/icon.png"
         TitleImageFour="Lorem ipsum dolor sit amet, consectetur"
+        ImageFive="./assets/crm/icon.png"
+        TitleImageFive="Lorem ipsum dolor sit amet, consectetur"
+        ImageSix="./assets/crm/icon.png"
+        TitleImageSix="Lorem ipsum dolor sit amet, consectetur"
+        ImageSeven="./assets/crm/icon.png"
+        TitleImageSeven="Lorem ipsum dolor sit amet, consectetur"
+        ImageEight="./assets/crm/icon.png"
+        TitleImageEight="Lorem ipsum dolor sit amet, consectetur"
       />
       <CustomersServed />
       <Team isHome={false} />

@@ -6,20 +6,24 @@ import { GlobalContainer } from '../../../styles/container'
 import { FloatImage } from '../../FloatImage'
 
 interface ServicesProducedTwoProps {
-  imageOne: string
-  imageOneTitle: string
-  imageOneSubTitle: string
-  imageTwo: string
-  imageTwoTitle: string
-  imageTwoSubTitle: string
-  imageThree: string
-  imageThreeTitle: string
-  imageThreeSubTitle: string
-  imageFour: string
-  imageFourTitle: string
-  imageFourSubTitle: string
-  title: string
-  subTitle: string
+  imageOne?: string
+  imageOneTitle?: string
+  imageOneSubTitle?: string
+  displayOne?: string
+  imageTwo?: string
+  imageTwoTitle?: string
+  imageTwoSubTitle?: string
+  displayTwo?: string
+  imageThree?: string
+  imageThreeTitle?: string
+  imageThreeSubTitle?: string
+  displayThree?: string
+  imageFour?: string
+  imageFourTitle?: string
+  imageFourSubTitle?: string
+  displayFour?: string
+  title?: string
+  subTitle?: string
 }
 
 export const ServicesProducedTwo = (props: ServicesProducedTwoProps) => {
@@ -32,21 +36,25 @@ export const ServicesProducedTwo = (props: ServicesProducedTwoProps) => {
               title={props.imageOneTitle}
               subtitle={props.imageOneSubTitle}
               url={props.imageOne}
+              display={props.displayOne}
             />
             <BoxCases
               title={props.imageTwoTitle}
               subtitle={props.imageTwoSubTitle}
               url={props.imageTwo}
+              display={props.displayTwo}
             />
             <BoxCases
               title={props.imageThreeTitle}
               subtitle={props.imageThreeSubTitle}
               url={props.imageThree}
+              display={props.displayThree}
             />
             <BoxCases
               title={props.imageFourTitle}
               subtitle={props.imageFourSubTitle}
               url={props.imageFour}
+              display={props.displayFour}
             />
           </Info>
           <Photos>

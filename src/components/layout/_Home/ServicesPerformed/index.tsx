@@ -52,7 +52,7 @@ export const ServicesPerformed: React.FC = () => {
               link="/websites"
             />
             <ServiceBox
-              title="Social mídia"
+              title="Social media"
               content="Cuidamos de suas redes sociais com profissionais treinados para que seu produto tenha cada vez mais visibilidade no mercado digital."
               image="./assets/services-icons/icone-06.png"
               link="social-media"
