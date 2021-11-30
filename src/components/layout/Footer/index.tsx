@@ -139,6 +139,7 @@ export const Footer: React.FC = () => {
                 <ul>
                   <li>
                     <Link
+                      rel="noreferrer"
                       href="who-we-are"
                       to="who-we-are"
                       smooth={true}
@@ -149,6 +150,7 @@ export const Footer: React.FC = () => {
                   </li>
                   <li>
                     <Link
+                      rel="noreferrer"
                       href="customers"
                       to="customers"
                       smooth={true}
@@ -158,7 +160,7 @@ export const Footer: React.FC = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="contact" to="contact" smooth={true}>
+                    <Link rel="noreferrer" href="contact" to="contact" smooth={true}>
                       Contato
                     </Link>
                   </li>

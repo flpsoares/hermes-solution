@@ -11,6 +11,7 @@ export const ContactButtons: React.FC = () => {
         aria-label="Instagram"
         target="_blank"
         href="https://www.instagram.com/hermes_solutions/"
+        rel="noreferrer"
       >
         <AiOutlineInstagram size={34} />
       </Instagram>
@@ -18,6 +19,7 @@ export const ContactButtons: React.FC = () => {
         aria-label="Whatsapp"
         target="_blank"
         href="https://api.whatsapp.com/send?phone=5511988209426"
+        rel="noreferrer"
       >
         <img src="/assets/contact/whatsapp.svg" alt="whatsapp" />
       </Whatsapp>

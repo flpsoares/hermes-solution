@@ -71,23 +71,25 @@ export const Wrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 130px;
 
   @media (max-width: 1130px) {
     flex-direction: column;
+    justify-content: space-around;
     margin-bottom: 20rem;
   }
 `
 
 export const Logo = styled.img`
-  width: 300px;
+  width: 230px;
   height: 130px;
   object-fit: contain;
 
   cursor: pointer;
 
   @media (max-width: 1130px) {
-    width: 240px;
-    height: 100px;
+    width: 180px;
+    height: 80px;
     z-index: 100;
   }
 `
