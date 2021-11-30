@@ -23,19 +23,55 @@ export const PageSEO: React.FC<PageSEOProps> = ({
         )}
 
         <meta name="description" content={description} />
-        <meta property="og:image" content="/assets/logo.png" />
-        <meta property="og:image:secure_url" content="/assets/logo.png" />
+        <meta
+          property="og:image"
+          content="https://hermes-solution.vercel.app/assets/logo.png"
+        />
+        <meta
+          property="og:image:secure_url"
+          content="https://hermes-solution.vercel.app/assets/logo.png"
+        />
         <meta property="og:image:type" content="image/png" />
-        <meta name="twitter:image" content="/assets/logo.png" />
-        <meta name="twitter:image:src" content="/assets/logo.png" />
-        <meta name="instagram:image" content="/assets/logo.png" />
-        <meta name="instagram:image:src" content="/assets/logo.png" />
-        <meta name="facebook:image" content="/assets/logo.png" />
-        <meta name="facebook:image:src" content="/assets/logo.png" />
-        <meta name="whatsapp:image" content="/assets/logo.png" />
-        <meta name="whatsapp:image:src" content="/assets/logo.png" />
-        <meta name="linkedin:image" content="/assets/logo.png" />
-        <meta name="linkedin:image:src" content="/assets/logo.png" />
+        <meta
+          name="twitter:image"
+          content="https://hermes-solution.vercel.app/assets/logo.png"
+        />
+        <meta
+          name="twitter:image:src"
+          content="https://hermes-solution.vercel.app/assets/logo.png"
+        />
+        <meta
+          name="instagram:image"
+          content="https://hermes-solution.vercel.app/assets/logo.png"
+        />
+        <meta
+          name="instagram:image:src"
+          content="https://hermes-solution.vercel.app/assets/logo.png"
+        />
+        <meta
+          name="facebook:image"
+          content="https://hermes-solution.vercel.app/assets/logo.png"
+        />
+        <meta
+          name="facebook:image:src"
+          content="https://hermes-solution.vercel.app/assets/logo.png"
+        />
+        <meta
+          name="whatsapp:image"
+          content="https://hermes-solution.vercel.app/assets/logo.png"
+        />
+        <meta
+          name="whatsapp:image:src"
+          content="https://hermes-solution.vercel.app/assets/logo.png"
+        />
+        <meta
+          name="linkedin:image"
+          content="https://hermes-solution.vercel.app/assets/logo.png"
+        />
+        <meta
+          name="linkedin:image:src"
+          content="https://hermes-solution.vercel.app/assets/logo.png"
+        />
         <meta property="og:description" content={description} />
       </Head>
       {children}
