@@ -23,7 +23,6 @@ export const PageSEO: React.FC<PageSEOProps> = ({
         ) : (
           <title>Hermes Solutions</title>
         )}
-
         <meta name="description" content={description} />
         <meta
           property="og:image"
@@ -43,6 +42,8 @@ export const PageSEO: React.FC<PageSEOProps> = ({
         <meta property="og:site_name" content="Hermes Solutions" />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="pt-BR" />
+        <meta property="og:image:width" content="300" />
+        <meta property="og:image:height" content="200" />
         <meta property="og:description" content={description} />
       </Head>
       {children}
