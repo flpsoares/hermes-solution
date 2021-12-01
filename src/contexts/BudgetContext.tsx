@@ -17,6 +17,7 @@ interface BudgetContextData {
   submitForm: () => void
   increase: (value: string) => void
   decrease: () => void
+  isLoading: boolean
 }
 
 interface BudgetProviderProps {
@@ -35,9 +36,12 @@ export function BudgetProvider({ children }: BudgetProviderProps) {
   const [customerCel, setCustomerCel] = useState('')
   const [customerSocialNetwork, setCustomerSocialNetwork] = useState('')
 
+  const [isLoading, setIsLoading] = useState(false)
+
   const [isSubmited, setIsSubmited] = useState(false)
 
   const submitForm = async () => {
+    setIsLoading(true)
     if (customerName !== '' && customerEmail !== '' && customerCel !== '') {
       if (values) {
         const emailMessage = `
@@ -56,9 +60,13 @@ export function BudgetProvider({ children }: BudgetProviderProps) {
             }</b><br />
             Tem prazo para o projeto - <b>${values[6]}</b>
           `
-        await sendMail(customerName, customerEmail, emailMessage).then(() => {
-          setIsSubmited(true)
-        })
+        await sendMail(customerName, customerEmail, emailMessage)
+          .then(() => {
+            setIsSubmited(true)
+          })
+          .finally(() => {
+            setIsLoading(false)
+          })
       }
     }
   }
@@ -98,7 +106,8 @@ export function BudgetProvider({ children }: BudgetProviderProps) {
         setCustomerCel,
         setCustomerSocialNetwork,
         isSubmited,
-        submitForm
+        submitForm,
+        isLoading
       }}
     >
       {children}

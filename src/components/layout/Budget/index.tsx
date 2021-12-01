@@ -30,6 +30,7 @@ import DatePicker from '@amir04lm26/react-modern-calendar-date-picker'
 import questions from '../../../questions.json'
 import { useBudget } from '../../../contexts/BudgetContext'
 import { FloatImage } from '../../FloatImage'
+import { Loading } from '../../Loading'
 
 interface selectedDayProps {
   day: string
@@ -41,7 +42,6 @@ export const Budget: React.FC = () => {
   const {
     step,
     progress,
-    values,
     increase,
     decrease,
     setCustomerName,
@@ -49,7 +49,8 @@ export const Budget: React.FC = () => {
     setCustomerCel,
     setCustomerSocialNetwork,
     isSubmited,
-    submitForm
+    submitForm,
+    isLoading
   } = useBudget()
   const [otherIsActive, setOtherIsActive] = useState(false)
   const [calendarIsActive, setCalendarIsActive] = useState(true)
@@ -334,6 +335,12 @@ export const Budget: React.FC = () => {
                 </Form>
               </>
             )}
+
+            {isLoading && (
+              <div style={{ marginBottom: '2rem' }}>
+                <Loading />
+              </div>
+            )}
             <SubmitButtons>
               {step !== 1 ? (
                 <RollbackButton onClick={rollback}>Voltar</RollbackButton>
@@ -346,6 +353,7 @@ export const Budget: React.FC = () => {
                 ''
               )}
             </SubmitButtons>
+
             <ProgressBar>
               <Progress progress={progress} step={step} />
             </ProgressBar>
