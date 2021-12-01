@@ -346,9 +346,6 @@ export const Budget: React.FC = () => {
                 ''
               )}
             </SubmitButtons>
-            {values.map((v, index) => {
-              return <p key={`v${index}`}>{v}</p>
-            })}
             <ProgressBar>
               <Progress progress={progress} step={step} />
             </ProgressBar>

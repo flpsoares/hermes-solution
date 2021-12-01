@@ -1,4 +1,5 @@
 import { createContext, ReactNode, useContext, useState } from 'react'
+import { sendMail } from '../services/sendMail'
 
 interface BudgetContextData {
   progress: number
@@ -34,11 +35,31 @@ export function BudgetProvider({ children }: BudgetProviderProps) {
   const [customerCel, setCustomerCel] = useState('')
   const [customerSocialNetwork, setCustomerSocialNetwork] = useState('')
 
+  const [emailMessage, setEmailMessage] = useState('')
+
   const [isSubmited, setIsSubmited] = useState(false)
 
-  const submitForm = () => {
+  const submitForm = async () => {
     if (customerName !== '' && customerEmail !== '' && customerCel !== '') {
-      setIsSubmited(true)
+      if (values) {
+        setEmailMessage(
+          `
+            Nome: ${customerName}\n
+            Email: ${customerEmail}\n
+            WhatsApp: ${customerCel}\n
+            Rede Social: ${customerSocialNetwork || 'Não informado'}\n\n
+            Qual é o produto/serviço a ser desenvolvido? - ${values[1]}\n
+            Qual é a sua área de atuação - ${values[2]}\n
+            Você já possui uma marca - ${values[3]}\n
+            Você já tem um site - ${values[4]}\n
+            Possui um canal de vendas para algum produto/serviço - ${values[5]}\n
+            Tem prazo para o projeto - ${values[6]}\n
+          `
+        )
+        await sendMail(customerName, customerEmail, emailMessage).then(() => {
+          setIsSubmited(true)
+        })
+      }
     }
   }
 
