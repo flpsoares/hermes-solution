@@ -35,27 +35,27 @@ export function BudgetProvider({ children }: BudgetProviderProps) {
   const [customerCel, setCustomerCel] = useState('')
   const [customerSocialNetwork, setCustomerSocialNetwork] = useState('')
 
-  const [emailMessage, setEmailMessage] = useState('')
-
   const [isSubmited, setIsSubmited] = useState(false)
 
   const submitForm = async () => {
     if (customerName !== '' && customerEmail !== '' && customerCel !== '') {
       if (values) {
-        setEmailMessage(
+        const emailMessage = `
+            Nome: <b>${customerName}</b><br />
+            Email: <b>${customerEmail}</b><br />
+            WhatsApp: <b>${customerCel}</b><br />
+            Rede Social: <b>${
+              customerSocialNetwork || 'Não informado'
+            }</b><br /><br />
+            Qual é o produto/serviço a ser desenvolvido? - <b>${values[1]}</b><br />
+            Qual é a sua área de atuação - <b>${values[2]}</b><br />
+            Você já possui uma marca - <b>${values[3]}</b><br />
+            Você já tem um site - <b>${values[4]}</b><br />
+            Possui um canal de vendas para algum produto/serviço - <b>${
+              values[5]
+            }</b><br />
+            Tem prazo para o projeto - <b>${values[6]}</b>
           `
-            Nome: ${customerName}\n
-            Email: ${customerEmail}\n
-            WhatsApp: ${customerCel}\n
-            Rede Social: ${customerSocialNetwork || 'Não informado'}\n\n
-            Qual é o produto/serviço a ser desenvolvido? - ${values[1]}\n
-            Qual é a sua área de atuação - ${values[2]}\n
-            Você já possui uma marca - ${values[3]}\n
-            Você já tem um site - ${values[4]}\n
-            Possui um canal de vendas para algum produto/serviço - ${values[5]}\n
-            Tem prazo para o projeto - ${values[6]}\n
-          `
-        )
         await sendMail(customerName, customerEmail, emailMessage).then(() => {
           setIsSubmited(true)
         })

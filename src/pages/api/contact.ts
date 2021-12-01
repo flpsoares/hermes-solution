@@ -32,7 +32,7 @@ const mailer = ({ senderMail, name, text }) => {
     from,
     to: `${email}`,
     subject: `Nova mensagem de contato de ${name}`,
-    text,
+    html: text,
     replyTo: reply
   }
 
@@ -47,8 +47,7 @@ export default async (req, res) => {
   const { senderMail, name, content } = req.body
 
   if (senderMail === '' || name === '' || content === '') {
-    res.status(403).send()
-    return
+    return res.status(403).send()
   }
 
   const mailerRes = await mailer({ senderMail, name, text: content })
