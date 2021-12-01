@@ -41,4 +41,22 @@ export default createGlobalStyle`
     border: 0;
   }
 
+  ::-webkit-scrollbar {
+      width: 12px;
+      background: rgba(0, 0, 0, 0.9);
+    }
+  ::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 12px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: var(--primary);
+    border-radius: 10px;
+    
+    &:hover {
+      background: #D8A82E;
+    }
+  }
+
 `
