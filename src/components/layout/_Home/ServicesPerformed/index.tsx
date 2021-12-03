@@ -76,7 +76,7 @@ export const ServicesPerformed: React.FC = () => {
               link="/crm"
             />
             <ServiceBox
-              title="App Ios/ Android"
+              title="Aplicativos"
               content="Criação de aplicativos IOS e Android para qualquer finalidade, podendo criar designs únicos e de alta performance."
               image="./assets/services-icons/icone-03.png"
               link="/app"

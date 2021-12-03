@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build && next export",
     "start": "next start",
-    "start:prod": "NODE_ENV=production next start -p 80"
+    "start:prod": "NODE_ENV=production next start -p 5000"
   },
   "dependencies": {
     "@amir04lm26/react-modern-calendar-date-picker": "^1.0.1",
