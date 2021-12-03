@@ -27,15 +27,15 @@ export const PageSEO: React.FC<PageSEOProps> = ({
         <meta
           property="og:image"
           itemProp="image"
-          content="https://hermes-solution.vercel.app/assets/logo.png"
+          content="https://hermessolutions.agency/assets/logo.png"
         />
         <meta
           property="og:image:secure_url"
-          content="https://hermes-solution.vercel.app/assets/logo.png"
+          content="https://hermessolutions.agency/assets/logo.png"
         />
         <meta
           property="og:url"
-          content={`https://hermes-solution.vercel.app/${path}`}
+          content={`https://hermessolutions.agency/${path}`}
         ></meta>
         <meta property="og:title" content={title} />
         <meta property="og:image:type" content="image/png" />
