@@ -46,13 +46,11 @@ const mailer = ({ senderMail, name, text }) => {
 export default async (req, res) => {
   const { senderMail, name, content } = req.body
 
-  return { senderMail, name, content }
+  if (senderMail === '' || name === '' || content === '') {
+    return res.status(403).send()
+  }
 
-  // if (senderMail === '' || name === '' || content === '') {
-  //   return res.status(403).send()
-  // }
+  const mailerRes = await mailer({ senderMail, name, text: content })
 
-  // const mailerRes = await mailer({ senderMail, name, text: content })
-
-  // return res.send(mailerRes)
+  return res.send(mailerRes)
 }
