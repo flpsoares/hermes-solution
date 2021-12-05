@@ -28,11 +28,11 @@ const Ecommerce: React.FC = () => {
       isServicePage={true}
       title="E-commerce"
       path="e-commerce"
-      description={`Refere-se aos negócios que estruturam a compra e venda digital, por meios
-      de ferramentas onlines. É muito mais do que apenas a criação de um site,
-      é empreendedorismo, sua estrutura e funcionamento são totalmente
-      digitais, fazendo com que os processos básicos de atendimento, venda e
-      atendimento ao cliente sejam completamente digitalizados`}
+      description={`Desenvolva seu negócio de forma digital e desfrute das vantagens de
+      possuir uma loja virtual. Acompanhe com a máxima transparência em tempo
+      real todos os processos que acontecem dentro do seu empreendimento,
+      realizando assim uma gestão mais dinâmica com um poder de venda mais
+      eficiente`}
     >
       <Container>
         <Top>

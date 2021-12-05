@@ -27,11 +27,11 @@ const SocialMedia: React.FC = () => {
       isServicePage={true}
       title="Social Media"
       path="social-media"
-      description={`As redes sociais são muito importantes para que o seu produto tenha a
-      visibilidade devida, conosco, iremos conversar sobre a identidade visual
-      perfeita e como iremos divulgar cada publicação com o copy certo e
-      planejado. Com estudo de mercado e nossa excelente equipe de audiovisual,
-      vamos montar a vitrine perfeita para você.`}
+      description={`As redes sociais são muito importantes para que seu produto, serviço ou
+      negócio tenha visibilidade. O Social Media pode realizar do mais simples
+      ao mais complexo serviço, do atendimento às mensagens no Instagram à
+      criação de um calendário editorial inteiro. Com estudo de mercado e nossa
+      excelente equipe vamos realizar e auxiliar nos processos de sua rede`}
     >
       <Container>
         <Top>

@@ -18,7 +18,7 @@ export const EcommerceDevelopment: React.FC = () => {
             possuir uma loja virtual. Acompanhe com a máxima transparência em tempo
             real todos os processos que acontecem dentro do seu empreendimento,
             realizando assim uma gestão mais dinâmica com um poder de venda mais
-            eficiente.
+            eficiente
           </Info>
           <ButtonsArea>
             <TransparentLink

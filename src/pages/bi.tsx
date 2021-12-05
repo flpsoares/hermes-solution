@@ -29,11 +29,9 @@ const BI: React.FC = () => {
       path="bi"
       description={`O estudo do mercado em que se atua é fundamental para qualquer tomada de
       decisão, o cuidado com números, estratégias e objetivos é o que faz uma
-      empresa crescer e o quanto ela ainda pode crescer. O crescimento digital
-      fez com que todos tenham inúmeros concorrentes, e com isso, o cuidado com
-      a criação de estratégias virou uma chave importante para todas as
-      empresas, planejar cada passo, tendo em mente o que está acontecendo no
-      mercado, é o que o BI nos proporciona.`}
+      empresa crescer. O crescimento digital fez com que todos tenham inúmeros
+      concorrentes, e com isso, o cuidado com a criação de estratégias virou
+      uma chave importante para todas as empresas`}
     >
       <Container>
         <Top>

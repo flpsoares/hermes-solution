@@ -32,10 +32,10 @@ const Uxui = () => {
       isServicePage={true}
       title="UX e UI"
       path="ux-ui"
-      description={`Tenha um design exclusivo para o seu projeto, e aumenta sua credibilidade
+      description={`Tenha um design exclusivo para o seu projeto e aumente sua credibilidade
       e reputação. Trabalho focado no melhor atendimento ao cliente para que
-      seja entendido qual a cara e o que deseja passar para os clientes, para
-      que seja a melhor experiência possível ao usuário.`}
+      seja entendido qual é o visual que deseja passar para os clientes,
+      levando a melhor experiência possível ao usuário`}
     >
       <Container>
         <Top>

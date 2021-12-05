@@ -29,9 +29,9 @@ const WebSites: React.FC = () => {
       isServicePage={true}
       title="Websites"
       path="websites"
-      description={`Tenha sua página para qualquer finalidade, tenha o
-      melhor desenvolvimentos para a divulgação de suas ideias e projetos,
-      tenha seus views ou conversões mostrando seu diferencial a todos.`}
+      description={`Crie seu site para qualquer finalidade, com o melhor desenvolvimento
+      para a apresentação e divulgação de seu negócio, atingindo mais views,
+      conversões e consumidores`}
     >
       <Container>
         <Top>

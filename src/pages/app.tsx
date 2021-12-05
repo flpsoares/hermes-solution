@@ -29,9 +29,9 @@ const App: React.FC = () => {
       title="App"
       path="app"
       description={`Criação de aplicativos IOS e Android para qualquer finalidade, podendo
-      criar designes únicos e de alta performance. Além de criar um laço mais
+      criar designs únicos e de alta performance. Além de criar um laço mais
       firme com o seu cliente, também valoriza sua empresa e ajuda na evolução
-      da marca, fazendo com que o cliente sempre saiba onde te encontrar.`}
+      da marca, fazendo com que o cliente sempre saiba onde te encontrar`}
     >
       <Container>
         <Top>

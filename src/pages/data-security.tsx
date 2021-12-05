@@ -29,10 +29,11 @@ const DataSecurity: React.FC = () => {
       isServicePage={true}
       title="Segurança de dados"
       path="data-security"
-      description={`Seus clientes e seu projeto merecem a melhor segurança possível, passe
-      credibilidade e seja seguro quanto as suas e as informações que seus
-      clientes deixam no site. Preserve informações, nunca sabemos quem está do
-      outro lado da tela.`}
+      description={`Você, seu público, projeto, ideia e serviço merecem a melhor segurança
+      possível. Ataques e invasões podem acontecer em qualquer negócio, as
+      pequenas e grandes empresas se preocupam com suas informações e dados, e
+      é necessário uma prevenção de alto nível para que tudo esteja seguro e
+      preservado, tanto para você quanto para todos que acessarem seu site`}
     >
       <Container>
         <Top>

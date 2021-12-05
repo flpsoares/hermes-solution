@@ -28,13 +28,13 @@ const TrafficPaid: React.FC = () => {
       isServicePage={true}
       title="Tráfego Pago"
       path="traffic-paid"
-      description={`O tráfego pago é responsável por todos os anúncios e propagandas que
+      description={`O tráfego pago é responsável por todas as propagandas e anúncios que
       existem nas mídias digitais, e com eles vem os Adsenses (ADS), entre as
       principais plataformas o Google Adsense e o Facebook Adsense, com eles é
-      possível monitorar todo o desempenho de seus anúncios, uma de suas
-      funções, são os famosos cookies, utilizados para o monitoramento das
-      pessoa, para poder mostrar um anúncio de um produto ou serviço, de algo
-      que já se interessou algum dia navegando na internet.`}
+      possível monitorar todo o desempenho de seus anúncios. Uma de suas
+      funções são os famosos cookies, utilizados para o monitoramento das
+      pessoas, mostrando o anúncio de um produto ou serviço relacionado a algo
+      que já se interessou anteriormente navegando na internet`}
     >
       <Container>
         <Top>
