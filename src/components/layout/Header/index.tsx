@@ -27,7 +27,7 @@ export const Header: React.FC<HeaderProps> = ({ background }) => {
           <Wrapper>
             {router.pathname === '/' ? (
               <>
-                <Link to="header" smooth={true}>
+                <Link to="header" href="header" smooth={true}>
                   <Logo src="./assets/logo-horizontal.png" alt="logo" />
                 </Link>
                 <ul>
@@ -42,17 +42,17 @@ export const Header: React.FC<HeaderProps> = ({ background }) => {
                     </Link>
                   </li>
                   <li>
-                    <Link to="cases" smooth={true} offset={-80}>
+                    <Link to="cases" href="cases" smooth={true} offset={-80}>
                       Cases
                     </Link>
                   </li>
                   <li>
-                    <Link to="hermes" smooth={true} offset={-80}>
+                    <Link to="hermes" href="hermes" smooth={true} offset={-80}>
                       A Hermes
                     </Link>
                   </li>
                   <li>
-                    <Link to="contact" smooth={true}>
+                    <Link to="contact" href="contact" smooth={true}>
                       Contato
                     </Link>
                   </li>
@@ -73,12 +73,12 @@ export const Header: React.FC<HeaderProps> = ({ background }) => {
                     </a>
                   </li>
                   <li>
-                    <Link to="hermes" smooth={true} offset={-80}>
+                    <Link to="hermes" href="hermes" smooth={true} offset={-80}>
                       A Hermes
                     </Link>
                   </li>
                   <li>
-                    <Link to="contact" smooth={true}>
+                    <Link to="contact" href="contact" smooth={true}>
                       Contato
                     </Link>
                   </li>
