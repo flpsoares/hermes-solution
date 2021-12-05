@@ -17,7 +17,12 @@ export const LinkButtons = ({ link, size, children, smooth, offset }: LinkProps)
   return (
     <Container size={size}>
       {smooth ? (
-        <Link to={link} smooth={smooth || false} offset={offset || undefined}>
+        <Link
+          to={link}
+          href={link}
+          smooth={smooth || false}
+          offset={offset || undefined}
+        >
           {children}
         </Link>
       ) : (

@@ -30,7 +30,12 @@ export const YellowLink: React.FC<YellowLinkProps> = ({
       height={height}
       margintop={margintop}
     >
-      <Link to={link} smooth={smooth || false} offset={offset || undefined}>
+      <Link
+        to={link}
+        href={link}
+        smooth={smooth || false}
+        offset={offset || undefined}
+      >
         {children}
       </Link>
     </Container>

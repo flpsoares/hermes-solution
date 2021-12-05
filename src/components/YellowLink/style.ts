@@ -32,6 +32,7 @@ export const Container = styled.button<ContainerProps>`
     width: 100%;
     height: 100%;
     color: #000000;
+    text-decoration: none;
   }
 
   &:hover {

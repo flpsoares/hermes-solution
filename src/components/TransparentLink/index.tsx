@@ -21,7 +21,12 @@ export const TransparentLink: React.FC<TransparentLinkProps> = ({
 }) => {
   return (
     <Container width={width} height={height}>
-      <Link to={link} smooth={smooth || false} offset={offset || undefined}>
+      <Link
+        to={link}
+        href={link}
+        smooth={smooth || false}
+        offset={offset || undefined}
+      >
         {children}
       </Link>
     </Container>
