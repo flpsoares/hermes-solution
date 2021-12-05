@@ -44,7 +44,8 @@ const GoodExperience: React.FC = () => {
           </Percent>
 
           <YellowLink
-            link="contact"
+            link="budget"
+            offset={-140}
             smooth={true}
             children="Simule um orçamento"
             width="26rem"

@@ -76,23 +76,23 @@ const App: React.FC = () => {
         </Top>
         <SameWhyBuilding
           title="Por que possuir um App? "
-          subtitle="Muitos entendem os benefícios de aplicativos como a facilidade de achar uma empresa e de solicitar os serviços, mas, vai muito além disso. O aplicativo também reduz consideravelmente o uso de dados dos clientes, também ajuda as empresas a manter o nível de segurança e resolver seus problemas. Portanto os benefícios de obter um aplicativo são inúmeros, para o cliente ele vai se sentir mais confortável do que procurar em um navegador, terá acesso rápido de sempre saber onde te encontrar, terá mais segurança e seu consumo de dados serão reduzidos. "
+          subtitle="Considere alguns benefícios que possuir um aplicativo pode trazer"
           ImageOne="./assets/app/icon.png"
-          TitleImageOne="Lorem ipsum dolor sit amet, consectetur"
+          TitleImageOne="Acesso rápido"
           ImageTwo="./assets/app/icon.png"
-          TitleImageTwo="Lorem ipsum dolor sit amet, consectetur"
+          TitleImageTwo="Redução do uso de dados do cliente"
           ImageThree="./assets/app/icon.png"
-          TitleImageThree="Lorem ipsum dolor sit amet, consectetur"
+          TitleImageThree="Manutenção do nível de segurança da empresa"
           ImageFour="./assets/app/icon.png"
-          TitleImageFour="Lorem ipsum dolor sit amet, consectetur"
+          TitleImageFour="Fácil acesso"
           ImageFive="./assets/app/icon.png"
-          TitleImageFive="Lorem ipsum dolor sit amet, consectetur"
+          TitleImageFive="Melhor gerenciamento"
           ImageSix="./assets/app/icon.png"
-          TitleImageSix="Lorem ipsum dolor sit amet, consectetur"
+          TitleImageSix="Alavancagem de processos e etapas"
           ImageSeven="./assets/app/icon.png"
-          TitleImageSeven="Lorem ipsum dolor sit amet, consectetur"
+          TitleImageSeven="Estratégias mais efetivas"
           ImageEight="./assets/app/icon.png"
-          TitleImageEight="Lorem ipsum dolor sit amet, consectetur"
+          TitleImageEight="Aumento da visibilidade"
         />
         <ServicesProducedTwo
           imageOne="./assets/case1.png"
@@ -107,8 +107,8 @@ const App: React.FC = () => {
           imageFour="./assets/case1.png"
           imageFourTitle="Cartões Caixa"
           imageFourSubTitle="Ux Design"
-          title="Alguns cases de sucesso que produzimos"
-          subTitle="Nossos divinWos trabalhos desenvolvidos pelos membros de nossa equipe nos motivam a realizar projetos cada vez mais aprimorados."
+          title="Alguns projetos de sucesso que realizamos"
+          subTitle="Nossos divinos trabalhos desenvolvidos pela nossa equipe nos motivam a realizar projetos cada vez mais aprimorados"
         />
         <CustomersServed />
         <Team isHome={false} />

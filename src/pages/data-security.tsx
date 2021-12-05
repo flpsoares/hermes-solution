@@ -91,23 +91,23 @@ const DataSecurity: React.FC = () => {
         />
         <SameWhyBuilding
           title="Por que você deve investir em segurança de dados?"
-          subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus"
+          subtitle="Contemple alguns ótimos motivos para não esperar o pior acontecer para investir na segurança de seu negócio"
           ImageOne="./assets/data-security/icon-1.png"
-          TitleImageOne="Lorem ipsum dolor sit amet, consectetur"
+          TitleImageOne="Informações preservadas"
           ImageTwo="./assets/data-security/icon-1.png"
-          TitleImageTwo="Lorem ipsum dolor sit amet, consectetur"
+          TitleImageTwo="Prevenção a ataques e invasões"
           ImageThree="./assets/data-security/icon-1.png"
-          TitleImageThree="Lorem ipsum dolor sit amet, consectetur"
+          TitleImageThree="Maior credibilidade"
           ImageFour="./assets/data-security/icon-1.png"
-          TitleImageFour="Lorem ipsum dolor sit amet, consectetur"
+          TitleImageFour="Evitar prejuízos"
           ImageFive="./assets/data-security/icon-1.png"
-          TitleImageFive="Lorem ipsum dolor sit amet, consectetur"
+          TitleImageFive="Manutenção do acesso"
           ImageSix="./assets/data-security/icon-1.png"
-          TitleImageSix="Lorem ipsum dolor sit amet, consectetur"
+          TitleImageSix="Aumento da integridade de dados"
           ImageSeven="./assets/data-security/icon-1.png"
-          TitleImageSeven="Lorem ipsum dolor sit amet, consectetur"
+          TitleImageSeven="Confiabilidade mais alta"
           ImageEight="./assets/data-security/icon-1.png"
-          TitleImageEight="Lorem ipsum dolor sit amet, consectetur"
+          TitleImageEight="a"
         />
         <ServicesProducedTwo
           imageOne="./assets/case1.png"
@@ -125,8 +125,8 @@ const DataSecurity: React.FC = () => {
           imageFour="./assets/case1.png"
           imageFourTitle="Cartões Caixa"
           imageFourSubTitle="Ux Design"
-          title="Alguns cases de sucesso que produzimos"
-          subTitle="Nossos divinWos trabalhos desenvolvidos pelos membros de nossa equipe nos motivam a realizar projetos cada vez mais aprimorados."
+          title="Alguns projetos de sucesso que realizamos"
+          subTitle="Nossos divinos trabalhos desenvolvidos pela nossa equipe nos motivam a realizar projetos cada vez mais aprimorados"
         />
         <CustomersServed />
         <Team isHome={false} />

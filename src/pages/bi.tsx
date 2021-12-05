@@ -77,16 +77,16 @@ const BI: React.FC = () => {
           <BIDevelopment />
         </Top>
         <StepByStep4
-          title="Passo a passo para nossa"
+          title="Passo a passo"
           subTitle="Criação de B.I"
           stepOneTitle="Identificação de desafios"
-          stepOne="Procuramos com você, o que pode estar dificultando sua comunicação com os clientes"
-          stepTwoTitle="Localize a jornada de seu consumidor"
-          stepTwo="Ache como os clientes mais entram em contato com você e veja o melhor processo de venda até agora."
+          stepOne="Localizamos com você o que pode estar dificultando sua comunicação com os clientes "
+          stepTwoTitle="Jornada do consumidor"
+          stepTwo=" Identificamos como os clientes mais entram em contato com você e o melhor processo de venda"
           stepThreeTitle="Reveja resultados"
-          stepThree="Veja o que deu certo e o que pode melhorar conosco, para melhoria de resultado"
+          stepThree="Analisamos todos os resultados para avaliar a melhor estratégia"
           stepFourTitle="Definição de nova BI"
-          stepFour="Ao identificar as novas estratégias para o cuidado da empresa, verificaremos com vocês o funcionamento semanal ou mensal do mesmo."
+          stepFour="Ao identificar as novas estratégias para o cuidado da empresa verificamos o funcionamento semanal ou mensal do mesmo"
         />
         <CustomersServed />
         <Team isHome={false} />

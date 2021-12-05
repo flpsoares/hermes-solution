@@ -37,10 +37,10 @@ export const WebSitesDevelopment: React.FC = () => {
             isRTL={false}
           >
             <Info>
-              <b>Landing Page</b> - Orientada para conversão, a Landing Page, é uma
-              página básica de apresentação, com o intuito de demonstrar o seu
-              trabalho e chamar a atenção dos usuários destacando seus diferenciais e
-              enaltecendo os aspectos mais importantes da sua marca
+              <b>Landing Page</b> - Orientada para conversão, é uma página básica de
+              apresentação, com o intuito de demonstrar o seu trabalho e chamar a
+              atenção dos usuários destacando seus diferenciais e enaltecendo os
+              aspectos mais importantes da sua marca, serviço ou produto
             </Info>
             <Info>
               <b>Blog</b> - Os blogs têm como função atualizar diariamente o público
@@ -49,9 +49,9 @@ export const WebSitesDevelopment: React.FC = () => {
               criando uma relação estável
             </Info>
             <Info>
-              <b>Sites</b> - Tenha sua página para qualquer finalidade, tenha o
-              melhor desenvolvimentos para a divulgação de suas ideias e projetos,
-              tenha seus views ou conversões mostrando seu diferencial a todos.
+              Crie seu site para qualquer finalidade, com o melhor desenvolvimento
+              para a apresentação e divulgação de seu negócio, atingindo mais views,
+              conversões e consumidores
             </Info>
           </Carousel>
           <ButtonsArea>

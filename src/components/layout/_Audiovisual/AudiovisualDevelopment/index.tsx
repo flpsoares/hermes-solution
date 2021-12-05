@@ -16,7 +16,10 @@ export const AudiovisualDevelopment: React.FC = () => {
           <Info>Entenda nosso processo de desenvolvimento</Info>
           <SubInfo>
             O processo de criação audiovisual é muito importante para a divulgação de
-            produtos, faremos juntos, a identidade visual de seu comércio online.
+            produtos e serviços. A identidade visual de seu comércio digital ou um
+            vídeo motion podem ser tão importantes quanto um flyer bem produzido,
+            relacione a criação de imagens, sons e vídeos e efetive ainda mais a
+            visibilidade de seu comércio, negócio ou empresa.
           </SubInfo>
           <ButtonsArea>
             <TransparentLink

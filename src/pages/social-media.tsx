@@ -79,7 +79,7 @@ const SocialMedia: React.FC = () => {
           subTitle="Passo a passo"
           stepOneTitle="Elaboração do briefing"
           stepOne="A equipe entrevista cliente para compreender e conseguir atender às demandas do projeto"
-          stepTwoTitle="Criação da arquitetura gráfica"
+          stepTwoTitle="Criação de arquitetura UX"
           stepTwo="O arquiteto gráfico realiza o desenvolvimento do protótipo de uma arquitetura gráfica dentro dos padrões pré-acordados com o cliente"
           stepThreeTitle="Criação do gráfico artístico"
           stepThree="A arte gráfica é criada pelo design a partir do cliente que dá seus direcionamentos ao projeto"

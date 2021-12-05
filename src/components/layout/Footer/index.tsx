@@ -18,7 +18,7 @@ import {
 
 import { Link } from 'react-scroll'
 
-import { ImLinkedin2, ImFacebook, ImYoutube2 } from 'react-icons/im'
+import { ImLinkedin2, ImFacebook } from 'react-icons/im'
 import { AiOutlineInstagram } from 'react-icons/ai'
 
 export const Footer: React.FC = () => {
@@ -30,9 +30,8 @@ export const Footer: React.FC = () => {
             <Info>
               <img src="./assets/logo.png" alt="logo" />
               <span>
-                A Hermes Solutions é uma empresa que foca em atingir o melhor
-                resultado possível para nossos clientes, oferecendo soluções divinas
-                em nossos projetos.
+                A Hermes Solutions foca em atingir o melhor resultado sempre para os
+                nossos clientes oferecendo soluções divinas em nossos projetos
               </span>
             </Info>
             <Services>
@@ -64,7 +63,7 @@ export const Footer: React.FC = () => {
                     <a href="/ux-ui">UX/UI Design e Design Thinking</a>
                   </li>
                   <li>
-                    <a href="/data-security">Inteligência de dados</a>
+                    <a href="/data-security">Segurança de dados</a>
                   </li>
                   <li>
                     <a href="/bi">Business Intelligence</a>
@@ -200,9 +199,6 @@ export const Footer: React.FC = () => {
               >
                 <AiOutlineInstagram size={20} />
               </a>
-              {/* <a href="#">
-                <ImYoutube2 size={20} />
-              </a> */}
             </Icons>
           </Grid>
         </GlobalContainer>

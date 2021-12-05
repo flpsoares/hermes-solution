@@ -91,18 +91,17 @@ const Uxui = () => {
         <GoodExperience />
         <SameWhyBuildingTwo
           title="Diferenciais que nosso processo de UX possui"
-          subTitle=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
-          bibendum laoreet. Proin gravida dolor sit amet lacus"
+          subTitle=" Ter um visual diferenciado em seu site ou aplicativo não é a única vantagem que podemos te proporcionar"
           imageOne="./assets/uxui/icon.svg"
-          titleImageOne="Lorem ipsum dolor sit amet, consectetur"
+          titleImageOne="Preocupação com a apresentação dos produtos/serviços"
           imageTwo="./assets/uxui/icon.svg"
-          titleImageTwo="Lorem ipsum dolor sit amet, consectetur"
+          titleImageTwo="Dedicação em alavancar a reputação da empresa"
           imageThree="./assets/uxui/icon.svg"
-          titleImageThree="Lorem ipsum dolor sit amet, consectetur"
+          titleImageThree="Empenho no aumento da visibilidade do seu negócio"
           imageFour="./assets/uxui/icon.svg"
-          titleImageFour="Lorem ipsum dolor sit amet, consectetur"
+          titleImageFour="Designs altamente criativos e personalizados"
           imageFive="./assets/uxui/icon.svg"
-          titleImageFive="Lorem ipsum dolor sit amet, consectetur"
+          titleImageFive="Entrega do projeto em altíssima qualidade"
           photoContainer="./assets/uxui/picture.png"
         />
         <ServicesProducedTwo
@@ -121,8 +120,8 @@ const Uxui = () => {
           imageFour="./assets/case1.png"
           imageFourTitle="Cartões Caixa"
           imageFourSubTitle="Ux Design"
-          title="Alguns cases de sucesso que produzimos"
-          subTitle="Nossos divinWos trabalhos desenvolvidos pelos membros de nossa equipe nos motivam a realizar projetos cada vez mais aprimorados."
+          title="Alguns projetos de sucesso que realizamos"
+          subTitle="Nossos divinos trabalhos desenvolvidos pela nossa equipe nos motivam a realizar projetos cada vez mais aprimorados"
         />
         <CustomersServed isHome={false} />
         <Team isHome={false} />

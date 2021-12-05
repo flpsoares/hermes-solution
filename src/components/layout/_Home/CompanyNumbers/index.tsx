@@ -24,9 +24,9 @@ export const CompanyNumbers: React.FC = () => {
               </b>
             </h1>
             <p>
-              Anos de estudo e preparo para que o seu problema digital seja
-              solucionado de forma divina! Nossa meta, são as realizações de suas
-              metas, venha conosco!
+              Profissionais altamente capacitados e qualificados para desenvolver
+              soluções divinas para seu negócio! Nossa meta são as realizações de
+              suas metas, venha conosco!
             </p>
             <LinkButtons
               size="1"
@@ -45,7 +45,7 @@ export const CompanyNumbers: React.FC = () => {
                 right="5.6rem"
               />
               <Number
-                number={11}
+                number={12}
                 title="Profissionais"
                 bottom="4rem"
                 right="3.5em"
@@ -70,15 +70,15 @@ export const CompanyNumbers: React.FC = () => {
         </section>
         <BoxWrapper>
           <BoxNumbers title="Missão" borderleft="1px solid var(--primary)">
-            Temos o objetivo de desenvolver ideias no mundo Digital com a melhor
+            Temos o objetivo de desenvolver ideias no mundo digital com a melhor
             performance, entendendo as necessidades de nossos clientes e seguindo
-            para o melhor resultado.
+            para o melhor resultado
           </BoxNumbers>
           <BoxNumbers title="Visão" bordertop="2px solid var(--primary)">
             Temos como visão trabalhar com dedicação para alcançar um mundo mais
             conectado, com o acesso digital para o maior número de pessoas possível.
             Enquanto visamos a realização de nossos clientes para que possamos ser
-            reconhecidos por nosso serviço.
+            reconhecidos por nosso serviço
           </BoxNumbers>
           <BoxNumbers borderright="2px solid var(--primary)" title="Valores">
             <p>- Ser íntegro</p>

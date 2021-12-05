@@ -41,7 +41,6 @@ export function BudgetProvider({ children }: BudgetProviderProps) {
   const [isSubmited, setIsSubmited] = useState(false)
 
   const submitForm = async () => {
-    setIsLoading(true)
     if (customerName !== '' && customerEmail !== '' && customerCel !== '') {
       if (values) {
         const emailMessage = `
@@ -60,7 +59,8 @@ export function BudgetProvider({ children }: BudgetProviderProps) {
             }</b><br />
             Tem prazo para o projeto - <b>${values[6]}</b>
           `
-        await sendMail(customerName, customerEmail, emailMessage)
+        setIsLoading(true)
+        await sendMail(customerEmail, customerName, emailMessage)
           .then(() => {
             setIsSubmited(true)
           })

@@ -27,7 +27,7 @@ const Home: React.FC = () => {
       title="Hermes Solutions"
       path=""
       description={`A Hermes Solutions é uma empresa que foca em atingir o melhor resultado possível para 
-        nossos clientes, oferecendo soluções divinas em nossos projetos.`}
+        nossos clientes, oferecendo soluções divinas em nossos projetos`}
     >
       <Container>
         <Header background="var(--background-primary)" />

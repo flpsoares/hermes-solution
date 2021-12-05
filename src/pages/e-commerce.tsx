@@ -79,30 +79,30 @@ const Ecommerce: React.FC = () => {
           title="Entenda o"
           subTitle="Passo a Passo"
           stepOneTitle="Elaboração do briefing"
-          stepOne="A equipe entrevista o cliente para compreender e conseguir entender as demandas do projeto"
-          stepTwoTitle="Criação da arquitetura gráfica"
-          stepTwo="O arquiteto gráfico realiza o desenvolvimento do protótipo de uma arquitetura dentro dos padrões pré-acordados com o cliente"
+          stepOne="A equipe entrevista o cliente para compreender e conseguir entender as demandas do projetoA equipe entrevista o cliente para compreender e conseguir atender às demandas do projeto"
+          stepTwoTitle="Criação de arquitetura UX"
+          stepTwo="O arquiteto gráfico realiza a criação do protótipo do projeto dentro dos padrões pré-acordados com o cliente"
           stepThreeTitle="Criação do gráfico artístico"
-          stepThree="A arte gráfica é criada pelo designer a partir do cliente que dá seus direcionamentos ao projeto."
+          stepThree="As artes são criadas pelo designer com base nas necessidades"
           stepFourTitle="Desenvolvimento tecnológico"
-          stepFour="Seu projeto é realizado tecnologicamente por uma equipe de desenvolvedores."
+          stepFour="Nossa equipe desenvolve o seu projeto dentro dos padrões estabelecidos pelo cliente"
           stepFiveTitle="Entrega do projeto"
-          stepFive="O projeto entra em processo de finalização sempre de acordo com o direcionamento do cliente até que o mesmo fique satisfeito."
+          stepFive="O projeto entra em processo de finalização sempre de acordo com os direcionamentos do cliente"
         />
         <SameWhyBuildingTwo
           title="Como podemos fazer do seu comércio, um comércio de sucesso"
-          subTitle=" Com boas estratégias de marketing, seja orgânico ou pago, estudo de seu público e organização, suas conversões com certeza vão aumentar, venha conosco para seu crescimento"
+          subTitle=" Sua loja virtual alcançará um público maior e se tornará muito mais efetiva em suas vendas. Criaremos juntos um negócio totalmente rentável e lucrativo"
           imageOne="./assets/ecommerce/icon-1.png"
-          titleImageOne="O crescimento de comércios digitais, e com isso, o crescimento da concorrência também é grande, e por isso é de grande importância ter ótimos profissionais para te ajudar na criação e estratégia de seu comércio."
+          titleImageOne="O crescimento de comércios digitais traz consigo o crescimento da concorrência, somos profissionais que criaremos e definiremos estratégias para que seu negócio se destaque"
           imageTwo="./assets/ecommerce/icon-1.png"
-          titleImageTwo="Ter uma boa estratégia também não garante conversão, um site bem estruturado e bem escrito é fundamental para uma venda de produtos, com os nossos profissionais, toda a estrutura virá de boa qualidade, com o seu acompanhamento."
+          titleImageTwo="Um site bem estruturado é fundamental para maior conversão e aumento de vendas e lucros"
           imageThree="./assets/ecommerce/icon-1.png"
-          titleImageThree="A organização que um E-commerce pode trazer a sua empresa é de muita importância, com controle de estoque, saída e entrada de produtos, entre outros, vai facilitar seu desenvolvimento no trabalho. "
+          titleImageThree="O e-commerce auxilia na organização de sua empresa com maior gerenciamento facilitando o desenvolvimento de seu trabalho"
           imageFour="./assets/ecommerce/icon-1.png"
-          titleImageFour="O Brasil é o terceiro país que mais faz compras pela internet. O País lidera ainda o ranking de comércio eletrônico na América Latina, com participação nas compras de 59,1%."
+          titleImageFour="É possível realizar um controle de estoque, aumentar a divulgação de seu comércio, provir mais opções de pagamentos aos seus clientes, e ainda aprimorar seu atendimento"
           photoContainer="./assets/ecommerce/banner-2.png"
         />
-        <CustomersServed />
+        <CustomersServed marginTop="9rem" />
         <Team isHome={false} />
         <Budget />
         <Footer />

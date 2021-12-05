@@ -78,8 +78,8 @@ const WebSites: React.FC = () => {
           title="Entenda o"
           subTitle="Passo a passo"
           stepOneTitle="Elaboração de briefing"
-          stepOne="A equipe entrevista cliente para compreender e conseguir atender às demandas do projeto"
-          stepTwoTitle="Criação da arquitetura gráfica"
+          stepOne="A equipe entrevista o cliente para compreender e conseguir atender às demandas do projeto"
+          stepTwoTitle="Criação da arquitetura UX "
           stepTwo="O arquiteto gráfico realiza o desenvolvimento do protótipo de uma arquitetura gráfica dentro dos padrões pré-acordados com o cliente"
           stepThreeTitle="Criação gráfico artístico"
           stepThree="A arte gráfica é criada pelo design a partir do cliente que dá seus direcionamentos ao projeto"
@@ -89,7 +89,6 @@ const WebSites: React.FC = () => {
           stepFive="O projeto entra em processo de finalização sempre de acordo com o direcionamento do cliente até que o mesmo fique satisfeito."
         />
         <WhyBuildingWebSites />
-
         <CustomersServed />
         <Team isHome={false} />
         <Budget />

@@ -38,6 +38,7 @@ export const Left = styled.div`
   }
 
   h1 {
+    width: 40rem;
     font-size: 4.6rem;
     font-weight: 300;
 
@@ -45,6 +46,14 @@ export const Left = styled.div`
 
     b {
       font-weight: 500;
+    }
+
+    @media (max-width: 940px) {
+      width: 30rem;
+    }
+
+    @media (max-width: 900px) {
+      width: 90%;
     }
   }
 
@@ -125,28 +134,20 @@ export const Grid = styled.div`
     justify-content: center;
     grid-template-columns: repeat(2, auto);
     column-gap: 4rem;
-    grid-template-rows: 1fr;
+
+    div:nth-child(9) {
+      grid-column: span 2;
+      margin: auto;
+    }
   }
 
   @media (max-width: 820px) {
     grid-template-columns: auto;
-  }
 
-  /* @media (max-width: 1100px) {
-    grid-template-columns: repeat(2, 25.6rem);
-    column-gap: 10rem;
+    div:nth-child(9) {
+      grid-column: span 1;
+    }
   }
-
-  @media (max-width: 700px) {
-    column-gap: 5rem;
-  }
-
-  @media (max-width: 600px) {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  } */
 
   margin-top: 6rem;
 `

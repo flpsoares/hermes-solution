@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  padding: 15rem 0 15rem 20rem;
+  padding: 15rem 0 0 20rem;
 
   @media (max-width: 1326px) {
     padding: 15rem 2rem;
@@ -149,49 +149,5 @@ export const PhotoContainer = styled.div`
   @media (max-width: 700px) {
     grid-template-columns: 100%;
     padding: 10rem 4rem 5rem 4rem;
-  }
-`
-
-export const Frame = styled.div`
-  background-image: url('./assets/websites/frame.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  padding-top: 4rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 93.6rem;
-  height: 66.3rem;
-
-  border: 1px solid red;
-
-  @media (max-width: 1326px) {
-    width: 80%;
-    margin: 0 auto;
-  }
-
-  @media (max-width: 1240px) {
-    height: 46.3rem;
-
-    background-position: center;
-  }
-
-  @media (max-width: 900px) {
-    width: 100%;
-  }
-`
-
-export const WebSiteImage = styled.img`
-  width: 90%;
-  height: 83%;
-
-  @media (max-width: 1240px) {
-    height: 90%;
-    width: 60rem;
-  }
-
-  @media (max-width: 750px) {
-    width: 90%;
-    height: 80%;
   }
 `

@@ -1,7 +1,12 @@
 import styled from 'styled-components'
 
-export const Container = styled.div`
-  margin: 3rem 0;
+interface ContainerProps {
+  marginTop: string
+}
+
+export const Container = styled.div<ContainerProps>`
+  margin-bottom: 3rem;
+  margin-top: ${(props) => props.marginTop || ''};
 
   background: var(--background-secondary);
   position: relative;
@@ -9,7 +14,6 @@ export const Container = styled.div`
 
 export const ErasedTitle = styled.h1`
   font-size: 2.2rem;
-  /* color: rgba(255, 255, 255, 0.4); */
   color: white;
   font-weight: 400;
 
@@ -40,9 +44,4 @@ export const Grid = styled.div`
 
 export const Image = styled.img`
   opacity: 0.5;
-
-  /* border: 1px solid red; */
-  /* width: 127px;
-  height: 28px;
-  object-fit: cover; */
 `

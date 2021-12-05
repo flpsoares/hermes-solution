@@ -4,7 +4,7 @@
     "question": "Qual é o produto/serviço a ser desenvolvido?",
     "hasOption": true,
     "hasOther": true,
-    "options": ["E-commerce", "Sites", "Social mídia", "Tráfego Pago", "SEO", "Inteligência de dados", "CMS/CRM", "App", "Audiovisual", "UX/UI Design e Design Thinking"]
+    "options": ["E-commerce", "Sites", "Social Media", "Tráfego Pago", "SEO", "Inteligência de dados", "CMS/CRM", "App", "Audiovisual", "UX/UI Design e Design Thinking"]
   },
   {
     "id": 2,

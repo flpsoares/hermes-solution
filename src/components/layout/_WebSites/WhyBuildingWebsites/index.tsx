@@ -1,4 +1,3 @@
-import { GlobalContainer } from '../../../../styles/container'
 import { YellowLink } from '../../../YellowLink'
 import {
   Container,
@@ -7,16 +6,14 @@ import {
   Infos,
   Photo,
   WhyInfos,
-  PhotoContainer,
-  Frame,
-  WebSiteImage
+  PhotoContainer
 } from './style'
 
 export const WhyBuildingWebSites = () => {
   return (
     <Container id="why-building">
       <Title>
-        <h1>Porque devemos construir sua Vitrine</h1>
+        <h1>Porque devemos desenvolver seu website</h1>
         <div></div>
         <p>
           Transformamos o seu produto digital em um obra de arte divina! Vamos
@@ -27,7 +24,7 @@ export const WhyBuildingWebSites = () => {
       <Content>
         <Infos>
           <WhyInfos>
-            <img src="./assets/services-icons/icone-07.png" alt="" />
+            <img src="./assets/services-icons/icone-07.png" alt="icone-1" />
             <p>
               87% da população brasileira entrou em contato com o mundo digital pela
               primeira vez através do WebSite, tornando-se um dos maiores recursos
@@ -35,7 +32,7 @@ export const WhyBuildingWebSites = () => {
             </p>
           </WhyInfos>
           <WhyInfos>
-            <img src="./assets/services-icons/icone-07.png" alt="" />
+            <img src="./assets/services-icons/icone-07.png" alt="icone-2" />
             <p>
               Seu projeto orientado para conversão, iremos apresentar o seu produto
               de forma eficiente e única, para surpreender você e seus futuros
@@ -43,34 +40,37 @@ export const WhyBuildingWebSites = () => {
             </p>
           </WhyInfos>
           <WhyInfos>
-            <img src="./assets/services-icons/icone-07.png" alt="" />
+            <img src="./assets/services-icons/icone-07.png" alt="icone-3" />
             <p>
-              A melhor forma de criar afinidade com o público, recursos fáceis de
-              usar e atualizar, para melhor experiência a todos.
+              Seu produto será apresentado de forma eficiente e única, para
+              surpreender você e seus futuros clientes
             </p>
           </WhyInfos>
           <WhyInfos>
-            <img src="./assets/services-icons/icone-07.png" alt="" />
+            <img src="./assets/services-icons/icone-07.png" alt="icone-4" />
             <p>
-              Vamos juntos, usando as ferramentas certas, enaltecer o seu produto
-              fazendo com que o seu público alvo, sinta ainda mais necessidade de ter
-              o seu serviço.
+              Com uma vitrine digital e personalizada seus clientes sentirão mais
+              necessidade de adquirir o seu produto/serviço
             </p>
           </WhyInfos>
           <WhyInfos>
-            <img src="./assets/services-icons/icone-07.png" alt="" />
+            <img src="./assets/services-icons/icone-07.png" alt="icone-5" />
             <p>
-              Facilita a comunicação com o seu cliente, deixando suas formas de
-              contato e links para criar um feedback do seu produto
+              Facilita a comunicação com o seu cliente, proporcionando maior
+              interação com links e outras formas de contato
             </p>
           </WhyInfos>
-          <YellowLink width="263px" height="52px" link="budget" margintop="3rem">
+          <YellowLink
+            width="263px"
+            height="52px"
+            link="budget"
+            smooth
+            offset={-140}
+            margintop="3rem"
+          >
             Simule um orçamento
           </YellowLink>
         </Infos>
-        {/* <Frame>
-          <WebSiteImage src="./assets/websites/website-1.png" alt="Breno Correia" />
-        </Frame> */}
         <Photo>
           <PhotoContainer>
             <img src="./assets/case4.png" alt="Luiz Piercer" />

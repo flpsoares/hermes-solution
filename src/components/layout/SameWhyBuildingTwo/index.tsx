@@ -66,7 +66,7 @@ export const SameWhyBuildingTwo: React.FC<SameWhyBuildingTwoProps> = (props) => 
                 margintop="2rem"
                 link="budget"
                 smooth
-                offset={-120}
+                offset={-140}
               >
                 Simule um orçamento
               </YellowLink>

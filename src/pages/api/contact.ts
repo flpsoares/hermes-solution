@@ -27,15 +27,13 @@ const transporter = nodemailer.createTransport({
 
 const mailer = ({ senderMail, name, text }) => {
   const from = `${name} <${senderMail}>`
-  const reply = senderMail
   const message = {
     from,
     to: `${email}`,
     subject: 'Formulário de orçamento',
     html: text,
-    replyTo: reply
+    replyTo: from
   }
-
   return new Promise((resolve, reject) => {
     transporter.sendMail(message, (error, info) => {
       error ? reject(error) : resolve(info)

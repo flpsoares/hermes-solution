@@ -61,6 +61,10 @@ export const FirstWrapper = styled(motion.div)`
 
   img {
     margin-left: 6rem;
+
+    @media (max-width: 600px) {
+      margin-left: 3rem;
+    }
   }
 `
 

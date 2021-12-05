@@ -98,11 +98,11 @@ export const ServicesPerformed: React.FC = () => {
         <WrapperCases id="cases">
           <Left>
             <h1>
-              Alguns <b>cases</b> de sucesso que produzimos
+              Alguns <b>projetos</b> de sucesso que realizamos
             </h1>
             <p>
-              Nossos divinos trabalhos desenvolvidos pelos membros de nossa equipe
-              nos motivam a realizar projetos cada vez mais aprimorados.{' '}
+              Nossos divinos trabalhos desenvolvidos pela nossa equipe nos motivam a
+              realizar projetos cada vez mais aprimorados
             </p>
           </Left>
           <Right>

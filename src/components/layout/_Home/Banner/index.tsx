@@ -194,8 +194,8 @@ export const Banner: React.FC = () => {
         <Wrapper>
           <Info>
             <ThirdTitle>
-              Se surpreenda com nosso desenvolvimento tecnológico e digital de alta
-              performance.
+              Se surpreenda com nosso desenvolvimento tecnológico e marketing de alta
+              performance
             </ThirdTitle>
           </Info>
           <div>

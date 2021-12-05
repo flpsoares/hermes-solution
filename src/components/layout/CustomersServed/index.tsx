@@ -4,20 +4,24 @@ import { FloatImage } from '../../FloatImage'
 
 interface CustomersServedProps {
   isHome?: boolean
+  marginTop?: string
 }
 
-export const CustomersServed: React.FC<CustomersServedProps> = ({ isHome }) => {
+export const CustomersServed: React.FC<CustomersServedProps> = ({
+  isHome,
+  marginTop
+}) => {
   return (
-    <Container id="customers">
+    <Container marginTop={marginTop} id="customers">
       <GlobalContainer>
         <ErasedTitle>Clientes atendidos</ErasedTitle>
         <Grid>
-          <Image src="./assets/customers/customer-1.svg" alt="customer" />
-          <Image src="./assets/customers/customer-2.svg" alt="customer" />
-          <Image src="./assets/customers/customer-3.svg" alt="customer" />
-          <Image src="./assets/customers/customer-4.svg" alt="customer" />
-          <Image src="./assets/customers/customer-5.svg" alt="customer" />
-          <Image src="./assets/customers/customer-6.svg" alt="customer" />
+          <Image src="./assets/customers/customer-1.svg" alt="customer-1" />
+          <Image src="./assets/customers/customer-2.svg" alt="customer-2" />
+          <Image src="./assets/customers/customer-3.svg" alt="customer-3" />
+          <Image src="./assets/customers/customer-4.svg" alt="customer-4" />
+          <Image src="./assets/customers/customer-5.svg" alt="customer-5" />
+          <Image src="./assets/customers/customer-6.svg" alt="customer-6" />
         </Grid>
       </GlobalContainer>
       {!isHome && (
