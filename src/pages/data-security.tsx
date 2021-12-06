@@ -107,8 +107,6 @@ const DataSecurity: React.FC = () => {
           TitleImageSix="Aumento da integridade de dados"
           ImageSeven="./assets/data-security/icon-1.png"
           TitleImageSeven="Confiabilidade mais alta"
-          ImageEight="./assets/data-security/icon-1.png"
-          TitleImageEight="a"
         />
         <ServicesProducedTwo
           imageOne="./assets/case1.png"
