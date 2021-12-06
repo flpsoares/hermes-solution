@@ -10,6 +10,7 @@ import { SocialMediaDevelopment } from '../components/layout/_SocialMedia/Social
 import { Budget } from '../components/layout/Budget'
 import { ContactButtons } from '../components/ButtonContact'
 import { PageSEO } from '../components/PageSEO'
+import { SameWhyBuildingThree } from '../components/layout/SameWhyBuildingThree'
 
 const Container = styled.div`
   background: var(--background-secondary);
@@ -87,6 +88,16 @@ const SocialMedia: React.FC = () => {
           stepFour="O seu projeto é realizado tecnologicamente por uma equipe de desenvolvedores"
           stepFiveTitle="Entrega do projeto"
           stepFive="O projeto entra em processo de finalização sempre de acordo com o direcionamento do cliente até que o mesmo fique satisfeito"
+        />
+        <SameWhyBuildingThree
+          title="Não é só uma rede social"
+          subTitle="Sua página, seja ela qual for, é a cara de seu comércio, o cuidado e planejamento dela é fundamental para o marketing de sua empresa, vamos focar em deixar o produto no topo? Venha conosco e vamos montar um passo a passo de estratégias pensadas apenas para você."
+          imageOne="./assets/social-media/icon-1.png"
+          titleImageOne="Passe mais credibilidade com o cuidado devido e planejamento da divulgação de seu produto nas redes"
+          imageTwo="./assets/social-media/icon-2.png"
+          titleImageTwo="Crie intimidade com os seus clientes e conquiste novas pessoas com bons copys e designs únicos feitos apenas para sua empresa"
+          imageThree="./assets/social-media/icon-3.png"
+          titleImageThree="Tenha a identidade perfeita para que seu chame a atenção e marque seus clientes com artes divinas para o seu comércio"
         />
         <CustomersServed />
         <Team isHome={false} />
