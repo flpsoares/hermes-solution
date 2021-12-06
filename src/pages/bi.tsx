@@ -88,7 +88,7 @@ const BI: React.FC = () => {
           stepFour="Ao identificar as novas estratégias para o cuidado da empresa verificamos o funcionamento semanal ou mensal do mesmo"
         />
         <SameWhyBuildingFour
-          title="Porque usar essa ferramenta"
+          title="Porque usar B.I na sua empresa"
           subTitle="Auxiliamos sua empresa na tomada de decisões com estudos do mercado, informações antigas e atuais são importantes para que siga tudo harmoniosamente."
           imageOne="./assets/bi/icon-1.png"
           titleImageOne="A identificação de tendências do mercado ajudam a estarem à frente da concorrência"
