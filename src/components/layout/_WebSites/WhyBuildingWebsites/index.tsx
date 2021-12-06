@@ -24,7 +24,7 @@ export const WhyBuildingWebSites = () => {
       <Content>
         <Infos>
           <WhyInfos>
-            <img src="./assets/services-icons/icone-07.png" alt="icone-1" />
+            <img src="./assets/websites/icone-01.png" alt="icone-1" />
             <p>
               87% da população brasileira entrou em contato com o mundo digital pela
               primeira vez através do WebSite, tornando-se um dos maiores recursos
@@ -32,7 +32,7 @@ export const WhyBuildingWebSites = () => {
             </p>
           </WhyInfos>
           <WhyInfos>
-            <img src="./assets/services-icons/icone-07.png" alt="icone-2" />
+            <img src="./assets/websites/icone-01.png" alt="icone-2" />
             <p>
               Seu projeto orientado para conversão, iremos apresentar o seu produto
               de forma eficiente e única, para surpreender você e seus futuros
@@ -40,21 +40,21 @@ export const WhyBuildingWebSites = () => {
             </p>
           </WhyInfos>
           <WhyInfos>
-            <img src="./assets/services-icons/icone-07.png" alt="icone-3" />
+            <img src="./assets/websites/icone-01.png" alt="icone-3" />
             <p>
               Seu produto será apresentado de forma eficiente e única, para
               surpreender você e seus futuros clientes
             </p>
           </WhyInfos>
           <WhyInfos>
-            <img src="./assets/services-icons/icone-07.png" alt="icone-4" />
+            <img src="./assets/websites/icone-01.png" alt="icone-4" />
             <p>
               Com uma vitrine digital e personalizada seus clientes sentirão mais
               necessidade de adquirir o seu produto/serviço
             </p>
           </WhyInfos>
           <WhyInfos>
-            <img src="./assets/services-icons/icone-07.png" alt="icone-5" />
+            <img src="./assets/websites/icone-01.png" alt="icone-5" />
             <p>
               Facilita a comunicação com o seu cliente, proporcionando maior
               interação com links e outras formas de contato

@@ -38,6 +38,10 @@ export default class MyDocument extends Document {
       <Html lang="pt-br">
         <Head>
           <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+          <meta
+            name="google-site-verification"
+            content="ZvQRt2dhm7EKkVjmzFJJzFeekkCSE-X81Is6cXCZPBo"
+          />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link rel="icon" href="/assets/favicon.png" />
           <link
