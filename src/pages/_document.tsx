@@ -40,7 +40,7 @@ export default class MyDocument extends Document {
           <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
           <meta
             name="google-site-verification"
-            content="ZvQRt2dhm7EKkVjmzFJJzFeekkCSE-X81Is6cXCZPBo"
+            content="0r_p7UfDyBdSvAKXgVpsDsnGk2NYKK--8gTOf9nWr9w"
           />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link rel="icon" href="/assets/favicon.png" />

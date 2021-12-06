@@ -29,7 +29,7 @@ const mailer = ({ senderMail, name, text }) => {
   const from = `${name} <${senderMail}>`
   const message = {
     from,
-    to: `${email}`,
+    to: 'contato@hermessolutions.agency',
     subject: 'Formulário de orçamento',
     html: text,
     replyTo: from
