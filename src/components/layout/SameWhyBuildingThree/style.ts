@@ -104,7 +104,8 @@ export const WhyInfos = styled.div`
 
   @media (max-width: 750px) {
     align-items: center;
-    margin: 0 auto;
+    text-align: center;
+    margin: 3rem auto;
     margin-bottom: 1rem;
   }
   @media (max-width: 520px) {

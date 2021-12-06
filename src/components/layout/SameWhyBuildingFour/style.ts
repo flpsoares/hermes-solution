@@ -117,4 +117,12 @@ export const WhyInfos = styled.div`
       font-size: 1.4rem;
     }
   }
+  @media (max-width: 420px) {
+    flex-direction: column;
+    text-align: center;
+    img {
+      margin-right: 0;
+      margin-bottom: 3rem;
+    }
+  }
 `
