@@ -9,6 +9,8 @@ import { AudiovisualDevelopment } from '../components/layout/_Audiovisual/Audiov
 import { Budget } from '../components/layout/Budget'
 import { ContactButtons } from '../components/ButtonContact'
 import { PageSEO } from '../components/PageSEO'
+import { SameWhyBuildingThree } from '../components/layout/SameWhyBuildingThree'
+import { ServicesProducedTwo } from '../components/layout/ServicesProducedTwo'
 
 const Container = styled.div`
   background: var(--background-secondary);
@@ -73,6 +75,32 @@ const Audiovisual: React.FC = () => {
           <Header background="var(--background-secondary)" />
           <AudiovisualDevelopment />
         </Top>
+        <SameWhyBuildingThree
+          title="Como podemos te ajudar a criar a melhor identidade visual de sua empresa e produto"
+          subTitle="Temos profissionais mais que preparados para criar uma cara única e criativa conforme o seu gosto, prezamos a satisfação total de nossos clientes para a criação de conteúdo, e acima de tudo, a originalidade de slogans e merchans."
+          imageOne="./assets/audiovisual/icon-1.png"
+          titleImageOne="Temos anos de experiência e estudo contínuo para te ajudar a chamar a atenção e cativar o seu público alvo de forma criativa."
+          imageTwo="./assets/audiovisual/icon-2.png"
+          titleImageTwo="Você acompanhará todo o processo de criação de nossa equipe, com as suas sugestões e referências, faremos com que toda a arte seja o reflexo de seu trabalho."
+          imageThree="./assets/audiovisual/icon-3.png"
+          titleImageThree="Total originalidade em todas as artes e projetos criados."
+        />
+        <ServicesProducedTwo
+          imageOne="./assets/audiovisual/cases/FTD.jpeg"
+          imageOneTitle="FTD Educação"
+          // imageOneSubTitle="Ux Design"
+          imageTwo="./assets/audiovisual/cases/Amspa.jpeg"
+          imageTwoTitle="Amspa"
+          // imageTwoSubTitle="Ux Design"
+          imageThree="./assets/audiovisual/cases/Delux.jpeg"
+          imageThreeTitle="DeluX"
+          // imageThreeSubTitle="Ux Design"
+          imageFour="./assets/audiovisual/cases/GAE.jpeg"
+          imageFourTitle="Grupo Atitude Emocional"
+          // imageFourSubTitle="Ux Design"
+          title="Algumas artes de sucesso que nossa equipe de designers produziu"
+          subTitle="Nossos divinos trabalhos desenvolvidos pela nossa equipe nos motivam a realizar projetos cada vez mais aprimorados"
+        />
         <CustomersServed />
         <Team isHome={false} />
         <Budget />
