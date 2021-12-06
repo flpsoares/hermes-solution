@@ -94,7 +94,7 @@ const App: React.FC = () => {
           ImageEight="./assets/app/icon.png"
           TitleImageEight="Aumento da visibilidade"
         />
-        <ServicesProducedTwo
+        {/* <ServicesProducedTwo
           imageOne="./assets/case1.png"
           imageOneTitle="Cartões Caixa"
           imageOneSubTitle="Ux Design"
@@ -109,7 +109,7 @@ const App: React.FC = () => {
           imageFourSubTitle="Ux Design"
           title="Alguns projetos de sucesso que realizamos"
           subTitle="Nossos divinos trabalhos desenvolvidos pela nossa equipe nos motivam a realizar projetos cada vez mais aprimorados"
-        />
+        /> */}
         <CustomersServed />
         <Team isHome={false} />
         <Budget />

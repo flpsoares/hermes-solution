@@ -10,6 +10,7 @@ import { BIDevelopment } from '../components/layout/_BI/BIDevelopment'
 import { Budget } from '../components/layout/Budget'
 import { ContactButtons } from '../components/ButtonContact'
 import { PageSEO } from '../components/PageSEO'
+import { SameWhyBuildingFour } from '../components/layout/SameWhyBuildingFour'
 
 const Container = styled.div`
   background: var(--background-secondary);
@@ -86,6 +87,15 @@ const BI: React.FC = () => {
           stepFourTitle="Definição de nova BI"
           stepFour="Ao identificar as novas estratégias para o cuidado da empresa verificamos o funcionamento semanal ou mensal do mesmo"
         />
+        <SameWhyBuildingFour
+          title="Porque usar essa ferramenta"
+          subTitle="Auxiliamos sua empresa na tomada de decisões com estudos do mercado, informações antigas e atuais são importantes para que siga tudo harmoniosamente."
+          imageOne="./assets/bi/icon-1.png"
+          titleImageOne="A identificação de tendências do mercado ajudam a estarem à frente da concorrência"
+          imageTwo="./assets/bi/icon-2.png"
+          titleImageTwo="Usando BI os analistas poderão analisar o desempenho da empresa para ajudar a melhorar a eficiência do trabalho"
+        />
+
         <CustomersServed />
         <Team isHome={false} />
         <Budget />
