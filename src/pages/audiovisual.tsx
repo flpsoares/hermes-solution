@@ -86,13 +86,13 @@ const Audiovisual: React.FC = () => {
           titleImageThree="Total originalidade em todas as artes e projetos criados."
         />
         <ServicesProducedTwo
-          imageOne="./assets/audiovisual/cases/FTD.jpeg"
+          imageOne="./assets/audiovisual/cases/FTD.png"
           imageOneTitle="FTD Educação"
-          imageTwo="./assets/audiovisual/cases/Amspa.jpeg"
+          imageTwo="./assets/audiovisual/cases/Amspa.png"
           imageTwoTitle="Amspa"
-          imageThree="./assets/audiovisual/cases/Delux.jpeg"
+          imageThree="./assets/audiovisual/cases/Delux.png"
           imageThreeTitle="DeluX"
-          imageFour="./assets/audiovisual/cases/GAE.jpeg"
+          imageFour="./assets/audiovisual/cases/GAE.png"
           imageFourTitle="Grupo Atitude Emocional"
           title="Algumas artes de sucesso que nossa equipe de designers produziu"
           subTitle="Nossos divinos trabalhos desenvolvidos pela nossa equipe nos motivam a realizar projetos cada vez mais aprimorados"

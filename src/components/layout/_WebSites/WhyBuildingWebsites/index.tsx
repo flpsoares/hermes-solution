@@ -73,7 +73,7 @@ export const WhyBuildingWebSites = () => {
         </Infos>
         <Photo>
           <PhotoContainer>
-            <img src="./assets/case4.png" alt="Luiz Piercer" />
+            <img src="./assets/websites/website.png" alt="Luis Piercer" />
           </PhotoContainer>
         </Photo>
       </Content>

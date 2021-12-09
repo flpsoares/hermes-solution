@@ -3,60 +3,60 @@
     "id": "1",
     "name": "Victor Pegoraro",
     "charge": "CTO",
-    "photo_url": "./assets/team/pegoraro.jpg"
+    "photo_url": "./assets/team/pegoraro.png"
   },
   {
     "id": "2",
     "name": "César Brasiliense",
     "charge": "CEO",
-    "photo_url": "./assets/team/cesar.jpg"
+    "photo_url": "./assets/team/cesar.png"
   },
   {
     "id": "3",
     "name": "Ana Levy",
     "charge": "COO",
-    "photo_url": "./assets/team/ana.jpg"
+    "photo_url": "./assets/team/ana.png"
   },
   {
     "id": "4",
     "name": "Jonathan Vieira",
     "charge": "CFO",
-    "photo_url": "./assets/team/jonathan.jpg"
+    "photo_url": "./assets/team/jonathan.png"
   },
   {
     "id": "5",
     "name": "Jenner Lopes",
     "charge": "Diretor de arte",
-    "photo_url": "./assets/team/jenner.jpg"
+    "photo_url": "./assets/team/jenner.png"
   },
   {
     "id": "6",
     "name": "Marcos Casagrande",
     "charge": "Comercial",
-    "photo_url": "./assets/team/marcos.jpg"
+    "photo_url": "./assets/team/marcos.png"
   },
   {
     "id": "7",
     "name": "Luis Stein",
     "charge": "Redator",
-    "photo_url": "./assets/team/luis.jpg"
+    "photo_url": "./assets/team/luis.png"
   },
   {
     "id": "8",
     "name": "Leonardo Oliveira",
     "charge": "Gerente de contas",
-    "photo_url": "./assets/team/leonardo.jpg"
+    "photo_url": "./assets/team/leonardo.png"
   },
   {
     "id": "9",
     "name": "João Vitor",
     "charge": "Designer gráfico",
-    "photo_url": "./assets/team/joao.jpg"
+    "photo_url": "./assets/team/joao.png"
   },
   {
     "id": "10",
     "name": "Thompson Vitor",
     "charge": "Analista de tráfego",
-    "photo_url": "./assets/team/thompson.jpg"
+    "photo_url": "./assets/team/thompson.png"
   }
 ]
