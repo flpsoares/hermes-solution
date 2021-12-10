@@ -57,6 +57,7 @@ export const Team: React.FC<TeamProps> = ({ isHome }) => {
           itemPadding={[0, carouselPadding]}
           showArrows={false}
           itemsToShow={carouselItems}
+          easing="cubic-bezier(0.55,0.08,0.68,0.53)"
         >
           {team.map((team) => {
             return (
