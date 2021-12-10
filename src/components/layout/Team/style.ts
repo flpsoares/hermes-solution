@@ -32,7 +32,6 @@ export const Wrapper = styled.div`
 
 export const Info = styled.div`
   padding: 0 0rem 0 25rem;
-
   display: flex;
   align-items: center;
 
@@ -46,6 +45,11 @@ export const Info = styled.div`
     @media (max-width: 1160px) {
       text-align: center;
       margin-bottom: 4rem;
+    }
+
+    @media (max-width: 425px) {
+      font-size: 36px;
+      padding: 0 2rem;
     }
   }
 

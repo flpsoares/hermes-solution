@@ -15,7 +15,7 @@ export const WrapperCases = styled.div`
   padding: 9rem 0;
   z-index: 5;
 
-  @media (max-width: 900px) {
+  @media (max-width: 1170px) {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -28,7 +28,7 @@ export const Left = styled.div`
   padding-right: 13rem;
   z-index: 2;
 
-  @media (max-width: 900px) {
+  @media (max-width: 1170px) {
     padding-right: 0rem;
     display: flex;
     flex-direction: column;
@@ -67,8 +67,14 @@ export const Left = styled.div`
 
 export const Right = styled.div`
   display: grid;
-  grid-template-columns: repeat(2, 50%);
-  @media (max-width: 700px) {
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1rem;
+
+  @media (max-width: 1170px) {
+    column-gap: 4rem;
+  }
+
+  @media (max-width: 750px) {
     display: flex;
     flex-direction: column;
     justify-content: center;

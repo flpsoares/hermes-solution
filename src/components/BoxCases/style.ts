@@ -6,7 +6,7 @@ interface BoxCasesProps {
 
 export const Container = styled.div<BoxCasesProps>`
   display: ${(props) => props.display};
-  width: 94%;
+  width: 33.8rem;
   height: 25.7rem;
   border-radius: 3rem;
   margin: 1rem auto;
@@ -16,26 +16,12 @@ export const Container = styled.div<BoxCasesProps>`
   z-index: 2;
 
   @media (max-width: 900px) {
-    width: 90%;
-    height: 25.5rem;
     margin: 1.5rem auto;
   }
 
-  @media (max-width: 700px) {
-    width: 60%;
-    height: 25.5rem;
-  }
-  @media (max-width: 600px) {
-    width: 70%;
-    height: 25.5rem;
-  }
-  @media (max-width: 500px) {
-    width: 80%;
-    height: 25.5rem;
-  }
-  @media (max-width: 400px) {
-    width: 100%;
-    height: 25.5rem;
+  @media (max-width: 900px) {
+    width: 28.8rem;
+    height: 20.7rem;
   }
 
   img {
