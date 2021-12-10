@@ -154,9 +154,8 @@ export const ServicesPerformed: React.FC = () => {
         left="63rem"
         responsive={{
           1300: { left: '43rem' },
-          1220: { left: '43rem', top: '135rem' },
-          // 1100: { left: '40rem', top: '135rem' },
-          1170: {
+          1100: { left: '40rem', top: '135rem' },
+          900: {
             left: '10rem',
             top: '151rem',
             width: '75rem',
