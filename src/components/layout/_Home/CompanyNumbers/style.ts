@@ -12,7 +12,7 @@ export const Container = styled.div`
     display: grid;
     grid-template-columns: 50% 50%;
 
-    @media (max-width: 900px) {
+    @media (max-width: 1015px) {
       grid-template-columns: 100%;
     }
   }
@@ -54,7 +54,7 @@ export const Left = styled.div`
     }
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 1015px) {
     text-align: center;
 
     display: flex;
@@ -73,6 +73,16 @@ export const Right = styled.div`
   div:nth-child(2) {
     margin-left: 2rem;
     position: relative;
+  }
+
+  @media (max-width: 1015px) {
+    margin-top: 8rem;
+  }
+
+  @media (max-width: 510px) {
+    div:nth-child(1) {
+      margin-bottom: 4rem;
+    }
   }
 `
 
@@ -96,7 +106,7 @@ export const Wrapper = styled.div`
   margin-bottom: 7rem;
   position: relative;
 
-  @media (max-width: 900px) {
+  @media (max-width: 1015px) {
     div:nth-child(1) {
       top: 0;
       left: 0;
@@ -109,5 +119,11 @@ export const Wrapper = styled.div`
       right: 0;
       border: 0;
     }
+  }
+
+  @media (max-width: 510px) {
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
   }
 `

@@ -39,8 +39,8 @@ export const CompanyNumbers: React.FC = () => {
           <Right>
             <Wrapper>
               <Number
-                number={8}
-                title="Projetos realizados"
+                number={50000}
+                title="Linhas de código"
                 top="0.4rem"
                 right="5.6rem"
               />
@@ -54,8 +54,8 @@ export const CompanyNumbers: React.FC = () => {
 
             <Wrapper>
               <Number
-                number={11}
-                title="Clientes Atendidos"
+                number={10000}
+                title="Xícaras de café"
                 top="1em"
                 right="-1rem"
               />
