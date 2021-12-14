@@ -39,13 +39,13 @@ export const CompanyNumbers: React.FC = () => {
           <Right>
             <Wrapper>
               <Number
-                number={50000}
+                number="+52450"
                 title="Linhas de código"
                 top="0.4rem"
                 right="5.6rem"
               />
               <Number
-                number={12}
+                number="12"
                 title="Profissionais"
                 bottom="4rem"
                 right="3.5em"
@@ -54,13 +54,13 @@ export const CompanyNumbers: React.FC = () => {
 
             <Wrapper>
               <Number
-                number={10000}
+                number="+12580"
                 title="Xícaras de café"
                 top="1em"
                 right="-1rem"
               />
               <Number
-                number={year}
+                number={year.toString()}
                 title="Anos de experiência"
                 bottom="3em"
                 right="-3rem"

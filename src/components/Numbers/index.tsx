@@ -1,7 +1,7 @@
 import { Container } from './style'
 
 interface NumberProps {
-  number: number
+  number: string
   title: string
   top?: string
   bottom?: string
