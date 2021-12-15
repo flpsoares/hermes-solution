@@ -94,22 +94,6 @@ const App: React.FC = () => {
           ImageEight="./assets/app/icon.png"
           TitleImageEight="Aumento da visibilidade"
         />
-        {/* <ServicesProducedTwo
-          imageOne="./assets/case1.png"
-          imageOneTitle="Cartões Caixa"
-          imageOneSubTitle="Ux Design"
-          imageTwo="./assets/case1.png"
-          imageTwoTitle="Cartões Caixa"
-          imageTwoSubTitle="Ux Design"
-          imageThree="./assets/case1.png"
-          imageThreeTitle="Cartões Caixa"
-          imageThreeSubTitle="Ux Design"
-          imageFour="./assets/case1.png"
-          imageFourTitle="Cartões Caixa"
-          imageFourSubTitle="Ux Design"
-          title="Alguns projetos de sucesso que realizamos"
-          subTitle="Nossos divinos trabalhos desenvolvidos pela nossa equipe nos motivam a realizar projetos cada vez mais aprimorados"
-        /> */}
         <CustomersServed />
         <Team isHome={false} />
         <Budget />

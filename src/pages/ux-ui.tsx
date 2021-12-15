@@ -75,7 +75,7 @@ const Uxui = () => {
               830: { brightness: '0.1' }
             }}
           />
-          <Header background="var(--background-secondary)" />
+          <Header hasCases background="var(--background-secondary)" />
           <UxuiDevelopment />
         </Top>
         <StepByStep3

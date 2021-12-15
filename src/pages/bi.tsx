@@ -95,7 +95,6 @@ const BI: React.FC = () => {
           imageTwo="./assets/bi/icon-2.png"
           titleImageTwo="Usando BI os analistas poderão analisar o desempenho da empresa para ajudar a melhorar a eficiência do trabalho"
         />
-
         <CustomersServed />
         <Team isHome={false} />
         <Budget />

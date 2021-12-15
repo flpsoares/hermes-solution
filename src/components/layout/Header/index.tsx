@@ -7,9 +7,10 @@ import { useRouter } from 'next/router'
 
 interface HeaderProps {
   background: string
+  hasCases?: boolean
 }
 
-export const Header: React.FC<HeaderProps> = ({ background }) => {
+export const Header: React.FC<HeaderProps> = ({ background, hasCases }) => {
   const router = useRouter()
 
   if (typeof window !== 'undefined') {
@@ -68,9 +69,15 @@ export const Header: React.FC<HeaderProps> = ({ background }) => {
                     <a href="/#services-performed">Serviços</a>
                   </li>
                   <li>
-                    <a href="/#cases" className="cases-offset">
-                      Cases
-                    </a>
+                    {hasCases ? (
+                      <Link to="cases" href="/cases" smooth={true} offset={-100}>
+                        Cases
+                      </Link>
+                    ) : (
+                      <a href="/#cases" className="cases-offset">
+                        Cases
+                      </a>
+                    )}
                   </li>
                   <li>
                     <Link to="hermes" href="hermes" smooth={true} offset={-80}>

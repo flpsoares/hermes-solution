@@ -72,7 +72,7 @@ const Audiovisual: React.FC = () => {
               830: { brightness: '0.1' }
             }}
           />
-          <Header background="var(--background-secondary)" />
+          <Header hasCases background="var(--background-secondary)" />
           <AudiovisualDevelopment />
         </Top>
         <SameWhyBuildingThree
