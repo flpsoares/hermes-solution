@@ -139,8 +139,8 @@ export const Footer: React.FC = () => {
                   <li>
                     <Link
                       rel="noreferrer"
-                      href="who-we-are"
-                      to="who-we-are"
+                      href="hermes"
+                      to="hermes"
                       smooth={true}
                       offset={-80}
                     >
