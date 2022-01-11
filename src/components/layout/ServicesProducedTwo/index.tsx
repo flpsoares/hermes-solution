@@ -9,18 +9,22 @@ interface ServicesProducedTwoProps {
   imageOne?: string
   imageOneTitle?: string
   imageOneSubTitle?: string
+  imageOneLink?: string
   displayOne?: string
   imageTwo?: string
   imageTwoTitle?: string
   imageTwoSubTitle?: string
+  imageTwoLink?: string
   displayTwo?: string
   imageThree?: string
   imageThreeTitle?: string
   imageThreeSubTitle?: string
+  imageThreeLink?: string
   displayThree?: string
   imageFour?: string
   imageFourTitle?: string
   imageFourSubTitle?: string
+  imageFourLink?: string
   displayFour?: string
   title?: string
   subTitle?: string
@@ -32,30 +36,42 @@ export const ServicesProducedTwo = (props: ServicesProducedTwoProps) => {
       <GlobalContainer>
         <Wrapper>
           <Info>
-            <BoxCases
-              title={props.imageOneTitle}
-              subtitle={props.imageOneSubTitle}
-              url={props.imageOne}
-              display={props.displayOne}
-            />
-            <BoxCases
-              title={props.imageTwoTitle}
-              subtitle={props.imageTwoSubTitle}
-              url={props.imageTwo}
-              display={props.displayTwo}
-            />
-            <BoxCases
-              title={props.imageThreeTitle}
-              subtitle={props.imageThreeSubTitle}
-              url={props.imageThree}
-              display={props.displayThree}
-            />
-            <BoxCases
-              title={props.imageFourTitle}
-              subtitle={props.imageFourSubTitle}
-              url={props.imageFour}
-              display={props.displayFour}
-            />
+            {props.imageOneTitle && (
+              <BoxCases
+                title={props.imageOneTitle}
+                subtitle={props.imageOneSubTitle}
+                image={props.imageOne}
+                link={props.imageOneLink}
+                display={props.displayOne}
+              />
+            )}
+            {props.imageTwoTitle && (
+              <BoxCases
+                title={props.imageTwoTitle}
+                subtitle={props.imageTwoSubTitle}
+                image={props.imageTwo}
+                link={props.imageTwoLink}
+                display={props.displayTwo}
+              />
+            )}
+            {props.imageThreeTitle && (
+              <BoxCases
+                title={props.imageThreeTitle}
+                subtitle={props.imageThreeSubTitle}
+                image={props.imageThree}
+                link={props.imageThreeLink}
+                display={props.displayThree}
+              />
+            )}
+            {props.imageFourTitle && (
+              <BoxCases
+                title={props.imageFourTitle}
+                subtitle={props.imageFourSubTitle}
+                image={props.imageFour}
+                link={props.imageFourLink}
+                display={props.displayFour}
+              />
+            )}
           </Info>
           <Photos>
             <h1>{props.title}</h1>

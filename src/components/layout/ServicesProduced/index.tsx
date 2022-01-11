@@ -14,22 +14,26 @@ export const ServicesProduced = () => {
             <BoxCases
               title="Cartões Caixa"
               subtitle="Ux Designs"
-              url="./assets/case1.png"
+              image="./assets/case1.png"
+              link=""
             />
             <BoxCases
               title="Parcelão Delivery"
               subtitle="Criação de site"
-              url="./assets/case2.png"
+              image="./assets/case2.png"
+              link=""
             />
             <BoxCases
               title="FTD Educação"
               subtitle="Vinheta"
-              url="./assets/case3.png"
+              image="./assets/case3.png"
+              link=""
             />
             <BoxCases
               title="Luis Piercer"
               subtitle="Criação de site"
-              url="./assets/case4.png"
+              image="./assets/case4.png"
+              link=""
             />
           </Info>
           <Photos>

@@ -4,7 +4,6 @@ import { FloatImage } from '../components/FloatImage'
 import { CustomersServed } from '../components/layout/CustomersServed'
 import { Footer } from '../components/layout/Footer'
 import { Header } from '../components/layout/Header'
-import { ServicesProducedTwo } from '../components/layout/ServicesProducedTwo'
 import { SameWhyBuilding } from '../components/layout/SameWhyBuilding'
 import { Team } from '../components/layout/Team'
 import { AppDevelopment } from '../components/layout/_App/AppDevelopment'
@@ -94,7 +93,7 @@ const App: React.FC = () => {
           ImageEight="./assets/app/icon.png"
           TitleImageEight="Aumento da visibilidade"
         />
-        <CustomersServed />
+        <CustomersServed marginTop="4rem" />
         <Team isHome={false} />
         <Budget />
         <Footer />

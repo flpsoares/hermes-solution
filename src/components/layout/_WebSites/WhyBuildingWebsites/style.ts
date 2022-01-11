@@ -69,6 +69,11 @@ export const Infos = styled.div`
   justify-content: center;
 
   margin-top: 4rem;
+  margin-bottom: 4rem;
+
+  @media (max-width: 1680px) {
+    margin-bottom: 5rem;
+  }
 
   @media (max-width: 1326px) {
     display: grid;

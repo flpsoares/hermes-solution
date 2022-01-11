@@ -108,25 +108,6 @@ const DataSecurity: React.FC = () => {
           ImageSeven="./assets/data-security/icon-1.png"
           TitleImageSeven="Confiabilidade mais alta"
         />
-        <ServicesProducedTwo
-          imageOne="./assets/case1.png"
-          imageOneTitle="Cartões Caixa"
-          imageOneSubTitle="Ux Design"
-          displayOne="none"
-          displayTwo="none"
-          displayThree="none"
-          imageTwo="./assets/case1.png"
-          imageTwoTitle="Cartões Caixa"
-          imageTwoSubTitle="Ux Design"
-          imageThree="./assets/case1.png"
-          imageThreeTitle="Cartões Caixa"
-          imageThreeSubTitle="Ux Design"
-          imageFour="./assets/case1.png"
-          imageFourTitle="Cartões Caixa"
-          imageFourSubTitle="Ux Design"
-          title="Alguns projetos de sucesso que realizamos"
-          subTitle="Nossos divinos trabalhos desenvolvidos pela nossa equipe nos motivam a realizar projetos cada vez mais aprimorados"
-        />
         <CustomersServed />
         <Team isHome={false} />
         <Budget />

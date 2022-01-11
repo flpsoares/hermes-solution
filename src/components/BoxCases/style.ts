@@ -4,7 +4,7 @@ interface BoxCasesProps {
   display: string
 }
 
-export const Container = styled.div<BoxCasesProps>`
+export const Container = styled.a<BoxCasesProps>`
   display: ${(props) => props.display};
   width: 94%;
   height: 25.7rem;
@@ -13,6 +13,8 @@ export const Container = styled.div<BoxCasesProps>`
   overflow: hidden;
   position: relative;
   z-index: 2;
+  cursor: pointer;
+  text-decoration: none;
   @media (max-width: 900px) {
     width: 90%;
     height: 25.5rem;

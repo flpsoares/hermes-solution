@@ -73,7 +73,7 @@ export const WhyBuildingWebSites = () => {
         </Infos>
         <Photo>
           <PhotoContainer>
-            <img src="./assets/websites/website.png" alt="Luis Piercer" />
+            <img src="./assets/websites/website-02.png" alt="Criptytool" />
           </PhotoContainer>
         </Photo>
       </Content>

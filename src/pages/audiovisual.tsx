@@ -88,12 +88,16 @@ const Audiovisual: React.FC = () => {
         <ServicesProducedTwo
           imageOne="./assets/audiovisual/cases/FTD.png"
           imageOneTitle="FTD Educação"
+          imageOneLink="https://www.behance.net/gallery/88963827/FTD-VINHETA-CURSO-EDUCAR-HOJE"
           imageTwo="./assets/audiovisual/cases/Amspa.png"
           imageTwoTitle="Amspa"
+          imageTwoLink="https://www.behance.net/gallery/88671701/AMSPA-VIDEO"
           imageThree="./assets/audiovisual/cases/Delux.png"
           imageThreeTitle="DeluX"
+          imageThreeLink="https://www.behance.net/gallery/88953369/DELUX-VIDEOS"
           imageFour="./assets/audiovisual/cases/GAE.png"
           imageFourTitle="Grupo Atitude Emocional"
+          imageFourLink="https://www.behance.net/gallery/123102923/Atitude-Emocional-com-Zora"
           title="Algumas artes de sucesso que nossa equipe de designers produziu"
           subTitle="Nossos divinos trabalhos desenvolvidos pela nossa equipe nos motivam a realizar projetos cada vez mais aprimorados"
         />

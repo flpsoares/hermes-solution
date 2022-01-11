@@ -102,6 +102,16 @@ const Ecommerce: React.FC = () => {
           titleImageFour="É possível realizar um controle de estoque, aumentar a divulgação de seu comércio, provir mais opções de pagamentos aos seus clientes, e ainda aprimorar seu atendimento"
           photoContainer="./assets/ecommerce/banner-2.png"
         />
+        <ServicesProducedTwo
+          imageOne="./assets/ecommerce/cases/HSeletro.png"
+          imageOneTitle="HS eletro"
+          imageOneLink="https://haccess.digital/HSEletro/"
+          imageTwo="./assets/ecommerce/cases/HSshop.png"
+          imageTwoTitle="HS Loja Virtual"
+          imageTwoLink="https://haccess.digital/HSLojaVirtual/"
+          title="Algumas artes de sucesso que nossa equipe de designers produziu"
+          subTitle="Nossos divinos trabalhos desenvolvidos pela nossa equipe nos motivam a realizar projetos cada vez mais aprimorados"
+        />
         <CustomersServed marginTop="9rem" />
         <Team isHome={false} />
         <Budget />

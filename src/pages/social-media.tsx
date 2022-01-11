@@ -11,6 +11,7 @@ import { Budget } from '../components/layout/Budget'
 import { ContactButtons } from '../components/ButtonContact'
 import { PageSEO } from '../components/PageSEO'
 import { SameWhyBuildingThree } from '../components/layout/SameWhyBuildingThree'
+import { ServicesProducedTwo } from '../components/layout/ServicesProducedTwo'
 
 const Container = styled.div`
   background: var(--background-secondary);
@@ -72,7 +73,7 @@ const SocialMedia: React.FC = () => {
               830: { brightness: '0.1' }
             }}
           />
-          <Header background="var(--background-secondary)" />
+          <Header hasCases background="var(--background-secondary)" />
           <SocialMediaDevelopment />
         </Top>
         <StepByStep5
@@ -98,6 +99,19 @@ const SocialMedia: React.FC = () => {
           titleImageTwo="Crie intimidade com os seus clientes e conquiste novas pessoas com bons copys e designs únicos feitos apenas para sua empresa"
           imageThree="./assets/social-media/icon-3.png"
           titleImageThree="Tenha a identidade perfeita para que seu chame a atenção e marque seus clientes com artes divinas para o seu comércio"
+        />
+        <ServicesProducedTwo
+          imageOne="./assets/social-media/cases/Colab.png"
+          imageOneTitle="Colab"
+          imageOneLink="https://instagram.com/barra_colab?utm_medium=copy_link"
+          imageTwo="./assets/social-media/cases/Security.png"
+          imageTwoTitle="Security"
+          imageTwoLink="https://instagram.com/hermessecurity?utm_medium=copy_link"
+          imageThree="./assets/social-media/cases/Sylvio.png"
+          imageThreeTitle="Sylvio"
+          imageThreeLink="https://instagram.com/nutrisylvioprado?utm_medium=copy_link"
+          title="Algumas artes de sucesso que nossa equipe de designers produziu"
+          subTitle="Nossos divinos trabalhos desenvolvidos pela nossa equipe nos motivam a realizar projetos cada vez mais aprimorados"
         />
         <CustomersServed />
         <Team isHome={false} />

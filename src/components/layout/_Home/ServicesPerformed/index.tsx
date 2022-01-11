@@ -109,22 +109,26 @@ export const ServicesPerformed: React.FC = () => {
             <BoxCases
               title="Cartões Caixa"
               subtitle="Ux Designs"
-              url="./assets/case1.png"
+              image="./assets/case1.png"
+              link="https://lsc4bg.axshare.com/#g=1&p=meu_cart_o_tem"
             />
             <BoxCases
               title="Parcelão Delivery"
               subtitle="Pentest"
-              url="./assets/case2.png"
+              image="./assets/case2.png"
+              link="http://demo.parcelao.com/"
             />
             <BoxCases
               title="FTD Educação"
               subtitle="Vinheta"
-              url="./assets/case3.png"
+              image="./assets/case3.png"
+              link="https://www.behance.net/gallery/88963827/FTD-VINHETA-CURSO-EDUCAR-HOJE"
             />
             <BoxCases
               title="Luis Piercer"
               subtitle="Criação de site"
-              url="./assets/case4.png"
+              image="./assets/case4.png"
+              link="https://luispiercer33.digital/"
             />
           </Right>
         </WrapperCases>
