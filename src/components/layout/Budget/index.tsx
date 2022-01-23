@@ -50,7 +50,8 @@ export const Budget: React.FC = () => {
     setCustomerSocialNetwork,
     isSubmited,
     submitForm,
-    isLoading
+    isLoading,
+    hasError
   } = useBudget()
   const [otherIsActive, setOtherIsActive] = useState(false)
   const [calendarIsActive, setCalendarIsActive] = useState(true)
@@ -341,18 +342,27 @@ export const Budget: React.FC = () => {
                 <Loading />
               </div>
             )}
-            <SubmitButtons>
-              {step !== 1 ? (
-                <RollbackButton onClick={rollback}>Voltar</RollbackButton>
-              ) : (
-                ''
-              )}
-              {step === 7 ? (
-                <ConcludeButton type="submit">Concluir</ConcludeButton>
-              ) : (
-                ''
-              )}
-            </SubmitButtons>
+            {hasError && (
+              <FinalMessage>
+                Houve um erro ao tentar enviar o seu email <br />
+                Por favor, entre em contato conosco pelas nossas redes sociais <br />
+                Localizadas no canto inferior direito da tela
+              </FinalMessage>
+            )}
+            {!hasError && (
+              <SubmitButtons>
+                {step !== 1 ? (
+                  <RollbackButton onClick={rollback}>Voltar</RollbackButton>
+                ) : (
+                  ''
+                )}
+                {step === 7 ? (
+                  <ConcludeButton type="submit">Concluir</ConcludeButton>
+                ) : (
+                  ''
+                )}
+              </SubmitButtons>
+            )}
 
             <ProgressBar>
               <Progress progress={progress} step={step} />

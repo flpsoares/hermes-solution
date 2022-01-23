@@ -18,6 +18,7 @@ interface BudgetContextData {
   increase: (value: string) => void
   decrease: () => void
   isLoading: boolean
+  hasError: boolean
 }
 
 interface BudgetProviderProps {
@@ -30,6 +31,7 @@ export function BudgetProvider({ children }: BudgetProviderProps) {
   const [progress, setProgress] = useState(0)
   const [step, setStep] = useState(1)
   const [values, setValues] = useState([''])
+  const [hasError, setHasError] = useState(false)
 
   const [customerName, setCustomerName] = useState('')
   const [customerEmail, setCustomerEmail] = useState('')
@@ -63,6 +65,9 @@ export function BudgetProvider({ children }: BudgetProviderProps) {
         await sendMail(customerEmail, customerName, emailMessage)
           .then(() => {
             setIsSubmited(true)
+          })
+          .catch((e: Error) => {
+            setHasError(true)
           })
           .finally(() => {
             setIsLoading(false)
@@ -107,7 +112,8 @@ export function BudgetProvider({ children }: BudgetProviderProps) {
         setCustomerSocialNetwork,
         isSubmited,
         submitForm,
-        isLoading
+        isLoading,
+        hasError
       }}
     >
       {children}
