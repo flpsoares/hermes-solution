@@ -113,12 +113,6 @@ export const ServicesPerformed: React.FC = () => {
               link="https://lsc4bg.axshare.com/#g=1&p=meu_cart_o_tem"
             />
             <BoxCases
-              title="Parcelão Delivery"
-              subtitle="Pentest"
-              image="./assets/case2.png"
-              link="http://demo.parcelao.com/"
-            />
-            <BoxCases
               title="FTD Educação"
               subtitle="Vinheta"
               image="./assets/case3.png"

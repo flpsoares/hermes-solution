@@ -90,22 +90,6 @@ const WebSites: React.FC = () => {
           stepFive="O projeto entra em processo de finalização sempre de acordo com o direcionamento do cliente até que o mesmo fique satisfeito."
         />
         <WhyBuildingWebSites />
-        <ServicesProducedTwo
-          imageOne="./assets/websites/cases/Iptool.png"
-          imageOneTitle="IP tools"
-          imageOneLink="https://haccess.digital/cases/IPTool/"
-          imageTwo="./assets/websites/cases/Blog.png"
-          imageTwoTitle="Blog"
-          imageTwoLink="https://haccess.digital/cases/blog/"
-          imageThree="./assets/websites/cases/Snake.png"
-          imageThreeTitle="Snake Game"
-          imageThreeLink="https://haccess.digital/cases/SnakeGame/"
-          imageFour="./assets/websites/cases/Criptytool.png"
-          imageFourTitle="Criptytool"
-          imageFourLink="https://haccess.digital/cases/CriptyTool/"
-          title="Algumas artes de sucesso que nossa equipe de designers produziu"
-          subTitle="Nossos divinos trabalhos desenvolvidos pela nossa equipe nos motivam a realizar projetos cada vez mais aprimorados"
-        />
         <CustomersServed />
         <Team isHome={false} />
         <Budget />
